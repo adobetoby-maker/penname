@@ -1,0 +1,33 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://penname.local/schemas/v3/author-report.schema.json",
+  "title": "Penname Codex v3 Author Report",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "run_id", "scene_id", "status", "draft_path", "word_count", "obligations", "inventions", "state_change_proposals", "deviations", "blockers"],
+  "properties": {
+    "schema_version": {"const": "3.0"},
+    "run_id": {"type": "string", "minLength": 1},
+    "scene_id": {"type": "string", "minLength": 1},
+    "status": {"enum": ["DONE", "BLOCKED"]},
+    "draft_path": {"type": "string", "minLength": 1},
+    "word_count": {"type": "integer", "minimum": 0},
+    "obligations": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["obligation", "status", "evidence"],
+        "properties": {
+          "obligation": {"type": "string"},
+          "status": {"enum": ["MET", "MISSED", "NOT_APPLICABLE"]},
+          "evidence": {"type": "string"}
+        }
+      }
+    },
+    "inventions": {"type": "array", "items": {"type": "string"}},
+    "state_change_proposals": {"type": "array", "items": {"type": "string"}},
+    "deviations": {"type": "array", "items": {"type": "string"}},
+    "blockers": {"type": "array", "items": {"type": "string"}}
+  }
+}

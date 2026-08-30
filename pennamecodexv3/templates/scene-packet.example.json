@@ -1,0 +1,70 @@
+{
+  "schema_version": "3.0",
+  "scene_id": "book01-ch03-sc02",
+  "project": "example-progression-fantasy",
+  "job": "draft",
+  "revisions": {
+    "input_commit": "replace-with-git-commit",
+    "canon": "canon-v1",
+    "arc": "arc-v1",
+    "state": "state-after-book01-ch03-sc01"
+  },
+  "modules": ["progression", "combat"],
+  "pov": {
+    "character": "Mara",
+    "mode": "close third, past tense",
+    "knowledge_boundary": [
+      "Mara knows the bridge is failing but not who sabotaged it",
+      "Mara has never seen the rival's second technique"
+    ]
+  },
+  "purpose": "Force Mara to choose between protecting her rank and protecting a rival.",
+  "scene_shape": {
+    "opening_state": "Mara expects a controlled qualifying duel and distrusts her rival.",
+    "pov_goal": "Win without revealing the weakness in her left hand.",
+    "opposition": "The bridge begins collapsing while the duel continues.",
+    "turn": "Her rival slips beyond the safety line and cannot recover alone.",
+    "choice": "Mara abandons the winning position to pull the rival back.",
+    "outcome": "She loses the official point but exposes the sabotage pattern.",
+    "closing_state": "Her rank is threatened; the rivalry has become an uneasy debt."
+  },
+  "obligations": {
+    "must_include": [
+      "The left-hand weakness affects one decision",
+      "The rival notices the rescue was costly"
+    ],
+    "plants": [
+      "A clean diagonal fracture suggests deliberate weakening"
+    ],
+    "payoffs": [],
+    "prohibited_outcomes": [
+      "Do not identify the saboteur",
+      "Do not heal Mara's hand"
+    ]
+  },
+  "invention_budget": {
+    "allowed": [
+      "Unimportant arena sounds and physical details",
+      "One unnamed spectator reaction",
+      "Tactical movement consistent with supplied abilities"
+    ],
+    "approval_required": [
+      "New named characters",
+      "New facts about the academy"
+    ],
+    "forbidden": [
+      "New powers",
+      "Changes to rank or scoring rules",
+      "Knowledge outside Mara's boundary"
+    ]
+  },
+  "context_files": [],
+  "verified_findings": [],
+  "exceptions": [],
+  "output": {
+    "draft_path": "drafts/book01-ch03-sc02.md",
+    "report_path": "reports/book01-ch03-sc02-author.json",
+    "target_words": 1800,
+    "tolerance_percent": 15
+  }
+}

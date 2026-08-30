@@ -1,0 +1,39 @@
+{
+  "schema_version": "3.0",
+  "run_id": "run-example-editor-001",
+  "scene_id": "book01-ch03-sc02",
+  "verdict": "PASS_WITH_FINDINGS",
+  "gate_results": [
+    {
+      "gate": "Point-of-view integrity",
+      "state": "PASS",
+      "evidence": "The scene remains inside Mara's declared knowledge boundary."
+    }
+  ],
+  "findings": [
+    {
+      "id": "F-001",
+      "status": "PROPOSED",
+      "severity": "LOW",
+      "category": "continuity",
+      "gate": "Continuity persistence",
+      "draft_evidence": {
+        "path": "drafts/book01-ch03-sc02.md",
+        "line_start": 42,
+        "line_end": 42,
+        "quote": "Her left hand closed without pain."
+      },
+      "comparison_evidence": {
+        "path": "state/current.md",
+        "line_start": 12,
+        "line_end": 12,
+        "quote": "Left hand: grip impaired and painful."
+      },
+      "consequence": "The injury disappears during the scene's pivotal action.",
+      "repair_target": "Preserve the impairment during the grip without prescribing wording.",
+      "confidence": "HIGH"
+    }
+  ],
+  "concerns": ["The bridge imagery may be slightly dense; this is taste, not a defect."],
+  "strengths": ["The rescue choice clearly changes both rank pressure and the rivalry."]
+}

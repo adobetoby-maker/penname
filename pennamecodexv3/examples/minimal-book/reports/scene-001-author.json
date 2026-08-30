@@ -1,0 +1,27 @@
+{
+  "schema_version": "3.0",
+  "run_id": "minimal-author-001",
+  "scene_id": "scene-001",
+  "status": "DONE",
+  "draft_path": "drafts/scene-001.md",
+  "word_count": 152,
+  "obligations": [
+    {
+      "obligation": "Mara's left-hand impairment changes how she performs the rescue",
+      "status": "MET",
+      "evidence": "She cannot close her fingers and substitutes a forearm hook."
+    },
+    {
+      "obligation": "Iven recognizes that Mara sacrificed a real advantage",
+      "status": "MET",
+      "evidence": "He says she had the point after looking at the distance surrendered."
+    }
+  ],
+  "inventions": [],
+  "state_change_proposals": [
+    "Open sabotage clue: diagonal tool cut in bridge segment",
+    "Iven owes Mara a rescue debt"
+  ],
+  "deviations": ["Fixture draft is intentionally shorter than the target."],
+  "blockers": []
+}

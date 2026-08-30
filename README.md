@@ -4,6 +4,15 @@ A clean-room author harness: two AI agent seats, a craft charter neither of
 them was allowed to read a manuscript to write, and a docking interface any
 book can plug into.
 
+## Codex v3 candidate
+
+`pennamecodexv3/` is the provider-neutral revision: a positive voice charter,
+small universal craft core, optional genre modules, versioned scene/report
+contracts, and deterministic prompt compilation. It supports either Codex
+orchestrating Claude-as-author or Claude orchestrating Codex-as-editor without
+changing the underlying role prompts. See
+[`pennamecodexv3/README.md`](pennamecodexv3/README.md).
+
 ## What this is
 
 `craft/THE_AUTHOR.md` (Charter v2) is the harness's definition of "the

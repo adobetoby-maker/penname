@@ -1,0 +1,67 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://penname.local/schemas/v3/editor-report.schema.json",
+  "title": "Penname Codex v3 Editor Report",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "run_id", "scene_id", "verdict", "gate_results", "findings", "concerns", "strengths"],
+  "properties": {
+    "schema_version": {"const": "3.0"},
+    "run_id": {"type": "string", "minLength": 1},
+    "scene_id": {"type": "string", "minLength": 1},
+    "verdict": {"enum": ["PASS", "PASS_WITH_FINDINGS", "STRUCTURAL_HOLD"]},
+    "gate_results": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["gate", "state", "evidence"],
+        "properties": {
+          "gate": {"type": "string", "minLength": 1},
+          "state": {"enum": ["PASS", "FAIL", "NOT_APPLICABLE", "EXCEPTION_APPROVED", "NEEDS_HUMAN_JUDGMENT"]},
+          "evidence": {"type": "string"}
+        }
+      }
+    },
+    "findings": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "status", "severity", "category", "gate", "draft_evidence", "comparison_evidence", "consequence", "repair_target", "confidence"],
+        "properties": {
+          "id": {"type": "string", "minLength": 1},
+          "status": {"enum": ["PROPOSED", "VERIFIED", "REJECTED", "REPAIRED", "RECHECKED", "CLOSED"]},
+          "severity": {"enum": ["BLOCKER", "HIGH", "MEDIUM", "LOW"]},
+          "category": {"type": "string", "minLength": 1},
+          "gate": {"type": "string", "minLength": 1},
+          "draft_evidence": {"$ref": "#/$defs/evidence"},
+          "comparison_evidence": {
+            "oneOf": [
+              {"$ref": "#/$defs/evidence"},
+              {"type": "null"}
+            ]
+          },
+          "consequence": {"type": "string", "minLength": 1},
+          "repair_target": {"type": "string", "minLength": 1},
+          "confidence": {"enum": ["HIGH", "MEDIUM", "LOW"]}
+        }
+      }
+    },
+    "concerns": {"type": "array", "items": {"type": "string"}},
+    "strengths": {"type": "array", "items": {"type": "string"}}
+  },
+  "$defs": {
+    "evidence": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["path", "line_start", "line_end", "quote"],
+      "properties": {
+        "path": {"type": "string", "minLength": 1},
+        "line_start": {"type": "integer", "minimum": 1},
+        "line_end": {"type": "integer", "minimum": 1},
+        "quote": {"type": "string", "minLength": 1}
+      }
+    }
+  }
+}

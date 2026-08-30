@@ -1,0 +1,19 @@
+{
+  "schema_version": "3.0",
+  "run_id": "run-example-author-001",
+  "scene_id": "book01-ch03-sc02",
+  "status": "DONE",
+  "draft_path": "drafts/book01-ch03-sc02.md",
+  "word_count": 1760,
+  "obligations": [
+    {
+      "obligation": "The left-hand weakness affects one decision",
+      "status": "MET",
+      "evidence": "Mara changes grips before the rescue and loses leverage."
+    }
+  ],
+  "inventions": ["An unnamed spectator drops a brass cup when the bridge shifts."],
+  "state_change_proposals": ["The rival owes Mara a public debt."],
+  "deviations": [],
+  "blockers": []
+}

@@ -1,0 +1,13 @@
+{
+  "schema_version": "3.0",
+  "run_id": "run-example-author-001",
+  "role": "author",
+  "provider": "anthropic",
+  "model": "fable",
+  "reasoning": "provider default",
+  "started_at": "2026-08-30T16:00:00-06:00",
+  "input_commit": "replace-with-git-commit",
+  "packet_sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+  "prompt_sha256": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+  "output_commit": null
+}

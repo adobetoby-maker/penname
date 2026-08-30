@@ -1,0 +1,21 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://penname.local/schemas/v3/run-record.schema.json",
+  "title": "Penname Codex v3 Run Record",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "run_id", "role", "provider", "model", "reasoning", "started_at", "input_commit", "packet_sha256", "prompt_sha256"],
+  "properties": {
+    "schema_version": {"const": "3.0"},
+    "run_id": {"type": "string", "minLength": 1},
+    "role": {"enum": ["author", "editor", "verifier"]},
+    "provider": {"type": "string", "minLength": 1},
+    "model": {"type": "string", "minLength": 1},
+    "reasoning": {"type": "string"},
+    "started_at": {"type": "string", "format": "date-time"},
+    "input_commit": {"type": "string", "minLength": 1},
+    "packet_sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+    "prompt_sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+    "output_commit": {"type": ["string", "null"]}
+  }
+}
