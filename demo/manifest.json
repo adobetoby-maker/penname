@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "generated": "2026-08-30T14:00:00-06:00",
+  "sourceBranch": "main",
+  "books": [
+    {
+      "id": "penname-demo",
+      "title": "Proof of Craft",
+      "totalChapters": 3,
+      "renderedChapters": 3,
+      "chapters": [
+        {
+          "number": 1,
+          "title": "The Exhibition — as published (The Fractured Path, Book 1, Ch. 17)",
+          "manuscript": "demo/chapters/01-the-exhibition-original.md",
+          "renders": [
+            {
+              "render": "elevenlabs",
+              "voice": "Jason Keiller (Audience Pleaser)",
+              "file": "demo/audio/01-the-exhibition-original.mp3",
+              "bytes": 11511057,
+              "durationSec": 1438.82,
+              "sha256": "dcfab467743337f7cfb265307edfd3827221f0785ebcb28a12c37a6ee04613d1",
+              "url": "https://media.githubusercontent.com/media/adobetoby-maker/penname/main/demo/audio/01-the-exhibition-original.mp3"
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "title": "The Exhibition — harness draft (from a facts-only card; the original was never shown to the author)",
+          "manuscript": "demo/chapters/02-the-exhibition-harness.md",
+          "renders": [
+            {
+              "render": "elevenlabs",
+              "voice": "Jason Keiller (Audience Pleaser)",
+              "file": "demo/audio/02-the-exhibition-harness.mp3",
+              "bytes": 5932347,
+              "durationSec": 741.48,
+              "sha256": "3266f7bb907a3f84108f658c4f3848f849e9387cf59d5c75aa700f24c3e8b86f",
+              "url": "https://media.githubusercontent.com/media/adobetoby-maker/penname/main/demo/audio/02-the-exhibition-harness.mp3"
+            }
+          ]
+        },
+        {
+          "number": 3,
+          "title": "The Silver Standard — the Daeva match (harness draft; editor verdict STRUCTURAL_HOLD, unrepaired by design)",
+          "manuscript": "demo/chapters/03-the-silver-standard-daeva.md",
+          "renders": [
+            {
+              "render": "elevenlabs",
+              "voice": "Jason Keiller (Audience Pleaser)",
+              "file": "demo/audio/03-the-silver-standard-daeva.mp3",
+              "bytes": 5940497,
+              "durationSec": 742.50,
+              "sha256": "dd4a306106ad736fed2a9ba3a971cec49700d213517a04180408e816c00e06db",
+              "url": "https://media.githubusercontent.com/media/adobetoby-maker/penname/main/demo/audio/03-the-silver-standard-daeva.mp3"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

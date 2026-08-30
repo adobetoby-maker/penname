@@ -1,0 +1,4 @@
+# Narration is tracked with LFS. Raw audio blobs in git history poison every
+# future clone, and media.githubusercontent.com serves only LFS objects.
+*.mp3 filter=lfs diff=lfs merge=lfs -text
+*.wav filter=lfs diff=lfs merge=lfs -text
