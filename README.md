@@ -56,6 +56,22 @@ editor can reconstruct what the author believed at drafting time). Drafting
 can't start until all five exist and pass their format checks. No book
 defines the author; the author is checkable independent of any one book.
 
+## Comparisons
+
+`comparisons/iron-circuit-ch01/` sets one **v3 blind draft** against the same
+chapter after the full old pipeline — five passes, including an 8-phase
+editorial review and a Fable read-and-edit. Fable occupies the author seat in
+the challenger too, so the model is held roughly constant and the harness is
+the variable.
+
+Cadence moves into charter range (mean sentence 26.7w → 17.3w, em dashes
+81 → 27) and the v3 draft invents a dramatic engine the shipped chapter lacks.
+It also regresses on two tics and skips no punches about it: the raw draft is
+shown without an editor pass, `which meant` chains and all. The author seat's
+self-report surfaced a continuity defect that had survived all five prior
+passes. Caveats — n=1, and Chapter 1 is the most favorable case — are stated
+in the comparison itself.
+
 ## The demo: proof, not a pitch
 
 `demo/` docks one small proof book, *Proof of Craft*, three chapters, three
