@@ -6,8 +6,8 @@
     {
       "id": "penname-demo",
       "title": "Proof of Craft",
-      "totalChapters": 3,
-      "renderedChapters": 3,
+      "totalChapters": 4,
+      "renderedChapters": 4,
       "chapters": [
         {
           "number": 1,
@@ -54,6 +54,22 @@
               "durationSec": 742.50,
               "sha256": "dd4a306106ad736fed2a9ba3a971cec49700d213517a04180408e816c00e06db",
               "url": "https://media.githubusercontent.com/media/adobetoby-maker/penname/main/demo/audio/03-the-silver-standard-daeva.mp3"
+            }
+          ]
+        },
+        {
+          "number": 4,
+          "title": "The Exhibition — full chapter (harness draft; the complete chapter re-solved cold — the author saw neither the original nor its own earlier fight excerpt)",
+          "manuscript": "demo/chapters/04-the-exhibition-full.md",
+          "renders": [
+            {
+              "render": "elevenlabs",
+              "voice": "Jason Keiller (Audience Pleaser)",
+              "file": "demo/audio/04-the-exhibition-full.mp3",
+              "bytes": 10196576,
+              "durationSec": 1274.51,
+              "sha256": "227081afa6ce8e939b8d2031cdc67cd1b56b420ef24979b519f7a156242b73a9",
+              "url": "https://media.githubusercontent.com/media/adobetoby-maker/penname/main/demo/audio/04-the-exhibition-full.mp3"
             }
           ]
         }
