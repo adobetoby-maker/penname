@@ -1,5 +1,14 @@
 # Comparison — Iron Circuit Ch. 1, old pipeline vs. Penname Codex v3
 
+> **Harness version under test: `3.0.0-candidate.1`.**
+> This run predates ADR 0002. The author seat received the single generic
+> `craft/VOICE.md`, not the layered shared-floor + pen-name stack introduced in
+> `3.1.0-candidate.1`. The `fantasy-author-a` runtime voice adds guidance this
+> draft never saw — two-track progression, losses as calibration, rivals
+> advancing offscreen, found family as repeated practical trust. A re-run under
+> 3.1 would not be measuring the same thing, and the numbers below should not be
+> read as a claim about the current harness.
+
 Same chapter, same book, same drafting model family, two different harnesses.
 
 This is a **pipeline** comparison, not an author-vs-original blind A/B. Test 1 in
