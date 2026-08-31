@@ -1,13 +1,15 @@
 {
-  "schema_version": "3.0",
+  "schema_version": "3.1",
   "scene_id": "scene-001",
   "project": "minimal-book",
+  "pen_name": "fantasy-author-a",
   "job": "draft",
   "revisions": {
     "input_commit": "example-fixture",
     "canon": "canon-v1",
     "arc": "arc-v1",
-    "state": "state-before-scene-001"
+    "state": "state-before-scene-001",
+    "registry": "registry-v1"
   },
   "modules": ["progression", "combat"],
   "pov": {
@@ -51,15 +53,18 @@
     "forbidden": ["New powers", "Scoring changes", "Saboteur identity" ]
   },
   "context_files": [
-    {"label": "approved canon", "path": "canon.md", "required": true},
-    {"label": "arc commitments", "path": "arc.md", "required": true},
-    {"label": "current state", "path": "state.md", "required": true}
+    {"kind": "canon", "label": "approved canon", "path": "canon.md", "required": true},
+    {"kind": "arc", "label": "arc commitments", "path": "arc.md", "required": true},
+    {"kind": "state", "label": "current state", "path": "state.md", "required": true},
+    {"kind": "registry", "label": "name registry", "path": "registry.md", "required": true}
   ],
   "verified_findings": [],
   "exceptions": [],
   "output": {
     "draft_path": "drafts/scene-001.md",
     "report_path": "reports/scene-001-author.json",
+    "editor_report_path": "reports/scene-001-editor.json",
+    "verifier_report_path": "reports/scene-001-verifier.json",
     "target_words": 900,
     "tolerance_percent": 20
   }

@@ -1,0 +1,18 @@
+{
+  "schema_version": "3.1",
+  "run_id": "run-example-verifier-001",
+  "scene_id": "book01-ch03-sc02",
+  "editor_run_id": "run-example-editor-001",
+  "verdict": "REPAIR_REQUIRED",
+  "decisions": [
+    {
+      "finding_id": "F-001",
+      "decision": "VERIFIED",
+      "evidence_checked": [
+        "drafts/book01-ch03-sc02.md:42",
+        "state/current.md:12"
+      ],
+      "reason": "The draft removes pain from an injury the frozen state marks active."
+    }
+  ]
+}

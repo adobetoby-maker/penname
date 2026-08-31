@@ -1,0 +1,19 @@
+{
+  "schema_version": "3.1",
+  "loop_id": "loop-example-book01",
+  "project": "example-progression-fantasy",
+  "pen_name": "fantasy-author-a",
+  "scope": "book",
+  "phase": "PROJECT_READY",
+  "max_repair_cycles": 3,
+  "repair_cycle": 0,
+  "scenes_total": 24,
+  "scenes_closed": 0,
+  "active_scene_id": null,
+  "last_finding_fingerprint": null,
+  "repeat_count": 0,
+  "blocker": null,
+  "repair_origin": null,
+  "human_gate": null,
+  "history": []
+}

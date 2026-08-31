@@ -1,0 +1,29 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://penname.local/schemas/v3.1/verification-report.schema.json",
+  "title": "Penname Codex v3.1 Verification Report",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "run_id", "scene_id", "editor_run_id", "verdict", "decisions"],
+  "properties": {
+    "schema_version": {"const": "3.1"},
+    "run_id": {"type": "string", "minLength": 1},
+    "scene_id": {"type": "string", "minLength": 1},
+    "editor_run_id": {"type": "string", "minLength": 1},
+    "verdict": {"enum": ["CLEAR", "REPAIR_REQUIRED", "STRUCTURAL_HOLD"]},
+    "decisions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["finding_id", "decision", "evidence_checked", "reason"],
+        "properties": {
+          "finding_id": {"type": "string", "minLength": 1},
+          "decision": {"enum": ["VERIFIED", "REJECTED", "NEEDS_HUMAN_JUDGMENT"]},
+          "evidence_checked": {"type": "array", "minItems": 1, "items": {"type": "string", "minLength": 1}},
+          "reason": {"type": "string", "minLength": 1}
+        }
+      }
+    }
+  }
+}

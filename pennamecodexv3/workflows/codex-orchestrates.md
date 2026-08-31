@@ -22,8 +22,11 @@ Seat assignment is run metadata, not a change to the core.
 8. Invoke Codex in a fresh context. Codex writes one editor report and does not
    modify the manuscript.
 9. Verify proposed findings before sending any to a repair run.
-10. Create a new packet with `job` set to the appropriate repair type and only
-    verified finding IDs in `verified_findings`.
+10. Create a new packet with `job` set to the appropriate repair type and copy
+    each verified finding's ID, severity, gate, evidence, consequence, and
+    repair target into `verified_findings`.
+11. Advance `loop-state.json` using `scripts/advance_loop.py`; continue until
+    the scene and larger-scope audits close or the bounded retry policy blocks.
 
 ## Isolation requirements
 

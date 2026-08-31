@@ -10,6 +10,7 @@ implemented below.
 from __future__ import annotations
 
 import argparse
+from datetime import datetime
 import json
 import re
 import sys
@@ -97,6 +98,10 @@ def validate_instance(
                 errors.extend(validate_instance(value, properties[key], root_schema, f"{path}.{key}"))
 
     if isinstance(instance, list):
+        if len(instance) < schema.get("minItems", 0):
+            errors.append(f"{path}: array has fewer than {schema['minItems']} items")
+        if "maxItems" in schema and len(instance) > schema["maxItems"]:
+            errors.append(f"{path}: array has more than {schema['maxItems']} items")
         item_schema = schema.get("items")
         if item_schema:
             for index, value in enumerate(instance):
@@ -111,6 +116,11 @@ def validate_instance(
             errors.append(f"{path}: string is shorter than {schema['minLength']}")
         if "pattern" in schema and re.fullmatch(schema["pattern"], instance) is None:
             errors.append(f"{path}: string does not match {schema['pattern']!r}")
+        if schema.get("format") == "date-time":
+            try:
+                datetime.fromisoformat(instance.replace("Z", "+00:00"))
+            except ValueError:
+                errors.append(f"{path}: string is not a valid ISO 8601 date-time")
 
     if isinstance(instance, (int, float)) and not isinstance(instance, bool):
         if "minimum" in schema and instance < schema["minimum"]:

@@ -1,17 +1,18 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://penname.local/schemas/v3/editor-report.schema.json",
-  "title": "Penname Codex v3 Editor Report",
+  "$id": "https://penname.local/schemas/v3.1/editor-report.schema.json",
+  "title": "Penname Codex v3.1 Editor Report",
   "type": "object",
   "additionalProperties": false,
   "required": ["schema_version", "run_id", "scene_id", "verdict", "gate_results", "findings", "concerns", "strengths"],
   "properties": {
-    "schema_version": {"const": "3.0"},
+    "schema_version": {"const": "3.1"},
     "run_id": {"type": "string", "minLength": 1},
     "scene_id": {"type": "string", "minLength": 1},
     "verdict": {"enum": ["PASS", "PASS_WITH_FINDINGS", "STRUCTURAL_HOLD"]},
     "gate_results": {
       "type": "array",
+      "minItems": 1,
       "items": {
         "type": "object",
         "additionalProperties": false,
@@ -31,7 +32,7 @@
         "required": ["id", "status", "severity", "category", "gate", "draft_evidence", "comparison_evidence", "consequence", "repair_target", "confidence"],
         "properties": {
           "id": {"type": "string", "minLength": 1},
-          "status": {"enum": ["PROPOSED", "VERIFIED", "REJECTED", "REPAIRED", "RECHECKED", "CLOSED"]},
+          "status": {"const": "PROPOSED"},
           "severity": {"enum": ["BLOCKER", "HIGH", "MEDIUM", "LOW"]},
           "category": {"type": "string", "minLength": 1},
           "gate": {"type": "string", "minLength": 1},

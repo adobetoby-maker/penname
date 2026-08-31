@@ -1,13 +1,15 @@
 {
-  "schema_version": "3.0",
+  "schema_version": "3.1",
   "scene_id": "book01-ch03-sc02",
   "project": "example-progression-fantasy",
+  "pen_name": "fantasy-author-a",
   "job": "draft",
   "revisions": {
     "input_commit": "replace-with-git-commit",
     "canon": "canon-v1",
     "arc": "arc-v1",
-    "state": "state-after-book01-ch03-sc01"
+    "state": "state-after-book01-ch03-sc01",
+    "registry": "registry-v1"
   },
   "modules": ["progression", "combat"],
   "pov": {
@@ -58,12 +60,19 @@
       "Knowledge outside Mara's boundary"
     ]
   },
-  "context_files": [],
+  "context_files": [
+    {"kind": "canon", "label": "approved canon", "path": "canon.md", "required": true},
+    {"kind": "arc", "label": "arc commitments", "path": "arc.md", "required": true},
+    {"kind": "state", "label": "current state", "path": "state.md", "required": true},
+    {"kind": "registry", "label": "name registry", "path": "registry.md", "required": true}
+  ],
   "verified_findings": [],
   "exceptions": [],
   "output": {
     "draft_path": "drafts/book01-ch03-sc02.md",
     "report_path": "reports/book01-ch03-sc02-author.json",
+    "editor_report_path": "reports/book01-ch03-sc02-editor.json",
+    "verifier_report_path": "reports/book01-ch03-sc02-verifier.json",
     "target_words": 1800,
     "tolerance_percent": 15
   }

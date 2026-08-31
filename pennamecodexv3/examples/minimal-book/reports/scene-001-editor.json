@@ -1,0 +1,34 @@
+{
+  "schema_version": "3.1",
+  "run_id": "minimal-editor-001",
+  "scene_id": "scene-001",
+  "verdict": "PASS_WITH_FINDINGS",
+  "gate_results": [
+    {
+      "gate": "Declared word target",
+      "state": "FAIL",
+      "evidence": "The deterministic diagnostic reports 152 words against a permitted range of 720-1080."
+    }
+  ],
+  "findings": [
+    {
+      "id": "F-001",
+      "status": "PROPOSED",
+      "severity": "HIGH",
+      "category": "scope",
+      "gate": "Declared word target",
+      "draft_evidence": {
+        "path": "drafts/scene-001.md",
+        "line_start": 1,
+        "line_end": 9,
+        "quote": "Fixture draft is 152 words."
+      },
+      "comparison_evidence": null,
+      "consequence": "The fixture does not demonstrate a production-length scene.",
+      "repair_target": "Reach the declared range without adding undeclared story events.",
+      "confidence": "HIGH"
+    }
+  ],
+  "concerns": [],
+  "strengths": ["The short fixture preserves the declared choice and state change."]
+}

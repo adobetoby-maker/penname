@@ -1,0 +1,49 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://penname.local/schemas/v3.1/loop-state.schema.json",
+  "title": "Penname Codex v3.1 Completion Loop State",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version", "loop_id", "project", "pen_name", "scope", "phase",
+    "max_repair_cycles", "repair_cycle", "scenes_total", "scenes_closed",
+    "active_scene_id", "last_finding_fingerprint", "repeat_count", "blocker",
+    "repair_origin", "human_gate", "history"
+  ],
+  "properties": {
+    "schema_version": {"const": "3.1"},
+    "loop_id": {"type": "string", "minLength": 1},
+    "project": {"type": "string", "minLength": 1},
+    "pen_name": {"enum": ["fantasy-author-a", "science-fiction-author-b"]},
+    "scope": {"enum": ["scene", "chapter", "act", "book", "series"]},
+    "phase": {"enum": [
+      "PROJECT_READY", "PACKET_READY", "AUTHORING", "EDITING", "VERIFYING",
+      "REPAIRING", "SCENE_CLOSED", "SCOPE_AUDIT", "BOOK_LOCKED",
+      "AWAITING_VOICE_SELECTION", "COMPLETE", "BLOCKED"
+    ]},
+    "max_repair_cycles": {"type": "integer", "minimum": 1, "maximum": 5},
+    "repair_cycle": {"type": "integer", "minimum": 0},
+    "scenes_total": {"type": "integer", "minimum": 1},
+    "scenes_closed": {"type": "integer", "minimum": 0},
+    "active_scene_id": {"type": ["string", "null"]},
+    "last_finding_fingerprint": {"type": ["string", "null"]},
+    "repeat_count": {"type": "integer", "minimum": 0},
+    "blocker": {"type": ["string", "null"]},
+    "repair_origin": {"enum": ["VERIFYING", "SCOPE_AUDIT", null]},
+    "human_gate": {"type": ["string", "null"]},
+    "history": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["event", "from", "to", "note"],
+        "properties": {
+          "event": {"type": "string", "minLength": 1},
+          "from": {"type": "string", "minLength": 1},
+          "to": {"type": "string", "minLength": 1},
+          "note": {"type": "string"}
+        }
+      }
+    }
+  }
+}

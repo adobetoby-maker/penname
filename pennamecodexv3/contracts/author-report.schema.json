@@ -1,12 +1,12 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://penname.local/schemas/v3/author-report.schema.json",
-  "title": "Penname Codex v3 Author Report",
+  "$id": "https://penname.local/schemas/v3.1/author-report.schema.json",
+  "title": "Penname Codex v3.1 Author Report",
   "type": "object",
   "additionalProperties": false,
   "required": ["schema_version", "run_id", "scene_id", "status", "draft_path", "word_count", "obligations", "inventions", "state_change_proposals", "deviations", "blockers"],
   "properties": {
-    "schema_version": {"const": "3.0"},
+    "schema_version": {"const": "3.1"},
     "run_id": {"type": "string", "minLength": 1},
     "scene_id": {"type": "string", "minLength": 1},
     "status": {"enum": ["DONE", "BLOCKED"]},

@@ -1,0 +1,25 @@
+{
+  "schema_version": "3.1",
+  "profiles": [
+    {
+      "id": "fantasy-author-a",
+      "display_name": "Fantasy Author A",
+      "genre": "progression fantasy and LitRPG",
+      "version": "1.0.0",
+      "voice_path": "pen-names/fantasy-author-a/VOICE.md",
+      "provenance_path": "pen-names/fantasy-author-a/PROVENANCE.md",
+      "allowed_modules": ["combat", "progression", "litrpg", "moral-choice"],
+      "default_modules": ["progression"]
+    },
+    {
+      "id": "science-fiction-author-b",
+      "display_name": "Science Fiction Author B",
+      "genre": "character-driven problem-solving science fiction",
+      "version": "1.0.0",
+      "voice_path": "pen-names/science-fiction-author-b/VOICE.md",
+      "provenance_path": "pen-names/science-fiction-author-b/PROVENANCE.md",
+      "allowed_modules": ["combat", "hard-science", "moral-choice"],
+      "default_modules": ["hard-science", "moral-choice"]
+    }
+  ]
+}

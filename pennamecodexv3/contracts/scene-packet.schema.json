@@ -1,13 +1,14 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://penname.local/schemas/v3/scene-packet.schema.json",
-  "title": "Penname Codex v3 Scene Packet",
+  "$id": "https://penname.local/schemas/v3.1/scene-packet.schema.json",
+  "title": "Penname Codex v3.1 Scene Packet",
   "type": "object",
   "additionalProperties": false,
   "required": [
     "schema_version",
     "scene_id",
     "project",
+    "pen_name",
     "job",
     "revisions",
     "modules",
@@ -20,25 +21,27 @@
     "output"
   ],
   "properties": {
-    "schema_version": {"const": "3.0"},
+    "schema_version": {"const": "3.1"},
     "scene_id": {"type": "string", "minLength": 1},
     "project": {"type": "string", "minLength": 1},
+    "pen_name": {"enum": ["fantasy-author-a", "science-fiction-author-b"]},
     "job": {"enum": ["draft", "structural_repair", "continuity_repair", "voice_revision", "compression", "line_edit"]},
     "revisions": {
       "type": "object",
       "additionalProperties": false,
-      "required": ["input_commit", "canon", "arc", "state"],
+      "required": ["input_commit", "canon", "arc", "state", "registry"],
       "properties": {
         "input_commit": {"type": "string", "minLength": 1},
         "canon": {"type": "string", "minLength": 1},
         "arc": {"type": "string", "minLength": 1},
-        "state": {"type": "string", "minLength": 1}
+        "state": {"type": "string", "minLength": 1},
+        "registry": {"type": "string", "minLength": 1}
       }
     },
     "modules": {
       "type": "array",
       "uniqueItems": true,
-      "items": {"enum": ["combat", "progression", "litrpg"]}
+      "items": {"enum": ["combat", "progression", "litrpg", "hard-science", "moral-choice"]}
     },
     "pov": {
       "type": "object",
@@ -88,11 +91,13 @@
     },
     "context_files": {
       "type": "array",
+      "minItems": 4,
       "items": {
         "type": "object",
         "additionalProperties": false,
-        "required": ["label", "path", "required"],
+        "required": ["kind", "label", "path", "required"],
         "properties": {
+          "kind": {"enum": ["canon", "arc", "state", "registry", "previous_scene", "next_card", "reference"]},
           "label": {"type": "string", "minLength": 1},
           "path": {"type": "string", "minLength": 1},
           "required": {"type": "boolean"}
@@ -101,21 +106,46 @@
     },
     "verified_findings": {
       "type": "array",
-      "items": {"type": "string"},
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "severity", "gate", "evidence", "consequence", "repair_target"],
+        "properties": {
+          "id": {"type": "string", "minLength": 1},
+          "severity": {"enum": ["BLOCKER", "HIGH", "MEDIUM", "LOW"]},
+          "gate": {"type": "string", "minLength": 1},
+          "evidence": {"type": "string", "minLength": 1},
+          "consequence": {"type": "string", "minLength": 1},
+          "repair_target": {"type": "string", "minLength": 1}
+        }
+      },
       "default": []
     },
     "exceptions": {
       "type": "array",
-      "items": {"type": "string"},
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "approver", "scope", "authority", "reason"],
+        "properties": {
+          "id": {"type": "string", "minLength": 1},
+          "approver": {"type": "string", "minLength": 1},
+          "scope": {"type": "string", "minLength": 1},
+          "authority": {"type": "string", "minLength": 1},
+          "reason": {"type": "string", "minLength": 1}
+        }
+      },
       "default": []
     },
     "output": {
       "type": "object",
       "additionalProperties": false,
-      "required": ["draft_path", "report_path", "target_words", "tolerance_percent"],
+      "required": ["draft_path", "report_path", "editor_report_path", "verifier_report_path", "target_words", "tolerance_percent"],
       "properties": {
         "draft_path": {"type": "string", "minLength": 1},
         "report_path": {"type": "string", "minLength": 1},
+        "editor_report_path": {"type": "string", "minLength": 1},
+        "verifier_report_path": {"type": "string", "minLength": 1},
         "target_words": {"type": "integer", "minimum": 1},
         "tolerance_percent": {"type": "number", "minimum": 0, "maximum": 100}
       }

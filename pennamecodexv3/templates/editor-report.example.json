@@ -1,5 +1,5 @@
 {
-  "schema_version": "3.0",
+  "schema_version": "3.1",
   "run_id": "run-example-editor-001",
   "scene_id": "book01-ch03-sc02",
   "verdict": "PASS_WITH_FINDINGS",

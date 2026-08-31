@@ -17,10 +17,11 @@ findings.
 3. For contradictions, confirm the comparison evidence and authority level.
 4. For counts, repeat the count over the same declared scope.
 5. Confirm the claimed reader consequence follows from the evidence.
-6. Set the finding to `VERIFIED` or `REJECTED`, with a concise reason.
+6. Record `VERIFIED`, `REJECTED`, or `NEEDS_HUMAN_JUDGMENT`, with a concise
+   reason, in a new verification report. Never mutate the editor report.
 
-If evidence is unavailable, leave the finding `PROPOSED` and request the
-missing artifact. Absence of evidence is not verification.
+If evidence is unavailable, use `NEEDS_HUMAN_JUDGMENT` and identify the missing
+artifact. Absence of evidence is not verification.
 
 ## Boundaries
 
@@ -29,3 +30,10 @@ missing artifact. Absence of evidence is not verification.
 - Do not convert a taste concern into a verified defect.
 - Do not broaden the finding while verifying it; create a separate proposed
   finding during a later editorial pass if necessary.
+
+## Output
+
+Write exactly one report conforming to
+`contracts/verification-report.schema.json` at the packet's declared
+`output.verifier_report_path`. The manuscript, author report, editor report,
+and frozen context are evidence only.

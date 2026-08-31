@@ -1,13 +1,19 @@
 {
-  "schema_version": "3.0",
+  "schema_version": "3.1",
   "run_id": "run-example-author-001",
+  "pen_name": "fantasy-author-a",
   "role": "author",
   "provider": "anthropic",
   "model": "fable",
   "reasoning": "provider default",
+  "adapter": "claude-cli-v1",
+  "status": "COMPLETED",
   "started_at": "2026-08-30T16:00:00-06:00",
+  "completed_at": "2026-08-30T16:04:18-06:00",
   "input_commit": "replace-with-git-commit",
+  "harness_commit": "replace-with-harness-commit",
   "packet_sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
   "prompt_sha256": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+  "output_sha256": "cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc",
   "output_commit": null
 }

@@ -1,16 +1,18 @@
 # Penname Codex v3
 
-Provider-neutral author harness for audio-first progression fantasy.
+Provider-neutral, multi-pen-name author harness for audio-first speculative fiction.
 
 V3 separates the creative author from the production machine:
 
 - `craft/CORE.md` protects universal reader trust.
-- `craft/VOICE.md` positively defines the pen name's prose and emotional method.
+- `craft/VOICE.md` defines shared prose and audio-readability behavior.
+- `pen-names/` supplies exactly one versioned genre-author identity per run.
 - `craft/modules/` contains optional genre-specific guidance and editor gates.
 - `agents/` defines roles without naming a provider or model.
 - `contracts/` defines interoperable JSON artifacts.
 - `scripts/build_prompt.py` compiles the same frozen prompt regardless of which
   provider orchestrates the run.
+- `scripts/advance_loop.py` advances a bounded, auditable completion loop.
 
 Claude may author while Codex edits, or Codex may orchestrate Claude and then
 occupy the editor seat. Nothing in the core changes when control changes hands.
@@ -20,7 +22,7 @@ occupy the editor seat. Nothing in the core changes when control changes hands.
 ```text
 orchestrator (Claude or Codex)
         |
-        +-- validates one scene packet
+        +-- selects one pen name and validates one scene packet
         +-- compiles one role prompt
         +-- records provider/model/hash metadata
         |
@@ -29,14 +31,30 @@ orchestrator (Claude or Codex)
         |       +-- author report
         |
         +--> editor seat (recommended: different model family)
-                +-- gate results
-                +-- proposed findings
-                +-- strengths and taste concerns
+        |       +-- gate results
+        |       +-- proposed findings
+        |       +-- strengths and taste concerns
+        |
+        +--> verifier seat
+                +-- verified or rejected findings
+                +-- evidence-bound repair authorization
 ```
 
 Provider adapters are intentionally outside the trusted core. A provider may
 change command syntax, authentication, model aliases, or tool names without
 changing the author.
+
+## Included pen names
+
+| Runtime ID | Genre promise | Default modules |
+|---|---|---|
+| `fantasy-author-a` | Progression fantasy/LitRPG: legible growth, tactical action, human cost, found family | `progression` |
+| `science-fiction-author-b` | Character-driven problem-solving SF: rigorous speculation, relationship pressure, moral choice | `hard-science`, `moral-choice` |
+
+These are internal IDs until public-facing pseudonyms are chosen. Each profile has
+a runtime `VOICE.md` and a separate `PROVENANCE.md`. Research names and links remain
+in provenance and are never compiled into creative prompts. The goal is a coherent
+craft system, not imitation of any living author's prose.
 
 ## Quick start
 
@@ -58,8 +76,9 @@ python3 -B pennamecodexv3/scripts/build_prompt.py author \
   --root . > author.prompt.md
 ```
 
-Give that exact prompt to the author seat. The seat needs file access to the
-docked book root so it can write the two paths declared by `output`.
+Give that exact prompt to the author seat. The selected `pen_name` controls the
+voice layer and permitted modules. The seat needs file access to the docked book
+root so it can write the two paths declared by `output`.
 
 After the author has written the draft and report, compile the editor prompt:
 
@@ -70,7 +89,9 @@ python3 -B pennamecodexv3/scripts/build_prompt.py editor \
 ```
 
 The compiler refuses missing required context, paths outside the book root,
-invalid packets, missing editor drafts, and context bundles larger than 2 MB.
+invalid packets, omitted default modules, modules owned by another pen name,
+missing editor drafts, inaccurate reported word counts, and context bundles larger
+than 2 MB.
 This encourages deliberately compiled scene context rather than dumping an
 entire series into every run.
 
@@ -99,6 +120,19 @@ The editor does not rewrite. The verifier does not expand findings. The author
 chooses a repair that satisfies verified evidence. A human may approve or
 occupy any step.
 
+## Bounded completion
+
+The state machine in `scripts/advance_loop.py` moves a book through validated
+packets, authoring, editing, independent verification, localized repair, scope
+audit, book lock, and narrator selection. The default repair ceiling is three.
+The same verified defect surviving three cycles becomes `BLOCKED`; it does not
+trigger an indefinite rewrite.
+
+After all scenes and book-scope checks pass, the production adapter prepares a
+blind narrator audition pack and advances the loop to
+`AWAITING_VOICE_SELECTION`. The owner chooses the narrator, which advances the
+book to `COMPLETE`. See [the completion workflow](workflows/completion-loop.md).
+
 ## Running in either direction
 
 - [Codex orchestrates, Claude authors](workflows/codex-orchestrates.md)
@@ -112,13 +146,15 @@ contract.
 state, packet, draft, and author report. It allows both the author and editor
 prompt paths to run immediately after cloning.
 
-## What v3 deliberately does not automate yet
+## Runtime boundary
 
 - Provider API calls and authentication
 - Canon retrieval or vector search
 - State-ledger mutation
-- Automatic acceptance of proposed findings
+- Automatic acceptance of proposed findings (verification is mandatory)
 - Automatic manuscript merge or publication
+- Provider-specific text-to-speech calls
 
-Those belong to the machine built around the author. V3 first establishes the
-stable contracts that machine must honor.
+Those belong to adapters in the machine built around the author. V3.1 defines the
+stable author identity, evidence contracts, stopping rules, and final human voice
+gate those adapters must honor.

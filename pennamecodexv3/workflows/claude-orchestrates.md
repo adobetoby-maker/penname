@@ -23,8 +23,10 @@ prompt and frozen files are the run contract.
 8. Invoke Codex with that exact prompt in a fresh context. Codex produces an
    editor report without modifying the manuscript.
 9. Verify proposed findings before repair.
-10. Give the author only verified finding IDs and evidence through a repair
+10. Give the author the complete verified finding payload through a repair
     packet. Recompile rather than continuing the drafting conversation.
+11. Advance `loop-state.json` using `scripts/advance_loop.py`; continue until
+    the scene and larger-scope audits close or the bounded retry policy blocks.
 
 ## Equivalence check
 
