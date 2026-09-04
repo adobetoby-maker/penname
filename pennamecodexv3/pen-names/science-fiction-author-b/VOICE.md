@@ -26,32 +26,55 @@ both why it works and why an intelligent person might have missed it earlier.
 
 Distinguish established fact, plausible extrapolation, and invented premise in
 the story bible. Protect the declared speculative allowances; do not quietly add
-new miracles to rescue a scene.
+new miracles to rescue a scene. An Invented Premise that resolves a problem needs
+a reader-legible rule stated before it resolves anything, plus a limitation,
+weakness, or cost declared by its second on-page use — the same fairness
+discipline that binds any extraordinary capability.
 
-Explain technical material at the moment a character needs it to decide,
-persuade, repair, teach, or survive. Use analogy from that character's experience.
-Humor may make exposition hospitable, but it cannot conceal a broken causal step.
+Explain technical material only when it changes one of four things: a
+prediction, a choice, a repair, or a relationship. If an explanation changes
+none of the four, cut it regardless of how interesting it is. Use analogy from
+the character's own experience. Humor may make exposition hospitable, but it
+cannot conceal a broken causal step.
 
 Prefer known tools used cleverly under new constraints. New technology requires
 testing history, failure modes, interfaces, and consequences proportional to its
 importance.
 
+Any readout, telemetry display, or instrument panel a character reads aloud or
+narrates must be speakable in full sentences — no symbol soup, no table-as-prose.
+If the scene can't be performed aloud, it fails before any other check runs.
+
 ## Character and relationship
 
-Every major character is pursuing a story in which they are not merely support
-staff. Write relationships rather than isolated dossiers: people expose different
-selves with a student, rival, commander, child, stranger, or nonhuman intelligence.
+Every major character wants something statable in one sentence independent of
+the protagonist's arc — the Independent Agenda Test. That want must produce a
+measurable behavior difference across at least two relationship contexts: a
+character exposes a different self with a student, rival, commander, child,
+stranger, or nonhuman intelligence. Isolated dossiers fail this; relationships
+pass it.
 
 Competence does not erase fear, vanity, cowardice, tenderness, or self-deception.
-Keep the protagonist rootable through understandable motives and visible effort,
-not perfection. Friendship and cooperation are technical resources only because
+At least one beat per major sequence must establish a stake that is NOT the
+technical problem itself — a documented failure mode of this genre is a
+protagonist whose only interior life is the puzzle in front of them. Keep the
+protagonist rootable through understandable motives and visible effort, not
+perfection. Friendship and cooperation are technical resources only because
 they are first emotional risks.
 
 ## Moral pressure
 
 Prefer difficult choices between competing goods over obvious good-versus-evil
-buttons. State what each option protects, who pays, what cannot be known, and what
-the chooser will have to live with afterward.
+buttons. Both goods must be real: give the option you're not choosing an
+on-page scene where its strongest proponent argues it in action, not a position
+reported secondhand. State what each option protects, who pays, what cannot be
+known, and what the chooser will have to live with afterward — then reference
+that cost again later. A cost named once and never revisited is not a cost, it
+is decoration.
+
+A pure motive does not waive its consequence. Good intention is not narrative
+acquittal — the character still pays for what the choice actually caused,
+regardless of what they meant.
 
 Do not let a correct calculation settle a moral question automatically. Do not
 let moral seriousness override physical reality. The strongest climax makes the
@@ -68,11 +91,20 @@ Mystery information arrives through evidence, experiment, testimony, memory, and
 misinterpretation. Withholding must have a cause. A reveal should revise earlier
 facts rather than replace them.
 
+Any worldbuilding passage over 150 words earns its length by changing at least
+one of six things: access, danger, belief, labor, relationship, or choice. This
+applies to institutions and culture exactly as it applies to technology — a
+detail that changes none of the six is exposition, not worldbuilding, no matter
+how well-researched it is.
+
 ## Tone
 
 Favor clarity, curiosity, earned optimism, and emotional directness. Humor grows
 from pressure, expertise, teaching, incompatible assumptions, or affection. It
-must not make every intelligent character sound alike.
+must not make every intelligent character sound alike — and this check runs
+across books, not only within one. A masked-name test across different
+protagonists in different books catching the same comic-exposition cadence is a
+documented failure mode of this genre, not a stylistic signature worth keeping.
 
 Wonder may be immense; attention remains intimate. The unfamiliar becomes vivid
 through what a person can measure, misunderstand, touch, fear, or choose.
