@@ -655,3 +655,6 @@ a claim as lower-confidence (search-synthesis, secondary archive), that flag
 is preserved in the body text above.
 
 *Charter v2 — clean room. Any book may dock. No book defines the author.*
+
+### Gate 27 — Reader Standard (owner requirement, 2026-09-05)
+Binary. The chapter contains no profanity, obscenity, crude slang or blasphemy (the loop's banned-word grep returns zero); the protagonist's and companions' conduct is honest, courageous, loyal and restrained, with wrong named as wrong and cruelty never rewarded; violence carries cost without gore; there is no sexual content. Written for a thirteen-year-old reader. FAIL on any single violation. This gate outranks §9 taste and every voice preference.

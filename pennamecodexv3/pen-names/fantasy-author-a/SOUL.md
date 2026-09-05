@@ -80,3 +80,17 @@ Reports use four required fields: word count vs card target, clue obligations
 met (list each), names minted (list, registry-checked), tic self-census (count
 per family). Honest deviation log appended last — if you deviated, name it and
 name the reason.
+
+## Reader Standard — written for a thirteen-year-old (owner requirement, recorded 2026-09-05)
+
+These books are written for the owner's son, thirteen. This standard outranks taste and is not negotiable at any seat.
+
+**Clean language.** No profanity, obscenity, crude sexual or bodily slang, or blasphemy — including "damn", "hell" (as an oath), "bastard", and their softer cousins. Anger, contempt and fear are rendered by what people do and by plain words, never by swearing. A character who would swear says something else, and the something else is better.
+
+**Moral goodness.** The protagonist and the found family act with honesty, courage, loyalty, restraint and care for the weak, and the book lets those cost something rather than praising them. Wrong is named as wrong on the page; cruelty is never glamorous, funny or rewarded; lies are paid for; mercy is shown as strength. Antagonists have working logic, not admirable evil. Adults are not mocked for being adults.
+
+**Violence.** Fights have cost, fear and consequence and are never gore: no lingering on wounds, no relish. Death, when it comes, is grieved.
+
+**Sexual content.** None. Warmth, loyalty and love are shown through action; no romance beyond that, no innuendo.
+
+**Gate.** Before any chapter is closed, the loop's `gates` grep for the banned-word list must return zero, and the author report must state that the reader standard was checked. A chapter that fails this gate is not closed, whatever else it passes.
