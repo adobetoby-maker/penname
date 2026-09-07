@@ -977,6 +977,17 @@ def render_universe_table(universe_rollup: dict, series_raw: list[tuple[dict, li
 
 CSS = """
 :root {
+  --font-display: "Newsreader", Georgia, "Times New Roman", serif;
+  --font-body: "IBM Plex Sans", -apple-system, "Segoe UI", Helvetica, Arial, sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, Menlo, Consolas, monospace;
+}
+body { font-family: var(--font-body); font-size: 14px; line-height: 1.5; }
+h1, h2, h3 { font-family: var(--font-display); font-weight: 600; letter-spacing: -0.01em; text-wrap: balance; }
+h1 { font-size: 2rem; } h2 { font-size: 1.4rem; } h3 { font-size: 1.1rem; }
+table, td, .num { font-variant-numeric: tabular-nums; }
+code, .mono { font-family: var(--font-mono); font-size: 0.92em; }
+.tab-btn { font-family: var(--font-body); letter-spacing: 0.04em; text-transform: uppercase; font-size: 0.78rem; }
+:root {
   --bg: #f7f6f3; --panel: #ffffff; --text: #1c1b19; --muted: #6b6960;
   --border: #e4e1da; --accent: #7a5c3e; --accent-bg: #f0e9df;
   --pass: #2f6b3a; --pwf: #9a7a1f; --hold: #a13b3b; --pending: #8a8577;
@@ -1052,6 +1063,7 @@ def _build_fragment_parts(
     build_full_document (the default, doctype-wrapped output) so the two
     never drift apart."""
     head_bits = f"""<title>{_h(title)}</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,500;6..72,600&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
 <style>{CSS}</style>"""
     body_bits = f"""<h1>{_h(title)} <span class="sub">fantasyau1.1 progress dashboard</span></h1>
 <div class="tabs">
