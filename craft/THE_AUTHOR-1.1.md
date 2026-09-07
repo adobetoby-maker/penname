@@ -697,11 +697,16 @@ the first.
 30. **Action floor.** (a) The power, or its cost in the body, is visible in some
     small way in every chapter. (b) At least one set piece — fight, chase,
     collapse, rescue, a thing done with the body under a clock — in every window of
-    three consecutive chapters, scheduled in the architecture and drafted under
-    Gates 9–16. A missing scheduled set piece = STRUCTURAL.
-31. **Humor floor.** At least two beats per chapter that a cold reader reports as
-    landing, unless the card declares the chapter cold (max three cold chapters per
-    book). Zero landed beats in a non-cold chapter = MEDIUM. Each beat still passes
+    three consecutive chapters — and never more than four chapters between set
+    pieces anywhere in a book — scheduled in the architecture and drafted under
+    Gates 9–16; every set piece changes standing, knowledge, obligation, or
+    relationship, named on its card. A missing scheduled set piece = STRUCTURAL; a
+    set piece that changes nothing but health = MEDIUM.
+31. **Humor floor and ceiling.** At least two beats per chapter that a cold reader
+    reports as landing, unless the card declares the chapter cold (max three cold
+    chapters per book). Zero landed beats in a non-cold chapter = MEDIUM. More than
+    five beats in a chapter = LOW (the benchmark fatigue point: see
+    `research/fantasyau1.1/action-humor-framework.md`). Each beat still passes
     Gate 24 and loop rule 1 (no constructed punchline: the delete test).
 32. **Sentence variance.** A plain sentence of ≤12 words within every 120 words of
     narration; no more than two chained sentences consecutively; "for" as a
