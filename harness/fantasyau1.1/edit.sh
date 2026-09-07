@@ -76,9 +76,9 @@ for f in "$EDITOR_PROMPT_SRC" "$VARIANCE_PY" "$CHARTER"; do
   fi
 done
 
-CHAPTER="$(ls "$BOOK"/chapters/ch${NN}-*.md 2>/dev/null | head -1)"
+CHAPTER="$(ls "$BOOK"/chapters/ch${NN}-*.md 2>/dev/null | head -1 || true)"
 if [[ -z "$CHAPTER" ]]; then
-  echo "FATAL: no chapter file matching ch${NN}-*.md" >&2
+  echo "FATAL: no chapter file for ${NN} under $BOOK/chapters" >&2
   exit 1
 fi
 
@@ -115,10 +115,10 @@ VARIANCE_JSON="$(python3 "$VARIANCE_PY" "$CHAPTER" 2>/tmp/gb-variance-${NN}.log)
 EDITOR_PROMPT_BODY="$(cat "$EDITOR_PROMPT_SRC")"
 
 read -r -d '' PROMPT <<PROMPTEOF || true
-You are the Editor seat of the penname harness (fantasyau1.1), running on
-gpt-5.6-sol -- a different model family from the author by design. You do not
-trust the author's self-report. You read the chapter yourself, twice: once as
-an editor, once as a reader.
+You are the Editor seat of the penname harness (fantasyau1.1), running on gpt-5.6-sol
+-- a different model family from the author by design. You do not trust the
+author's self-report. You read the chapter yourself, twice: once as an editor,
+once as a reader.
 
 ASSUMPTION: the draft is broken until the text proves otherwise.
 

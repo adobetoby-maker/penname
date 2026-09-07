@@ -75,14 +75,26 @@ OUT="$BOOK/packets/ch${NN}-fight-audit-prompt.md"
 BOOK_NAME="$(grep -m1 -E '^#[[:space:]]*CHAPTER ARCHITECTURE' "$ARCH" | sed -E 's/^#[[:space:]]*CHAPTER ARCHITECTURE[[:space:]]*[—-][[:space:]]*//')"
 [[ -n "$BOOK_NAME" ]] || BOOK_NAME="$(basename "$BOOK")"
 
-# Latest ledger entry: from the LAST "## Post-Chapter N" heading to the next
-# "## " heading or end of file.
-LAST_LINE="$(grep -n '^## Post-Chapter' "$LEDGER" | tail -1 | cut -d: -f1 || true)"
+# Prefer the "## Post-Chapter {NN-1}" heading (the entry immediately before
+# this chapter) when it exists, so regenerating a packet out of order (the
+# ledger already carries later chapters) does not pull a later chapter's
+# state. Falls back to the LAST "## Post-Chapter N" heading in the file
+# (the pre-existing "latest entry" behavior) when there is no NN-1 entry --
+# e.g. chapter 1, or a book still mid-draft with no ledger entry yet at
+# NN-1 for some other reason.
+NN_PREV_NUM=$((10#$NN - 1))
+LAST_LINE=""
+if [[ "$NN_PREV_NUM" -ge 1 ]]; then
+  LAST_LINE="$(grep -nE "^## Post-Chapter 0*${NN_PREV_NUM}\b" "$LEDGER" | head -1 | cut -d: -f1 || true)"
+fi
+if [[ -z "$LAST_LINE" ]]; then
+  LAST_LINE="$(grep -n '^## Post-Chapter' "$LEDGER" | tail -1 | cut -d: -f1 || true)"
+fi
 INJURY_LINES=""
 if [[ -n "$LAST_LINE" ]]; then
   TOTAL_LINES="$(wc -l < "$LEDGER" | tr -d ' ')"
   SECTION="$(sed -n "$((LAST_LINE + 1)),\$p" "$LEDGER" | awk '/^## /{exit} {print}')"
-  INJURY_LINES="$(printf '%s\n' "$SECTION" | grep -inE 'injur|shin|wrist|knee|shoulder|strain' || true)"
+  INJURY_LINES="$(printf '%s\n' "$SECTION" | grep -inE '\b(injur[a-z]*|shins?|wrists?|knees?|shoulders?|strains?)\b' || true)"
 fi
 
 {

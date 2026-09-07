@@ -95,9 +95,11 @@ DATE="$(date '+%Y-%m-%d')"
 python3 - "$TEMPLATE" "$ARCH" "$LEDGER" "$OUT" "$NN" "$PREV_NN" "$PREV_BASENAME" "$DATE" <<'PYEOF'
 import re
 import sys
+from pathlib import Path
 
 template_path, arch_path, ledger_path, out_path, nn, prev_nn, prev_basename, date = sys.argv[1:9]
 nn_int = str(int(nn))
+book_dir = Path(arch_path).parent
 
 template = open(template_path, encoding="utf-8").read()
 arch = open(arch_path, encoding="utf-8").read()
@@ -133,22 +135,72 @@ slug = re.sub(r"[^a-z0-9]+", "-", title.lower()).strip("-")
 if not slug:
     slug = "chapter"
 
-# --- board delta: the LAST "## Post-Chapter N" entry, first 200 words of
-# its body (everything after the heading line, up to the next "## " heading
-# or end of file).
-headings = list(re.finditer(r"^##\s*Post-Chapter\s+(\d+).*$", ledger, re.MULTILINE))
-if not headings:
-    print(f"FATAL: no '## Post-Chapter N' entries found in {ledger_path}", file=sys.stderr)
-    sys.exit(1)
-last = headings[-1]
-body_start = last.end()
-next_heading = re.search(r"^##\s", ledger[body_start:], re.MULTILINE)
-body_end = body_start + next_heading.start() if next_heading else len(ledger)
-delta_body = ledger[body_start:body_end].strip()
-words = delta_body.split()
-delta_200 = " ".join(words[:200])
-if len(words) > 200:
-    delta_200 += " …"
+# --- {{budget}}: the book's names-minted budget. Default 8 unless
+# CHAPTER_ARCHITECTURE.md states a mint budget ("mint budget: N" or a bare
+# "budget: N" near the word "mint"/"names").
+budget = 8
+bm = re.search(r"mint budget[^\d]{0,20}(\d+)", arch, re.IGNORECASE)
+if not bm:
+    bm = re.search(r"budget[^\d]{0,20}(\d+)", arch, re.IGNORECASE)
+if bm:
+    budget = int(bm.group(1))
+
+# --- {{n}}: how many prior chapters (1..NN-1) declared COLD CHAPTER in
+# their filed author report -- the count "of 3 used" the template's Humor
+# line asks for. 0 if no author reports are filed yet or none declared it.
+cold_count = 0
+if prev_nn:
+    reports_dir = book_dir / "author-reports"
+    for prior_n in range(1, int(prev_nn) + 1):
+        prior_report = reports_dir / f"ch{prior_n:02d}-report.md"
+        if prior_report.is_file():
+            prior_text = prior_report.read_text(encoding="utf-8", errors="replace")
+            if re.search(r"\bCOLD\s+CHAPTER\b", prior_text, re.IGNORECASE):
+                cold_count += 1
+
+# --- board delta: the ledger entry for chapter NN-1 specifically (the
+# "## Post-Chapter {NN-1}" heading) -- NOT just whatever the last filed
+# entry happens to be, since regenerating a brief out of order (the ledger
+# already carries later chapters) must not pull a later chapter's delta.
+# Chapter 1 has no previous chapter, so there is no delta to extract.
+if prev_nn:
+    prev_nn_int = str(int(prev_nn))
+    heading_re = re.compile(
+        r"^##\s*Post-Chapter\s+" + re.escape(prev_nn_int) + r"\b.*$", re.MULTILINE
+    )
+    head_m = re.search(heading_re, ledger)
+    if not head_m:
+        print(f"FATAL: no '## Post-Chapter {prev_nn_int}' entry found in {ledger_path}", file=sys.stderr)
+        sys.exit(1)
+    body_start = head_m.end()
+    next_heading = re.search(r"^##\s", ledger[body_start:], re.MULTILINE)
+    body_end = body_start + next_heading.start() if next_heading else len(ledger)
+    delta_body = ledger[body_start:body_end].strip()
+
+    # Strip the leading italic process-note paragraph (the "*Appended
+    # ...*" block -- a single paragraph that itself contains nested
+    # **bold** spans, so it cannot be found by matching to the next bare
+    # '*'). Ledger entries separate the note from the real state by a
+    # blank line, so split on paragraphs instead: drop the first
+    # paragraph if it opens with a single '*' (italic) rather than '**'
+    # (bold).
+    paragraphs = re.split(r"\n\s*\n", delta_body)
+    if paragraphs and paragraphs[0].lstrip().startswith("*") and not paragraphs[0].lstrip().startswith("**"):
+        paragraphs = paragraphs[1:]
+    delta_body = "\n\n".join(paragraphs).strip()
+
+    # Start from the first bold "Tenure" field (the normal case) or, if an
+    # entry has no Tenure line, the first bullet.
+    start_m = re.search(r"(\*\*Tenure\b|^-\s)", delta_body, re.MULTILINE)
+    if start_m:
+        delta_body = delta_body[start_m.start():]
+
+    words = delta_body.split()
+    delta_200 = " ".join(words[:200])
+    if len(words) > 200:
+        delta_200 += " …"
+else:
+    delta_200 = "N/A — this is the book's first chapter; there is no prior Post-Chapter ledger entry."
 
 out = template
 
@@ -160,6 +212,8 @@ out = out.replace("{{NN}}", nn)
 out = out.replace("{{date}}", date)
 out = out.replace("{{slug}}", slug)
 out = out.replace("{{target}}", target)
+out = out.replace("{{budget}}", str(budget))
+out = out.replace("{{n}}", str(cold_count))
 
 # {{NN-1}} / the previous-chapter Load line: chapter 1 has no previous
 # chapter, so replace the whole bullet rather than leave a malformed path.

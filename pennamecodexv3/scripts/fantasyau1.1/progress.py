@@ -63,6 +63,47 @@ WORD_NUMBERS = {
     "six": 6, "seven": 7, "eight": 8, "nine": 9, "ten": 10,
 }
 
+_SEATS_WORD_TO_NUM = {"two": 2, "three": 3, "four": 4, "five": 5}
+_SEATS_ORDINAL_TO_NUM = {"second": 2, "third": 3, "fourth": 4, "fifth": 5}
+
+
+def _parse_seats_used(*texts: str | None) -> int | None:
+    """How many seat invocations (author draft plus any repair-seat
+    continuation after a session limit) produced this chapter's filed
+    text. Parsed from whichever of the given texts (the author report,
+    the LOOP_STATE chapter-status row) name a seat count explicitly:
+    "two seats", "second seat", "2nd seat", "seat 2", "Two fable seats"
+    -> 2; "three seats" -> 3; etc. Never defaults -- a chapter that says
+    nothing about seat count returns None, so the field stays unset
+    (renders as the dashboard's em dash) rather than inventing the
+    single-seat baseline.
+
+    "seat" (singular) plus a bare cardinal word ("one seat") is
+    deliberately NOT matched: this fixture's own canon uses "a seat" /
+    "one seat" as an in-story bureaucratic-office term (Ch9/15/19: "the
+    seated list... one seat", "a seat is one seat"), and that reads
+    nothing like a model-invocation count. The plural "seats" is required
+    for the cardinal-word form, which real seat-count language always
+    uses ("Two fable seats", "two-seat draft" -> counted via the digit-
+    labeled "Seat 1"/"Seat 2" form below instead); numbered or ordinal
+    seat labels ("seat 2", "2nd seat", "second seat") stay unambiguous on
+    their own regardless of plurality."""
+    combined = "\n".join(t for t in texts if t)
+    if not combined:
+        return None
+
+    candidates: list[int] = []
+    for m in re.finditer(r"\b(two|three|four|five)\s+(?:fable\s+)?seats\b", combined, re.IGNORECASE):
+        candidates.append(_SEATS_WORD_TO_NUM[m.group(1).lower()])
+    for m in re.finditer(r"\b(second|third|fourth|fifth)\s+seat\b", combined, re.IGNORECASE):
+        candidates.append(_SEATS_ORDINAL_TO_NUM[m.group(1).lower()])
+    for m in re.finditer(r"\b(\d+)(?:st|nd|rd|th)\s+seat\b", combined, re.IGNORECASE):
+        candidates.append(int(m.group(1)))
+    for m in re.finditer(r"\bseat\s*#?(\d+)\b", combined, re.IGNORECASE):
+        candidates.append(int(m.group(1)))
+
+    return max(candidates) if candidates else None
+
 
 # --------------------------------------------------------------------------
 # small IO helpers
@@ -177,10 +218,13 @@ def parse_author_report(text: str) -> dict:
         out["delta_pct"] = delta_pct
         out["in_band"] = abs(delta_pct) <= 5.0
 
-    # seats_used: default 1 (the workflow's documented "one generation"
-    # baseline); bumped to 2 only when the report itself says a second seat
-    # was used.
-    out["seats_used"] = 2 if re.search(r"\bseat\s*2\b|\btwo\s+(?:fable\s+)?seats\b", text, re.IGNORECASE) else 1
+    # seats_used: parsed from the report text alone here; cmd_update also
+    # checks the LOOP_STATE chapter-status row (via _parse_seats_used) and
+    # fills this in from there if the report itself is silent. Never
+    # defaulted to 1 -- an unparseable chapter leaves the field unset.
+    seats = _parse_seats_used(text)
+    if seats is not None:
+        out["seats_used"] = seats
 
     # humor beats claimed — 1.1 concept ("Humor beats: N"); absent from 1.0
     # reports, so this stays unset for those.
@@ -273,10 +317,16 @@ def parse_editor_verdict_file(text: str) -> dict:
             hm = re.search(r"Humor beats?:\s*(\d+)", pull_block, re.IGNORECASE)
             if hm:
                 pull["humor_beats_counted"] = int(hm.group(1))
-            if re.search(r"^Hook:\s*(?!none\b|no\b)\S", pull_block, re.IGNORECASE | re.MULTILINE):
-                pull["hook_pass"] = True
-            elif re.search(r"^Hook:\s*(?:none|no)\b", pull_block, re.IGNORECASE | re.MULTILINE):
+            # "Hook: none" / "no" / "not present" / "absent" / "no want" all
+            # say the same thing (no hook landed) in slightly different
+            # filed phrasings -- all must read as hook_pass=False, not just
+            # the bare "none"/"no" the old regex caught (which let "not
+            # present" and "absent" fall through as a false True).
+            hook_absent = r"(?:none|no|not\s+present|absent|no\s+want)\b"
+            if re.search(r"^Hook:\s*" + hook_absent, pull_block, re.IGNORECASE | re.MULTILINE):
                 pull["hook_pass"] = False
+            elif re.search(r"^Hook:\s*(?!" + hook_absent + r")\S", pull_block, re.IGNORECASE | re.MULTILINE):
+                pull["hook_pass"] = True
             if re.search(r"^Action:\s*(?:yes|delivered)\b", pull_block, re.IGNORECASE | re.MULTILINE):
                 pull["action_pass"] = True
             elif re.search(r"^Action:\s*(?:no|not delivered)\b", pull_block, re.IGNORECASE | re.MULTILINE):
@@ -312,18 +362,42 @@ def parse_verification(text: str) -> dict:
     return out
 
 
+def parse_adjudication_words(text: str) -> dict:
+    """Fallback for a chNN-verification.md that carries no 'VERIFICATION:'
+    summary line at all -- an orchestrator adjudication made without
+    dispatching a verifier seat (Book 2's ch19/ch20: "no verifier seat
+    dispatched", ruled by precedent instead), recorded as bare
+    CONFIRMED/DOWNGRADED/REJECTED verdict words in prose (ch19's
+    "**Adjudication:** CONFIRMED by precedent...") or in an adjudication
+    table (ch20's "| # | Editor | Adjudication | Evidence |", a row
+    sometimes carrying more than one verdict word, e.g. "PARTLY CONFIRMED
+    / PARTLY REJECTED"). Counts every ALL-CAPS, case-sensitive occurrence
+    of the three words -- deliberately not case-insensitive, so it does
+    not pick up ordinary lowercase prose use of "confirmed". Returns {}
+    (stays absent) if none of the three words appear at all."""
+    confirmed = len(re.findall(r"\bCONFIRMED\b", text))
+    downgraded = len(re.findall(r"\bDOWNGRADED\b", text))
+    rejected = len(re.findall(r"\bREJECTED\b", text))
+    if not (confirmed or downgraded or rejected):
+        return {}
+    return {"confirmed": confirmed, "downgraded": downgraded, "rejected": rejected, "new": 0}
+
+
 def parse_loop_state_row(text: str, nn: int) -> dict:
     """Parse the '## Chapter status' table row for chapter nn:
-    | Ch | Title | Words | Phase | Verdict | Repair cycle |"""
+    | Ch | Title | Words | Phase | Verdict | Repair cycle |
+    "verdict_cell" (the row's own Verdict column, raw) is returned for the
+    caller to scan for a seat-count mention (e.g. "Two fable seats", "2nd
+    seat") -- it is a parsing input, not a field written to progress.json."""
     out: dict[str, Any] = {}
     pat = re.compile(
-        r"^\|\s*0*" + str(nn) + r"\s*\|\s*([^|]+?)\s*\|\s*[\d,]*\s*\|\s*([^|]+?)\s*\|\s*[^|]*\|\s*(\d+)\s*\|\s*$",
+        r"^\|\s*0*" + str(nn) + r"\s*\|\s*([^|]+?)\s*\|\s*[\d,]*\s*\|\s*([^|]+?)\s*\|\s*([^|]*?)\s*\|\s*(\d+)\s*\|\s*$",
         re.MULTILINE,
     )
     m = pat.search(text)
     if not m:
         return out
-    title, phase_cell, repair_cycles = m.group(1), m.group(2), m.group(3)
+    title, phase_cell, verdict_cell, repair_cycles = m.group(1), m.group(2), m.group(3), m.group(4)
     title = re.sub(r"\*+", "", title).strip()
     if title:
         out["title"] = title
@@ -331,6 +405,8 @@ def parse_loop_state_row(text: str, nn: int) -> dict:
     if sm and sm.group(1) in CHAPTER_STATUSES:
         out["status"] = sm.group(1)
     out["repair_cycles"] = int(repair_cycles)
+    if verdict_cell:
+        out["verdict_cell"] = verdict_cell
     return out
 
 
@@ -460,6 +536,11 @@ def cmd_update(args: argparse.Namespace) -> int:
     note("author-report", report_text is not None)
     if report_text is not None:
         author = chapter.get("author", {})
+        # seats_used is re-derived fresh on every update (report, then the
+        # LOOP_STATE fallback below) -- drop whatever a prior run wrote so
+        # a stale fabricated value (e.g. the old default of 1) can never
+        # survive an update that no longer supports it.
+        author.pop("seats_used", None)
         author.update(parse_author_report(report_text))
         chapter["author"] = author
 
@@ -487,6 +568,11 @@ def cmd_update(args: argparse.Namespace) -> int:
     note("verification", verification_text is not None)
     if verification_text is not None:
         verifier = parse_verification(verification_text)
+        if not verifier:
+            # No "VERIFICATION:" line -- try the orchestrator-adjudication
+            # fallback (a file with no verifier seat dispatched, ruled by
+            # precedent instead; ch19/ch20 in the fixture).
+            verifier = parse_adjudication_words(verification_text)
         if verifier:
             chapter["verifier"] = verifier
 
@@ -516,6 +602,17 @@ def cmd_update(args: argparse.Namespace) -> int:
             repair = chapter.get("repair", {})
             repair["cycles"] = row["repair_cycles"]
             chapter["repair"] = repair
+        # seats_used cross-source fallback: the author report may be silent
+        # on seat count even when the LOOP_STATE row names it (e.g. "10
+        # repairs (fable, 2nd seat after a session limit)"). Only fills in
+        # when the author report did not already resolve it -- never
+        # overrides a report-derived value.
+        author = chapter.get("author") or {}
+        if author.get("seats_used") is None and row.get("verdict_cell"):
+            seats = _parse_seats_used(row["verdict_cell"])
+            if seats is not None:
+                author["seats_used"] = seats
+                chapter["author"] = author
 
     write_json(progress_path, data)
     print(f"PROGRESS_UPDATED={progress_path} chapter={nn_str}")
@@ -946,10 +1043,17 @@ document.querySelectorAll('.tab-btn').forEach(function (btn) {
 """
 
 
-def build_html(title: str, universe_panel: str, series_panel: str, book_panel: str, chapter_panel: str) -> str:
-    return f"""<title>{_h(title)}</title>
-<style>{CSS}</style>
-<h1>{_h(title)} <span class="sub">fantasyau1.1 progress dashboard</span></h1>
+def _build_fragment_parts(
+    title: str, universe_panel: str, series_panel: str, book_panel: str, chapter_panel: str
+) -> tuple[str, str]:
+    """Split the dashboard into (head_bits, body_bits): head_bits is the
+    <title> + <style> pair; body_bits is everything that belongs in
+    <body>. Shared by build_html (the --fragment output) and
+    build_full_document (the default, doctype-wrapped output) so the two
+    never drift apart."""
+    head_bits = f"""<title>{_h(title)}</title>
+<style>{CSS}</style>"""
+    body_bits = f"""<h1>{_h(title)} <span class="sub">fantasyau1.1 progress dashboard</span></h1>
 <div class="tabs">
   <button class="tab-btn active" data-tab="universe">Universe</button>
   <button class="tab-btn" data-tab="series">Series</button>
@@ -963,11 +1067,45 @@ def build_html(title: str, universe_panel: str, series_panel: str, book_panel: s
 <footer>Generated by progress.py. Nothing on this page is hand-typed; every figure comes from a filed seat report. A dash (—) means no report has been filed for that field yet.</footer>
 <script>{JS}</script>
 """
+    return head_bits, body_bits
+
+
+def build_html(title: str, universe_panel: str, series_panel: str, book_panel: str, chapter_panel: str) -> str:
+    """Artifact-ready FRAGMENT: <title> and <style> first, then the body
+    content -- no <!DOCTYPE>, <html>, <head>, or <body> tags. This is what
+    `render --fragment` emits, for publishing through a wrapper that
+    supplies its own skeleton."""
+    head_bits, body_bits = _build_fragment_parts(title, universe_panel, series_panel, book_panel, chapter_panel)
+    return f"{head_bits}\n{body_bits}"
+
+
+def build_full_document(
+    title: str, universe_panel: str, series_panel: str, book_panel: str, chapter_panel: str
+) -> str:
+    """Default `render` output: one complete, standalone HTML document
+    (<!DOCTYPE html>, <html lang="en">, a <head> with charset + viewport
+    meta plus the title/style, and a <body> with everything else)."""
+    head_bits, body_bits = _build_fragment_parts(title, universe_panel, series_panel, book_panel, chapter_panel)
+    return f"""<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+{head_bits}
+</head>
+<body>
+{body_bits}</body>
+</html>
+"""
 
 
 def cmd_render(args: argparse.Namespace) -> int:
     target = Path(args.target)
     out_path = Path(args.out)
+    # --fragment emits the artifact-ready fragment (build_html); default
+    # emits a full, standalone HTML document (build_full_document). Both
+    # are built from the same _build_fragment_parts, so they never drift.
+    renderer = build_html if getattr(args, "fragment", False) else build_full_document
 
     if (target / "progress.json").is_file():
         book = load_json(target / "progress.json")
@@ -983,7 +1121,7 @@ def cmd_render(args: argparse.Namespace) -> int:
         series_panel = render_series_table(series_rollup, [book])
         book_panel = render_book_summary(book)
         chapter_panel = render_chapter_details(book)
-        html = build_html(title, universe_panel, series_panel, book_panel, chapter_panel)
+        html = renderer(title, universe_panel, series_panel, book_panel, chapter_panel)
 
     elif (target / "series.json").is_file():
         series_json = load_json(target / "series.json")
@@ -999,7 +1137,7 @@ def cmd_render(args: argparse.Namespace) -> int:
         chapter_panel = render_chapter_details(first_book) if first_book else "<p class='muted'>No books.</p>"
         if first_book:
             book_panel = f"<p class='muted'>Showing book 1 of {len(books_raw)}: {_h(first_book.get('book',{}).get('title',''))}. See the Series tab's \"Book detail\" for the others.</p>" + book_panel
-        html = build_html(title, universe_panel, series_panel, book_panel, chapter_panel)
+        html = renderer(title, universe_panel, series_panel, book_panel, chapter_panel)
 
     elif (target / "universe.json").is_file():
         universe_json = load_json(target / "universe.json")
@@ -1026,7 +1164,7 @@ def cmd_render(args: argparse.Namespace) -> int:
         chapter_panel = render_chapter_details(first_book) if first_book else "<p class='muted'>No books.</p>"
         if series_raw:
             series_panel = f"<p class='muted'>Showing series 1 of {len(series_raw)}: {_h(first_series_rollup.get('series') or '')}. See the Universe tab's \"Series detail\" for the others.</p>" + series_panel
-        html = build_html(title, universe_panel, series_panel, book_panel, chapter_panel)
+        html = renderer(title, universe_panel, series_panel, book_panel, chapter_panel)
 
     else:
         fail(f"no progress.json, series.json, or universe.json found in {target}")
@@ -1072,6 +1210,16 @@ def build_parser() -> argparse.ArgumentParser:
     p_render = sub.add_parser("render", help="render the self-contained HTML dashboard")
     p_render.add_argument("target", help="a book_dir, series_dir, or universe_dir")
     p_render.add_argument("--out", required=True)
+    p_render.add_argument(
+        "--fragment",
+        action="store_true",
+        help=(
+            "emit the artifact-ready fragment only (title + style, then body "
+            "content -- no doctype/html/head/body) for publishing through a "
+            "wrapper that supplies its own skeleton. Default emits a full, "
+            "standalone HTML document."
+        ),
+    )
     p_render.set_defaults(func=cmd_render)
 
     return p
