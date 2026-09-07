@@ -684,7 +684,8 @@ the first.
    have read only the manuscript; their confusion is evidence and outranks the
    author's intent on clarity.
 6. **Repair may add.** A PULL finding is repaired by adding a beat, a name, a plain
-   sentence — not only by cutting. The 1.0 loop could only make chapters smaller.
+   sentence — not only by cutting, up to 8% of the chapter's target without a
+   word-band waiver. The 1.0 loop could only make chapters smaller.
 
 ### 10.2 Pull gates (per chapter unless marked)
 
@@ -696,9 +697,10 @@ the first.
     finding (LOW), two in a row = MEDIUM.
 30. **Action floor.** (a) The power, or its cost in the body, is visible in some
     small way in every chapter. (b) At least one set piece — fight, chase,
-    collapse, rescue, a thing done with the body under a clock — in every window of
-    three consecutive chapters — and never more than four chapters between set
-    pieces anywhere in a book — scheduled in the architecture and drafted under
+    collapse, rescue, a thing done with the body under a clock — with never more
+    than four chapters between set pieces anywhere in a book (every window of five
+    consecutive chapters contains one; at least five per twenty-chapter book — the
+    benchmark band is 2–4 apart), scheduled in the architecture and drafted under
     Gates 9–16; every set piece changes standing, knowledge, obligation, or
     relationship, named on its card. A missing scheduled set piece = STRUCTURAL; a
     set piece that changes nothing but health = MEDIUM.

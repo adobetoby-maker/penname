@@ -8,14 +8,14 @@
 |---|---|
 | Hook | {{the want or threat in the first 150 words}} |
 | Want pressed | {{how the book's want is under load here}} |
-| Action floor | {{SET PIECE: type, ground, who — drafted under Gates 9–16}} or {{no set piece; power/cost visible: how}} — set-piece window check: chapters {{a}}–{{b}} contain one |
+| Action floor | {{SET PIECE: type, ground, who — drafted under Gates 9–16}} or {{no set piece; power/cost visible: how}} — set-piece spacing check: last set piece at chapter {{last}}; this chapter is ≤4 after it, or carries one |
 | Humor | {{≥2 beats; kinds}} or {{COLD — declared, {{n}}/3}} |
 | Plain statement | {{the implication; who says it}} |
 | Names | {{who must be named; budget remaining}} |
 | Clarity | {{any institutional fact stated plainly here}} |
 
 **Architecture-level checks the card must satisfy before dispatch (numbers from `research/fantasyau1.1/action-humor-framework.md`):**
-- Every window of three consecutive chapters contains a set piece, and no two set pieces are more than four chapters apart anywhere in the book.
+- No two set pieces are more than four chapters apart anywhere in the book (every window of five consecutive chapters contains one); at least five per twenty-chapter book. Benchmark band: 2–4 apart.
 - Set-piece length: major 1,200–2,500 words; minor 400–900; the climax is a 3–4 chapter sequence with converging threads, each chapter ending on a turn.
 - Every set piece names, on the card, what it changes besides health (standing, knowledge, obligation, relationship). A fight that changes nothing is cut at the card.
 - The power or its cost is on the page every chapter; a full use at least every six chapters.

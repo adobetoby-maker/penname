@@ -83,7 +83,7 @@ Diagnostics nominate passages; they do not automatically rewrite.
   either track.
 - Continuity repair: only verified contradictions.
 - Pull repair: verified reader findings; may add up to 8% of the chapter's target
-  without a word-band waiver.
+  without a word-band waiver (Charter §10.1 principle 6).
 - Voice revision: one book-level pass after structure locks.
 - Line edit: one pass after voice locks.
 - Listening repairs: localized.
