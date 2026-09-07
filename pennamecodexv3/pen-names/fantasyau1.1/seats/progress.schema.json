@@ -1,0 +1,49 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "fantasyau1.1 progress record",
+  "description": "One file per book: progress.json. Every figure comes from a filed seat report; nothing is hand-typed. progress.py fills it from the report files and renders the dashboard.",
+  "type": "object",
+  "required": ["pen_name", "universe", "series", "book", "chapters"],
+  "properties": {
+    "pen_name": {"const": "fantasyau1.1"},
+    "universe": {"type": "string"},
+    "series": {"type": "string"},
+    "book": {"type": "object", "required": ["slug", "title", "number", "target_chapters"],
+      "properties": {"slug": {"type": "string"}, "title": {"type": "string"}, "number": {"type": "integer"}, "target_chapters": {"type": "integer"}, "status": {"enum": ["DRAFTING", "BOOK_LOCKED", "AWAITING_VOICE_SELECTION", "COMPLETE"]}, "want_line": {"type": "string"}}},
+    "chapters": {"type": "array", "items": {"$ref": "#/$defs/chapter"}}
+  },
+  "$defs": {
+    "chapter": {
+      "type": "object",
+      "required": ["n", "title", "status"],
+      "properties": {
+        "n": {"type": "integer"}, "title": {"type": "string"},
+        "status": {"enum": ["PENDING", "DRAFTING", "EDITING", "READING", "VERIFYING", "REPAIRING", "RECHECKING", "SCENE_CLOSED", "BLOCKED"]},
+        "closed_at": {"type": "string"},
+        "author": {"type": "object", "properties": {
+          "words": {"type": "integer"}, "target": {"type": "integer"}, "delta_pct": {"type": "number"}, "in_band": {"type": "boolean"},
+          "seats_used": {"type": "integer"}, "humor_beats_claimed": {"type": "integer"}, "action_item": {"type": "string"}, "cold": {"type": "boolean"},
+          "hook_line": {"type": "string"}, "want_line": {"type": "string"}, "variance_breaches": {"type": "integer"}, "names_minted": {"type": "integer"}}},
+        "editor": {"type": "object", "properties": {
+          "verdict": {"enum": ["PASS", "PASS_WITH_FINDINGS", "STRUCTURAL_HOLD"]},
+          "defects": {"type": "object", "properties": {"BLOCKER": {"type": "integer"}, "HIGH": {"type": "integer"}, "MEDIUM": {"type": "integer"}, "LOW": {"type": "integer"}}},
+          "pull": {"type": "object", "properties": {"STRUCTURAL": {"type": "integer"}, "MEDIUM": {"type": "integer"}, "LOW": {"type": "integer"}, "humor_beats_counted": {"type": "integer"}, "hook_pass": {"type": "boolean"}, "action_pass": {"type": "boolean"}}},
+          "recheck": {"enum": ["PASS", "PASS_WITH_FINDINGS", "STRUCTURAL_HOLD", null]}}},
+        "reader_a": {"$ref": "#/$defs/reader"},
+        "reader_b": {"$ref": "#/$defs/reader"},
+        "fight": {"type": ["object", "null"], "properties": {"gates_passed": {"type": "integer"}, "of": {"const": 8}, "new_injuries": {"type": "integer"}, "terrain_beats": {"type": "integer"}, "fairness_pass": {"type": "boolean"}}},
+        "verifier": {"type": "object", "properties": {"confirmed": {"type": "integer"}, "downgraded": {"type": "integer"}, "rejected": {"type": "integer"}, "new": {"type": "integer"}}},
+        "repair": {"type": "object", "properties": {"cycles": {"type": "integer"}, "adds": {"type": "integer"}, "recasts": {"type": "integer"}, "cuts": {"type": "integer"}}}
+      }
+    },
+    "reader": {
+      "type": ["object", "null"],
+      "properties": {
+        "pull": {"type": "integer", "minimum": 1, "maximum": 5},
+        "would_continue": {"enum": ["yes", "probably", "no"]},
+        "confusions": {"type": "integer"}, "skims": {"type": "integer"}, "laughs": {"type": "integer"},
+        "same_voice_pairs": {"type": "integer"}, "one_change": {"type": "string"}, "best_moment": {"type": "string"}
+      }
+    }
+  }
+}

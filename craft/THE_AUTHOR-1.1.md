@@ -658,3 +658,94 @@ is preserved in the body text above.
 
 ### Gate 27 — Reader Standard (owner requirement, 2026-09-05)
 Binary. The chapter contains no profanity, obscenity, crude slang or blasphemy (the loop's banned-word grep returns zero); the protagonist's and companions' conduct is honest, courageous, loyal and restrained, with wrong named as wrong and cruelty never rewarded; violence carries cost without gore; there is no sexual content. Written for a thirteen-year-old reader. FAIL on any single violation. This gate outranks §9 taste and every voice preference.
+
+---
+
+## 10. The Pull Law (fantasyau1.1 — added 2026-09-07)
+
+Every gate above is a defect gate: binary, checkable without author intent, and
+silent on whether a reader keeps going. Book 2 of the first series produced under
+this Charter passed all of them and was, by the pen name's own review, hard to
+keep reading. The Pull Law adds a second bar beside the first. It does not lower
+the first.
+
+### 10.1 Principles
+
+1. **The reader is the client.** A chapter that is correct and loses the reader
+   fails, exactly as a chapter that pulls and breaks canon fails.
+2. **Withholding is not wonder.** A power the reader never sees used is a promise
+   unkept. Rules are the wonder only when the rules are seen working.
+3. **Humor is rewarded, not only policed.** Gate 24 still binds (humor under
+   stakes costs something). Gate 31 now binds too (a chapter without landed humor
+   is a finding).
+4. **Action is scheduled, not hoped for.** The architecture sets the density; the
+   drafter delivers it under the combat pillar.
+5. **Ignorance is a seat.** Every 1.0 seat had read the canon. 1.1 adds readers who
+   have read only the manuscript; their confusion is evidence and outranks the
+   author's intent on clarity.
+6. **Repair may add.** A PULL finding is repaired by adding a beat, a name, a plain
+   sentence — not only by cutting. The 1.0 loop could only make chapters smaller.
+
+### 10.2 Pull gates (per chapter unless marked)
+
+28. **Hook.** The first 150 words contain a concrete want or threat belonging to
+    the viewpoint character. A chapter that opens on a document being read = FAIL.
+29. **Want.** By chapter 3 of every book the protagonist's want for the book is on
+    the page in his own words or action, and the brief names it for every chapter
+    thereafter. A chapter in which the want is neither pressed nor referenced =
+    finding (LOW), two in a row = MEDIUM.
+30. **Action floor.** (a) The power, or its cost in the body, is visible in some
+    small way in every chapter. (b) At least one set piece — fight, chase,
+    collapse, rescue, a thing done with the body under a clock — in every window of
+    three consecutive chapters, scheduled in the architecture and drafted under
+    Gates 9–16. A missing scheduled set piece = STRUCTURAL.
+31. **Humor floor.** At least two beats per chapter that a cold reader reports as
+    landing, unless the card declares the chapter cold (max three cold chapters per
+    book). Zero landed beats in a non-cold chapter = MEDIUM. Each beat still passes
+    Gate 24 and loop rule 1 (no constructed punchline: the delete test).
+32. **Sentence variance.** A plain sentence of ≤12 words within every 120 words of
+    narration; no more than two chained sentences consecutively; "for" as a
+    conjunction ≤3 per chapter; define-by-negation ≤3 per chapter (all shapes).
+    Measured by script; a breach = LOW, three breaches = MEDIUM.
+33. **Name budget.** Any character with two appearances or one line of dialogue is
+    named. Each book carries a mint budget in its architecture (default 8) and the
+    registry check still runs aloud. An unnamed recurring character = LOW; a third
+    appearance unnamed = MEDIUM.
+34. **Cold-reader clarity.** Two cold-reader personas (thirteen-year-old; adult
+    genre reader) read the manuscript only, forward from chapter 1, and report per
+    chapter: pull score 1–5, confusions, skim points, laughs. A confusion reported
+    by both personas = MEDIUM; by one = LOW; a pull score below 3 from both =
+    STRUCTURAL. Three consecutive chapters below 3 from either persona = book-scope
+    STRUCTURAL.
+35. **Masked-name metric.** With names stripped, ≥90% of dialogue lines are
+    reassignable to the correct speaker by register alone (verifier samples 20).
+    Below 90% = MEDIUM. Extends Gate 11 from combat to all speech.
+36. **Plain statement.** When a chapter turns on an implication the protagonist
+    cannot draw (canon rule 7 / loop rule 10), one secondary character states it
+    plainly once in their own register, or the protagonist's written summary does.
+    An implication carried only by inference = MEDIUM.
+37. **Institutional map** (per book). The institution's vertical is stated plainly
+    in scene at least once per book, and a one-page front-matter map exists in the
+    book folder. Missing = book-scope finding.
+
+### 10.3 The two-track editor verdict
+
+The editor returns DEFECTS (Gates 1–27, process law, canon) and PULL (Gates 28–36)
+as separate numbered lists under one verdict. The verdict line uses the 1.0
+vocabulary (PASS / PASS_WITH_FINDINGS / STRUCTURAL_HOLD); a STRUCTURAL finding on
+either track holds the chapter. PULL findings name the reader consequence and may
+propose an addition. The editor does not score humor by taste: it counts beats
+and applies the delete test; the cold readers say what landed.
+
+### 10.4 Blind draft for hook chapters
+
+Chapters 1–3 of every book are drafted twice from the same brief by two clean
+seats. The cold readers read both blind and pick; the editor edits the pick. The
+loser's best beats may be harvested by the repair seat with the pick's consent
+recorded in the ledger.
+
+### 10.5 What this law does not change
+
+Canon precedence, the Fairness Law, the combat gates, the anti-tic law, the
+reader standard, and the audio-first rules bind exactly as before. A pull repair
+that breaks any of them is a defect, not a trade.
