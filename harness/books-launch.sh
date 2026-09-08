@@ -5,7 +5,7 @@
 # "Claude Code-credentials" Keychain entry — no API key involved for the
 # Claude side, ever) and kicks off the book-development flow:
 #   craft agent discussion → docking setup → author seat selection →
-#   drafting (Fable/Opus) → guarded editing (codex on ChatGPT-plan OAuth,
+#   movement drafting (Fable/Opus) → guarded batch editing (codex on ChatGPT-plan OAuth,
 #   never an API key; Opus fallback while codex isn't logged in).
 #
 # Usage:
@@ -46,22 +46,32 @@ if the genre is ambiguous or blended.
 
 ## Step 4 — Draft
 
-Once a chapter card exists and the author seat is loaded, begin drafting per
+Once approved cards exist and the author seat is loaded, begin drafting per
 that seat's SKILL.md (Fable preferred, Opus fallback — announce any fallback).
+For /fanauthr, the normal unit is one contiguous movement of 3–5 chapters
+(default 4). Draft forward without a full editorial interruption. Between
+chapters, run only the light close and update the state ledger.
 
 ## Step 5 — Edit (guarded, OAuth-only)
 
-After each chapter, send the draft to /penname-editor. That seat runs on
-codex under ChatGPT-plan OAuth login ONLY — never an API key. The harness
-script (harness/edit.sh) refuses to run and tells you to execute
+For /fanauthr, after the movement is drafted, send all 3–5 chapters together
+through harness/edit-batch.sh. Use harness/edit.sh immediately only for the
+documented exception lane (major canon ruling, irreversible death, complex
+system-law reveal, or unsafe uncertainty). The editor runs on codex under
+ChatGPT-plan OAuth login ONLY — never an API key. The harness scripts refuse to run and tell you to execute
 \`codex login\` interactively if codex is not authenticated that way, even if
 an OPENAI_API_KEY happens to be present in the environment. If codex isn't
 logged in and the operator wants to proceed anyway this session, use the
 documented fallback:
-  PENNAME_EDITOR=opus bash harness/edit.sh <book-dir> <chapter-file> <fantasy|scifi>
+  PENNAME_EDITOR=opus bash harness/edit-batch.sh <book-dir> <chapter-file> [chapter-file ...]
 which compiles the identical prompt for you to dispatch to
 Agent(model:"opus") instead — say plainly when you do this that it's the
 interim fallback, not the intended cross-family editor seat.
+
+After the batch editor: run one rotating cold reader on ordinary movements and
+both reader personas on the opening, act-ending, and final movements. Run the
+fight audit only for scheduled set-piece chapters. Consolidate one repair pass
+across the movement, then recheck only the findings and joins that changed.
 
 NEVER attempt to route around the codex guard with curl and a raw API key.
 That is exactly the billing risk this harness exists to prevent — refuse to

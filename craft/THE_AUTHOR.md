@@ -658,3 +658,47 @@ is preserved in the body text above.
 
 ### Gate 27 — Reader Standard (owner requirement, 2026-09-05)
 Binary. The chapter contains no profanity, obscenity, crude slang or blasphemy (the loop's banned-word grep returns zero); the protagonist's and companions' conduct is honest, courageous, loyal and restrained, with wrong named as wrong and cruelty never rewarded; violence carries cost without gore; there is no sexual content. Written for a thirteen-year-old reader. FAIL on any single violation. This gate outranks §9 taste and every voice preference.
+
+---
+
+## 10. Reader Pull and Movement Gates
+
+The original gates protect fairness, continuity, and craft. These additional
+gates protect the reader's experience of frequency and connection. They are
+evaluated across a three-to-five-chapter movement whenever possible; they do not
+require interrupting the author after every chapter.
+
+28. **Opening pressure.** Within the first 150 words of each chapter, the
+    viewpoint character has a concrete want, threat, task, or destabilizing
+    change. An explanatory or document-led opening without immediate pressure
+    = FAIL.
+29. **Action and progression cadence.** The approved architecture schedules a
+    bodily set piece every two to four chapters by default, with no gap longer
+    than four unless an intentional exception is named before drafting. A set
+    piece may be a fight, chase, rescue, trial, collapse, escape, or other problem
+    handled physically under a clock. It changes standing, knowledge, obligation,
+    or relationship as well as health. A major set piece normally receives
+    1,500–2,500 words; a minor kinetic sequence receives 600–1,000; a climax may
+    span scenes or chapters. The card must name the reason for falling outside
+    those bands. Between set pieces, the active progression thread shows the
+    power, practice, limitation, or cost. An unscheduled gap, a consequence-free
+    set piece, or a scheduled major sequence compressed into summary merely to
+    control chapter length = FAIL at movement scope.
+30. **Humor distribution.** An ordinary chapter offers one to three organic
+    opportunities for a smile through character, status, affection, incongruity,
+    or coping. A declared cold chapter may offer none. More than two consecutive
+    humorless chapters require a predeclared purpose in the architecture. The
+    editor can count opportunities; only a cold reader can say what landed. Gate
+    24 still governs humor under stakes.
+31. **Cold-reader continuity.** At the end of a movement, a manuscript-only
+    reader reports pull, confusion, skim points, humor that landed, character
+    voices that merged, and desire to continue. The same confusion reported by
+    both reader personas, or two consecutive chapters below 3/5 for either
+    persona, requires a located repair or an explicit architecture decision.
+32. **Dialogue ownership.** With speaker names removed from a representative
+    batch sample, at least 90% of lines remain assignable by vocabulary, rhythm,
+    priorities, and evasions. Below 90% = movement-level FAIL.
+
+These are defaults, not genre cosplay. An approved book architecture may set a
+different cadence before drafting. It may not quietly waive reader pull after
+the prose is written.

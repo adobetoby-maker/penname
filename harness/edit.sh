@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# penname harness — generic editor seat (codex on the ChatGPT plan; Opus fallback).
+# penname harness — single-chapter exception editor (codex on the ChatGPT plan; Opus fallback).
 # Genre-aware: loads the correct charter (fantasy vs sci-fi) instead of assuming one.
 #
 # Usage: harness/edit.sh <book-dir> <chapter-file> <fantasy|scifi> [--recheck]
@@ -67,7 +67,7 @@ $EXTRA
 
 ## What to check
 
-Run every gate applicable to this genre's charter (26 gates if fantasy per
+Run every gate applicable to this genre's charter (32 gates if fantasy per
 THE_AUTHOR.md §9; 16 gates if sci-fi per THE_SCIFI_AUTHOR.md §8). At minimum:
 
 1. CARD FIDELITY — did the chapter deliver what its card promised? Word target
@@ -81,8 +81,11 @@ THE_AUTHOR.md §9; 16 gates if sci-fi per THE_SCIFI_AUTHOR.md §8). At minimum:
 6. NAME COLLISIONS — any new name against the registry, checked by ear.
 7. VOICE-DILUTION — do secondary characters speak in the protagonist's
    register? This is a documented failure mode — flag it if present.
+8. FANTASY PULL — for fantasy, run §10 gates 28–32: opening pressure,
+   action/progression cadence against adjacent cards, humor distribution,
+   cold-reader continuity if reports exist, and dialogue ownership.
 
-## Output contract
+## Report format
 
 Write EXACTLY this structure to $VERDICT and nothing else to stdout but the
 verdict line.

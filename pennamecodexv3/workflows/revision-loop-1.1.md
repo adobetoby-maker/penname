@@ -43,15 +43,15 @@ chapter (`seats/revision-card.template.md`) with a disposition —
 | Disposition | Means | Typical trigger |
 |---|---|---|
 | KEEP | no change; protected | both readers ≥4, no floor breach |
-| TIGHTEN | line pass only; variance, names, a hook line | one reader at 3; variance breaches; unnamed recurrers |
-| REPAIR | bounded additions/recasts inside the chapter: beats, a plain statement, a want line, a Mark micro-use | a reader under 3 with located confusions or skims; humor floor missed |
+| TIGHTEN | line pass only; cadence, names, a hook line | located monotony; substantive voices merge; unnamed recurrers |
+| REPAIR | bounded additions/recasts inside the chapter: beats, a plain statement, a want line, a Mark micro-use | located confusions or skims; rolling humor span below 3 |
 | RESTRUCTURE | merge, split, reorder, or move material between chapters | a run of low chapters; a floor that no single chapter can fix (set-piece spacing) |
 | INSERT | a new set piece or scene the architecture never scheduled | set pieces >4 apart; power invisible for >6 chapters |
-| CUT | the chapter's function is absorbed elsewhere | both readers ≤2 and the promise it carried is paid by a neighbor |
+| CUT | the chapter's function is absorbed elsewhere | sustained low-score trend plus located reader evidence, and the promise it carried is paid by a neighbor |
 
 Above the cards, **long-arc moves**: the want line placed by chapter 3; the
-action schedule redrawn so no gap exceeds four; the climax as a 3–4 chapter
-sequence; the humor floor per chapter; the institutional map's on-page statement;
+action schedule redrawn to target 7–8 with no gap over four; the climax as a 3–4 chapter
+sequence; rolling two-chapter humor cadence; the institutional map's on-page statement;
 the name budget spent on the recurring unnamed. Every long-arc move names the
 chapters it touches and the canon it must not touch (the Book 3 reserves, locked
 verbatim lines, the buried plant).
@@ -61,20 +61,21 @@ Canon changes forced by revision are **new ledger entries and new Bible rulings*
 are not rewritten.
 
 ### R4 — Execute, in reading order
-For each chapter whose disposition is not KEEP, run the forward loop's nine phases
-with a **revision brief** (`seats/revision-brief.template.md`) instead of a fresh
-brief: the existing chapter, the revision card, the readers' located findings, the
-floors, and the walls. The author seat rewrites or repairs; it does not draft
-from nothing unless the disposition is INSERT. Editor (two tracks), verifier,
-fight audit where relevant, repair, recheck exactly as forward. RESTRUCTURE and
+Group adjacent non-KEEP chapters into movements of three to five and run the
+forward movement loop with a **revision brief** (`seats/revision-brief.template.md`)
+for each chapter: existing prose, revision card, located reader findings, floors,
+and walls. The author repairs forward in one session; it does not draft from
+nothing unless the disposition is INSERT. Batch editor, selective verifier, fight
+audit where relevant, repair, and targeted recheck run as forward. RESTRUCTURE and
 INSERT chapters get canon rulings before dispatch (rule 9) and ledger entries after
 (rule 8).
 
 ### R5 — Re-read and prove
 After each act's revisions close, both personas re-read the revised span (and
 everything after a RESTRUCTURE, since the reader's memory changed). The dashboard
-shows **edition n vs n+1** per chapter; a revision that lowers a reader's score is
-reverted or re-repaired, never kept on the author's say-so.
+shows **edition n vs n+1** per chapter. Scores are trend signals; located new
+confusion, skimming, or lost causal connection—not a scalar alone—triggers revert
+or re-repair.
 
 ### R6 — Book gates and the new edition
 The forward loop's book-scope gates, then `BOOK_LOCKED` as `edition-<n+1>`. The
@@ -84,9 +85,9 @@ narrator audition re-runs only for chapters whose text changed.
 
 - R2 is cheap (Sonnet readers) and always runs in full.
 - R4 spends Fable only on REPAIR/RESTRUCTURE/INSERT chapters; TIGHTEN is Sonnet.
-- Maximum three repair cycles per chapter, as forward. A chapter that cannot reach
-  3 from both readers in three cycles is reported to the owner with the readers'
-  words, not rewritten a fourth time.
+- Two repair cycles per movement is normal and three is the hard ceiling. A
+  movement with a surviving located defect or a three-chapter low-score trend is
+  reported to the owner with the readers' words, not rewritten a fourth time.
 
 ## The dashboard in revision
 

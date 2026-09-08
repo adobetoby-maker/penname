@@ -12,7 +12,7 @@ WRITE `{{book}}/editor-verdicts/ch{{NN}}-fight-audit.md`:
 | 12 Stakes before blow | | the concrete thing at risk, quoted, before the first exchange |
 | 13 Injury persistence | | every open injury from the ledger: recurs where, or resolved where; every NEW injury listed |
 | 14 Tactical escalation | | this fight's core problem in one sentence vs the last set piece's |
-| 15 Compression scope | | major/minor as carded vs delivered; any summarized beat carrying new plot = FAIL |
+| 15 Compression scope | | major/minor/climax as carded vs delivered; MINOR normally 600–1,000 words, MAJOR 1,500–2,500, CLIMAX may span; summary compression of a scheduled major sequence or padding without function = FAIL |
 | 16 Environmental utilization | | the ≥2 terrain-caused beats, quoted |
 
 Then: FAIRNESS (§1.1 delete test on every use of an established power in the fight — quote, source passage, verdict); NEW INJURIES to enter in the ledger; ONE PARAGRAPH on whether the fight is exciting as a reader, with the moment it peaks quoted; FINDINGS numbered with severity, location, evidence, consequence. Print `FIGHT=<passes>/8` to stdout.

@@ -601,21 +601,27 @@ traceable to its source brief. Run per chapter unless marked per-arc/per-book.
 17. **Growth legibility and cost.** Every advancement names its delta (what
     moved, to what) AND its shown cost (loss, injury, fight above level);
     off-page costless growth = FAIL. [P Gates 1+3, merged]
-18. **Information per round.** Every tournament round and major ladder duel
-    changes the protagonist's information state — opponent, system, or self —
-    not just bracket position. [P Gate 2]
-19. **Skill beats number** (per arc). ≥1 major win attributable to something
-    the sheet doesn't measure, against a better number. [P Gate 4]
+18. **Information per test.** Every tournament round, ladder duel, formal review,
+    inspection, hearing, or comparable institutional test changes the
+    protagonist's information state — opponent, institution, system, or self —
+    not merely the recorded outcome. [P Gate 2, institutional analogue]
+19. **Skill beats number or record** (per arc). ≥1 major win is attributable to
+    something the sheet, rank, seniority list, or official record does not
+    measure, against a formally superior position. [P Gate 4, institutional
+    analogue]
 20. **Rival motion** (per arc). Every named rival has their own on-page
-    advancement beat in any arc where the protagonist advances. [P Gate 5]
+    advancement, appointment, access, or competence beat in any arc where the
+    protagonist advances. [P Gate 5, institutional analogue]
 21. **Social echo** (per arc). ≥1 progress marker visible outside the stat
     system; and every major rank-bearing scene shows rank altering something
     non-combat (price, deference, access, legal standing). [P Gate 6 + S Gate
     3, merged]
 
 **System and voice gates (Brief S)**
-22. **Box ownership.** Every system/status box has a named perceiving
-    character, in a scene, with an in-world reason to be looking. [S Gate 1]
+22. **Box and record ownership.** Every system/status box or excerpt from an
+    official record has a named perceiving character, in a scene, with an
+    in-world reason to be looking. A record is not a narrator shortcut. [S Gate
+    1, institutional analogue]
 23. **Dramatized critique.** Scenes about institutional unfairness show the
     institution acting on someone; protagonist speech alone = FAIL. [S Gate 4]
 24. **Comedy cost.** Humor deployed under stakes produces a traceable
@@ -684,36 +690,50 @@ the first.
    have read only the manuscript; their confusion is evidence and outranks the
    author's intent on clarity.
 6. **Repair may add.** A PULL finding is repaired by adding a beat, a name, a plain
-   sentence — not only by cutting, up to 8% of the chapter's target without a
-   word-band waiver. The 1.0 loop could only make chapters smaller.
+   sentence — not only by cutting, up to 8% cumulative across all repair cycles
+   against the chapter's target without a word-band waiver. The 1.0 loop could
+   only make chapters smaller.
 
 ### 10.2 Pull gates (per chapter unless marked)
 
 28. **Hook.** The first 150 words contain a concrete want or threat belonging to
-    the viewpoint character. A chapter that opens on a document being read = FAIL.
+    the viewpoint character. A chapter may open on a document only when the
+    document itself creates that want or threat within those 150 words; otherwise
+    a document-led opening = FAIL.
 29. **Want.** By chapter 3 of every book the protagonist's want for the book is on
     the page in his own words or action, and the brief names it for every chapter
     thereafter. A chapter in which the want is neither pressed nor referenced =
     finding (LOW), two in a row = MEDIUM.
-30. **Action floor.** (a) The power, or its cost in the body, is visible in some
-    small way in every chapter. (b) At least one set piece — fight, chase,
+30. **Action floor.** (a) The power, or its cost in body, work, record, fee,
+    access, standing, or relationship, is visible in some small way in every
+    chapter. (b) At least one set piece — fight, chase,
     collapse, rescue, a thing done with the body under a clock — with never more
     than four chapters between set pieces anywhere in a book (every window of five
-    consecutive chapters contains one; at least five per twenty-chapter book — the
+    consecutive chapters contains one; at least five per twenty-chapter book is
+    the hard floor, while the architecture target is seven to eight — the
     benchmark band is 2–4 apart), scheduled in the architecture and drafted under
     Gates 9–16; every set piece changes standing, knowledge, obligation, or
-    relationship, named on its card. A missing scheduled set piece = STRUCTURAL; a
-    set piece that changes nothing but health = MEDIUM.
-31. **Humor floor and ceiling.** At least two beats per chapter that a cold reader
-    reports as landing, unless the card declares the chapter cold (max three cold
-    chapters per book). Zero landed beats in a non-cold chapter = MEDIUM. More than
-    five beats in a chapter = LOW (the benchmark fatigue point: see
-    `research/fantasyau1.1/action-humor-framework.md`). Each beat still passes
-    Gate 24 and loop rule 1 (no constructed punchline: the delete test).
-32. **Sentence variance.** A plain sentence of ≤12 words within every 120 words of
-    narration; no more than two chained sentences consecutively; "for" as a
-    conjunction ≤3 per chapter; define-by-negation ≤3 per chapter (all shapes).
-    Measured by script; a breach = LOW, three breaches = MEDIUM.
+    relationship, named on its card. A major set piece normally receives
+    1,500–2,500 words; a minor kinetic sequence receives 600–1,000; and a climax
+    may span scenes or chapters. The card names the functional reason for an
+    exception. A missing scheduled set piece or a major sequence compressed into
+    summary merely to control chapter length = STRUCTURAL; a set piece that
+    changes nothing but health = MEDIUM.
+31. **Humor cadence.** Across every rolling two-chapter span that is not declared
+    cold, aim for four beats that cold readers report as landing; three to five is
+    the acceptable band. Fewer than three across the span = MEDIUM. A single
+    humorless chapter is not automatically a finding when its neighbor supplies
+    the movement's release. More than five may be flagged LOW when reader fatigue
+    is located. Each beat still passes Gate 24 and loop rule 1 (no constructed
+    punchline: the delete test).
+32. **Sentence variance.** Short sentences must recur across the chapter, but not
+    at a fixed interval: target at least five plain sentences of ≤12 words per
+    1,000 narration words. More than two chained sentences consecutively is a LOW
+    signal outside a carded combat sustain. Inside that sustain, Gate 10 governs
+    and the long-breath/short-snap contrast may intentionally exceed both the
+    interval and chain guidance. "For" as a conjunction and define-by-negation
+    counts are diagnostics, not automatic findings; an editor must locate the
+    monotony and reader consequence.
 33. **Name budget.** Any character with two appearances or one line of dialogue is
     named. Each book carries a mint budget in its architecture (default 8) and the
     registry check still runs aloud. An unnamed recurring character = LOW; a third
@@ -721,12 +741,15 @@ the first.
 34. **Cold-reader clarity.** Two cold-reader personas (thirteen-year-old; adult
     genre reader) read the manuscript only, forward from chapter 1, and report per
     chapter: pull score 1–5, confusions, skim points, laughs. A confusion reported
-    by both personas = MEDIUM; by one = LOW; a pull score below 3 from both =
-    STRUCTURAL. Three consecutive chapters below 3 from either persona = book-scope
-    STRUCTURAL.
-35. **Masked-name metric.** With names stripped, ≥90% of dialogue lines are
-    reassignable to the correct speaker by register alone (verifier samples 20).
-    Below 90% = MEDIUM. Extends Gate 11 from combat to all speech.
+    by both personas = MEDIUM; by one = LOW; a pull score below 3 from both in one
+    chapter = MEDIUM. Three consecutive chapters below 3 from either persona =
+    book-scope STRUCTURAL. Located experience outranks an uncalibrated scalar.
+35. **Masked-name metric.** With names stripped, ≥90% of a twenty-line sample of
+    substantive dialogue remains reassignable by register and priority. Sample
+    lines of at least eight words or lines that carry a position, decision,
+    evasion, or conflict; exclude acknowledgements and functional fragments such
+    as "Yes" or "Through here." Below 90% = MEDIUM. Extends Gate 11 from combat
+    to speech without rewarding verbal quirks on every line.
 36. **Plain statement.** When a chapter turns on an implication the protagonist
     cannot draw (canon rule 7 / loop rule 10), one secondary character states it
     plainly once in their own register, or the protagonist's written summary does.
@@ -744,12 +767,13 @@ either track holds the chapter. PULL findings name the reader consequence and ma
 propose an addition. The editor does not score humor by taste: it counts beats
 and applies the delete test; the cold readers say what landed.
 
-### 10.4 Blind draft for hook chapters
+### 10.4 Alternate draft for the opening
 
-Chapters 1–3 of every book are drafted twice from the same brief by two clean
-seats. The cold readers read both blind and pick; the editor edits the pick. The
-loser's best beats may be harvested by the repair seat with the pick's consent
-recorded in the ledger.
+Chapter 1 is drafted twice from the same brief by two clean seats. The cold
+readers read both blind and pick; the editor edits the pick. Chapters 2–3 receive
+an alternate only when the opening-movement readers report a located failure or
+both score the chapter below 3. The loser's best beats may be harvested by the
+repair seat with the pick recorded in the ledger.
 
 ### 10.5 What this law does not change
 

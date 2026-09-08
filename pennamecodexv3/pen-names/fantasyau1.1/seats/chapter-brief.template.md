@@ -18,8 +18,8 @@ Compiled {{date}} by the orchestrator. **Two pages. This is what the author draf
 
 ## 5. Floors (Charter §10)
 - **Hook:** first 150 words carry a want or threat; do not open on a document.
-- **Action floor:** {{action_item — the scheduled set piece, or "none scheduled; the power/cost is visible at least once: {{how}}"}}
-- **Humor:** {{"≥2 landed beats" | "COLD CHAPTER (declared; {{n}} of 3 used)"}} — kinds available here: {{kinds}}
+- **Action floor:** {{action_item — MINOR (normally 600–1,000 words), MAJOR (normally 1,500–2,500), CLIMAX (may span scenes/chapters), or "none scheduled; the power/cost is visible through body/work/record/fee/access/standing/relationship: {{how}}"}}. The book targets 7–8 set pieces with 5 as the hard floor. Any exception names its functional reason; a major sequence is not compressed to keep the chapter short.
+- **Humor:** rolling two-chapter target 4, acceptable 3–5. Prior chapter landed/claimed {{n}}; opportunities available here: {{kinds}}. One quiet chapter is allowed; mark a deliberately cold movement.
 - **Plain statement:** the implication this chapter turns on is {{implication}}; {{who}} says it plainly once, or the sheet does.
 - **Names:** budget remaining {{k}} of {{budget}}; these unnamed people recur and must be named here: {{list or "none"}}.
 
@@ -31,7 +31,7 @@ Compiled {{date}} by the orchestrator. **Two pages. This is what the author draf
 5. {{wall}}
 
 ## 7. Craft numbers
-Target {{target}} (±5%; set-piece chapters to +14% for function). Em dash: title only. Sentence variance per VOICE §Sentences. Tic ceilings this chapter: {{ceilings}}. Reader standard grep must be 0.
+Target {{target}} (±5%; the architecture gives MAJOR set-piece chapters a higher target, normally 6,000–6,500 words, rather than relying on a later waiver). Em dash: title only. Sentence distribution per VOICE §Sentences; combat sustain is governed by Gate 10. Tic ceilings this chapter: {{ceilings}}. Reader standard grep must be 0.
 
 ## 8. Output
-Manuscript at `chapters/ch{{NN}}-{{slug}}.md` (first line `# Chapter {{NN}} — {{title}}`, ends on prose). Report at `author-reports/ch{{NN}}-report.md` with: word count; obligations per card line; plants paid; names minted vs budget; tic census; **pull self-check** (hook line quoted; want line quoted; humor beats with line numbers; action item; variance figure; plain-statement line); reader-standard check; deviations.
+Manuscript at `chapters/ch{{NN}}-{{slug}}.md` (first line `# Chapter {{NN}} — {{title}}`, ends on prose). Report at `author-reports/ch{{NN}}-report.md` with: word count; obligations per card line; plants paid; hook line; want line; action item and delivered span; plain-statement line; deviations. A separate measurement pass records humor opportunities, sentence distribution, names/tics, and reader-standard grep.

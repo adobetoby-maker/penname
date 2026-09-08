@@ -15,7 +15,7 @@ Compiled {{date}} by the orchestrator. **Two pages plus the existing chapter. Yo
 {{the two reports' WHAT I DID NOT UNDERSTAND, WHERE I SKIMMED, WHERE I LAUGHED, WHO TALKS THE SAME, THE ONE THING I WOULD CHANGE — quoted}}
 
 ## 4. The floors this revision must meet
-- Hook: {{...}} · Want: {{...}} · Action: {{...}} · Humor: {{2–5 beats; kinds}} · Plain statement: {{...}} · Names: {{...}} · Variance: {{...}}
+- Hook: {{...}} · Want: {{...}} · Action: {{...}} · Humor: {{rolling two-chapter target 4; acceptable 3–5}} · Plain statement: {{...}} · Names: {{...}} · Sentence distribution: {{...; Gate 10 wins during combat sustain}}
 
 ## 5. Five walls that matter for THIS chapter
 1. {{wall}} 2. {{wall}} 3. {{wall}} 4. {{wall}} 5. {{wall}}
@@ -23,7 +23,7 @@ Compiled {{date}} by the orchestrator. **Two pages plus the existing chapter. Yo
 ## 6. Method
 - Disposition {{TIGHTEN}}: touch sentences, not scenes. Disposition {{REPAIR}}: add and recast inside existing scenes; every addition is a beat the readers asked for or a floor the card names. Disposition {{RESTRUCTURE|INSERT}}: the card says what moves or is new; canon rulings for it are already in the Bible.
 - Keep every protected line verbatim. Keep the chapter's close unless the card says otherwise.
-- Word band {{target}} ±5% (additions up to +8% under the Pull Law without a waiver).
+- Word band {{target}} ±5% (additions up to +8% cumulative across every repair cycle under the Pull Law without a waiver).
 
 ## 7. Output
 Manuscript overwrites `chapters/ch{{NN}}-{{slug}}.md` (the prior edition is in git under `edition-{{n}}`). Report at `author-reports/ch{{NN}}-report-e{{n+1}}.md`: what changed and why (each change → the reader line or floor it answers); the pull self-check; tic census; names; reader-standard grep; deviations.

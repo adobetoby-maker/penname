@@ -2,8 +2,9 @@
 """Sentence-variance metrics for a fantasyau1.1 chapter manuscript.
 
 Reads one chapter file and prints a JSON report of narration-only sentence
-metrics: total words, a narration sentence-length histogram, the count of
-120-word narration windows that never dip to a <=12-word sentence,
+metrics: total words, a narration sentence-length histogram, the chapter-wide
+rate of <=12-word sentences, the diagnostic count of 120-word narration windows
+that never dip to a <=12-word sentence,
 consecutive "chained sentence" runs longer than 2, uses of " for " as a
 conjunction, a define-by-negation count, and the em dash count.
 
@@ -169,13 +170,20 @@ def analyze(text: str, path: str) -> dict:
     missing, total_windows = count_windows_missing_short_sentence(lengths)
     runs_over, longest_run = count_chained_runs(sentences)
 
+    narration_words = sum(lengths)
+    short_sentences = sum(1 for n in lengths if n <= SHORT_SENTENCE_MAX)
+
     return {
         "file": path,
         "words": word_count(text),
-        "narration_words": sum(lengths),
+        "narration_words": narration_words,
         "narration_sentences": len(sentences),
         "dialogue_spans_excluded": len(dialogue_spans),
         "narration_sentence_length_histogram": histogram_of(lengths),
+        "short_sentences_12w_or_less": short_sentences,
+        "short_sentences_per_1000_narration_words": round(
+            short_sentences * 1000 / narration_words, 2
+        ) if narration_words else 0.0,
         "windows_120w_total": total_windows,
         "windows_120w_missing_short_sentence": missing,
         "chained_sentence_runs_over_2": runs_over,

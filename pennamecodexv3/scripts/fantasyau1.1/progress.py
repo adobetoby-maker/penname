@@ -655,7 +655,12 @@ def aggregate_book(book: dict) -> dict:
         if pull:
             pull_findings_per_ch.append(sum(pull.get(s, 0) for s in PULL_SEVERITIES))
         author = c.get("author") or {}
-        if author.get("humor_beats_claimed") is not None:
+        # 1.1.1 moves humor counting out of the drafter's self-report. Prefer
+        # the editor's measured count; retain the author field as a legacy
+        # fallback for 1.0/early-1.1 reports.
+        if pull and pull.get("humor_beats_counted") is not None:
+            humor_beats.append(pull["humor_beats_counted"])
+        elif author.get("humor_beats_claimed") is not None:
             humor_beats.append(author["humor_beats_claimed"])
         if author.get("words") is not None:
             words.append(author["words"])
@@ -865,7 +870,7 @@ def render_book_summary(book: dict) -> str:
           <td>{_cell(c.get('title'))}</td>
           <td>{_cell(author.get('words'))}</td>
           <td>{_cell(author.get('delta_pct'))}</td>
-          <td>{_cell(author.get('humor_beats_claimed'))}</td>
+          <td>{_cell(pull.get('humor_beats_counted') if pull.get('humor_beats_counted') is not None else author.get('humor_beats_claimed'))}</td>
           <td>{_cell(author.get('action_item'))}</td>
           <td>{_cell(editor.get('verdict'))}</td>
           <td>{_cell(defects_str)} <span class="muted">(B/H/M/L)</span></td>

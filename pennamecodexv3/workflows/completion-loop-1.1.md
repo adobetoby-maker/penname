@@ -3,17 +3,19 @@
 ## Goal
 
 Run from approved story design to a locked manuscript that is correct **and keeps
-its reader**, without repeatedly rewriting the whole book. 1.1 keeps every 1.0
-gate and adds the Pull Law (Charter §10), two reader seats, a fight auditor, a
-two-track editor, a repair rule that may add, and a progress report that is
-updated at every chapter close and rolled up per book, per series, and per
-universe arc.
+its reader**, without repeatedly rewriting the whole book. The normal production
+unit is a contiguous movement of three to five chapters (default four), so Fable
+can sustain voice and causal flow before the editorial seats intervene. 1.1 keeps
+every 1.0 gate and adds the Pull Law (Charter §10), manuscript-only readers, a
+fight auditor, a two-track editor, repairs that may add, and a progress report
+updated at each movement close.
 
 ## Preconditions
 
 Before scene drafting, freeze and supply: pen name (fantasyau1.1), canon, arc and
 ending, state ledger, name registry with the book's mint budget, module policy,
-chapter architecture **with the action schedule and cold-chapter declarations**,
+chapter architecture **with a seven-to-eight set-piece target, five-set-piece
+floor, carded scale, higher MAJOR-chapter targets, and cold-movement declarations**,
 the book's front-matter institutional map, and the scene inventory. A missing
 authority artifact is a blocker, not creative latitude.
 
@@ -22,53 +24,64 @@ authority artifact is a blocker, not creative latitude.
 | Seat | Model | Context | Owns |
 |---|---|---|---|
 | Orchestrator | frontier (Fable) | full | packets, briefs, canon rulings, ledger, dispatch, report |
-| Author | Fable (Opus fallback, announced) | **the two-page brief + previous chapter + SOUL/VOICE only** | the draft |
-| Editor | gpt-5.6-sol via Codex CLI (ChatGPT plan; API billing refused by the script) | manuscript + brief + canon walls | verdict: DEFECTS track + PULL track |
-| Verifier | Sonnet, clean context | manuscript + verdict + canon | confirms/rejects every finding; consolidates the repair packet |
-| Cold Reader A | Sonnet, clean context, **manuscript only, chapters 1..N** | no canon, no cards | persona: thirteen-year-old reader — pull score, confusions, skim points, laughs |
-| Cold Reader B | Sonnet, clean context, manuscript only | no canon | persona: adult genre reader — same fields, plus "what I expect next" |
+| Author | Fable (Opus fallback, announced) | **SOUL/VOICE + individual two-page briefs + previous chapter** in one movement session | 3–5 sequential drafts |
+| Editor | gpt-5.6-sol via Codex CLI (ChatGPT plan; API billing refused by the script) | movement manuscripts + briefs + canon walls | batch verdict: DEFECTS + PULL + SEAMS |
+| Verifier | Sonnet, clean context | manuscript + serious/disputed findings + canon | confirms/rejects HIGH/BLOCKER, disputed, or structural findings only |
+| Cold Reader A | Sonnet, clean context, **manuscript + own rolling notes only** | no canon, no cards; every movement | thirteen-year-old reader — pull, confusion, skim points, laughs |
+| Cold Reader B | Sonnet, clean context, manuscript only | opening, act endings, final movement, or an A/editor flag | adult genre reader — same fields, plus expectation |
 | Fight Auditor | Sonnet, clean context | the combat chapter + Charter gates 9–16 + injury ledger | combat gates only; runs on set-piece chapters |
-| Repair | Fable (prose/choreography/additions) or Sonnet (single clause) | manuscript + repair packet | applies verified findings; may ADD |
+| Repair | Fable (prose/choreography/additions) or Sonnet (single clause) | manuscript + consolidated findings | repairs located findings; may ADD |
 | Sweep | Sonnet | all chapters | book-level tic census and recasts |
 
-Humor is not a seat. It is scored twice: the cold readers report beats that
-landed; the editor's PULL track counts beats and applies the delete test.
+Humor is not a seat. The editor counts opportunities across rolling two-chapter
+spans and applies the delete test; cold readers report what actually landed.
 
-## Chapter loop (nine phases)
+## Movement loop (nine phases)
 
-1. **Packet.** Build and validate the chapter packet: card (with floors and
-   cold/hot declaration), ledger entry N−1, canon rulings, name budget remaining.
-2. **Brief.** Compile the **two-page author brief** from the packet: the card;
-   where the last chapter left the board; the want line; the action-floor item or
-   the declared gap; the humor expectation; five walls that matter for this
-   chapter; the name budget; the tic ceilings. The brief replaces the fifteen-file
-   load order. The walls the brief omits still bind — they are enforced by the
-   editor and verifier, not memorized by the drafter.
-3. **Draft.** One generation (two clean seats for chapters 1–3, blind pick by the
-   cold readers). The author files manuscript + report with the pull self-check.
-4. **Editor.** Cross-family, two tracks. STRUCTURAL on either track holds.
-5. **Readers.** Both cold readers read chapter N with chapters 1..N−1 already in
-   their context from prior calls (or a rolling summary they wrote themselves;
-   never the canon). They file per-chapter reader reports.
-6. **Fight audit.** On set-piece chapters only: Gates 9–16 with quoted evidence and
-   the injury ledger.
-7. **Verify.** The verifier tests every editor, reader, and fight finding against
-   the manuscript and frozen evidence, and writes ONE repair packet, each item
-   marked ADD / RECAST / CUT and SONNET / FABLE.
-8. **Repair and recheck.** Repair verified findings only; preserve recorded
-   strengths. Recheck by the editor; if a PULL repair added material, the cold
-   readers re-read the changed span. Maximum three cycles; the same verified
-   defect surviving three cycles = `BLOCKED`.
-9. **Close and report.** Ledger entry N; loop state; **progress.json updated with
-   every seat's figures for chapter N; dashboard re-rendered.** Chapter N+1 is not
-   dispatched until the ledger entry and the progress record exist.
+1. **Movement packet.** Group three to five approved contiguous cards (default
+   four). State entry pressure, escalation, and turn. Mark each set piece MINOR,
+   MAJOR, or CLIMAX; target seven to eight per twenty-chapter book, with five as
+   the floor. Declare any cold movement and assign higher word targets to MAJOR
+   chapters before drafting.
+2. **Briefs.** Compile one two-page brief per chapter. Fable reads all briefs at
+   movement start, then only SOUL, VOICE, the previous chapter, and the current
+   brief while drafting. Omitted walls remain with the editor.
+3. **Draft forward.** Keep one author session for the movement. Chapter 1 alone
+   receives two blind drafts automatically; Chapters 2–3 receive alternatives
+   only after a located reader failure. Between chapters run the light close:
+   canon, card function, state/injuries, names, word band, reader standard, and a
+   provisional ledger/progress update. Do not line-edit between drafts.
+4. **Batch editor.** Freeze the movement and run the cross-family editor once over
+   all chapters plus the incoming chapter and outgoing card. It returns DEFECTS,
+   PULL, and SEAMS. STRUCTURAL on either track holds the movement.
+5. **Readers.** Persona A reads every movement using manuscript plus its own
+   rolling notes. Persona B reads the opening, act-ending, and final movements,
+   and any movement flagged by A or the editor. Full act rereads occur only at act
+   boundaries; a full-book reread occurs at lock.
+6. **Fight audit.** On scheduled set pieces only: Gates 9–16 with quoted evidence,
+   injury ledger, and carded scale. Run separately while the batch reader works.
+7. **Selective verification.** Independently verify only HIGH/BLOCKER, disputed,
+   or structural findings. Located LOW/MEDIUM findings flow directly into one
+   consolidated movement repair list.
+8. **Repair and targeted recheck.** Fable repairs the movement in reading order,
+   protecting recorded strengths and preferring seam repairs that fix both sides
+   of a join. Recheck prior findings and changed joins only. Two cycles is normal;
+   three surviving cycles means the architecture needs revision.
+9. **Close and report.** Finalize ledger, canon rulings, names, injuries, loop
+   state, and chapter records; update `progress.json` and render the dashboard
+   once for the movement. The next movement waits; chapters inside the current
+   movement do not wait for full editorial closure.
 
 ## Larger-scope gates
 
-At each act: thread debt, plant/payoff inventory, relationship motion, progression
-distribution, density, repeated-scaffold diagnostics, **the action schedule
-delivered vs planned, the humor floor per chapter, and the pull profile** (any run
-of three chapters under 3 from either reader = STRUCTURAL).
+At each movement: seam continuity, repeated information, action spacing and
+scale, rolling humor cadence, dialogue ownership, reader pull, and causal handoff.
+
+At each act: a continuous manuscript reread for thread debt, plant/payoff
+inventory, relationship motion, progression distribution, density,
+repeated-scaffold diagnostics, **the action schedule delivered vs planned, humor
+cadence, and the pull profile** (any run of three chapters under 3 from either
+reader = STRUCTURAL).
 
 At book scope: ending promises, canon and arithmetic, name collisions, family and
 content policy, full tic census with contextual adjudication, manuscript metadata,
@@ -78,12 +91,13 @@ Diagnostics nominate passages; they do not automatically rewrite.
 
 ## Rewrite budget
 
-- First draft: one generation (two for hook chapters, blind pick).
+- First draft: one generation per chapter in a movement; two for Chapter 1 only,
+  with Chapters 2–3 redrafted only on located opening-reader evidence.
 - Structural repair: only when a promised function is absent or broken — on
   either track.
 - Continuity repair: only verified contradictions.
-- Pull repair: verified reader findings; may add up to 8% of the chapter's target
-  without a word-band waiver (Charter §10.1 principle 6).
+- Pull repair: located reader findings; may add up to 8% cumulative across all
+  repair cycles against the chapter target without a word-band waiver.
 - Voice revision: one book-level pass after structure locks.
 - Line edit: one pass after voice locks.
 - Listening repairs: localized.
@@ -95,14 +109,15 @@ the locked passage in a blind reader comparison and preserve canon.
 
 The orchestrator maintains `progress.json` in each book folder (schema:
 `pen-names/fantasyau1.1/seats/progress.schema.json`). One record per chapter with
-each seat's figures: author (word delta, band, humor beats claimed, action item,
-variance), editor (verdict, defects by severity, pull findings by severity),
+each seat's figures: author (word delta, band, action item and delivered span),
+editor (verdict, defects by severity, pull findings by severity),
 readers A and B (pull score, confusions, skims, laughs, would-continue), fight
 (gates passed of 8, new injury, terrain beats), repair (cycles, adds/recasts/cuts),
-close (timestamp). `progress.py` rolls the records up per book, per series
+close (timestamp). Humor, sentence distribution, names, and safety counts come
+from the measurement/editor pass rather than the drafter. `progress.py` rolls the records up per book, per series
 (`series.json` pointing at the book folders), and per universe arc, and renders
 one HTML dashboard with a tab per level. The dashboard is published as an artifact
-and republished at every chapter close. Nothing on it is hand-typed; every figure
+and republished at every movement close. Nothing on it is hand-typed; every figure
 comes from a seat's filed report.
 
 ## Completion and audio handoff

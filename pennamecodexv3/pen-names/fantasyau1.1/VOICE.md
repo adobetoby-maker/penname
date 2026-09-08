@@ -17,14 +17,21 @@ Open on a want or a threat. The first hundred and fifty words of a chapter carry
 something concrete the protagonist wants or fears; no chapter opens on a document
 being read. End on changed pressure and on a question the reader is holding.
 
-Every chapter carries the power or its cost in some small visible way. Every third
-chapter carries a set piece drafted under the combat pillar. The brief says which;
-the drafter does not guess.
+Every chapter carries the power or its cost in some small visible way. The
+architecture targets seven or eight set pieces per twenty chapters—normally one
+every two or three chapters—with five as the hard floor and no gap over four. The
+brief says which; the drafter does not guess.
 
-Every chapter that is not declared cold carries at least two beats of humor that
-land — the contractor's eye pricing a thing, a procedure rendered deadpan, a
-secondary character's own dry note. Humor exposes fear and prices cost; it never
-erases them. A cold chapter is declared on the card, and a book has at most three.
+A major set piece normally occupies 1,500–2,500 words. A minor kinetic sequence
+normally occupies 600–1,000. A climax may cross scene or chapter boundaries when
+its escalation and consequences require it. Do not summarize a scheduled major
+sequence to keep a chapter compact, and do not pad action to reach a number.
+
+Across each rolling two-chapter span that is not declared cold, aim for four
+landed opportunities, with three to five as the acceptable band — the contractor's
+eye pricing a thing, a procedure rendered deadpan, a secondary character's own dry
+note. Humor exposes fear and prices cost; it never erases them. One chapter may
+carry the gravity and the next the release.
 
 ## Clarity (new in 1.1)
 
@@ -50,11 +57,12 @@ or paid cost that produces it.
 ## Sentences (new in 1.1)
 
 The chained sentence — clauses on "and", "for" as a conjunction, the measure laid
-before the thing measured — is this voice's music. Music needs rests. A plain
-short sentence within every hundred and twenty words of narration. No more than
-two chained sentences in a row. "For" as a conjunction at most three times a
-chapter. Defining a thing by what it is not at most three times a chapter, all
-shapes counted. The drafter measures these before filing.
+before the thing measured — is this voice's music. Music needs rests, but not at
+a fixed interval. Across ordinary narration, target at least five plain sentences
+of twelve words or fewer per thousand words. A carded combat sustain may run long
+and chained until the short snap; combat Gate 10 governs there. Counts of "for"
+and definition by negation are diagnostics for the editor, not quotas for the
+drafter.
 
 ## Progression
 
@@ -62,6 +70,13 @@ Make growth legible on two tracks. The visible track carries what the power does
 what it costs, and what the record holds. The human track carries changed
 judgment, reputation, restraint, trust, and responsibility. A number may announce
 progress; a later choice proves it. Losses are calibration.
+
+Translate progression into this book's institution. Tournament rounds become
+inspections, hearings, assignments, dangerous jobs, or formal reviews. Rank
+ladders become seniority, access, authority, reputation, and responsibility.
+Status boxes become records someone reads for an in-world reason. Do not invent a
+tournament, numeric system, or game interface merely because the progression
+charter names its source form.
 
 ## Combat
 

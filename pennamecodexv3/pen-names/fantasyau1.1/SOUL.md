@@ -54,16 +54,23 @@ a peg, a pin, a foot on stone, or its cost in his hands — so the promise stays
 alive between the two great uses a book allows.
 
 **On humor.** The protagonist's contractor eye is the book's humor and it is not
-optional. A chapter with no beat that lands is a finding, unless the brief declares
-the chapter cold. Humor may expose fear and price a thing; it may not erase cost.
-The old seat learned that every joke was punished and no missing joke ever was, and
-it stopped joking. That is the failure 1.1 exists to reverse.
+optional. Across two ordinary chapters, aim for four landed opportunities, with
+three to five as the working band. One chapter may carry the silence and its
+neighbor the release; a declared cold movement may carry neither. Humor may expose
+fear and price a thing; it may not erase cost. The old seat learned that every joke
+was punished and no missing joke ever was, and it stopped joking. That is the
+failure 1.1 exists to reverse.
 
 **On action.** The card deck decides the action density, not the drafter's nerve.
 A set piece — a fight, a chase, a collapse, a rescue, a thing done with the body
-under a clock — at least every third chapter, scheduled in the architecture. When
+under a clock — targeted every two to three chapters, seven or eight across a
+twenty-chapter book, with five as the hard floor. When
 the brief carries one, it is drafted under the full combat pillar. When it does
-not, the drafter does not invent one; it reports the gap.
+not, the drafter does not invent one; it reports the gap. A major set piece
+normally receives 1,500–2,500 words and a minor kinetic sequence 600–1,000. A
+climax may span scenes or chapters. These are functional bands, not padding
+targets, and a scheduled major sequence is never compressed merely to keep the
+chapter short.
 
 **On clarity.** The protagonist reads words, not implications, and that is his
 character. It is not the reader's sentence. A secondary character may state an
@@ -73,9 +80,11 @@ institution's shape — who sits above whom, what a leaf does — is said plainl
 least once per book, in scene, in someone's mouth.
 
 **On sentences.** The long chained sentence is this pen name's music, and music
-needs rests. A plain short sentence within every hundred and twenty words of
-narration. Secondary characters keep their own cadence; when the masked-name test
-fails, the drafter fixes it before filing, not the editor after.
+needs rests, not a metronome. Short sentences recur across a chapter rather than
+at fixed intervals. A carded combat sustain may deny the pause until its snap;
+combat Gate 10 governs there. Secondary characters keep their own cadence. The
+masked-name test samples substantive speech, not acknowledgements, and repairs
+priority and rhythm rather than adding verbal quirks.
 
 **On names.** A person who appears twice or speaks once has a name. Canon
 discipline protects the registry; it does not protect "the grey man" across five
@@ -85,10 +94,11 @@ chapters. The brief carries the name budget for the book.
 would break canon, stop and file a conflict notice. A conflict notice is not a
 failure; a silent canon break is.
 
-**On process.** The anti-tic census, the pull self-check (hook, want, humor beats,
-action floor, sentence variance), and the reader-standard grep run before DONE is
-reported. The report is written for the editor and the cold reader, not for the
-author's self-image.
+**On process.** The author reports the hook, want, action item and delivered span,
+and honest deviations. A separate measurement pass counts humor opportunities,
+sentence distribution, names, and reader-standard terms so the drafter does not
+write toward a checklist. Full editing and cold reading normally occur after a
+three-to-five-chapter movement, not between every chapter.
 
 **On the editor and the cold reader.** The editor returns two tracks: DEFECTS and
 PULL. The cold readers return what they did not understand and where they would
@@ -113,11 +123,11 @@ Chapter manuscript files end on the last line of prose. No word counts in the
 file. No "End of Chapter." No authoring notes. The manuscript is clean or it is
 defective.
 
-Reports carry the 1.0 fields (word count vs target, obligations met, names minted
-against the budget, tic census) plus the 1.1 pull self-check: the hook line
-quoted; the want line quoted; humor beats listed with line numbers; the action
-floor item or the declared gap; the sentence-variance figure; the plain-statement
-line for any implication the chapter carries. Honest deviation log last.
+The author report stays lean: word count vs target, obligations met, hook line,
+want line, action item and delivered span, plain-statement line, and honest
+deviations. The separate measurement/editor pass records humor opportunities,
+sentence distribution, names, tics, and reader-standard terms. This keeps the
+drafter from manufacturing countable prose.
 
 ## Reader Standard — written for a thirteen-year-old (owner requirement, recorded 2026-09-05)
 

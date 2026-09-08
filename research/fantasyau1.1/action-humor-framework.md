@@ -34,11 +34,11 @@ fantasyau1.1 enforces it.
 | # | Rule | Who says it | 1.1 mechanism |
 |---|---|---|---|
 | 1 | **Promise, progress, payoff.** "The feeling of progress is what keeps the reader turning the page." (Sanderson) | Sanderson; Shirtaloon reviewers ("consequential downtime") | Charter §1.5; Pull gate 29 (want pressed every chapter); progress record per chapter |
-| 2 | **A set piece every 2–4 chapters; never more than 4 without one.** | all four benchmarks; Fractured Path and Boundary already do it | Pull gate 30 — tightened from "every three-chapter window" to **every window of three, and never more than four chapters between set pieces across a book** |
+| 2 | **A set piece every 2–4 chapters; never more than 4 without one.** | all four benchmarks; Fractured Path and Boundary already do it | Pull gate 30 — architecture target 7–8 per twenty chapters; hard floor 5; **every window of five consecutive chapters contains one** |
 | 3 | **Rules before payoff; limitations over powers; expand, don't add.** (Sanderson's three Laws) | Sanderson; Salvatore ("each blow counts") | Fairness Law §1.1, §1.2, §1.3 — unchanged; the fight auditor's FAIRNESS table |
 | 4 | **Every fight changes something other than health, or it is cut.** "Fights that don't matter are dragged out." (Iron Prince complaint) | Iron Prince reviewers; VOICE §Combat | Fight audit paragraph "what changed"; a fight that changes nothing = MEDIUM |
 | 5 | **Choreography before prose; feet, terrain, compression.** "I want you to see every blow." | Salvatore (rules 1–7) | Combat gates 9–16; Gate 10 tempo; Gate 16 terrain |
-| 6 | **Humor comes from character and pairs with gravity; 1–3 beats a chapter, not 10.** | Salvatore (rules 8–9); Sanderson (Wayne/Wit as pressure release); HWFWM fatigue at 5–15 | Pull gate 31 (≥2 landed beats; ≤3 cold chapters) with a ceiling: **more than 5 beats in a chapter is itself a finding** |
+| 6 | **Humor comes from character and pairs with gravity; 1–3 beats a chapter, not 10.** | Salvatore (rules 8–9); Sanderson (Wayne/Wit as pressure release); HWFWM fatigue at 5–15 | Pull gate 31 — rolling two-chapter target 4, acceptable 3–5, so gravity and release need not be forced into the same chapter |
 | 7 | **The climax is a sequence, not a chapter.** 4–10 chapters (Sanderson); the "Sanderlanche" | Sanderson; Salvatore's multi-POV battles | Architecture: the climax window is 3–4 chapters in a 20-chapter book, converging threads, each chapter ending on a turn |
 | 8 | **Downtime is consequential.** Slice-of-life and paper chapters earn their place by moving a promise or a relationship; otherwise they are the fatigue point. | Shirtaloon interview; HWFWM praise and complaints | Pull gate 29 + the two cold readers' skim reports; three chapters under 3 = STRUCTURAL |
 
@@ -52,10 +52,10 @@ HWFWM "system voice" cadence would break the book's register).
 
 | Floor | 1.1 value | Source |
 |---|---|---|
-| Set-piece spacing | one in every 3-chapter window; never >4 chapters between across a book | rule 2 |
-| Set-piece length | major 1,200–2,500 words; minor 400–900; the climax sequence 3–4 chapters | Salvatore, Sanderson, own Boundary/FP figures |
+| Set-piece spacing | target 7–8 per twenty chapters; hard floor 5; never >4 chapters between | rule 2 plus owner preference for more action, 2026-09-07 |
+| Set-piece length | major 1,500–2,500 words; minor 600–1,000; the climax may span scenes or chapters (normally 3–4 chapters) | Research range raised by owner decision on 2026-09-07 to favor fuller action scenes; supported by Salvatore, Sanderson, and own Boundary/FP figures |
 | Fight consequence | every fight changes standing, knowledge, obligation, or relationship — named on the card before drafting | rule 4 |
-| Humor | 2–5 landed beats per non-cold chapter (floor 2, ceiling 5); ≤3 cold chapters per book | rule 6 |
+| Humor | rolling two-chapter target 4, acceptable 3–5; declared cold movements exempt | rule 6, adjusted after Opus review 2026-09-07 to avoid quota-shaped scenes |
 | Power visible | the power or its cost on the page every chapter; a full use at least every 6 chapters | rule 1, rule 3 |
 | Chapter length | 4,000–5,500 words (all benchmarks and own series agree) | table |
 | Climax | 3–4 chapter sequence, threads converging, each ending on a turn | rule 7 |
