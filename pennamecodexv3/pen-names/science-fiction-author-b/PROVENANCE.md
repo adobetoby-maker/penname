@@ -1,4 +1,4 @@
-# Science Fiction Author B — Design Provenance
+# Monroe Jackson — Science Fiction Design Provenance
 
 This is an audit document. It is not loaded into a drafting prompt.
 
@@ -18,3 +18,15 @@ The detailed research brief is:
 Influence names and source quotations remain here and in the research layer. They
 are excluded from the runtime voice. The author is instructed to learn mechanisms,
 never imitate wording, rhythm, characters, terminology, or recognizable scenes.
+
+## Version 1.1.1 pipeline additions
+
+The movement loop, cold-reader cadence, pressure-set-piece schedule, scene-length
+bands, rolling humor/warmth rhythm, and problem/action specialist audit are
+pipeline-derived production controls. They were added after the fantasy 1.1
+movement process improved pull, action sustain, and chapter connection. They do
+not claim new influence research and do not alter the clean-room voice method.
+
+The public author identity is `Monroe Jackson — Science Fiction`. The stable
+internal ID `science-fiction-author-b` remains only for compatibility with
+existing book packets and run records.

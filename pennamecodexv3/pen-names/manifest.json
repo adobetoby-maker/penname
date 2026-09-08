@@ -3,9 +3,11 @@
   "profiles": [
     {
       "id": "fantasy-author-a",
-      "display_name": "Fantasy Author A",
+      "display_name": "Monroe Jackson — Fantasy",
+      "public_pen_name": "Monroe Jackson",
+      "canonical_byline": "Monroe Jackson — Fantasy",
       "genre": "progression fantasy and LitRPG",
-      "version": "1.0.0",
+      "version": "1.1.1",
       "voice_path": "pen-names/fantasy-author-a/VOICE.md",
       "provenance_path": "pen-names/fantasy-author-a/PROVENANCE.md",
       "allowed_modules": ["combat", "progression", "litrpg", "moral-choice"],
@@ -13,9 +15,11 @@
     },
     {
       "id": "science-fiction-author-b",
-      "display_name": "Science Fiction Author B",
+      "display_name": "Monroe Jackson — Science Fiction",
+      "public_pen_name": "Monroe Jackson",
+      "canonical_byline": "Monroe Jackson — Science Fiction",
       "genre": "character-driven problem-solving science fiction",
-      "version": "1.0.0",
+      "version": "1.1.1",
       "voice_path": "pen-names/science-fiction-author-b/VOICE.md",
       "provenance_path": "pen-names/science-fiction-author-b/PROVENANCE.md",
       "allowed_modules": ["combat", "hard-science", "moral-choice"],

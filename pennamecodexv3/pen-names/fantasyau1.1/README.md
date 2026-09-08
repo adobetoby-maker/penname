@@ -1,6 +1,6 @@
-# fantasyau1.1 — the corrective workflow
+# Monroe Jackson — Fantasy 1.1.1 corrective workflow
 
-Version 1.1 of the fantasy author seat. Built 2026-09-07 from the review of *Good
+Author standard 1.1.1. Built 2026-09-07 from the review of *Good
 Bones* Book 2, which passed every 1.0 gate and was hard to keep reading. 1.0 stays
 untouched on `main`; 1.1 lives on the `fantasyau1.1` branch and is invoked with
 `/fantasyau1.1`.

@@ -68,7 +68,7 @@ $EXTRA
 ## What to check
 
 Run every gate applicable to this genre's charter (32 gates if fantasy per
-THE_AUTHOR.md §9; 16 gates if sci-fi per THE_SCIFI_AUTHOR.md §8). At minimum:
+THE_AUTHOR.md §9; 21 gates if sci-fi per THE_SCIFI_AUTHOR.md §8). At minimum:
 
 1. CARD FIDELITY — did the chapter deliver what its card promised? Word target
    respected (more than 15% over must justify the overage with function, not
@@ -84,6 +84,9 @@ THE_AUTHOR.md §9; 16 gates if sci-fi per THE_SCIFI_AUTHOR.md §8). At minimum:
 8. FANTASY PULL — for fantasy, run §10 gates 28–32: opening pressure,
    action/progression cadence against adjacent cards, humor distribution,
    cold-reader continuity if reports exist, and dialogue ownership.
+9. SCIENCE-FICTION PULL — for science fiction, run gates 17–21: opening
+   pressure; problem/action cadence; scheduled scale and sustain; rolling humor
+   and warmth; cold-reader continuity; and substantive dialogue ownership.
 
 ## Report format
 

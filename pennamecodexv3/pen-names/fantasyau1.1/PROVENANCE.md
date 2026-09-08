@@ -1,4 +1,4 @@
-# Fantasy Author A — Design Provenance
+# Monroe Jackson — Fantasy Design Provenance 1.1.1
 
 This is an audit document. It is not loaded into a drafting prompt.
 
@@ -21,3 +21,7 @@ No published fiction was supplied to the runtime author. Influence names and
 protected expression are excluded from `VOICE.md`. The profile preserves craft
 mechanisms rather than reproducing any author's prose, characters, terminology,
 or recognizable scene construction.
+
+The public author identity is `Monroe Jackson — Fantasy`. The directory name
+`fantasyau1.1` records the corrective branch that produced the movement and pull
+controls; it is not a second public author.

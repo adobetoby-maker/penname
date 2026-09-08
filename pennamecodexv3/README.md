@@ -1,8 +1,8 @@
-# Penname Codex v3
+# Penname Harness — Monroe Jackson 1.1.1
 
 Provider-neutral, multi-pen-name author harness for audio-first speculative fiction.
 
-V3 separates the creative author from the production machine:
+The harness separates the creative author from the production machine:
 
 - `craft/CORE.md` protects universal reader trust.
 - `craft/VOICE.md` defines shared prose and audio-readability behavior.
@@ -48,13 +48,19 @@ changing the author.
 
 | Runtime ID | Genre promise | Default modules |
 |---|---|---|
-| `fantasy-author-a` | Progression fantasy/LitRPG: legible growth, tactical action, human cost, found family | `progression` |
-| `science-fiction-author-b` | Character-driven problem-solving SF: rigorous speculation, relationship pressure, moral choice | `hard-science`, `moral-choice` |
+| `fantasy-author-a` | **Monroe Jackson — Fantasy.** Progression fantasy/LitRPG: legible growth, tactical action, human cost, found family | `progression` |
+| `science-fiction-author-b` | **Monroe Jackson — Science Fiction.** Character-driven problem-solving SF: rigorous speculation, relationship pressure, moral choice | `hard-science`, `moral-choice` |
 
-These are internal IDs until public-facing pseudonyms are chosen. Each profile has
-a runtime `VOICE.md` and a separate `PROVENANCE.md`. Research names and links remain
+These are stable internal compatibility IDs. The public pen name and canonical
+authorship answers are defined in [`pen-names/MONROE_JACKSON.md`](pen-names/MONROE_JACKSON.md).
+Each profile has a runtime `VOICE.md` and a separate `PROVENANCE.md`. Research names and links remain
 in provenance and are never compiled into creative prompts. The goal is a coherent
 craft system, not imitation of any living author's prose.
+
+Existing books enter the catalogue through the named
+[`Book Review and New Edition`](workflows/book-review-and-new-edition.md) loop.
+It reads before editing, revises in connected movements, and ends with a locked,
+recoverable edition rather than an open-ended rewrite.
 
 ## Quick start
 

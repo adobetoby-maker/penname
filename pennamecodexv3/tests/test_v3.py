@@ -69,7 +69,7 @@ class PromptTests(unittest.TestCase):
     def test_author_gets_voice_but_not_editor_module_gates(self) -> None:
         prompt = build_prompt("author", self.packet, self.book_root)
         self.assertIn("SHARED POSITIVE VOICE", prompt)
-        self.assertIn("PEN NAME VOICE — Fantasy Author A v1.0.0", prompt)
+        self.assertIn("PEN NAME VOICE — Monroe Jackson — Fantasy v1.1.1", prompt)
         self.assertIn("Growth is earned", prompt)
         self.assertNotIn("PEN NAME VOICE — Science Fiction Author B", prompt)
         self.assertNotIn("## Editor gates", prompt)
@@ -120,7 +120,7 @@ class PromptTests(unittest.TestCase):
             temp_packet = Path(directory) / "packet.json"
             temp_packet.write_text(json.dumps(packet), encoding="utf-8")
             prompt = build_prompt("author", temp_packet, self.book_root)
-        self.assertIn("PEN NAME VOICE — Science Fiction Author B v1.0.0", prompt)
+        self.assertIn("PEN NAME VOICE — Monroe Jackson — Science Fiction v1.1.1", prompt)
         self.assertIn("SELECTED MODULE — HARD-SCIENCE", prompt)
         self.assertIn("SELECTED MODULE — MORAL-CHOICE", prompt)
         for influence_name in ("Orson Scott Card", "Andy Weir", "Brandon Sanderson"):
