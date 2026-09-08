@@ -601,11 +601,14 @@ traceable to its source brief. Run per chapter unless marked per-arc/per-book.
 17. **Growth legibility and cost.** Every advancement names its delta (what
     moved, to what) AND its shown cost (loss, injury, fight above level);
     off-page costless growth = FAIL. [P Gates 1+3, merged]
-18. **Information per round.** Every tournament round and major ladder duel
-    changes the protagonist's information state — opponent, system, or self —
-    not just bracket position. [P Gate 2]
-19. **Skill beats number** (per arc). ≥1 major win attributable to something
-    the sheet doesn't measure, against a better number. [P Gate 4]
+18. **Information per test.** Every tournament round, ladder duel, trial,
+    assignment, inspection, or comparable advancement test changes the
+    protagonist's information state — opponent, institution, system, or self —
+    not merely the recorded outcome. The gate does not require a tournament
+    where the book has none. [P Gate 2, generalized]
+19. **Skill beats number or record** (per arc). ≥1 major win is attributable to
+    something the sheet, rank, or official record does not measure, against a
+    formally superior position. [P Gate 4, generalized]
 20. **Rival motion** (per arc). Every named rival has their own on-page
     advancement beat in any arc where the protagonist advances. [P Gate 5]
 21. **Social echo** (per arc). ≥1 progress marker visible outside the stat
@@ -614,8 +617,9 @@ traceable to its source brief. Run per chapter unless marked per-arc/per-book.
     3, merged]
 
 **System and voice gates (Brief S)**
-22. **Box ownership.** Every system/status box has a named perceiving
-    character, in a scene, with an in-world reason to be looking. [S Gate 1]
+22. **Box and record ownership.** Every system/status box or official record
+    excerpt has a named perceiving character, in a scene, with an in-world reason
+    to be looking. Neither is a narrator shortcut. [S Gate 1, generalized]
 23. **Dramatized critique.** Scenes about institutional unfairness show the
     institution acting on someone; protagonist speech alone = FAIL. [S Gate 4]
 24. **Comedy cost.** Humor deployed under stakes produces a traceable
@@ -672,32 +676,37 @@ require interrupting the author after every chapter.
     viewpoint character has a concrete want, threat, task, or destabilizing
     change. An explanatory or document-led opening without immediate pressure
     = FAIL.
-29. **Action and progression cadence.** The approved architecture schedules a
-    bodily set piece every two to four chapters by default, with no gap longer
+29. **Action and progression cadence.** In a twenty-chapter book, the approved
+    architecture targets seven or eight bodily set pieces; five is the hard
+    floor. Schedule one every two to three chapters by default, with no gap longer
     than four unless an intentional exception is named before drafting. A set
     piece may be a fight, chase, rescue, trial, collapse, escape, or other problem
     handled physically under a clock. It changes standing, knowledge, obligation,
     or relationship as well as health. A major set piece normally receives
     1,500–2,500 words; a minor kinetic sequence receives 600–1,000; a climax may
     span scenes or chapters. The card must name the reason for falling outside
-    those bands. Between set pieces, the active progression thread shows the
+    those bands. MAJOR set-piece chapters receive a higher target before drafting,
+    normally 6,000–6,500 words when ordinary chapters are near 5,000. Between set pieces, the active progression thread shows the
     power, practice, limitation, or cost. An unscheduled gap, a consequence-free
     set piece, or a scheduled major sequence compressed into summary merely to
     control chapter length = FAIL at movement scope.
-30. **Humor distribution.** An ordinary chapter offers one to three organic
-    opportunities for a smile through character, status, affection, incongruity,
-    or coping. A declared cold chapter may offer none. More than two consecutive
-    humorless chapters require a predeclared purpose in the architecture. The
-    editor can count opportunities; only a cold reader can say what landed. Gate
-    24 still governs humor under stakes.
+30. **Humor cadence.** Across every rolling two-chapter span that is not declared
+    cold, aim for four organic opportunities for a smile; three to five is the
+    acceptable band. Fewer than three across the span = MEDIUM. A single quiet
+    chapter is not automatically a finding when its neighbor supplies the
+    release. The editor counts opportunities; only a cold reader says what
+    landed. Gate 24 still governs humor under stakes.
 31. **Cold-reader continuity.** At the end of a movement, a manuscript-only
     reader reports pull, confusion, skim points, humor that landed, character
     voices that merged, and desire to continue. The same confusion reported by
-    both reader personas, or two consecutive chapters below 3/5 for either
-    persona, requires a located repair or an explicit architecture decision.
-32. **Dialogue ownership.** With speaker names removed from a representative
-    batch sample, at least 90% of lines remain assignable by vocabulary, rhythm,
-    priorities, and evasions. Below 90% = movement-level FAIL.
+    both reader personas = MEDIUM. A single chapter below 3/5 from both readers =
+    MEDIUM; three consecutive chapters below 3 from either persona = STRUCTURAL.
+    Located experience outranks an uncalibrated scalar.
+32. **Dialogue ownership.** With speaker names removed, at least 90% of a
+    twenty-line substantive sample remains assignable by vocabulary, rhythm,
+    priorities, and evasions. Sample lines of at least eight words or lines that
+    carry a position, decision, evasion, or conflict; exclude acknowledgements
+    and functional fragments. Below 90% = movement-level FAIL.
 
 These are defaults, not genre cosplay. An approved book architecture may set a
 different cadence before drafting. It may not quietly waive reader pull after

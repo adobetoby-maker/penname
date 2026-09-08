@@ -17,8 +17,9 @@ Before drafting, the movement needs:
 - a one-sentence movement promise: pressure at entry, escalation, and turn;
 - current canon, state ledger, name registry, and open injuries;
 - the prior chapter and the card immediately after the batch;
-- an action schedule, each set piece marked MAJOR, MINOR, or CLIMAX, and any
-  deliberately cold chapters.
+- an action schedule targeting seven or eight set pieces per twenty chapters
+  (five is the floor), each marked MAJOR, MINOR, or CLIMAX;
+- higher chapter targets for MAJOR set pieces and any deliberately cold movement.
 
 Compile these into `seats/movement-brief.template.md`. The compact brief keeps
 the author focused on the movement; the editor still receives the complete
@@ -28,7 +29,9 @@ authority material.
 
 1. **Movement packet.** Load the identity and voice once. Read the cards for the
    whole batch so the author can shape handoffs without stealing later payoffs.
-2. **Draft forward.** Write each chapter once, in order. Before chapter N+1,
+2. **Draft forward.** Write each chapter once, in order. Chapter 1 receives two
+   blind drafts automatically; Chapters 2–3 receive alternatives only when the
+   opening readers locate a failure. Before chapter N+1,
    update the ledger, read chapter N in full, and read the N+1 card. Keep the
    same author session for the movement.
 3. **Light close.** Between chapters check only canon, card function, state,
@@ -39,18 +42,22 @@ authority material.
 5. **Batch editor.** A cross-family editor reads the chapters as one movement.
    It checks individual defects plus seams, repetition, chronology, knowledge,
    injury/resource persistence, progression distribution, action spacing,
-   set-piece scale, humor distribution, distinct dialogue, and the strength of
+   set-piece scale, rolling humor cadence, substantive dialogue ownership, and the strength of
    each handoff.
-6. **Cold read.** A reader sees manuscript only. Rotate the thirteen-year-old
-   and adult genre personas on ordinary batches; use both on the opening batch,
-   an act-ending batch, and the final batch. Use `seats/cold-reader-batch.md`.
+6. **Cold read.** A reader sees manuscript only. Persona A, the thirteen-year-old
+   reader, reads every movement. Persona B reads the opening, act-ending, and
+   final movements, plus any movement flagged by A or the editor. Scores are
+   trend evidence; located confusion and skimming govern repairs. Use
+   `seats/cold-reader-batch.md`.
 7. **Specialist audit.** Run the fight auditor only on scheduled set pieces.
    Use `seats/fight-audit.md`.
    Run an independent verifier only for BLOCKER/HIGH findings, disputed evidence,
    or a proposed structural rewrite. Small located findings do not need a trial.
 8. **One repair pass.** Repair the batch in reading order from one consolidated
    list. Protect named strengths. Prefer seam repairs that solve problems in two
-   chapters at once. Add, recast, move, or cut as the evidence requires.
+   chapters at once. Add, recast, move, or cut as the evidence requires. Additions
+   may total up to 8% of a chapter's target cumulatively across all repair cycles
+   without a new architecture decision.
 9. **Targeted recheck.** Recheck prior findings and changed joins only. Do not
    reopen the batch with new taste notes. Two repair cycles is the normal ceiling;
    three surviving cycles means the architecture, not the sentences, needs help.
@@ -68,8 +75,8 @@ quietly redo an earlier one.
 ## Typical use in a twenty-chapter book
 
 With five movements of four chapters, expect twenty light closes, five batch
-editor runs, seven to nine cold-reader runs (both readers at the opening, an act
-turn, and the ending; one rotating reader elsewhere), five to seven set-piece
+editor runs, seven to nine cold-reader runs (A every movement; B at the opening,
+act turn, ending, or flags), seven to eight set-piece
 audits if that many set pieces are scheduled, zero to three independent verifier
 runs, and three to five consolidated repair/recheck cycles. At book lock, expect
 one structural-continuity pass, one voice pass, one line pass, and one listening

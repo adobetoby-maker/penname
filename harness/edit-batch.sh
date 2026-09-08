@@ -105,9 +105,10 @@ outgoing handoffs; do not demand that this batch deliver later material early.
    explanations, forgotten questions, knowledge leaks, and whether each ending
    creates the next chapter's pressure.
 3. PULL AND CADENCE: §10 gates 28–32; progression delivery; action spacing;
-   scheduled set-piece scale and delivered word span; humor opportunities by
-   chapter; cold runs; distinct dialogue; opening pressure; and whether the
-   movement escalates and turns.
+   book target seven to eight set pieces (floor five, no gap over four); scheduled
+   scale and delivered word span; rolling two-chapter humor cadence (aim four,
+   acceptable three to five); substantive-dialogue ownership; opening pressure;
+   reader-score trends; and whether the movement escalates and turns.
 4. REPAIR SHAPE: prefer one repair that fixes both sides of a seam. Distinguish
    ADD, RECAST, MOVE, and CUT. Do not prescribe replacement prose.
 
@@ -116,8 +117,11 @@ turn a frequency target into forced jokes or arbitrary fights. Physical set
 pieces include fights, chases, rescues, trials, collapses, escapes, and other
 body-under-a-clock problems. Major set pieces normally run 1,500–2,500 words,
 minor kinetic sequences 600–1,000, and climaxes may span scenes or chapters.
-Judge function and immersion rather than rewarding padding. Preserve the
-original progression-fantasy voice.
+MAJOR chapters should have a higher planned target, normally 6,000–6,500 words
+when ordinary chapters are near 5,000. Judge function and immersion rather than
+rewarding padding. Sample dialogue only when it has at least eight words or
+carries a position, decision, evasion, or conflict. Preserve the original
+progression-fantasy voice.
 
 ## Write exactly this report to $VERDICT
 
@@ -133,7 +137,8 @@ SEAMS:
 | Join | Causal handoff | State/knowledge continuity | Repetition | Finding |
 |---|---|---|---|---|
 
-ACTION AND PULL: [spacing across this batch and adjacent cards; cold-reader risks]
+ACTION AND PULL: [book target/floor, spacing and scale; rolling humor spans;
+reader trend and located cold-reader risks]
 
 DEFECTS: numbered. Each includes severity (LOW/MEDIUM/HIGH/BLOCKER), chapter and
 line/quote, evidence, reader consequence, and repair shape (ADD/RECAST/MOVE/CUT).

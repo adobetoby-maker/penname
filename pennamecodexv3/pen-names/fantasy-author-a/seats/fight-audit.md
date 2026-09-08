@@ -15,6 +15,8 @@ locations:
 5. Which old injuries/resources persist, and what new ones leave the scene?
 6. How does this tactical problem differ from the previous set piece?
 7. Does compression carry only movement/time, or hide new plot and emotion?
+   Did a MINOR receive roughly 600–1,000 words, a MAJOR 1,500–2,500, or a CLIMAX
+   the cross-scene/chapter room its function required, without padding?
 8. Which two or more beats causally depend on terrain?
 9. What changes besides health: standing, knowledge, obligation, relationship,
    access, or self-conception?

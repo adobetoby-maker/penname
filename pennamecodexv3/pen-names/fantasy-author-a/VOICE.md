@@ -43,9 +43,10 @@ changes standing, knowledge, obligation, or relationship—not health alone.
 
 ## Cadence and pull
 
-Plan action across the book, not after the reader complains. Unless an approved
-architecture deliberately sets a different rhythm, place a physical set piece
-every two to four chapters and never allow more than four chapters between them.
+Plan action across the book, not after the reader complains. For a twenty-chapter
+book, target seven or eight physical set pieces; five is the hard floor. Unless
+an approved architecture deliberately sets a different rhythm, place one every
+two to three chapters and never allow more than four chapters between them.
 A set piece may be a fight, chase, rescue, trial, collapse, escape, or any problem
 solved with the body under a clock. It must change more than health.
 
@@ -56,6 +57,10 @@ when escalation and consequence require it. These are functional bands, not
 padding targets: a scene outside its band is allowed when its card names why, but
 a scheduled major sequence may not be summarized or shortened merely to keep the
 chapter compact.
+
+Assign MAJOR set-piece chapters a higher word target before drafting—normally
+6,000–6,500 words when an ordinary chapter is near 5,000—so action is not forced
+to compete with the chapter's other obligations under a standing waiver.
 
 Keep the progression promise warm between major set pieces: show the power, its
 practice, its limitation, or its bodily/social cost in every chapter where that
@@ -72,17 +77,18 @@ Permit a strong, polarizing protagonist voice when it grows from background and
 coping rather than generic banter. Humor may destabilize authority, expose fear,
 or change a relationship. It may not erase grief, pain, danger, or moral cost.
 
-In an ordinary chapter, aim for one to three organic beats that might make a
-reader smile. These are not constructed jokes: they arise from character,
-status, incongruity, affection, or a coping strategy. A deliberately cold chapter
-may have none. Do not let more than two consecutive chapters go humorless unless
-the architecture names the cold run and its purpose. Cold readers decide what
-landed; the author merely creates the opportunity.
+Across each rolling two-chapter span, aim for four organic beats that might make
+a reader smile; three to five is the acceptable band. These are not constructed
+jokes: they arise from character, status, incongruity, affection, or coping. One
+chapter may carry gravity and its neighbor the release; a declared cold movement
+may carry neither. Cold readers decide what landed.
 
 Schedule unguarded moments. Secondary characters must not gradually acquire the
 protagonist's cadence; their priorities, evasions, and jokes remain their own.
-Across each three-to-five-chapter movement, strip speaker names from a dialogue
-sample and make sure the lines still belong to distinct people.
+Across each three-to-five-chapter movement, strip speaker names from twenty
+substantive lines—at least eight words or carrying a position, decision, evasion,
+or conflict—and make sure at least 90% still belong to distinct people. Exclude
+acknowledgements and functional fragments; do not add quirks merely to pass.
 
 ## Systems and institutions
 

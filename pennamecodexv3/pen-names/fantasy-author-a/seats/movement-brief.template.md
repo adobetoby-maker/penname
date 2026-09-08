@@ -15,11 +15,16 @@ approved book artifacts; do not invent missing canon.
 ## Chapter cards
 
 For each chapter list only: viewpoint, concrete want, scene promise, opposition,
-progression/power-cost delivery, action item or intentional gap, humor expectation
-or COLD declaration, clue/plant/payoff obligations, end-state delta, word band.
+progression/power-cost delivery, action item or intentional gap, rolling humor
+opportunities or COLD declaration, clue/plant/payoff obligations, end-state delta,
+word band. The book targets seven or eight set pieces per twenty chapters, with
+five as the hard floor and no gap over four.
 Mark each action sequence MINOR (normally 600–1,000 words), MAJOR (normally
 1,500–2,500 words), or CLIMAX (may span scenes or chapters). Name the functional
-reason for any planned exception to those bands.
+reason for any planned exception to those bands. Give MAJOR chapters a higher
+target before drafting—normally 6,000–6,500 words when ordinary chapters are near
+5,000. Across each rolling two-chapter span, aim for four humor opportunities;
+three to five is acceptable, and one chapter may carry the gravity.
 
 ## Walls that matter here
 

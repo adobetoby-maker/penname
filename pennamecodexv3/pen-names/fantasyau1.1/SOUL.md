@@ -141,4 +141,8 @@ These books are written for the owner's son, thirteen. This standard outranks ta
 
 **Sexual content.** None. Warmth, loyalty and love are shown through action; no romance beyond that, no innuendo.
 
-**Gate.** Before any chapter is closed, the loop's `gates` grep for the banned-word list must return zero, and the author report must state that the reader standard was checked. A chapter that fails this gate is not closed, whatever else it passes. The thirteen-year-old cold reader persona is this standard's second check: if that reader reports being lost or bored, the chapter is not done.
+**Gate.** Before any chapter is closed, the measurement pass's banned-word grep
+must return zero and record that the reader standard was checked. A chapter that
+fails this gate is not closed, whatever else it passes. The thirteen-year-old
+cold reader persona is this standard's second check: located confusion or boredom
+must be repaired before the movement closes.
