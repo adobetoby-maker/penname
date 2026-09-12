@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "generated": "2026-08-30T14:00:00-06:00",
+  "generated": "2026-09-12T05:30:00-06:00",
   "sourceBranch": "main",
   "books": [
     {
       "id": "penname-demo",
       "title": "Proof of Craft",
-      "totalChapters": 4,
-      "renderedChapters": 4,
+      "totalChapters": 6,
+      "renderedChapters": 6,
       "chapters": [
         {
           "number": 1,
@@ -70,6 +70,40 @@
               "durationSec": 1274.51,
               "sha256": "227081afa6ce8e939b8d2031cdc67cd1b56b420ef24979b519f7a156242b73a9",
               "url": "https://media.githubusercontent.com/media/adobetoby-maker/penname/main/demo/audio/04-the-exhibition-full.mp3"
+            }
+          ]
+        },
+        {
+          "number": 5,
+          "title": "Tallow Gate voice audition — Australian female",
+          "manuscript": "demo/chapters/05-tallow-female-australian-audition.md",
+          "renders": [
+            {
+              "render": "local-qwen-australian-female",
+              "engine": "Qwen3-TTS via MLX",
+              "voice": "Mature Australian female audition",
+              "file": "demo/audio/05-tallow-female-australian-audition.mp3",
+              "bytes": 560877,
+              "durationSec": 70.04,
+              "sha256": "c30c6468c2d911e739bf92f64d4a64780aa05fc67a4ec7e42eb5931aa362a279",
+              "url": "https://media.githubusercontent.com/media/adobetoby-maker/penname/main/demo/audio/05-tallow-female-australian-audition.mp3"
+            }
+          ]
+        },
+        {
+          "number": 6,
+          "title": "Tallow Gate voice audition — English female",
+          "manuscript": "demo/chapters/06-tallow-female-english-audition.md",
+          "renders": [
+            {
+              "render": "local-qwen-english-female",
+              "engine": "Qwen3-TTS via MLX",
+              "voice": "Mature English female audition",
+              "file": "demo/audio/06-tallow-female-english-audition.mp3",
+              "bytes": 608877,
+              "durationSec": 76.04,
+              "sha256": "013e9a1f9707aff1765255ec7bf85da03eab1080d066e2e11faf1b4e3fa0b9a5",
+              "url": "https://media.githubusercontent.com/media/adobetoby-maker/penname/main/demo/audio/06-tallow-female-english-audition.mp3"
             }
           ]
         }
