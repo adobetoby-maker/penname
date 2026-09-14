@@ -1,0 +1,256 @@
+{
+  "schemaVersion": 1,
+  "source": "/Users/drive/penname/demo/chapters/10-the-orchard-iron-prince.md",
+  "sourceSha256": "a5f65fec87589c87077848bfbbdd3d107d1fc716ca95d6fda44df6c12cdcba41",
+  "defaultPerformance": "neutral",
+  "director": {
+    "backend": "ollama",
+    "model": "qwen3.5:35b-a3b-q4_K_M",
+    "effort": "high",
+    "generatedAt": "2026-09-14T14:08:17.076486+00:00",
+    "chapterArc": "A tactical briefing on enemy movement transitions into a chaotic ambush where the group relies on learned discipline, followed by two distinct displays of power: Toren's first true 'Satori' moment and Wyck's revelation as an untrained Ember user. The scene culminates in a debrief that reframes failure not as incompetence but as a gap between knowledge and instinct under pressure.",
+    "restraintNote": "Maintain the narrator's analytical distance throughout the violence; describe Toren's exhaustion clinically rather than melodramatically, and let Rook's revelation about Wyck land with quiet gravity. The emotional peak is in the silence after the fight, not the action itself.",
+    "coach": {
+      "name": "Calder measured audiobook coach",
+      "version": "1.0.0",
+      "path": "/Users/drive/kindling-narrator-stage/docs/audio-coaching/calder-delivery-coach.v1.json",
+      "sha256": "051ea3ada202cd1f699241f1cbcd909246c077f8eade2b4fac78dd27ee0f20e9"
+    },
+    "bookContext": {
+      "path": "/Users/drive/kindling-repo-stage/audio-production/book-01-hobbs-wall/book-performance-contract.md",
+      "sha256": "8ebb60614641097165dc93bc1f5a4d31cddc23742fe5e575f0df0c7b1f5fcad6"
+    }
+  },
+  "cues": [
+    {
+      "performance": "neutral",
+      "intensity": "medium",
+      "delivery": "Rook's instruction is delivered with flat authority; treat the description of Stilt movement as a tactical briefing rather than a horror story.",
+      "returnToBaseAfter": true,
+      "from": "\"They stand about as high as me, and about nine-tenths of it is leg. Two legs, jointed backwards, longer than they've any business being, and a body slung between them no bigger than a dog, and a head you won't be able to find and won't need to. Colour of wet ash, same as the hounds, same as everything.",
+      "through": "\"Stand where the trees are. Never stand at the end of a row. If you find yourself looking down a long clear stretch of anything, you are already in the wrong place, and you should move before you finish the thought.\"",
+      "paragraphs": [
+        3,
+        8
+      ],
+      "reason": "Establishes the rules of engagement and the specific threat profile."
+    },
+    {
+      "performance": "neutral",
+      "intensity": "medium",
+      "delivery": "Shift to Toren's internal sensory experience; describe the 'cold' as a physical sensation of data arrival rather than fear.",
+      "returnToBaseAfter": true,
+      "from": "He never afterward got the order of it right, not for Dessa and not for anybody. There was no seeing the thing and then deciding about it. There was the grey shape coming out of the scrub and stopping, and then a cold that started at the back of his neck and went the whole length of him at once, the way it goes when somebody lays a wet rope along your spine — and riding in the middle of the cold, arriving with it and not behind it, was a direction. Right. Not a guess at right. Not a reckoning he could have shown anybody the working of. Right the way you know which of your own hands is your right hand without having to look at either of them.",
+      "through": "He got the hand. It had been empty at Rook's side for the whole of the four seconds Toren had been looking at it, hanging, and then it was up and it was not empty, and there was no instant available anywhere between the two states for it to have got that way in.",
+      "paragraphs": [
+        14,
+        20
+      ],
+      "reason": "Captures the moment of instinctual recognition before action."
+    },
+    {
+      "performance": "neutral",
+      "intensity": "medium",
+      "delivery": "Narrate Toren's confusion about Rook's speed with analytical curiosity; the realization that 'cold was information' should feel like a cognitive shift.",
+      "returnToBaseAfter": true,
+      "from": "What Toren felt first was not relief and was not gratitude. It was a small sick lurch of wrongness, the exact lurch of putting your foot down on a stair that is not there. He had been carrying a picture of Rook fighting since the road cut, built out of a sound coming down a rock face and things Milo said at night, and in the picture there was a man moving very fast. This had not been fast. Fast has a beginning; he had spent two weeks being taught to watch for beginnings. This had been too clean — a whole event of a size that ought to have cost two seconds and some shouting, paid for instead with one quarter-turn of a boot heel and one scrape, nothing spare in it anywhere, nothing wasted, nothing even hurried — and some part of Toren's head went on for several steps insisting that something had been left out of it and would have to be paid for later.",
+      "through": "Four words, with no instruction in them and nothing after them, and they went into Toren like drink on an empty stomach. Because what they meant was that the cold had been information. Not nerves. Not a boy's stomach turning over at a grey shape in a hedge and his mouth running ahead of him and getting lucky. A reading — the same class of thing as Milo's positions and Dessa's feet, a thing that came in, and could be said out loud, and could be right. And a thing that could be right could be trusted, and a thing that could be trusted did not have to be checked, and not checking was faster, and faster was the whole of the job.",
+      "paragraphs": [
+        24,
+        30
+      ],
+      "reason": "Marks the transition from panic to understanding of their own capabilities."
+    },
+    {
+      "performance": "neutral",
+      "intensity": "medium",
+      "delivery": "Accelerate rhythm slightly during the combat description; emphasize the 'boring' efficiency of their formation.",
+      "returnToBaseAfter": true,
+      "from": "The first one Toren saw was standing three rows down and eighty feet along, between two trees, and it was so still and so exactly the colour of the grey trunks that he looked straight through it twice.",
+      "through": "That was the shape of the next four minutes. A Stilt at the end of a row was a straight line, and a straight line was a killing thing, so they did not stand in rows. They stood across them, in the thick of the trunks where the old trees had grown into each other, and every time one of the things wanted to reach them, it had to stop out in the open to choose a new line, and the instant it stopped, it was a two-legged thing standing on the grass doing nothing.",
+      "paragraphs": [
+        42,
+        50
+      ],
+      "reason": "Reflects the group's drilled discipline in action."
+    },
+    {
+      "performance": "neutral",
+      "intensity": "medium",
+      "delivery": "Dessa's warning should cut through with sharp clarity; the narrator notes Toren's failure to process this specific threat immediately.",
+      "returnToBaseAfter": true,
+      "from": "Dessa said, \"Ditch.\"",
+      "through": "He had heard Rook say the ditch at the bottom of the orchard is a line. He had said it back, out loud, at a fire, the night before. He had understood it perfectly, and it had gone into him next to nine other things, and he had spent the last four minutes thinking about rows.",
+      "paragraphs": [
+        58,
+        64
+      ],
+      "reason": "The turning point where the tactical situation shifts from defense to crisis."
+    },
+    {
+      "performance": "neutral",
+      "intensity": "medium",
+      "delivery": "Describe Rook's jump with clinical precision; focus on the physics of his movement and Toren's inability to comprehend it.",
+      "returnToBaseAfter": true,
+      "from": "Rook got there first by an enormous margin. Toren heard the struts fire twice and did not see the man cross any of it.",
+      "through": "Toren worked out the why of it a long while afterward, lying awake, and never checked it with anybody: you can only push against what is under you, and in the air there is nothing under you. Whatever the struts were, they were finished at the boot. The rest had been arithmetic, and the arithmetic had been done standing still on the grass, facing the wrong way, before the thing was out of the ditch.",
+      "paragraphs": [
+        69,
+        87
+      ],
+      "reason": "Highlights the supernatural nature of Rook's power without romanticizing it."
+    },
+    {
+      "performance": "neutral",
+      "intensity": "medium",
+      "delivery": "Toren's instinct returns; the 'cold' and name arrive with a sense of fatalistic clarity.",
+      "returnToBaseAfter": true,
+      "from": "Toren's whole spine went cold — and the cold arrived with a name on it, and the name was a gift, and it was the wrong gift, and it was his.",
+      "through": "The thing at the ditch mouth was not winding up. It was not doing anything. It had stopped in the open to choose a line, exactly as Rook had said it would, and the line it chose was the one the four of them had just opened for it by turning, and there was no instant between the choosing and the arriving.",
+      "paragraphs": [
+        97,
+        102
+      ],
+      "reason": "The moment Toren makes his choice to act on instinct rather than calculation."
+    },
+    {
+      "performance": "neutral",
+      "intensity": "medium",
+      "delivery": "Describe the expenditure of power as a physical draining; Toren's collapse is absolute and clinical.",
+      "returnToBaseAfter": true,
+      "from": "That was what he told Dessa afterward, and it was true, and it was not the whole truth. He did not decide; but for four days, he had been carrying around a thing he had been told to carry — stop auditing it — and for two weeks, he had been carrying a thing he had watched: a girl on the other side of a fire with a stone going warm in her hands, saying it's not in the stone.",
+      "through": "The place low in him where the weight had sat was not empty the way a cup is empty. It was empty the way a house is empty. He put his attention down onto it anyway, because he could not stop himself, because it was the oldest habit he had — checking, auditing, making sure — and there was nothing down there to check.",
+      "paragraphs": [
+        106,
+        123
+      ],
+      "reason": "The cost of using Satori for the first time."
+    },
+    {
+      "performance": "neutral",
+      "intensity": "medium",
+      "delivery": "Wyck's defense is described with a sense of impossible stillness; the impact should feel like water hitting stone.",
+      "returnToBaseAfter": true,
+      "from": "Wyck Tanner stepped across the gap where Toren should have been, which meant standing at the only place on that whole hillside where the ditch mouth had a clean straight run at the press-house steps, and he set his feet, and he did not move.",
+      "through": "He held the gap for about eleven seconds.",
+      "paragraphs": [
+        128,
+        140
+      ],
+      "reason": "Reveals Wyck's hidden nature as an Ember user."
+    },
+    {
+      "performance": "neutral",
+      "intensity": "medium",
+      "delivery": "Rook's explanation of Wyck's ability is delivered with a mix of revelation and grim acceptance; the tone shifts from tactical to philosophical.",
+      "returnToBaseAfter": true,
+      "from": "\"That's Ember,\" he said. \"That's what it's called, and that's what you are as of about four o'clock this afternoon, and I'd guess you were most of the way there on a tailgate in a road cut thirteen days ago with a bit of rebar, before anybody here had taught you a thing.",
+      "through": "\"He went in front of me. Again.\"",
+      "paragraphs": [
+        164,
+        170
+      ],
+      "reason": "The thematic core: Ember as an internal state rather than external magic."
+    },
+    {
+      "performance": "neutral",
+      "intensity": "medium",
+      "delivery": "Toren's exhaustion is palpable; Rook's reassurance about the 'trade' of power should feel heavy and final.",
+      "returnToBaseAfter": true,
+      "from": "Toren could not stand until nearly dark.",
+      "through": "\"No,\" said Toren.",
+      "paragraphs": [
+        172,
+        186
+      ],
+      "reason": "The aftermath of Toren's expenditure and the reality check on his new state."
+    },
+    {
+      "performance": "neutral",
+      "intensity": "medium",
+      "delivery": "The debrief is a mix of praise and correction; Rook's final point about 'trainable' skills should land with quiet weight.",
+      "returnToBaseAfter": true,
+      "from": "Toren waited for it with something close to nausea. He knew the shape of this. He had stood on a bridge in the fog eight days ago and had the shape of it laid over him like a flat stone, and he had deserved it then, and he deserved it a great deal more now, and he had spent the whole walk back composing the only sentence he had, which was I did it again.",
+      "through": "\"That's all it bought. That's what it was for. On the bridge you were wrong for as long as it took a girl to get three hounds out of a treeline, because you had no other picture in your head to fall back on. Tonight you had one, and you didn't believe it fast enough, and you were wrong for two seconds instead of four, and the difference between two and four is why he's got a forearm, and she's got a leg that limps.",
+      "paragraphs": [
+        189,
+        204
+      ],
+      "reason": "Resolves the scene by reframing Toren's mistake as a learning opportunity."
+    }
+  ],
+  "pauses": [
+    {
+      "paragraph": 8,
+      "after": "\"Stand where the trees are. Never stand at the end of a row. If you find yourself looking down a long clear stretch of anything, you are already in the wrong place, and you should move before you finish the thought.\"",
+      "milliseconds": 650,
+      "reason": "End of Rook's tactical briefing; transition to the group's reaction."
+    },
+    {
+      "paragraph": 14,
+      "after": "He never afterward got the order of it right, not for Dessa and not for anybody. There was no seeing the thing and then deciding about it. There was the grey shape coming out of the scrub and stopping, and then a cold that started at the back of his neck and went the whole length of him at once, the way it goes when somebody lays a wet rope along your spine — and riding in the middle of the cold, arriving with it and not behind it, was a direction. Right. Not a guess at right. Not a reckoning he could have shown anybody the working of. Right the way you know which of your own hands is your right hand without having to look at either of them.",
+      "milliseconds": 900,
+      "reason": "After Toren describes the 'cold' sensation and the arrival of direction."
+    },
+    {
+      "paragraph": 23,
+      "after": "And there was a second one behind it that broke off before it had committed and went away along the hedge line and did not come back.",
+      "milliseconds": 650,
+      "reason": "Pause after the immediate aftermath of the first hound kill; let the silence settle before dialogue."
+    },
+    {
+      "paragraph": 31,
+      "after": "And Toren walked the next two miles with his ears ringing and his chest about four inches further out than it had been, and every step of those two miles laid down a little more of the thing that was going to cost them at four o'clock.",
+      "milliseconds": 450,
+      "reason": "Transition from Toren's internal realization to the approach of the orchard."
+    },
+    {
+      "paragraph": 64,
+      "after": "He had heard Rook say the ditch at the bottom of the orchard is a line. He had said it back, out loud, at a fire, the night before. He had understood it perfectly, and it had gone into him next to nine other things, and he had spent the last four minutes thinking about rows.",
+      "milliseconds": 900,
+      "reason": "After Toren realizes he missed Rook's warning about the ditch; a moment of cognitive dissonance."
+    },
+    {
+      "paragraph": 73,
+      "after": "A second and a half. Toren had time, running, to have that in his head and to get nothing whatever out of it.",
+      "milliseconds": 900,
+      "reason": "Pause after describing Rook standing perfectly still before the jump; emphasize the unnaturalness of his posture."
+    },
+    {
+      "paragraph": 86,
+      "after": "That was the thing. On the ground, the man was a noise and a change of position. In the air he was a man. Ordinary. Ugly, even: he had gone up at an angle and half turned away from the run so that his right shoulder led, his right arm folded in tight against his ribs, his left arm out and trailing low behind him for balance, his legs apart and doing nothing at all. He hung out there on a curve Toren could see the whole of, the way anything hangs that has been thrown, with his coat come open and the hem of it lifted and his face not doing anything. And there was time. Real time, the ordinary kind, enough of it to see all of that and to know while it was going on that he was seeing it.",
+      "milliseconds": 1200,
+      "reason": "Major pause at the scene break where Toren analyzes the physics of Rook's movement in mid-air."
+    },
+    {
+      "paragraph": 93,
+      "after": "Rook came down on the grass with all of it under him — both boots, then one hand flat — and the ash went over him and past him in a grey sheet. He got up out of it the way a man gets up off a low wall, moving before he was upright, already turned to the ditch mouth, already counting what was left.",
+      "milliseconds": 450,
+      "reason": "After Rook lands; a brief beat before the next threat appears."
+    },
+    {
+      "paragraph": 122,
+      "after": "He was on his knees. He had not been aware of any part of that. The spike was gone — not withdrawn, not put away, simply not there — and the grey slab in his fist was cold, cold the way the inside of a well is cold, cold the way it had been on every morning of his life before this one, and his arms would not lift and his ears were full of a high flat sound and he could not make his head come up off his chest.",
+      "milliseconds": 650,
+      "reason": "Pause after Toren's total collapse and description of his empty state."
+    },
+    {
+      "paragraph": 139,
+      "after": "The last one came out of the ditch at Wyck and did the same thing, and got the same result.",
+      "milliseconds": 450,
+      "reason": "After the final Stilt is dispatched; transition to Rook treating Wyck's wound."
+    },
+    {
+      "paragraph": 162,
+      "after": "\"No. You don't.\"",
+      "milliseconds": 650,
+      "reason": "Pause after Rook reveals Wyck's nature as an Ember user; let the revelation sink in."
+    },
+    {
+      "paragraph": 178,
+      "after": "Rook came to the tailgate and put two fingers on the inside of Toren's wrist, and held them there a long time.",
+      "milliseconds": 450,
+      "reason": "After Rook checks Toren's pulse and notes his coldness."
+    }
+  ]
+}

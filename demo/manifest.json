@@ -7,7 +7,7 @@
       "id": "penname-demo",
       "title": "Proof of Craft",
       "totalChapters": 10,
-      "renderedChapters": 6,
+      "renderedChapters": 10,
       "chapters": [
         {
           "number": 1,
@@ -111,25 +111,69 @@
           "number": 7,
           "title": "The Ember Call \u2014 as published (Kindling, Book 1, Ch. 9)",
           "manuscript": "demo/chapters/07-the-ember-call-original.md",
-          "renders": []
+          "renders": [
+            {
+              "render": "monroe-audio-1.1-calder-hq",
+              "engine": "qwen-clone-hq",
+              "voice": "Calder HQ Base Return (Monroe Australian stable narrator palette)",
+              "file": "demo/audio/07-the-ember-call-original.mp3",
+              "bytes": 12577965,
+              "durationSec": 786.06,
+              "sha256": "c2ae6c22730bf7cf89fd894e37b4b28074b445213f5036ce3b61900d608d1fce",
+              "url": "https://media.githubusercontent.com/media/adobetoby-maker/penname/main/demo/audio/07-the-ember-call-original.mp3"
+            }
+          ]
         },
         {
           "number": 8,
           "title": "The Ember Call \u2014 Iron Prince Expansion (owner-directed detail pass: the call as an action, the light as structure, the light-to-ember mastery threshold)",
           "manuscript": "demo/chapters/08-the-ember-call-iron-prince.md",
-          "renders": []
+          "renders": [
+            {
+              "render": "monroe-audio-1.1-calder-hq",
+              "engine": "qwen-clone-hq",
+              "voice": "Calder HQ Base Return (Monroe Australian stable narrator palette)",
+              "file": "demo/audio/08-the-ember-call-iron-prince.mp3",
+              "bytes": 14973357,
+              "durationSec": 935.78,
+              "sha256": "035e4e3fb47fb440b653dc94773ce419b51bb33bf0b6b2e5b794773c8c48b44d",
+              "url": "https://media.githubusercontent.com/media/adobetoby-maker/penname/main/demo/audio/08-the-ember-call-iron-prince.mp3"
+            }
+          ]
         },
         {
           "number": 9,
           "title": "The Orchard \u2014 as published (Kindling, Book 1, Ch. 10)",
           "manuscript": "demo/chapters/09-the-orchard-original.md",
-          "renders": []
+          "renders": [
+            {
+              "render": "monroe-audio-1.1-calder-hq",
+              "engine": "qwen-clone-hq",
+              "voice": "Calder HQ Base Return (Monroe Australian stable narrator palette)",
+              "file": "demo/audio/09-the-orchard-original.mp3",
+              "bytes": 21115821,
+              "durationSec": 1319.67,
+              "sha256": "933b88953cb3d96975420d491a6aae7e2497cddf077e034ced9e98b4e1daaa63",
+              "url": "https://media.githubusercontent.com/media/adobetoby-maker/penname/main/demo/audio/09-the-orchard-original.mp3"
+            }
+          ]
         },
         {
           "number": 10,
           "title": "The Orchard \u2014 Iron Prince Expansion (owner-directed detail pass: witnessed-power awe, slow-motion master technique, the breakthrough and total drain)",
           "manuscript": "demo/chapters/10-the-orchard-iron-prince.md",
-          "renders": []
+          "renders": [
+            {
+              "render": "monroe-audio-1.1-calder-hq",
+              "engine": "qwen-clone-hq",
+              "voice": "Calder HQ Base Return (Monroe Australian stable narrator palette)",
+              "file": "demo/audio/10-the-orchard-iron-prince.mp3",
+              "bytes": 34316973,
+              "durationSec": 2144.74,
+              "sha256": "7a536c13c485c2b6eab38c5d4de020fc67c2b1ea942664c4adcf68d13f59ac3c",
+              "url": "https://media.githubusercontent.com/media/adobetoby-maker/penname/main/demo/audio/10-the-orchard-iron-prince.mp3"
+            }
+          ]
         }
       ]
     }

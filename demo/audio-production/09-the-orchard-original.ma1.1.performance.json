@@ -1,0 +1,243 @@
+{
+  "schemaVersion": 1,
+  "source": "/Users/drive/penname/demo/chapters/09-the-orchard-original.md",
+  "sourceSha256": "1e0f0ea11f8364628154f64982a47a33053733c02cb33bc8ed7de5cb822b5327",
+  "defaultPerformance": "neutral",
+  "director": {
+    "backend": "ollama",
+    "model": "qwen3.5:35b-a3b-q4_K_M",
+    "effort": "high",
+    "generatedAt": "2026-09-14T13:53:19.244149+00:00",
+    "chapterArc": "A tactical briefing on enemy movement transitions into a chaotic ambush where the group relies on learned geometry, followed by a sudden collapse of Toren's power and Wyck Tanner's unexpected physical resilience. The scene shifts from high-stakes action to clinical aftermath, culminating in Rook revealing that 'resilience' is an internal state rather than magical access, before delivering a nuanced debrief where the narrator must balance Toren's crushing guilt with Rook's pragmatic correction.",
+    "restraintNote": "Maintain adult observational distance. Do not dramatize the violence; describe it as physical mechanics. The emotional weight lies in what is unsaid during the silence after Wyck stands firm and when Rook admits his own teaching was incomplete. Keep Toren's internal panic grounded, never hysterical.",
+    "coach": {
+      "name": "Calder measured audiobook coach",
+      "version": "1.0.0",
+      "path": "/Users/drive/kindling-narrator-stage/docs/audio-coaching/calder-delivery-coach.v1.json",
+      "sha256": "051ea3ada202cd1f699241f1cbcd909246c077f8eade2b4fac78dd27ee0f20e9"
+    },
+    "bookContext": {
+      "path": "/Users/drive/kindling-repo-stage/audio-production/book-01-hobbs-wall/book-performance-contract.md",
+      "sha256": "8ebb60614641097165dc93bc1f5a4d31cddc23742fe5e575f0df0c7b1f5fcad6"
+    }
+  },
+  "cues": [
+    {
+      "performance": "whisper",
+      "intensity": "medium",
+      "delivery": "Rook speaking with flat authority; economical rhythm. No rising inflection on questions or commands.",
+      "returnToBaseAfter": true,
+      "from": "\"They stand about as high as me, and about nine-tenths of it is leg. Two legs, jointed backwards, longer than they've any business being, and a body slung between them no bigger than a dog, and a head you won't be able to find and won't need to. Colour of wet ash, same as the hounds, same as everything.",
+      "through": "\"Stand where the trees are. Never stand at the end of a row. If you find yourself looking down a long clear stretch of anything, you are already in the wrong place, and you should move before you finish the thought.\"",
+      "paragraphs": [
+        3,
+        8
+      ],
+      "reason": "Establishes the tactical briefing tone without melodrama."
+    },
+    {
+      "performance": "fear",
+      "intensity": "medium",
+      "delivery": "Toren's internal monologue accelerates; fragmented syntax. Urgent but not shouting.",
+      "returnToBaseAfter": true,
+      "from": "\"Right,\" he said. \"One right, in the hedge, it's gone still, it's choosing — it's going to come and it's coming right, everybody right—\"",
+      "through": "They turned right. Wyck planted. Milo got the call out clean behind him. Rook stepped out onto the verge, and the verge-hound came out of the thorn at them in a flat silent rush at the exact angle Toren had called, and met four people who were already facing it and a man who took its front leg off at the shoulder in one movement, and there was a second one behind it that broke off before it had committed and went away along the hedge line and did not come back.",
+      "paragraphs": [
+        14,
+        15
+      ],
+      "reason": "Captures the immediate sensory shock of spotting a Stilt."
+    },
+    {
+      "performance": "fear",
+      "intensity": "high",
+      "delivery": "Rapid-fire dialogue. Short breath groups for Dessa and Milo's calls; staccato rhythm.",
+      "returnToBaseAfter": true,
+      "from": "\"Third row, two of them, third row!\" — Dessa, from the steps, clear and hard.",
+      "through": "Wyck killed the first one with the bar across the knee of its left leg while it stood picking its way through the geometry, and the whole creature went down like a stepladder coming apart.",
+      "paragraphs": [
+        35,
+        40
+      ],
+      "reason": "Combat escalation requires clipped delivery to match the action speed."
+    },
+    {
+      "performance": "fear",
+      "intensity": "high",
+      "delivery": "Dessa's voice shifts; sharper and harder. Narrator slows slightly to emphasize the realization of the ditch threat.",
+      "returnToBaseAfter": true,
+      "from": "She said it in a completely different voice from the one she had been using, and it went across the orchard like a thrown stone.",
+      "through": "He had heard Rook say the ditch at the bottom of the orchard is a line. He had said it back, out loud, at a fire, the night before. He had understood it perfectly, and it had gone into him next to nine other things, and he had spent the last four minutes thinking about rows.",
+      "paragraphs": [
+        48,
+        53
+      ],
+      "reason": "Marks the critical tactical reversal where the group is exposed."
+    },
+    {
+      "performance": "fear",
+      "intensity": "high",
+      "delivery": "Toren's panic peaks; internal monologue becomes disjointed. The realization of the mistake must feel physical.",
+      "returnToBaseAfter": true,
+      "from": "Toren's whole spine went cold — and the cold arrived with a name on it, and the name was a gift, and it was the wrong gift, and it was his.",
+      "through": "It came through the left end of the line at the speed of a dropped stone, and it did not touch anybody, because there was nobody there any more, and behind it the ditch mouth put up another one.",
+      "paragraphs": [
+        64,
+        70
+      ],
+      "reason": "The moment of catastrophic error requires high tension."
+    },
+    {
+      "performance": "awe",
+      "intensity": "high",
+      "delivery": "Toren's action sequence; wide pitch range for the 'door opening' sensation. Sudden drop to silence and cold.",
+      "returnToBaseAfter": true,
+      "from": "He did not ask the Ember for anything. He did not hold it harder. He did not look at his hand. He turned and went after the nearer of the two with the whole of himself out in front of him and nothing whatsoever held back, and somewhere behind his own eyes a door that had been standing an inch open since a road cut came the rest of the way open, and everything behind it came through at once.",
+      "through": "He was on his knees. He had not been aware of any part of that. The spike was gone — not withdrawn, not put away, simply not there — and the grey slab in his fist was cold, cold the way the inside of a well is cold, cold the way it had been on every morning of his life before this one, and his arms would not lift and his ears were full of a high flat sound and he could not make his head come up off his chest.",
+      "paragraphs": [
+        75,
+        80
+      ],
+      "reason": "Depicts the physical cost of using Ember without preparation."
+    },
+    {
+      "performance": "awe",
+      "intensity": "high",
+      "delivery": "Wyck's intervention; grounded and steady. The impact is described clinically.",
+      "returnToBaseAfter": true,
+      "from": "Wyck Tanner stepped across the gap where Toren should have been, which meant standing at the only place on that whole hillside where the ditch mouth had a clean straight run at the press-house steps, and he set his feet, and he did not move.",
+      "through": "He held the gap for about eleven seconds.",
+      "paragraphs": [
+        85,
+        90
+      ],
+      "reason": "Contrasts the chaos with Wyck's impossible stillness."
+    },
+    {
+      "performance": "care",
+      "intensity": "medium",
+      "delivery": "Rook speaking to Wyck; intimate but authoritative. Lower register for the revelation about 'resilience'.",
+      "returnToBaseAfter": true,
+      "from": "\"I can't do anything,\" said Wyck, and his voice came apart slightly in the middle of it, which was the first time Toren had ever heard that happen. \"I haven't got anything. I'm fifteen and nothing, ask the woman with the book, she wrote it down. I just don't —\"",
+      "through": "\"They'll never put you in a book for it. You can't show it to anybody. You can only be it, and you have been being it since before I met you, and it's the least impressive and most useful thing on this hillside.\"",
+      "paragraphs": [
+        109,
+        116
+      ],
+      "reason": "Shifts from combat aftermath to a profound character moment."
+    },
+    {
+      "performance": "grief",
+      "intensity": "medium",
+      "delivery": "Narrator describing Toren's physical state; heavy and slow. Emphasize the humiliation.",
+      "returnToBaseAfter": true,
+      "from": "That was the part nobody talked about on the way back, and it was the part he hated most. He lay in the orchard grass with the whole of the hillside going on around him — the ash being lifted, the mule being calmed, his grandmother's voice going up and down over the press-house wall in a register of pure fury — and could not get his arms to do anything. When he finally got up, he had to be walked to the cart with Dessa's shoulder under one arm and Milo's under the other, which was, as Milo pointed out, the single most humiliating configuration available to any of the three of them.",
+      "through": "They put him in the cart. With the two invalids.",
+      "paragraphs": [
+        123,
+        124
+      ],
+      "reason": "Highlights the cost of the battle on the protagonist."
+    },
+    {
+      "performance": "care",
+      "intensity": "medium",
+      "delivery": "Rook's explanation to Toren; measured and grounding. No pity in the voice.",
+      "returnToBaseAfter": true,
+      "from": "Rook came to the tailgate and put two fingers on the inside of Toren's wrist, and held them there a long time.",
+      "through": "\"No,\" Rook agreed.",
+      "paragraphs": [
+        128,
+        137
+      ],
+      "reason": "Clarifies the mechanics of Ember without softening the reality."
+    },
+    {
+      "performance": "care",
+      "intensity": "medium",
+      "delivery": "Rook's debrief; balanced. Acknowledge Toren's failure without condemnation.",
+      "returnToBaseAfter": true,
+      "from": "Rook said: \"Right things first.",
+      "through": "\"Both of them are trainable,\" said Rook. \"That's all. Go to sleep.\"",
+      "paragraphs": [
+        140,
+        158
+      ],
+      "reason": "Delivers the thematic resolution of the chapter."
+    }
+  ],
+  "pauses": [
+    {
+      "paragraph": 8,
+      "after": "\"Stand where the trees are. Never stand at the end of a row. If you find yourself looking down a long clear stretch of anything, you are already in the wrong place, and you should move before you finish the thought.\"",
+      "milliseconds": 650,
+      "reason": "End of Rook's briefing; transition to action."
+    },
+    {
+      "paragraph": 19,
+      "after": "\"He called it right,\" said Rook.",
+      "milliseconds": 450,
+      "reason": "After Milo's laughter and Toren's internal realization."
+    },
+    {
+      "paragraph": 32,
+      "after": "Then it was thirty feet closer.",
+      "milliseconds": 650,
+      "reason": "Pause for the unnatural movement of the Stilt; let the silence register."
+    },
+    {
+      "paragraph": 47,
+      "after": "Dessa said, \"Ditch.\"",
+      "milliseconds": 900,
+      "reason": "Major emotional landing on Dessa's warning about the ditch."
+    },
+    {
+      "paragraph": 53,
+      "after": "He had heard Rook say the ditch at the bottom of the orchard is a line. He had said it back, out loud, at a fire, the night before. He had understood it perfectly, and it had gone into him next to nine other things, and he had spent the last four minutes thinking about rows.",
+      "milliseconds": 650,
+      "reason": "Toren realizing his mistake; let the weight of the error land."
+    },
+    {
+      "paragraph": 79,
+      "after": "There was nothing at all. The bottom came out of him the way the bottom comes out of a wet sack.",
+      "milliseconds": 1200,
+      "reason": "Scene break in action; Toren's power collapse. Longest pause for dramatic effect."
+    },
+    {
+      "paragraph": 84,
+      "after": "There was something on the left end.",
+      "milliseconds": 650,
+      "reason": "Shift to Wyck standing firm after the impact."
+    },
+    {
+      "paragraph": 91,
+      "after": "Rook came down the line and finished all of it, and stopped, and stood in the open grass with his head turning once, twice, and then let his arms down.",
+      "milliseconds": 900,
+      "reason": "End of combat; silence settles over the orchard."
+    },
+    {
+      "paragraph": 108,
+      "after": "\"How long have you been able to do it.\"",
+      "milliseconds": 650,
+      "reason": "Rook pressing Wyck on his ability; pause for the revelation."
+    },
+    {
+      "paragraph": 124,
+      "after": "They put him in the cart. With the two invalids.",
+      "milliseconds": 900,
+      "reason": "Toren placed in the cart with invalids; emotional weight of humiliation."
+    },
+    {
+      "paragraph": 137,
+      "after": "\"No,\" Rook agreed.",
+      "milliseconds": 650,
+      "reason": "End of Rook's explanation about borrowing power; transition to debrief."
+    },
+    {
+      "paragraph": 149,
+      "after": "\"I said it was a wind-up. It wasn't. It was standing there.\" His voice was flat and awful in his own ears. \"You told me. You told all of us, last night, sitting down, in words, and I said it back to you twice. There's no instant in between. I said that back to you out loud.\" He pressed his hands into his eyes. \"And I did it anyway. And I turned the line, and Wyck's arm—\"",
+      "milliseconds": 900,
+      "reason": "Toren's breakdown and self-recrimination. Let the guilt hang in the air."
+    }
+  ]
+}

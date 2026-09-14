@@ -1,0 +1,297 @@
+{
+  "productionPipeline": {
+    "name": "Monroe Audio",
+    "version": "1.1.0",
+    "profile": "Calder HQ Base Return"
+  },
+  "input": "/Users/drive/penname/demo/chapters/08-the-ember-call-iron-prince.md",
+  "inputSha256": "e8606b94cd2da4215888694af6e9f9d25b7a768c76ad994509a2ec0aed6ea4ed",
+  "engine": "qwen-clone-hq",
+  "model": "mlx-community/Qwen3-TTS-12Hz-1.7B-Base-8bit",
+  "voice": "cloned",
+  "language": "English",
+  "speed": 1.0,
+  "instruct": "Calder base narrator: mature Australian-English literary audiobook delivery, grounded, measured, observant, and restrained. Read slowly and with complete command of the sentence. Let punctuation and paragraph turns breathe. Prepare the emotional intention of the next sentence before beginning it. Character color is temporary and must never alter the narrator's underlying pitch center, resonance, cadence, or accent placement. Keep the performance intimate, never sing-song, hesitant, childish, Americanized, or announcer-like.",
+  "referenceAudio": null,
+  "referenceText": null,
+  "performanceTrack": "/Users/drive/penname/demo/audio-production/08-the-ember-call-iron-prince.ma1.1.performance.json",
+  "performanceTrackSha256": "3a5741b09b61fe7de95f401fc26c206352b4e71a216374055c8aa4b610ea96e6",
+  "performancePalette": "/Users/drive/kindling-narrator-stage/public/audio/local/voices/monroe-australian-stable-performance-palette.json",
+  "performancePaletteSha256": "928d1b30cc33b527e85f7165e4b8d001a3a6503418a86fd1f2ee6c9ef74027c9",
+  "maxChars": 480,
+  "pauseMs": 340,
+  "paletteMode": "performance",
+  "playbackRate": 1.0,
+  "finalPauseMs": 900,
+  "edgeSilenceMs": 120,
+  "outputBitrateKbps": 128,
+  "targetLufs": -20.0,
+  "truePeakDb": -3.0,
+  "targetLra": 7.0,
+  "sourceWords": 3216,
+  "chunkCount": 42,
+  "performances": [
+    "care",
+    "neutral"
+  ],
+  "durationSec": 935.78,
+  "bytes": 14973357,
+  "sha256": "035e4e3fb47fb440b653dc94773ce419b51bb33bf0b6b2e5b794773c8c48b44d",
+  "elapsedSec": 357.88,
+  "output": "/Users/drive/penname/demo/audio/08-the-ember-call-iron-prince.mp3",
+  "master": "/Users/drive/.local/share/monroe-tts/renders/9a678d5725bd3af234abe226/master.wav",
+  "segments": [
+    {
+      "index": 1,
+      "performance": "neutral",
+      "wav": "/Users/drive/.local/share/monroe-tts/renders/9a678d5725bd3af234abe226/0001.wav",
+      "textSha256": "4486c9fa3fea5281c506cc224971efdbef155d5e5d3e00f11ead525f7423b0e2"
+    },
+    {
+      "index": 2,
+      "performance": "neutral",
+      "wav": "/Users/drive/.local/share/monroe-tts/renders/9a678d5725bd3af234abe226/0002.wav",
+      "textSha256": "f83f82fc27180e79578d63746db4b832cb3b4f4e04ffe3af995c6b396e396752"
+    },
+    {
+      "index": 3,
+      "performance": "neutral",
+      "wav": "/Users/drive/.local/share/monroe-tts/renders/9a678d5725bd3af234abe226/0003.wav",
+      "textSha256": "4accf2a89f0a31c3e94fa90db4e3ecd5f07f44cf696e26e51e0ba83a1d922df9"
+    },
+    {
+      "index": 4,
+      "performance": "neutral",
+      "wav": "/Users/drive/.local/share/monroe-tts/renders/9a678d5725bd3af234abe226/0004.wav",
+      "textSha256": "349477dfc1224892c683c43b6a34fc1317aa26afe80cd315e062c69d263f5d83"
+    },
+    {
+      "index": 5,
+      "performance": "neutral",
+      "wav": "/Users/drive/.local/share/monroe-tts/renders/9a678d5725bd3af234abe226/0005.wav",
+      "textSha256": "e1eee95d33a91b35ecd2f5897020c3070bb1831d40daa70847ad526c7c2548c2"
+    },
+    {
+      "index": 6,
+      "performance": "neutral",
+      "wav": "/Users/drive/.local/share/monroe-tts/renders/9a678d5725bd3af234abe226/0006.wav",
+      "textSha256": "40d3d475e31b53b4d0cb27af90ed99996a2b439ab2446574d07ff9d267d6a64e"
+    },
+    {
+      "index": 7,
+      "performance": "neutral",
+      "wav": "/Users/drive/.local/share/monroe-tts/renders/9a678d5725bd3af234abe226/0007.wav",
+      "textSha256": "af86d2deb561a77c948683ca27a5034daa3410bc4786661bbf5b2f14c9d69903"
+    },
+    {
+      "index": 8,
+      "performance": "care",
+      "wav": "/Users/drive/.local/share/monroe-tts/renders/9a678d5725bd3af234abe226/0008.wav",
+      "textSha256": "cad161687da31722fdc4847182910ab54784dd95285b0e6bd056fcc353df7e1f"
+    },
+    {
+      "index": 9,
+      "performance": "care",
+      "wav": "/Users/drive/.local/share/monroe-tts/renders/9a678d5725bd3af234abe226/0009.wav",
+      "textSha256": "a06e9303cdfdff83ee5b54e032b571a189ab18c6a53f607b1d60ab55eacb7115"
+    },
+    {
+      "index": 10,
+      "performance": "care",
+      "wav": "/Users/drive/.local/share/monroe-tts/renders/9a678d5725bd3af234abe226/0010.wav",
+      "textSha256": "189a4b55040d3ba4a046189f73556d7a248783571996f7ccda67ca3997d070ee"
+    },
+    {
+      "index": 11,
+      "performance": "care",
+      "wav": "/Users/drive/.local/share/monroe-tts/renders/9a678d5725bd3af234abe226/0011.wav",
+      "textSha256": "5643d043419ff8a0c0a743a820aa7b2647ef187853512f01f7ace6fdef5f020d"
+    },
+    {
+      "index": 12,
+      "performance": "care",
+      "wav": "/Users/drive/.local/share/monroe-tts/renders/9a678d5725bd3af234abe226/0012.wav",
+      "textSha256": "6f142b9ad2f3c2dffab3153204e0560b2f8cd411952ae983af75985710db3282"
+    },
+    {
+      "index": 13,
+      "performance": "neutral",
+      "wav": "/Users/drive/.local/share/monroe-tts/renders/9a678d5725bd3af234abe226/0013.wav",
+      "textSha256": "b2703ea5b5b411aedab30685426ef075503380bb35dbfdf9fcb04fa82210d2a5"
+    },
+    {
+      "index": 14,
+      "performance": "neutral",
+      "wav": "/Users/drive/.local/share/monroe-tts/renders/9a678d5725bd3af234abe226/0014.wav",
+      "textSha256": "8f4dbdb04004761565d4a5df2e5d885cffa95cec3e44b3efe6457a32f7055e4a"
+    },
+    {
+      "index": 15,
+      "performance": "neutral",
+      "wav": "/Users/drive/.local/share/monroe-tts/renders/9a678d5725bd3af234abe226/0015.wav",
+      "textSha256": "efd7e499bd018b35106c3e165f746b84b3eb572d05cdfaf8067166a8c1f58b79"
+    },
+    {
+      "index": 16,
+      "performance": "neutral",
+      "wav": "/Users/drive/.local/share/monroe-tts/renders/9a678d5725bd3af234abe226/0016.wav",
+      "textSha256": "b75193ca47f46f14eac32375d98a810a4dfed1d78ff3e3e3b8df501475593a51"
+    },
+    {
+      "index": 17,
+      "performance": "neutral",
+      "wav": "/Users/drive/.local/share/monroe-tts/renders/9a678d5725bd3af234abe226/0017.wav",
+      "textSha256": "a2d1711de80bb01dd847b46c2e15e6f83063b75201958db2bcba16f8b1f0ba55"
+    },
+    {
+      "index": 18,
+      "performance": "neutral",
+      "wav": "/Users/drive/.local/share/monroe-tts/renders/9a678d5725bd3af234abe226/0018.wav",
+      "textSha256": "7b78e881f314f2151c5e469e3093fa577aa64de1784dbd874f47b54328bab99f"
+    },
+    {
+      "index": 19,
+      "performance": "neutral",
+      "wav": "/Users/drive/.local/share/monroe-tts/renders/9a678d5725bd3af234abe226/0019.wav",
+      "textSha256": "7d9a3d71c97a101875696c02c3528087d7bb6d8cf1104c73ea7c1cd55ccef693"
+    },
+    {
+      "index": 20,
+      "performance": "neutral",
+      "wav": "/Users/drive/.local/share/monroe-tts/renders/9a678d5725bd3af234abe226/0020.wav",
+      "textSha256": "17ae58bdeb1b5235fdbea702477504d083be1330bc13ff291f89048f6c033fce"
+    },
+    {
+      "index": 21,
+      "performance": "neutral",
+      "wav": "/Users/drive/.local/share/monroe-tts/renders/9a678d5725bd3af234abe226/0021.wav",
+      "textSha256": "5164a00fc8d2f478035523668a35290b26329c3af066003228806b5b48e761b0"
+    },
+    {
+      "index": 22,
+      "performance": "neutral",
+      "wav": "/Users/drive/.local/share/monroe-tts/renders/9a678d5725bd3af234abe226/0022.wav",
+      "textSha256": "5cb7053a0936e76c6e3347e16898de76f7b5fde4495ebcead156b1a5555168d2"
+    },
+    {
+      "index": 23,
+      "performance": "neutral",
+      "wav": "/Users/drive/.local/share/monroe-tts/renders/9a678d5725bd3af234abe226/0023.wav",
+      "textSha256": "5a0dbb3af7a1dcfabaded7ee83c6430bbe46e3971878b92cf880b917ab687022"
+    },
+    {
+      "index": 24,
+      "performance": "neutral",
+      "wav": "/Users/drive/.local/share/monroe-tts/renders/9a678d5725bd3af234abe226/0024.wav",
+      "textSha256": "45609701948e9a04ea42bdf2fc528d5b64ff8130aff28dd241f7bcd7e67930ad"
+    },
+    {
+      "index": 25,
+      "performance": "neutral",
+      "wav": "/Users/drive/.local/share/monroe-tts/renders/9a678d5725bd3af234abe226/0025.wav",
+      "textSha256": "0870f83950dc03ac55018d0616d6b12d407886cd5c8fc11b7f6f8deefe000747"
+    },
+    {
+      "index": 26,
+      "performance": "neutral",
+      "wav": "/Users/drive/.local/share/monroe-tts/renders/9a678d5725bd3af234abe226/0026.wav",
+      "textSha256": "a9ef9da96405647c919a35f8efa27200cfbb3f7331a8ff5362dce41a09c604e2"
+    },
+    {
+      "index": 27,
+      "performance": "neutral",
+      "wav": "/Users/drive/.local/share/monroe-tts/renders/9a678d5725bd3af234abe226/0027.wav",
+      "textSha256": "656cc62fe7f6f6688b364ba14a12726a6965e2c7741d81dd9d771004a473dc1f"
+    },
+    {
+      "index": 28,
+      "performance": "neutral",
+      "wav": "/Users/drive/.local/share/monroe-tts/renders/9a678d5725bd3af234abe226/0028.wav",
+      "textSha256": "7c52bb54c98ccb98058354fae3154b1b69860bfe221eee2224ef5da553867e31"
+    },
+    {
+      "index": 29,
+      "performance": "neutral",
+      "wav": "/Users/drive/.local/share/monroe-tts/renders/9a678d5725bd3af234abe226/0029.wav",
+      "textSha256": "768a5258430826869eeb8c9f0b86f27906bbaf0d9b0ddfcbd39428bf8f91e49a"
+    },
+    {
+      "index": 30,
+      "performance": "neutral",
+      "wav": "/Users/drive/.local/share/monroe-tts/renders/9a678d5725bd3af234abe226/0030.wav",
+      "textSha256": "eb903c1aa7ff8638370947400c1f95e033ea4e1baa3683357aa88488d766d604"
+    },
+    {
+      "index": 31,
+      "performance": "neutral",
+      "wav": "/Users/drive/.local/share/monroe-tts/renders/9a678d5725bd3af234abe226/0031.wav",
+      "textSha256": "f5028497b4b1dc9a4894a883823f6a5ca4d2db1c0e8dad6d15164e9180312760"
+    },
+    {
+      "index": 32,
+      "performance": "neutral",
+      "wav": "/Users/drive/.local/share/monroe-tts/renders/9a678d5725bd3af234abe226/0032.wav",
+      "textSha256": "0d8e5a1ffa42a763e87692e117a321e3313eeaf28202cb08f5f5d38e2e65645a"
+    },
+    {
+      "index": 33,
+      "performance": "neutral",
+      "wav": "/Users/drive/.local/share/monroe-tts/renders/9a678d5725bd3af234abe226/0033.wav",
+      "textSha256": "7e15dc6d22d79e82ad15f823205822eceb7fa34bb5c5bd70ec2505132a05198f"
+    },
+    {
+      "index": 34,
+      "performance": "neutral",
+      "wav": "/Users/drive/.local/share/monroe-tts/renders/9a678d5725bd3af234abe226/0034.wav",
+      "textSha256": "3a8cd124ddb66269196850456dd36708bf3bb7af5f77417aee10f0ef67706807"
+    },
+    {
+      "index": 35,
+      "performance": "neutral",
+      "wav": "/Users/drive/.local/share/monroe-tts/renders/9a678d5725bd3af234abe226/0035.wav",
+      "textSha256": "de30fea6532ff206248fb757384e62d23cfa5f58f4be2437347d58f0dae38665"
+    },
+    {
+      "index": 36,
+      "performance": "neutral",
+      "wav": "/Users/drive/.local/share/monroe-tts/renders/9a678d5725bd3af234abe226/0036.wav",
+      "textSha256": "38b004616617c4c1ea8bd3e49528a997b8027b25c806828e9e2c7dd94135394a"
+    },
+    {
+      "index": 37,
+      "performance": "neutral",
+      "wav": "/Users/drive/.local/share/monroe-tts/renders/9a678d5725bd3af234abe226/0037.wav",
+      "textSha256": "d1c91335370e0b35f7ee093f352121b0879635a3ab4042a617b3a784f60bd7e1"
+    },
+    {
+      "index": 38,
+      "performance": "neutral",
+      "wav": "/Users/drive/.local/share/monroe-tts/renders/9a678d5725bd3af234abe226/0038.wav",
+      "textSha256": "be88258d890d093a8d2bc6b2607e0f1dd97f4d0f906c237395489f81e8a10ff1"
+    },
+    {
+      "index": 39,
+      "performance": "neutral",
+      "wav": "/Users/drive/.local/share/monroe-tts/renders/9a678d5725bd3af234abe226/0039.wav",
+      "textSha256": "c3c65fb9db4dfb633c2e7a301822bd33c0dbfe1c25888cb50bc7b29a8408ed99"
+    },
+    {
+      "index": 40,
+      "performance": "neutral",
+      "wav": "/Users/drive/.local/share/monroe-tts/renders/9a678d5725bd3af234abe226/0040.wav",
+      "textSha256": "600540a6f3f8d5567c055562443f295c6cb88bd43fcbff1e7baf9cc017c98352"
+    },
+    {
+      "index": 41,
+      "performance": "neutral",
+      "wav": "/Users/drive/.local/share/monroe-tts/renders/9a678d5725bd3af234abe226/0041.wav",
+      "textSha256": "b6f887306e13580cdecf3bca10d20eda106b41310884757408dd305c1c4b4c77"
+    },
+    {
+      "index": 42,
+      "performance": "neutral",
+      "wav": "/Users/drive/.local/share/monroe-tts/renders/9a678d5725bd3af234abe226/0042.wav",
+      "textSha256": "18d604fd40b0ab7de57be195e20a99200c0932fa4d17f0be9728e8ff71721f24"
+    }
+  ]
+}

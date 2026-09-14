@@ -1,0 +1,232 @@
+{
+  "schemaVersion": 1,
+  "source": "/Users/drive/penname/demo/chapters/07-the-ember-call-original.md",
+  "sourceSha256": "91f4315f5dc717855e951d0e4905388fa8a2c99a7fbe6067566b4a0971c795d1",
+  "defaultPerformance": "neutral",
+  "director": {
+    "backend": "ollama",
+    "model": "qwen3.5:35b-a3b-q4_K_M",
+    "effort": "high",
+    "generatedAt": "2026-09-14T13:29:50.673498+00:00",
+    "chapterArc": "A transition from Toren's internal tallying to group dynamics, culminating in a tactical breakthrough regarding the Ember that shifts the emotional register from frustration to quiet realization.",
+    "restraintNote": "Maintain analytical distance; do not dramatize the 'warmth' of the stone or the silence. Let the physical facts carry the weight.",
+    "coach": {
+      "name": "Calder measured audiobook coach",
+      "version": "1.0.0",
+      "path": "/Users/drive/kindling-narrator-stage/docs/audio-coaching/calder-delivery-coach.v1.json",
+      "sha256": "051ea3ada202cd1f699241f1cbcd909246c077f8eade2b4fac78dd27ee0f20e9"
+    },
+    "bookContext": {
+      "path": "/Users/drive/kindling-repo-stage/audio-production/book-01-hobbs-wall/book-performance-contract.md",
+      "sha256": "8ebb60614641097165dc93bc1f5a4d31cddc23742fe5e575f0df0c7b1f5fcad6"
+    }
+  },
+  "cues": [
+    {
+      "performance": "fear",
+      "intensity": "low",
+      "delivery": "Subtext: The realization that visibility is a weapon. Deliver the warning about the hedge with clinical precision, not panic.",
+      "returnToBaseAfter": true,
+      "from": "Because you're strong enough to get away with it on a two-foot wall and you won't be on a five-foot one. That was the first one, at the wall, on the morning after the fire, and Toren had written it down that night because he had honestly believed it was going to be the only one.",
+      "through": "Because the hedge doesn't stop anything, it just stops you seeing what's coming through it, and a thing that stops you seeing is worse than nothing at all — nothing at all you'll watch.",
+      "paragraphs": [
+        6,
+        7
+      ],
+      "reason": "Shift from internal tally to external threat assessment."
+    },
+    {
+      "performance": "neutral",
+      "intensity": "medium",
+      "delivery": "Subtext: Pragmatic utility. Rook's voice is flat and directive; Dessa's response is factual.",
+      "returnToBaseAfter": true,
+      "from": "It began as a practical matter — she could not drill, she was sitting on the bank anyway, and Rook, on the fifth morning, walked up the bank and said, \"You've got the best view in the field. Tell me what Milo's doing with his feet.\"",
+      "through": "She told him. She was very good at it, and got better within about an hour. By the afternoon Rook had stopped asking and had simply started running the drill with his back to half of it, and twice Toren heard the man say \"Say again?\" up the bank, and heard Dessa say it again, and watched him change the drill on the strength of it.",
+      "paragraphs": [
+        13,
+        16
+      ],
+      "reason": "Scene reset to group dynamic shift."
+    },
+    {
+      "performance": "hatred",
+      "intensity": "low",
+      "delivery": "Subtext: Controlled contempt. Wyck's silence is a weapon; his 'Got it' must sound like a ledger entry.",
+      "returnToBaseAfter": true,
+      "from": "Wyck did not like that.",
+      "through": "\"He's making a decent job of it.\"",
+      "paragraphs": [
+        17,
+        20
+      ],
+      "reason": "Character color for Wyck's resentment."
+    },
+    {
+      "performance": "neutral",
+      "intensity": "medium",
+      "delivery": "Subtext: Analytical observation. Dessa explains the social friction without emotional leakage.",
+      "returnToBaseAfter": true,
+      "from": "\"He's angry that she's got a job,\" said Dessa, \"and I've got a job, and Milo's got a job, and you've got a job, and it's the middle, and what he's got is being strong, which isn't a job, it's a fact, and he's had it his whole life, and nobody's ever once had to teach him anything about it.\" She shrugged. \"He's fifteen, and he's watching the rest of us learn things. I'd be unbearable.\"",
+      "through": "\"He's angry that she's got a job,\" said Dessa, \"and I've got a job, and Milo's got a job, and you've got a job, and it's the middle, and what he's got is being strong, which isn't a job, it's a fact, and he's had it his whole life, and nobody's ever once had to teach him anything about it.\" She shrugged. \"He's fifteen, and he's watching the rest of us learn things. I'd be unbearable.\"",
+      "paragraphs": [
+        21,
+        21
+      ],
+      "reason": "Return to narrator voice after character dialogue."
+    },
+    {
+      "performance": "neutral",
+      "intensity": "medium",
+      "delivery": "Subtext: The question is a challenge. Wyck's tone must be flat and pre-decided; Rook's command to repeat it is absolute.",
+      "returnToBaseAfter": true,
+      "from": "He was in the middle of taking Toren's line apart for the third time when Wyck said, \"Why does it matter which end I'm on?\"",
+      "through": "\"I'm asking him a question.\"",
+      "paragraphs": [
+        24,
+        30
+      ],
+      "reason": "Scene turn at the canal."
+    },
+    {
+      "performance": "neutral",
+      "intensity": "medium",
+      "delivery": "Subtext: Tactical inventory. Rook's explanation is cold logic; the 'mule' comparison must land with brutal clarity.",
+      "returnToBaseAfter": true,
+      "from": "\"Fair question,\" said Rook.",
+      "through": "\"Right,\" he said.",
+      "paragraphs": [
+        31,
+        40
+      ],
+      "reason": "Climax of the tactical discussion."
+    },
+    {
+      "performance": "neutral",
+      "intensity": "medium",
+      "delivery": "Subtext: The pivot. Rook's instruction to stop holding the stone is counter-intuitive; deliver with authoritative calm.",
+      "returnToBaseAfter": true,
+      "from": "The thing with the Ember happened on the seventh day, and it was, in the end, completely undramatic, which Toren resented for about a year afterward.",
+      "through": "\"So you're going to spend today doing something else with the front of your head,\" said Rook, \"and I don't care what. Carry something heavy. Do sums. Talk. It won't work and then one time it will and you won't know why, and afterward you'll want the reason and I'll give you what I've got, which is less than you'd like.\"",
+      "paragraphs": [
+        42,
+        50
+      ],
+      "reason": "Shift from physical struggle to mental reset."
+    },
+    {
+      "performance": "neutral",
+      "intensity": "medium",
+      "delivery": "Subtext: Absurdity of the task. Milo's calls are frantic but treated as background noise; Toren's internal monologue is rhythmic.",
+      "returnToBaseAfter": true,
+      "from": "What Toren did that day was carry a sack of milled corn up and down four hundred yards of towpath with the spike out in his right hand and Milo's calls coming at him from behind, and count them out loud.",
+      "through": "\"Left two, one down the bank—\"",
+      "paragraphs": [
+        51,
+        60
+      ],
+      "reason": "Action sequence requiring staccato rhythm."
+    },
+    {
+      "performance": "neutral",
+      "intensity": "medium",
+      "delivery": "Subtext: The physical sensation of warmth. Do not use 'awe'; treat the stone's heat as a surprising but factual data point.",
+      "returnToBaseAfter": true,
+      "from": "Rook hit him from the side with a shoulder and put him flat on the towpath with the sack on top of him.",
+      "through": "Rook crouched down in front of him.",
+      "paragraphs": [
+        61,
+        70
+      ],
+      "reason": "The breakthrough moment."
+    },
+    {
+      "performance": "neutral",
+      "intensity": "medium",
+      "delivery": "Subtext: Definition of the new state. Rook's explanation is technical; 'Kindled' vs 'Ember' must be distinct.",
+      "returnToBaseAfter": true,
+      "from": "\"That's Ember,\" he said.",
+      "through": "Then he turned round and said, in a completely different voice, \"Wyck. Bring the bar. He's going to get up and hold that while you try to take it off him, and it's going to go out, and he's going to be intolerable about it for a week.\"",
+      "paragraphs": [
+        71,
+        80
+      ],
+      "reason": "Narrative recovery after character interaction."
+    },
+    {
+      "performance": "neutral",
+      "intensity": "medium",
+      "delivery": "Subtext: Group status update. Wyck's cynicism is dry; Senna's delight is subtle.",
+      "returnToBaseAfter": true,
+      "from": "At the fire, Milo said, \"So what's everybody, then?\"",
+      "through": "\"Right,\" said Wyck. \"The bottom.\"",
+      "paragraphs": [
+        82,
+        94
+      ],
+      "reason": "Dialogue sequence establishing group hierarchy."
+    },
+    {
+      "performance": "neutral",
+      "intensity": "medium",
+      "delivery": "Subtext: Quiet acceptance. Toren's internal realization about the stone and Wyck must be grounded.",
+      "returnToBaseAfter": true,
+      "from": "He said it without heat, and he got up and went to check the hobble on the mule, which did not need checking, and Toren sat on the other side of the fire with a warm stone in his coat pocket and understood two things.",
+      "through": "Toren listened to all of it and wrote none of it down, and lay awake for a while afterward turning the whole day over — the sack, the towpath, the warm stone — and got nowhere near the bottom of it, and fell asleep instead.",
+      "paragraphs": [
+        95,
+        105
+      ],
+      "reason": "Closing scene arc."
+    }
+  ],
+  "pauses": [
+    {
+      "paragraph": 7,
+      "after": "Because the hedge doesn't stop anything, it just stops you seeing what's coming through it, and a thing that stops you seeing is worse than nothing at all — nothing at all you'll watch.",
+      "milliseconds": 450,
+      "reason": "Completed thought on the hedge's danger; allow listener to process the tactical implication."
+    },
+    {
+      "paragraph": 16,
+      "after": "She told him. She was very good at it, and got better within about an hour. By the afternoon Rook had stopped asking and had simply started running the drill with his back to half of it, and twice Toren heard the man say \"Say again?\" up the bank, and heard Dessa say it again, and watched him change the drill on the strength of it.",
+      "milliseconds": 350,
+      "reason": "Breath between Dessa's observation and Wyck's reaction."
+    },
+    {
+      "paragraph": 28,
+      "after": "\"You keep putting me on the water end.\" Wyck's chin came up slightly. \"Every time. Canal side, water at my back, and I keep asking myself why, and the only answer I've got is that the water end's where you put the one you're least worried about losing.\"",
+      "milliseconds": 450,
+      "reason": "Pause after the question is fully articulated; let the challenge hang before Rook responds."
+    },
+    {
+      "paragraph": 36,
+      "after": "\"If it takes you off the path, you'll come up swinging, and if it takes Milo off the path, Milo will drown, because he's nine stone and can't swim and he'd have a light in his hands. So I put the end that touches the water next to the one who can survive touching it. That's all of it. That's the entire reasoning, and it took me about a second and a half, and I've been doing it for six days.\"",
+      "milliseconds": 900,
+      "reason": "Major emotional landing on the 'mule' comparison; allow the weight of that line to settle."
+    },
+    {
+      "paragraph": 48,
+      "after": "\"No, you weren't. Milo was on the ground with a husk on him, and you were looking at your hand.\" He said it without any particular emphasis. \"You looked down to check that you still had it, and that was the instant. I watched you do it. You've done it eleven times since, and I've counted every one of them.\"",
+      "milliseconds": 450,
+      "reason": "Pause after Rook's accusation about Toren looking at his hand; create space for realization."
+    },
+    {
+      "paragraph": 67,
+      "after": "It was warm now, the way a cup is warm through a glove. It went on being warm.",
+      "milliseconds": 900,
+      "reason": "Major emotional landing on the sensation of warmth; let the physical change register before dialogue resumes."
+    },
+    {
+      "paragraph": 81,
+      "after": "It went out eleven times that afternoon and came back twelve, and by evening Toren could hold it through a shove, through a fall, and through being shouted at, and could not hold it through being surprised from behind, and Rook said that was correct and that it would be correct for about two months.",
+      "milliseconds": 450,
+      "reason": "Pause after Rook's prediction about Toren being intolerable; transition to group status update."
+    },
+    {
+      "paragraph": 93,
+      "after": "\"Kindled's the door,\" said Rook.",
+      "milliseconds": 650,
+      "reason": "Speaker reset and scene turn as Wyck accepts the definition of 'Kindled' and moves away from the fire."
+    }
+  ]
+}

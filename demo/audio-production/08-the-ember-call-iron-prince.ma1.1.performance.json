@@ -1,0 +1,180 @@
+{
+  "schemaVersion": 1,
+  "source": "/Users/drive/penname/demo/chapters/08-the-ember-call-iron-prince.md",
+  "sourceSha256": "e8606b94cd2da4215888694af6e9f9d25b7a768c76ad994509a2ec0aed6ea4ed",
+  "defaultPerformance": "neutral",
+  "director": {
+    "backend": "ollama",
+    "model": "qwen3.5:35b-a3b-q4_K_M",
+    "effort": "high",
+    "generatedAt": "2026-09-14T13:39:37.317690+00:00",
+    "chapterArc": "A transition from Toren's internal tallying of fear to an external tactical crisis regarding Wyck's resentment, culminating in a quiet breakthrough with the Ember that shifts the group dynamic toward shared knowledge before Rook reveals a new destination.",
+    "restraintNote": "Maintain analytical distance. The emotional weight is carried by what is unsaid (Wyck's insecurity, Toren's secret warmth) rather than spoken drama. Do not rush the realization of the warm stone; let it breathe as a physical discovery.",
+    "coach": {
+      "name": "Calder measured audiobook coach",
+      "version": "1.0.0",
+      "path": "/Users/drive/kindling-narrator-stage/docs/audio-coaching/calder-delivery-coach.v1.json",
+      "sha256": "051ea3ada202cd1f699241f1cbcd909246c077f8eade2b4fac78dd27ee0f20e9"
+    },
+    "bookContext": {
+      "path": "/Users/drive/kindling-repo-stage/audio-production/book-01-hobbs-wall/book-performance-contract.md",
+      "sha256": "8ebb60614641097165dc93bc1f5a4d31cddc23742fe5e575f0df0c7b1f5fcad6"
+    }
+  },
+  "cues": [
+    {
+      "performance": "care",
+      "intensity": "medium",
+      "delivery": "Rook's explanation of the water-end placement is a clinical inventory, not comfort. Deliver with flat authority and precise rhythm to contrast Wyck's defensive posture.",
+      "returnToBaseAfter": true,
+      "from": "They had come down out of the field systems into a shallow valley with a canal in it — a real one, cut straight, forty feet across, the water black and still and about as deep as a man, with a towpath on the near side that made the best road they had walked in a week. Rook put them on the towpath and drilled them on it because it was twelve feet wide with water on one side, which meant it was a corridor, and a corridor was a thing they had not had.",
+      "through": "\"Right,\" he said.",
+      "paragraphs": [
+        23,
+        40
+      ],
+      "reason": "Shifts from group tension to tactical logic; requires grounded clarity."
+    },
+    {
+      "performance": "neutral",
+      "intensity": "low",
+      "delivery": "Narrative setup for the Ember breakthrough. Keep pace steady and observational as Rook dismantles Toren's misunderstanding of 'holding' the stone.",
+      "returnToBaseAfter": true,
+      "from": "The thing with the Ember happened on the seventh day, and it was, in the end, completely undramatic, which Toren resented for about a year afterward.",
+      "through": "\"No, you weren't. Milo was on the ground with a husk on him, and you were looking at your hand.\" He said it without any particular emphasis. \"You looked down to check that you still had it, and that was the instant. I watched you do it. You've done it eleven times since, and I've counted every one of them.\"",
+      "paragraphs": [
+        42,
+        50
+      ],
+      "reason": "Preparation for a physical shift in perception; avoid foreshadowing with tone."
+    },
+    {
+      "performance": "neutral",
+      "intensity": "low",
+      "delivery": "Toren's internal monologue during the exercise. Rhythmic and slightly weary; capture the absurdity of carrying a sack while Milo calls imaginary enemies.",
+      "returnToBaseAfter": true,
+      "from": "What Toren did that day was carry a sack of milled corn up and down four hundred yards of towpath with the spike out in his right hand and Milo's calls coming at him from behind, and count them out loud.",
+      "through": "\"Left two, one down the bank—\"",
+      "paragraphs": [
+        53,
+        62
+      ],
+      "reason": "Establishes the physical struggle before the breakthrough."
+    },
+    {
+      "performance": "neutral",
+      "intensity": "medium",
+      "delivery": "The fall and immediate aftermath. Sharp, staccato rhythm for the impact (P063), then slowing significantly as Toren notices the warmth. The realization is physical, not emotional.",
+      "returnToBaseAfter": true,
+      "from": "Rook hit him from the side with a shoulder and put him flat on the towpath with the sack on top of him.",
+      "through": "\"Oh,\" Toren said.",
+      "paragraphs": [
+        63,
+        70
+      ],
+      "reason": "Critical pivot point; silence must carry the weight of the discovery."
+    },
+    {
+      "performance": "neutral",
+      "intensity": "low",
+      "delivery": "Intimate observation. Slow down to allow Toren's sensory processing of the stone's texture and light. The 'warmth' is a fact, not a feeling.",
+      "returnToBaseAfter": true,
+      "from": "He sat down on the towpath with a sack of corn across his knees and held out his own hand and looked at it.",
+      "through": "Rook crouched down in front of him.",
+      "paragraphs": [
+        71,
+        80
+      ],
+      "reason": "Deepening the physical description; avoid melodrama in the discovery."
+    },
+    {
+      "performance": "neutral",
+      "intensity": "medium",
+      "delivery": "Rook's confirmation. Flat, declarative statements ('That is Ember'). The shift in Rook's voice at P090 should be subtle but distinct—shifting from mentor to commander.",
+      "returnToBaseAfter": true,
+      "from": "\"That's Ember,\" he said.",
+      "through": "Then he turned round and said, in a completely different voice, \"Wyck. Bring the bar. He's going to get up and hold that while you try to take it off him, and it's going to go out, and he's going to be intolerable about it for a week.\"",
+      "paragraphs": [
+        81,
+        90
+      ],
+      "reason": "Validation of the breakthrough; requires clear distinction between discovery and instruction."
+    },
+    {
+      "performance": "neutral",
+      "intensity": "low",
+      "delivery": "Group dialogue. Keep the rhythm conversational but clipped. Wyck's acceptance of 'Kindled' is pragmatic; Senna's comment should carry a dry, ironic edge.",
+      "returnToBaseAfter": true,
+      "from": "At the fire, Milo said, \"So what's everybody, then?\"",
+      "through": "\"Right,\" said Wyck. \"The bottom.\"",
+      "paragraphs": [
+        92,
+        104
+      ],
+      "reason": "Establishing new group status quo without over-dramatizing."
+    },
+    {
+      "performance": "neutral",
+      "intensity": "low",
+      "delivery": "Closing reflection. Toren's internal thought about the stone and Wyck is a quiet realization of social friction. End on Rook's command with steady anticipation.",
+      "returnToBaseAfter": true,
+      "from": "He said it without heat, and he got up and went to check the hobble on the mule, which did not need checking, and Toren sat on the other side of the fire with a warm stone in his coat pocket and understood two things.",
+      "through": "Toren listened to all of it and wrote none of it down, and lay awake for a while afterward turning the whole day over — the sack, the towpath, the warm stone — and got nowhere near the bottom of it, and fell asleep instead.",
+      "paragraphs": [
+        105,
+        115
+      ],
+      "reason": "Resolving the scene arc; maintain observer distance."
+    }
+  ],
+  "pauses": [
+    {
+      "paragraph": 10,
+      "after": "Four marks in four days. Then, on the fifth day, six marks before noon, and Toren stopped writing them down because there was no longer any point in keeping a tally of the weather.",
+      "milliseconds": 450,
+      "reason": "End of a completed thought regarding the tallying habit; allows listener to process Toren's isolation."
+    },
+    {
+      "paragraph": 28,
+      "after": "\"You keep putting me on the water end.\" Wyck's chin came up slightly. \"Every time. Canal side, water at my back, and I keep asking myself why, and the only answer I've got is that the water end's where you put the one you're least worried about losing.\"",
+      "milliseconds": 650,
+      "reason": "Speaker reset after Wyck's long question and Rook's command 'Say the whole question'; creates space for the answer to land."
+    },
+    {
+      "paragraph": 37,
+      "after": "He went back up the line.",
+      "milliseconds": 450,
+      "reason": "Pause before Rook delivers the second reason; emphasizes the weight of his logic."
+    },
+    {
+      "paragraph": 62,
+      "after": "\"Left two, one down the bank—\"",
+      "milliseconds": 900,
+      "reason": "Major emotional landing after Toren falls and realizes the stone is warm. Silence carries the discovery."
+    },
+    {
+      "paragraph": 73,
+      "after": "The light did not sit on the stone. That was the first thing, and he had had it wrong his whole life, because everyone described it as a stone that shines. It came out of the stone, out of one place a little off the middle of the flat face, the way a shoot comes out of a seed potato, and it went where his forearm pointed and nowhere else. For four inches out of his fist it had no edges at all, only a thickening. Then it found them, and there were two, and they did not match. One ran out a hand's breadth further than the other and stopped in the blunt hooked end that had embarrassed him since the road cut, and the whole length of it had a slight lean in it, off true, in the same direction every time.",
+      "milliseconds": 650,
+      "reason": "Pause for sensory processing of the light's behavior; allows the description to settle before moving on."
+    },
+    {
+      "paragraph": 82,
+      "after": "\"That's—\"",
+      "milliseconds": 450,
+      "reason": "Brief breath after Toren stammers 'That is—'; gives Rook time to deliver his definition clearly."
+    },
+    {
+      "paragraph": 97,
+      "after": "There was a short silence of the kind Milo walked into about twice a week.",
+      "milliseconds": 650,
+      "reason": "Pause for the silence before Dessa confirms her status; highlights the tension of the question."
+    },
+    {
+      "paragraph": 104,
+      "after": "\"Right,\" said Wyck. \"The bottom.\"",
+      "milliseconds": 900,
+      "reason": "Major emotional landing on Wyck's acceptance and Toren's realization about his secret warmth. Sets up the final scene shift."
+    }
+  ]
+}
