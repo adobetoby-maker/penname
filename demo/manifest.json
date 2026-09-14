@@ -6,12 +6,12 @@
     {
       "id": "penname-demo",
       "title": "Proof of Craft",
-      "totalChapters": 6,
+      "totalChapters": 10,
       "renderedChapters": 6,
       "chapters": [
         {
           "number": 1,
-          "title": "The Exhibition — as published (The Fractured Path, Book 1, Ch. 17)",
+          "title": "The Exhibition \u2014 as published (The Fractured Path, Book 1, Ch. 17)",
           "manuscript": "demo/chapters/01-the-exhibition-original.md",
           "renders": [
             {
@@ -27,7 +27,7 @@
         },
         {
           "number": 2,
-          "title": "The Exhibition — harness draft (from a facts-only card; the original was never shown to the author)",
+          "title": "The Exhibition \u2014 harness draft (from a facts-only card; the original was never shown to the author)",
           "manuscript": "demo/chapters/02-the-exhibition-harness.md",
           "renders": [
             {
@@ -43,7 +43,7 @@
         },
         {
           "number": 3,
-          "title": "The Silver Standard — the Daeva match (harness draft; editor verdict STRUCTURAL_HOLD, unrepaired by design)",
+          "title": "The Silver Standard \u2014 the Daeva match (harness draft; editor verdict STRUCTURAL_HOLD, unrepaired by design)",
           "manuscript": "demo/chapters/03-the-silver-standard-daeva.md",
           "renders": [
             {
@@ -51,7 +51,7 @@
               "voice": "Jason Keiller (Audience Pleaser)",
               "file": "demo/audio/03-the-silver-standard-daeva.mp3",
               "bytes": 5940497,
-              "durationSec": 742.50,
+              "durationSec": 742.5,
               "sha256": "dd4a306106ad736fed2a9ba3a971cec49700d213517a04180408e816c00e06db",
               "url": "https://media.githubusercontent.com/media/adobetoby-maker/penname/main/demo/audio/03-the-silver-standard-daeva.mp3"
             }
@@ -59,7 +59,7 @@
         },
         {
           "number": 4,
-          "title": "The Exhibition — full chapter (harness draft; the complete chapter re-solved cold — the author saw neither the original nor its own earlier fight excerpt)",
+          "title": "The Exhibition \u2014 full chapter (harness draft; the complete chapter re-solved cold \u2014 the author saw neither the original nor its own earlier fight excerpt)",
           "manuscript": "demo/chapters/04-the-exhibition-full.md",
           "renders": [
             {
@@ -75,7 +75,7 @@
         },
         {
           "number": 5,
-          "title": "Tallow Gate voice audition — Australian female",
+          "title": "Tallow Gate voice audition \u2014 Australian female",
           "manuscript": "demo/chapters/05-tallow-female-australian-audition.md",
           "renders": [
             {
@@ -92,7 +92,7 @@
         },
         {
           "number": 6,
-          "title": "Tallow Gate voice audition — English female",
+          "title": "Tallow Gate voice audition \u2014 English female",
           "manuscript": "demo/chapters/06-tallow-female-english-audition.md",
           "renders": [
             {
@@ -106,6 +106,30 @@
               "url": "https://media.githubusercontent.com/media/adobetoby-maker/penname/main/demo/audio/06-tallow-female-english-audition.mp3"
             }
           ]
+        },
+        {
+          "number": 7,
+          "title": "The Ember Call \u2014 as published (Kindling, Book 1, Ch. 9)",
+          "manuscript": "demo/chapters/07-the-ember-call-original.md",
+          "renders": []
+        },
+        {
+          "number": 8,
+          "title": "The Ember Call \u2014 Iron Prince Expansion (owner-directed detail pass: the call as an action, the light as structure, the light-to-ember mastery threshold)",
+          "manuscript": "demo/chapters/08-the-ember-call-iron-prince.md",
+          "renders": []
+        },
+        {
+          "number": 9,
+          "title": "The Orchard \u2014 as published (Kindling, Book 1, Ch. 10)",
+          "manuscript": "demo/chapters/09-the-orchard-original.md",
+          "renders": []
+        },
+        {
+          "number": 10,
+          "title": "The Orchard \u2014 Iron Prince Expansion (owner-directed detail pass: witnessed-power awe, slow-motion master technique, the breakthrough and total drain)",
+          "manuscript": "demo/chapters/10-the-orchard-iron-prince.md",
+          "renders": []
         }
       ]
     }
