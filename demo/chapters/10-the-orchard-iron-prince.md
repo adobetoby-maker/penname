@@ -236,7 +236,7 @@ The spike changed.
 
 He felt it go. It went out of the slab first, at the base of his fist, a pull like a rope coming taut through a ring, and then it ran out of his fist in a single clean movement, thinner and half again as long and not ugly at all.
 
-He saw it make itself. It was not there and then bright; it was bright before it was anything — a line of white going out past his knuckles ahead of any edge at all, running out into the air the way water runs down a dry channel, finding the length first and the shape after. Then the edges came, and they came fast, arriving along it from the fist outward the way frost goes across a puddle, and they came up true and thin and matched, one and then the other, and the blunt hooked end that had been on the thing since the road cut arrived last of all and arrived straight.
+He saw it make itself. It was not there and then bright; it was bright before it was anything — a line of white going out past his knuckles ahead of any edge at all, running out into the air the way water runs down a dry channel, finding the length first and the shape after. Then the edges came, and they came fast, arriving along it from the fist outward the way frost goes across a puddle. They came up true and thin and matched, one and then the other. The blunt hooked end that had been on the thing since the road cut arrived last of all, and arrived straight.
 
 It committed. He felt the moment it decided what it was going to be, the way you feel the last of a knot go when you pull it.
 
