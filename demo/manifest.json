@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "generated": "2026-09-14T22:52:00-06:00",
+  "generated": "2026-09-15T05:45:00-06:00",
   "sourceBranch": "main",
   "books": [
     {
       "id": "penname-demo",
       "title": "Proof of Craft",
-      "totalChapters": 13,
-      "renderedChapters": 13,
+      "totalChapters": 16,
+      "renderedChapters": 16,
       "chapters": [
         {
           "number": 1,
@@ -223,6 +223,60 @@
               "durationSec": 54.57,
               "sha256": "39773f7c1f63ac26683b8955b702857c5281c159b30ec6f21556002e7f26f865",
               "url": "https://media.githubusercontent.com/media/adobetoby-maker/penname/main/demo/audio/13-edges-liberal-punctuation-marked.mp3"
+            }
+          ]
+        },
+        {
+          "number": 14,
+          "title": "Edges test — first-run Sample B clone, native 0.85",
+          "manuscript": "demo/chapters/14-edges-sample-b-clone-marked-085.md",
+          "renders": [
+            {
+              "render": "monroe-book-narrator-1.2.5-sample-b-clone-085",
+              "engine": "ElevenLabs clone from first Qwen bake-off Sample B",
+              "voice": "Monroe Sample B Clone — native 0.85, no time-stretch",
+              "voiceId": "5Jdx7LOZfHWCUohPJdOb",
+              "file": "demo/audio/14-edges-sample-b-clone-marked-085.mp3",
+              "bytes": 1101357,
+              "durationSec": 68.78,
+              "sha256": "ac616fb0670e5eab2ce7b845151b9c7cca7d9ee129deb467ad817ef6f8cacbee",
+              "url": "https://media.githubusercontent.com/media/adobetoby-maker/penname/main/demo/audio/14-edges-sample-b-clone-marked-085.mp3"
+            }
+          ]
+        },
+        {
+          "number": 15,
+          "title": "Edges test — first-run Sample B clone, master-cadence lane",
+          "manuscript": "demo/chapters/15-edges-sample-b-clone-marked-070.md",
+          "renders": [
+            {
+              "render": "monroe-book-narrator-1.2.5-sample-b-clone-070",
+              "engine": "ElevenLabs clone from first Qwen bake-off Sample B with aligned rests",
+              "voice": "Monroe Sample B Clone — native 0.70, no time-stretch",
+              "voiceId": "5Jdx7LOZfHWCUohPJdOb",
+              "file": "demo/audio/15-edges-sample-b-clone-marked-070.mp3",
+              "bytes": 1225773,
+              "durationSec": 76.56,
+              "sha256": "187822aa460fc4f0f4f64f7415a37f5f44a9d967f15aeeeb1f46c170427c4e1c",
+              "url": "https://media.githubusercontent.com/media/adobetoby-maker/penname/main/demo/audio/15-edges-sample-b-clone-marked-070.mp3"
+            }
+          ]
+        },
+        {
+          "number": 16,
+          "title": "Edges test — Calder Orchard clone, punctuation-prepared",
+          "manuscript": "demo/chapters/16-edges-calder-orchard-clone-punctuation-085.md",
+          "renders": [
+            {
+              "render": "monroe-book-narrator-1.2.5-calder-orchard-clone-085",
+              "engine": "ElevenLabs clone from Craft chapter 10 Calder Orchard narration",
+              "voice": "Monroe Calder Orchard Clone — native 0.85, no time-stretch",
+              "voiceId": "9NeMLTg6aNt9WBS3jHKO",
+              "file": "demo/audio/16-edges-calder-orchard-clone-punctuation-085.mp3",
+              "bytes": 931245,
+              "durationSec": 58.143,
+              "sha256": "d7e0b60e77fe2d33fd800a411655f4292beb85085d1b159bd989d54eaa7aa479",
+              "url": "https://media.githubusercontent.com/media/adobetoby-maker/penname/main/demo/audio/16-edges-calder-orchard-clone-punctuation-085.mp3"
             }
           ]
         }
