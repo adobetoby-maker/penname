@@ -158,7 +158,7 @@ They made a line eleven feet in front of the press-house steps, with the open gr
 
 Milo had the light up over his head and did not drop it. Dessa called from the top step with the whole slope under her eye and got every single one right. Wyck planted at the left end because the left end was where the ditch mouth was, and he did not have to be told. Toren held the middle and said everything Milo said one beat behind him, louder, and twice Rook did what the middle said.
 
-They killed two more on the open grass. Rook took one in the air, which Toren had not known was possible and which he thought about for years.
+They killed two more on the open grass. Rook took one in the air, which Toren had not known was possible.
 
 It came up out of the ditch mouth already going flat out, and it did not come at the line. It went across the front of them, left to right, at about the height of a man's chest, on a line that would have taken it round the end of the line altogether and up onto the steps.
 
@@ -276,7 +276,7 @@ There was nothing to see. That was the whole of it. Toren was four feet away, at
 
 The Stilt came out of the ditch mouth at the speed those things came out of everything, and it hit Wyck square, and there was a sound like a barrow going over on a stone floor, and Wyck did not go anywhere.
 
-He should have. That was the part Toren could not make sit down flat in his head afterward, no matter how many times he went over it. Nine stone of boy, and a thing that had crossed forty feet in no time at all, and it came off him like water off a gatepost, and Wyck's boots were exactly where Wyck's boots had been.
+He should have. Nine stone of boy, and a thing that had crossed forty feet in no time at all, and it came off him like water off a gatepost, and Wyck's boots were exactly where Wyck's boots had been.
 
 Things moved. The windfall in front of him jumped, and a spray of it went up between the two of them and came down. His coat went back off his thighs and came down again. The hair came off his forehead and settled. Everything on that hillside that was small and light did what small light things do when something of that size arrives.
 

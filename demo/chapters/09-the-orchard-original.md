@@ -126,7 +126,7 @@ They made a line eleven feet in front of the press-house steps, with the open gr
 
 Milo had the light up over his head and did not drop it. Dessa called from the top step with the whole slope under her eye and got every single one right. Wyck planted at the left end because the left end was where the ditch mouth was, and he did not have to be told. Toren held the middle and said everything Milo said one beat behind him, louder, and twice Rook did what the middle said.
 
-They killed two more on the open grass. Rook took one in the air, which Toren had not known was possible and which he thought about for years.
+They killed two more on the open grass. Rook took one in the air, which Toren had not known was possible.
 
 And then the fourth one stopped at the mouth of the ditch, forty feet out, side-on, with its body down low between the long legs.
 
@@ -184,7 +184,7 @@ Toren saw it from the ground, four feet away, with his cheek in the windfall.
 
 The Stilt came out of the ditch mouth at the speed those things came out of everything, and it hit Wyck square, and there was a sound like a barrow going over on a stone floor, and Wyck did not go anywhere.
 
-He should have. That was the part Toren could not make sit down flat in his head afterward, no matter how many times he went over it. Nine stone of boy, and a thing that had crossed forty feet in no time at all, and it came off him like water off a gatepost, and Wyck's boots were exactly where Wyck's boots had been. It opened his left forearm from the elbow to the wrist on the way past, and he did not appear to notice, and he swung the bar into its trailing leg as it went and broke the leg, and the thing went down on the steps, and Milo Faust kicked it in the head with both heels, screaming, from above, the way he had kicked one off a cart bed thirteen days ago.
+He should have. Nine stone of boy, and a thing that had crossed forty feet in no time at all, and it came off him like water off a gatepost, and Wyck's boots were exactly where Wyck's boots had been. It opened his left forearm from the elbow to the wrist on the way past, and he did not appear to notice, and he swung the bar into its trailing leg as it went and broke the leg, and the thing went down on the steps, and Milo Faust kicked it in the head with both heels, screaming, from above, the way he had kicked one off a cart bed thirteen days ago.
 
 The last one came out of the ditch at Wyck and did the same thing, and got the same result.
 
