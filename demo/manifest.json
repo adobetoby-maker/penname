@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "generated": "2026-09-12T05:30:00-06:00",
+  "generated": "2026-09-14T22:52:00-06:00",
   "sourceBranch": "main",
   "books": [
     {
       "id": "penname-demo",
       "title": "Proof of Craft",
-      "totalChapters": 10,
-      "renderedChapters": 10,
+      "totalChapters": 13,
+      "renderedChapters": 13,
       "chapters": [
         {
           "number": 1,
@@ -172,6 +172,57 @@
               "durationSec": 2144.74,
               "sha256": "7a536c13c485c2b6eab38c5d4de020fc67c2b1ea942664c4adcf68d13f59ac3c",
               "url": "https://media.githubusercontent.com/media/adobetoby-maker/penname/main/demo/audio/10-the-orchard-iron-prince.mp3"
+            }
+          ]
+        },
+        {
+          "number": 11,
+          "title": "Edges test A — original comma chain",
+          "manuscript": "demo/chapters/11-edges-original-comma-chain.md",
+          "renders": [
+            {
+              "render": "monroe-book-narrator-1.2.5-holden-a",
+              "engine": "ElevenLabs eleven_multilingual_v2",
+              "voice": "Holden — native 0.85, no time-stretch",
+              "file": "demo/audio/11-edges-original-comma-chain.mp3",
+              "bytes": 827181,
+              "durationSec": 51.641,
+              "sha256": "21b300aae112b618b978b16ddfc2bbe623864970126b7a87bffa8aedb6c2f39a",
+              "url": "https://media.githubusercontent.com/media/adobetoby-maker/penname/main/demo/audio/11-edges-original-comma-chain.mp3"
+            }
+          ]
+        },
+        {
+          "number": 12,
+          "title": "Edges test B — liberal punctuation",
+          "manuscript": "demo/chapters/12-edges-liberal-punctuation.md",
+          "renders": [
+            {
+              "render": "monroe-book-narrator-1.2.5-holden-b",
+              "engine": "ElevenLabs eleven_multilingual_v2",
+              "voice": "Holden — native 0.85, no time-stretch",
+              "file": "demo/audio/12-edges-liberal-punctuation.mp3",
+              "bytes": 837549,
+              "durationSec": 52.291,
+              "sha256": "e5f80791b3eecaf6dfc465f90134ce710b025374b69b84aaab13ba27fd49a4c4",
+              "url": "https://media.githubusercontent.com/media/adobetoby-maker/penname/main/demo/audio/12-edges-liberal-punctuation.mp3"
+            }
+          ]
+        },
+        {
+          "number": 13,
+          "title": "Edges test C — punctuation plus narration markup",
+          "manuscript": "demo/chapters/13-edges-liberal-punctuation-marked.md",
+          "renders": [
+            {
+              "render": "monroe-book-narrator-1.2.5-holden-c",
+              "engine": "ElevenLabs eleven_multilingual_v2 with authored rests",
+              "voice": "Holden — native 0.85, no time-stretch",
+              "file": "demo/audio/13-edges-liberal-punctuation-marked.mp3",
+              "bytes": 874029,
+              "durationSec": 54.57,
+              "sha256": "39773f7c1f63ac26683b8955b702857c5281c159b30ec6f21556002e7f26f865",
+              "url": "https://media.githubusercontent.com/media/adobetoby-maker/penname/main/demo/audio/13-edges-liberal-punctuation-marked.mp3"
             }
           ]
         }
