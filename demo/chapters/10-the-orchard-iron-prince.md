@@ -102,7 +102,7 @@ He had heard it exactly once before, coming down a rock face forty feet above a 
 
 Then the row discipline worked, and it worked so well that it was almost boring.
 
-That was the shape of the next four minutes. A Stilt at the end of a row was a straight line, and a straight line was a killing thing, so they did not stand in rows. They stood *across* them, in the thick of the trunks where the old trees had grown into each other, and every time one of the things wanted to reach them, it had to stop out in the open to choose a new line, and the instant it stopped, it was a two-legged thing standing on the grass doing nothing.
+That was the shape of the next four minutes. One of them at the end of a row was a straight line, and a straight line was a killing thing, so they did not stand in rows. They stood *across* them, in the thick of the trunks where the old trees had grown into each other, and every time one of the things wanted to reach them, it had to stop out in the open to choose a new line, and the instant it stopped, it was a two-legged thing standing on the grass doing nothing.
 
 Wyck killed the first one with the bar across the knee of its left leg while it stood picking its way through the geometry, and the whole creature went down like a stepladder coming apart.
 
@@ -138,7 +138,7 @@ He had heard Rook say *the ditch at the bottom of the orchard is a line*. He had
 
 They went. Running downhill across old orchard rows with windfall under the grass is not running, it is a controlled fall with interruptions, and Toren went over twice and kept the spike both times and did not look at his hand.
 
-The Stilts came out of the ditch at the western end, where the stone gave out, and the bank shelved, and they came out one behind another, and the ground between the mouth of the ditch and the press-house steps was the one piece of open mown-flat grass in the whole orchard.
+They came out of the ditch at the western end, where the stone gave out, and the bank shelved, and they came out one behind another, and the ground between the mouth of the ditch and the press-house steps was the one piece of open mown-flat grass in the whole orchard.
 
 The last Toren had seen of Rook, the man had been forty yards up the slope and two rows over, standing side-on between two trees with one hand flat on a trunk and his head turned downhill, not moving at all.
 
@@ -180,7 +180,7 @@ That was the thing. On the ground, the man was a noise and a change of position.
 
 Toren worked out the why of it a long while afterward, lying awake, and never checked it with anybody: you can only push against what is under you, and in the air there is nothing under you. Whatever the struts were, they were finished at the boot. The rest had been arithmetic, and the arithmetic had been done standing still on the grass, facing the wrong way, before the thing was out of the ditch.
 
-The Stilt did not see him. It could not have. It had chosen its line and it could not bend it, and the line ran along the grass, and Rook was above the grass.
+It did not see him. It could not have. It had chosen its line and it could not bend it, and the line ran along the grass, and Rook was above the grass.
 
 They met about four feet up.
 
@@ -242,7 +242,7 @@ It committed. He felt the moment it decided what it was going to be, the way you
 
 And the whole of his forearm went to light — not a glove of it, not a shine on the skin. It came back up out of the stone into his hand and past his wrist and stopped at the elbow, and he could feel it in the bone, and the arm was not holding the weapon any more. The arm was part of it.
 
-And the world went very simple, and he put it through the first Stilt lengthwise and took both legs off the second one on the backswing, and neither of them touched the ground before he had turned for a third.
+And the world went very simple, and he put it through the first one lengthwise and took both legs off the second one on the backswing, and neither of them touched the ground before he had turned for a third.
 
 There was no third.
 
@@ -274,7 +274,7 @@ Nothing else about Wyck Tanner did anything at all. He did not sink at the hips.
 
 There was nothing to see. That was the whole of it. Toren was four feet away, at ground level, looking straight along the line of those boots, and there was nothing whatever to see.
 
-The Stilt came out of the mouth of the ditch at the speed those things came out of everything, and it hit Wyck square, and there was a sound like a barrow going over on a stone floor, and Wyck did not go anywhere.
+It came out of the mouth of the ditch at the speed those things came out of everything, and it hit Wyck square, and there was a sound like a barrow going over on a stone floor, and Wyck did not go anywhere.
 
 He should have. Nine stone of boy, and a thing that had crossed forty feet in no time at all, and it came off him like water off a gatepost, and Wyck's boots were exactly where Wyck's boots had been.
 
