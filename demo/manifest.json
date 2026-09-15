@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "generated": "2026-09-15T06:05:00-06:00",
+  "generated": "2026-09-15T06:25:00-06:00",
   "sourceBranch": "main",
   "books": [
     {
       "id": "penname-demo",
       "title": "Proof of Craft",
-      "totalChapters": 19,
-      "renderedChapters": 19,
+      "totalChapters": 21,
+      "renderedChapters": 21,
       "chapters": [
         {
           "number": 1,
@@ -330,6 +330,42 @@
               "durationSec": 181.534,
               "sha256": "acdb83e90235e2cae151d0cb37e99da1da9d1a8d44a919dcbd0e565be47a1e2d",
               "url": "https://media.githubusercontent.com/media/adobetoby-maker/penname/main/demo/audio/19-boundary-opening-calder-paragraph-085.mp3"
+            }
+          ]
+        },
+        {
+          "number": 20,
+          "title": "Boundary opening D — Boundary B/Holden, maximum-comma breath paragraphs",
+          "manuscript": "demo/chapters/20-21-boundary-opening-breath-comma-test.md",
+          "renders": [
+            {
+              "render": "monroe-book-narrator-1.2.5-boundary-b-breath-comma-085",
+              "engine": "ElevenLabs clone from first Qwen bake-off Sample B",
+              "voice": "Boundary B/Holden Clone — native 0.85, no time-stretch",
+              "voiceId": "5Jdx7LOZfHWCUohPJdOb",
+              "file": "demo/audio/20-boundary-opening-holden-b-breath-comma-085.mp3",
+              "bytes": 2607021,
+              "durationSec": 162.865,
+              "sha256": "73dd1e0edd26fc5288aa96958d304da5344b602c764bc4542615994acfe041fd",
+              "url": "https://media.githubusercontent.com/media/adobetoby-maker/penname/main/demo/audio/20-boundary-opening-holden-b-breath-comma-085.mp3"
+            }
+          ]
+        },
+        {
+          "number": 21,
+          "title": "Boundary opening E — Calder Orchard, maximum-comma breath paragraphs",
+          "manuscript": "demo/chapters/20-21-boundary-opening-breath-comma-test.md",
+          "renders": [
+            {
+              "render": "monroe-book-narrator-1.2.5-calder-orchard-breath-comma-085",
+              "engine": "ElevenLabs clone from Craft chapter 10 Calder Orchard narration",
+              "voice": "Calder Orchard Clone — native 0.85, no time-stretch",
+              "voiceId": "9NeMLTg6aNt9WBS3jHKO",
+              "file": "demo/audio/21-boundary-opening-calder-breath-comma-085.mp3",
+              "bytes": 3010221,
+              "durationSec": 188.081,
+              "sha256": "2f08f203d60259dd53c2fceeda44a058a8fc74e993b1ecbf20c2282a7bd07c9b",
+              "url": "https://media.githubusercontent.com/media/adobetoby-maker/penname/main/demo/audio/21-boundary-opening-calder-breath-comma-085.mp3"
             }
           ]
         }
