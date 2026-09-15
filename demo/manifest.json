@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "generated": "2026-09-15T06:25:00-06:00",
+  "generated": "2026-09-15T06:45:00-06:00",
   "sourceBranch": "main",
   "books": [
     {
       "id": "penname-demo",
       "title": "Proof of Craft",
-      "totalChapters": 21,
-      "renderedChapters": 21,
+      "totalChapters": 23,
+      "renderedChapters": 23,
       "chapters": [
         {
           "number": 1,
@@ -366,6 +366,42 @@
               "durationSec": 188.081,
               "sha256": "2f08f203d60259dd53c2fceeda44a058a8fc74e993b1ecbf20c2282a7bd07c9b",
               "url": "https://media.githubusercontent.com/media/adobetoby-maker/penname/main/demo/audio/21-boundary-opening-calder-breath-comma-085.mp3"
+            }
+          ]
+        },
+        {
+          "number": 22,
+          "title": "Light-forming timing triplet — Boundary B/Holden",
+          "manuscript": "demo/chapters/22-23-light-forming-innate-timing-triplet.md",
+          "renders": [
+            {
+              "render": "monroe-book-narrator-1.2.5-light-forming-triplet-boundary-b-085",
+              "engine": "ElevenLabs clone from first Qwen bake-off Sample B",
+              "voice": "Boundary B/Holden Clone — native 0.85, no time-stretch",
+              "voiceId": "5Jdx7LOZfHWCUohPJdOb",
+              "file": "demo/audio/22-light-forming-triplet-holden-b-085.mp3",
+              "bytes": 905133,
+              "durationSec": 56.517,
+              "sha256": "8dbf3a9829d12c2915de1fbf1eee168c0afa50c7f09b9e538b60b36403c0d8d3",
+              "url": "https://media.githubusercontent.com/media/adobetoby-maker/penname/main/demo/audio/22-light-forming-triplet-holden-b-085.mp3"
+            }
+          ]
+        },
+        {
+          "number": 23,
+          "title": "Light-forming timing triplet — Calder Orchard",
+          "manuscript": "demo/chapters/22-23-light-forming-innate-timing-triplet.md",
+          "renders": [
+            {
+              "render": "monroe-book-narrator-1.2.5-light-forming-triplet-calder-085",
+              "engine": "ElevenLabs clone from Craft chapter 10 Calder Orchard narration",
+              "voice": "Calder Orchard Clone — native 0.85, no time-stretch",
+              "voiceId": "9NeMLTg6aNt9WBS3jHKO",
+              "file": "demo/audio/23-light-forming-triplet-calder-085.mp3",
+              "bytes": 1023405,
+              "durationSec": 63.901,
+              "sha256": "391db38e0621d88c546d186405d8e5e3f0196b3198eb8349309b3f89d9b19ee3",
+              "url": "https://media.githubusercontent.com/media/adobetoby-maker/penname/main/demo/audio/23-light-forming-triplet-calder-085.mp3"
             }
           ]
         }
