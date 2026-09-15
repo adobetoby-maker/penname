@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "generated": "2026-09-15T05:45:00-06:00",
+  "generated": "2026-09-15T06:05:00-06:00",
   "sourceBranch": "main",
   "books": [
     {
       "id": "penname-demo",
       "title": "Proof of Craft",
-      "totalChapters": 16,
-      "renderedChapters": 16,
+      "totalChapters": 19,
+      "renderedChapters": 19,
       "chapters": [
         {
           "number": 1,
@@ -277,6 +277,59 @@
               "durationSec": 58.143,
               "sha256": "d7e0b60e77fe2d33fd800a411655f4292beb85085d1b159bd989d54eaa7aa479",
               "url": "https://media.githubusercontent.com/media/adobetoby-maker/penname/main/demo/audio/16-edges-calder-orchard-clone-punctuation-085.mp3"
+            }
+          ]
+        },
+        {
+          "number": 17,
+          "title": "Boundary opening A — existing approved master",
+          "manuscript": "demo/chapters/17-19-boundary-opening-paragraph-test.md",
+          "renders": [
+            {
+              "render": "boundary-existing-approved-master-reference",
+              "engine": "Existing ElevenLabs finished master",
+              "voice": "Approved Boundary master reference",
+              "file": "demo/audio/17-boundary-opening-reference-master.mp3",
+              "bytes": 2980928,
+              "durationSec": 186.24,
+              "sha256": "88800ef0d717811792ddee7465ea20a0360c7c7f5525de1e25ad78abc9bf608c",
+              "url": "https://media.githubusercontent.com/media/adobetoby-maker/penname/main/demo/audio/17-boundary-opening-reference-master.mp3"
+            }
+          ]
+        },
+        {
+          "number": 18,
+          "title": "Boundary opening B — Boundary B/Holden clone, paragraph-separated",
+          "manuscript": "demo/chapters/17-19-boundary-opening-paragraph-test.md",
+          "renders": [
+            {
+              "render": "monroe-book-narrator-1.2.5-boundary-b-paragraph-085",
+              "engine": "ElevenLabs clone from first Qwen bake-off Sample B",
+              "voice": "Boundary B/Holden Clone — native 0.85, no time-stretch",
+              "voiceId": "5Jdx7LOZfHWCUohPJdOb",
+              "file": "demo/audio/18-boundary-opening-holden-b-paragraph-085.mp3",
+              "bytes": 2562861,
+              "durationSec": 160.125,
+              "sha256": "b7625080f18987cce710ee18d01dafad7f142431dd7d2765ab46cdf6e2ddd364",
+              "url": "https://media.githubusercontent.com/media/adobetoby-maker/penname/main/demo/audio/18-boundary-opening-holden-b-paragraph-085.mp3"
+            }
+          ]
+        },
+        {
+          "number": 19,
+          "title": "Boundary opening C — Calder Orchard clone, paragraph-separated",
+          "manuscript": "demo/chapters/17-19-boundary-opening-paragraph-test.md",
+          "renders": [
+            {
+              "render": "monroe-book-narrator-1.2.5-calder-orchard-paragraph-085",
+              "engine": "ElevenLabs clone from Craft chapter 10 Calder Orchard narration",
+              "voice": "Calder Orchard Clone — native 0.85, no time-stretch",
+              "voiceId": "9NeMLTg6aNt9WBS3jHKO",
+              "file": "demo/audio/19-boundary-opening-calder-paragraph-085.mp3",
+              "bytes": 2905389,
+              "durationSec": 181.534,
+              "sha256": "acdb83e90235e2cae151d0cb37e99da1da9d1a8d44a919dcbd0e565be47a1e2d",
+              "url": "https://media.githubusercontent.com/media/adobetoby-maker/penname/main/demo/audio/19-boundary-opening-calder-paragraph-085.mp3"
             }
           ]
         }
