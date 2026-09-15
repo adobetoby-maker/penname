@@ -138,7 +138,7 @@ He had heard Rook say *the ditch at the bottom of the orchard is a line*. He had
 
 They went. Running downhill across old orchard rows with windfall under the grass is not running, it is a controlled fall with interruptions, and Toren went over twice and kept the spike both times and did not look at his hand.
 
-The Stilts came out of the ditch at the western end, where the stone gave out, and the bank shelved, and they came out one behind another, and the ground between the ditch mouth and the press-house steps was the one piece of open mown-flat grass in the whole orchard.
+The Stilts came out of the ditch at the western end, where the stone gave out, and the bank shelved, and they came out one behind another, and the ground between the mouth of the ditch and the press-house steps was the one piece of open mown-flat grass in the whole orchard.
 
 The last Toren had seen of Rook, the man had been forty yards up the slope and two rows over, standing side-on between two trees with one hand flat on a trunk and his head turned downhill, not moving at all.
 
@@ -156,11 +156,11 @@ A second and a half. Toren had time, running, to have that in his head and to ge
 
 They made a line eleven feet in front of the press-house steps, with the open grass in front of them and the fallen wall at their backs and a trodden windfall floor under their feet, and for about ninety seconds it was the best thing the four of them had ever done together.
 
-Milo had the light up over his head and did not drop it. Dessa called from the top step with the whole slope under her eye and got every single one right. Wyck planted at the left end because the left end was where the ditch mouth was, and he did not have to be told. Toren held the middle and said everything Milo said one beat behind him, louder, and twice Rook did what the middle said.
+Milo had the light up over his head and did not drop it. Dessa called from the top step with the whole slope under her eye and got every single one right. Wyck planted at the left end because the left end was where the mouth of the ditch was, and he did not have to be told. Toren held the middle and said everything Milo said one beat behind him, louder, and twice Rook did what the middle said.
 
 They killed two more on the open grass. Rook took one in the air, which Toren had not known was possible.
 
-It came up out of the ditch mouth already going flat out, and it did not come at the line. It went across the front of them, left to right, at about the height of a man's chest, on a line that would have taken it round the end of the line altogether and up onto the steps.
+It came up out of the mouth of the ditch already going flat out, and it did not come at the line. It went across the front of them, left to right, at about the height of a man's chest, on a line that would have taken it round the end of the line altogether and up onto the steps.
 
 Rook was at the right-hand end of the open grass, eight or ten feet clear of Milo, and he was not facing the ditch. He was facing along the run, square to a piece of empty air the thing had not got to yet, and he had been standing like that doing nothing since before it came out. Toren did not understand for a long time that the standing was the whole of the work and everything after it was only spending.
 
@@ -190,7 +190,7 @@ It took the thing across the back of the body, where the legs were slung into it
 
 There was no noise of the kind he was braced for. There was one dry snap, like a fence rail going, and then a long tearing hiss as the ash let go, and the two long legs ran on without the body for six or seven feet, still in the line they had chosen, having nothing left in them to choose again with, and then folded up and came down and slid and were only legs.
 
-Rook came down on the grass with all of it under him — both boots, then one hand flat — and the ash went over him and past him in a grey sheet. He got up out of it the way a man gets up off a low wall, moving before he was upright, already turned to the ditch mouth, already counting what was left.
+Rook came down on the grass with all of it under him — both boots, then one hand flat — and the ash went over him and past him in a grey sheet. He got up out of it the way a man gets up off a low wall, moving before he was upright, already turned to the mouth of the ditch, already counting what was left.
 
 Toren became aware that his own mouth was open, and shut it.
 
@@ -208,9 +208,9 @@ Milo said, "It hasn't—"
 
 And the line turned right, because Toren was in the middle, and the middle was where the calls came from.
 
-The thing at the ditch mouth was not winding up. It was not doing anything. It had stopped in the open to choose a line, exactly as Rook had said it would, and the line it chose was the one the four of them had just opened for it by turning, and there was no instant between the choosing and the arriving.
+The thing at the mouth of the ditch was not winding up. It was not doing anything. It had stopped in the open to choose a line, exactly as Rook had said it would, and the line it chose was the one the four of them had just opened for it by turning, and there was no instant between the choosing and the arriving.
 
-It came through the left end of the line at the speed of a dropped stone, and it did not touch anybody, because there was nobody there any more, and behind it the ditch mouth put up another one.
+It came through the left end of the line at the speed of a dropped stone, and it did not touch anybody, because there was nobody there any more, and behind it the mouth of the ditch put up another one.
 
 Two of them, inside the line, between the line and the press-house steps, and on the steps there was a boy with a light in his hands, a girl who could not run, and an old woman in a cart.
 
@@ -226,7 +226,7 @@ He did not ask the Ember for anything. He did not hold it harder. He did not loo
 
 Every other time in his life, asking had been a reaching. His attention went down onto the place where the weight sat, and he got hold of the neck of it, and he tipped out a measured amount, carefully, the way you pour from a sack you have to carry the rest of the day. He had got good at that. He had got good at it the way a man gets good at a job done with his hands tied.
 
-What he did at the ditch mouth was let go of the neck.
+What he did at the mouth of the ditch was let go of the neck.
 
 That was all of it, and it took no time, and it was not a decision. He simply stopped measuring. He took the front of his head off the place where the weight sat — off the checking, off the counting, off the whole long habit of making sure there was still something there to spend — and put all of it out in front of him instead, on the nearer of the two, and on the boy with the light on the steps behind it.
 
@@ -264,7 +264,7 @@ He watched his own hand lie in the grass in front of him and do nothing.
 
 There was something on the left end.
 
-Wyck Tanner stepped across the gap where Toren should have been, which meant standing at the only place on that whole hillside where the ditch mouth had a clean straight run at the press-house steps, and he set his feet, and he did not move.
+Wyck Tanner stepped across the gap where Toren should have been, which meant standing at the only place on that whole hillside where the mouth of the ditch had a clean straight run at the press-house steps, and he set his feet, and he did not move.
 
 Toren saw it from the ground, four feet away, with his cheek in the windfall.
 
@@ -274,7 +274,7 @@ Nothing else about Wyck Tanner did anything at all. He did not sink at the hips.
 
 There was nothing to see. That was the whole of it. Toren was four feet away, at ground level, looking straight along the line of those boots, and there was nothing whatever to see.
 
-The Stilt came out of the ditch mouth at the speed those things came out of everything, and it hit Wyck square, and there was a sound like a barrow going over on a stone floor, and Wyck did not go anywhere.
+The Stilt came out of the mouth of the ditch at the speed those things came out of everything, and it hit Wyck square, and there was a sound like a barrow going over on a stone floor, and Wyck did not go anywhere.
 
 He should have. Nine stone of boy, and a thing that had crossed forty feet in no time at all, and it came off him like water off a gatepost, and Wyck's boots were exactly where Wyck's boots had been.
 
@@ -406,7 +406,7 @@ Rook said: "Right things first.
 
 Nobody moved.
 
-"Now," said Rook. "The call at the ditch mouth."
+"Now," said Rook. "The call at the mouth of the ditch."
 
 "I know," said Toren.
 
