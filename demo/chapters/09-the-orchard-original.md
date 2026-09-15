@@ -2,7 +2,7 @@
 
 What Rook had told them, at the fire, the night before, with a stick in his hand and all four of them sitting down and nobody bleeding, was this:
 
-"They stand about as high as me, and about nine-tenths of it is leg. Two legs, jointed backwards, longer than they've any business being, and a body slung between them no bigger than a dog, and a head you won't be able to find and won't need to. Colour of wet ash, same as the hounds, same as everything.
+"Stilts, is what I call them. They stand about as high as me, and about nine-tenths of it is leg. Two legs, jointed backwards, longer than they've any business being, and a body slung between them no bigger than a dog, and a head you won't be able to find and won't need to. Colour of wet ash, same as the hounds, same as everything.
 
 "Husks come at you. Hounds choose a side and commit and can't take it back. Learn both of those, they're good, they'll keep you alive for years.
 
@@ -80,7 +80,7 @@ He had heard it exactly once before, coming down a rock face forty feet above a 
 
 Then the row discipline worked, and it worked so well that it was almost boring.
 
-That was the shape of the next four minutes. One of them at the end of a row was a straight line, and a straight line was a killing thing, so they did not stand in rows. They stood *across* them, in the thick of the trunks where the old trees had grown into each other, and every time one of the things wanted to reach them, it had to stop out in the open to choose a new line, and the instant it stopped, it was a two-legged thing standing on the grass doing nothing.
+That was the shape of the next four minutes. A Stilt at the end of a row was a straight line, and a straight line was a killing thing, so they did not stand in rows. They stood *across* them, in the thick of the trunks where the old trees had grown into each other, and every time one of the things wanted to reach them, it had to stop out in the open to choose a new line, and the instant it stopped, it was a two-legged thing standing on the grass doing nothing.
 
 Wyck killed the first one with the bar across the knee of its left leg while it stood picking its way through the geometry, and the whole creature went down like a stepladder coming apart.
 
@@ -116,7 +116,7 @@ He had heard Rook say *the ditch at the bottom of the orchard is a line*. He had
 
 They went. Running downhill across old orchard rows with windfall under the grass is not running, it is a controlled fall with interruptions, and Toren went over twice and kept the spike both times and did not look at his hand.
 
-They came out of the ditch at the western end, where the stone gave out, and the bank shelved, and they came out one behind another, and the ground between the mouth of the ditch and the press-house steps was the one piece of open mown-flat grass in the whole orchard.
+The Stilts came out of the ditch at the western end, where the stone gave out, and the bank shelved, and they came out one behind another, and the ground between the mouth of the ditch and the press-house steps was the one piece of open mown-flat grass in the whole orchard.
 
 Rook got there first by an enormous margin. Toren heard the struts fire twice and did not see the man cross any of it.
 
@@ -160,7 +160,7 @@ He did not ask the Ember for anything. He did not hold it harder. He did not loo
 
 The spike changed.
 
-He felt it go. It ran out of his fist in a single clean movement, thinner and half again as long and not ugly at all, and the whole of his forearm went to light, and the world went very simple, and he put it through the first one lengthwise and took both legs off the second one on the backswing, and neither of them touched the ground before he had turned for a third.
+He felt it go. It ran out of his fist in a single clean movement, thinner and half again as long and not ugly at all, and the whole of his forearm went to light, and the world went very simple, and he put it through the first Stilt lengthwise and took both legs off the second one on the backswing, and neither of them touched the ground before he had turned for a third.
 
 There was no third.
 
@@ -182,7 +182,7 @@ Wyck Tanner stepped across the gap where Toren should have been, which meant sta
 
 Toren saw it from the ground, four feet away, with his cheek in the windfall.
 
-It came out of the mouth of the ditch at the speed those things came out of everything, and it hit Wyck square, and there was a sound like a barrow going over on a stone floor, and Wyck did not go anywhere.
+The Stilt came out of the mouth of the ditch at the speed those things came out of everything, and it hit Wyck square, and there was a sound like a barrow going over on a stone floor, and Wyck did not go anywhere.
 
 He should have. Nine stone of boy, and a thing that had crossed forty feet in no time at all, and it came off him like water off a gatepost, and Wyck's boots were exactly where Wyck's boots had been. It opened his left forearm from the elbow to the wrist on the way past, and he did not appear to notice, and he swung the bar into its trailing leg as it went and broke the leg, and the thing went down on the steps, and Milo Faust kicked it in the head with both heels, screaming, from above, the way he had kicked one off a cart bed thirteen days ago.
 
