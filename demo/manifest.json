@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "generated": "2026-09-15T06:45:00-06:00",
+  "generated": "2026-09-12T05:30:00-06:00",
   "sourceBranch": "main",
   "books": [
     {
       "id": "penname-demo",
       "title": "Proof of Craft",
-      "totalChapters": 23,
-      "renderedChapters": 23,
+      "totalChapters": 10,
+      "renderedChapters": 10,
       "chapters": [
         {
           "number": 1,
@@ -174,234 +174,47 @@
               "url": "https://media.githubusercontent.com/media/adobetoby-maker/penname/main/demo/audio/10-the-orchard-iron-prince.mp3"
             }
           ]
-        },
+        }
+      ]
+    },
+    {
+      "id": "kindling-ch10-monroe13",
+      "title": "The Orchard — Monroe 1.3 Revision",
+      "totalChapters": 2,
+      "renderedChapters": 2,
+      "chapters": [
         {
-          "number": 11,
-          "title": "Edges test A — original comma chain",
-          "manuscript": "demo/chapters/11-edges-original-comma-chain.md",
+          "number": 1,
+          "title": "The Orchard — as published, pre-Monroe 1.3 (Kindling, Book 1, Ch. 10)",
+          "manuscript": "demo/chapters/09-the-orchard-original.md",
           "renders": [
             {
-              "render": "monroe-book-narrator-1.2.5-holden-a",
-              "engine": "ElevenLabs eleven_multilingual_v2",
-              "voice": "Holden — native 0.85, no time-stretch",
-              "file": "demo/audio/11-edges-original-comma-chain.mp3",
-              "bytes": 827181,
-              "durationSec": 51.641,
-              "sha256": "21b300aae112b618b978b16ddfc2bbe623864970126b7a87bffa8aedb6c2f39a",
-              "url": "https://media.githubusercontent.com/media/adobetoby-maker/penname/main/demo/audio/11-edges-original-comma-chain.mp3"
+              "render": "monroe-audio-1.1-calder-hq",
+              "engine": "qwen-clone-hq",
+              "voice": "Calder HQ Base Return (Monroe Australian stable narrator palette)",
+              "file": "demo/audio/09-the-orchard-original.mp3",
+              "bytes": 21115821,
+              "durationSec": 1319.67,
+              "sha256": "933b88953cb3d96975420d491a6aae7e2497cddf077e034ced9e98b4e1daaa63",
+              "url": "https://media.githubusercontent.com/media/adobetoby-maker/penname/main/demo/audio/09-the-orchard-original.mp3"
             }
           ]
         },
         {
-          "number": 12,
-          "title": "Edges test B — liberal punctuation",
-          "manuscript": "demo/chapters/12-edges-liberal-punctuation.md",
+          "number": 2,
+          "title": "The Orchard — Monroe 1.3 revision (full worldbuilding + combat synthesis, no restraint; owner-directed no-run-on punctuation pass)",
+          "manuscript": "demo/chapters/11-hobbs-wall-ch10-monroe13.md",
           "renders": [
             {
-              "render": "monroe-book-narrator-1.2.5-holden-b",
-              "engine": "ElevenLabs eleven_multilingual_v2",
-              "voice": "Holden — native 0.85, no time-stretch",
-              "file": "demo/audio/12-edges-liberal-punctuation.mp3",
-              "bytes": 837549,
-              "durationSec": 52.291,
-              "sha256": "e5f80791b3eecaf6dfc465f90134ce710b025374b69b84aaab13ba27fd49a4c4",
-              "url": "https://media.githubusercontent.com/media/adobetoby-maker/penname/main/demo/audio/12-edges-liberal-punctuation.mp3"
-            }
-          ]
-        },
-        {
-          "number": 13,
-          "title": "Edges test C — punctuation plus narration markup",
-          "manuscript": "demo/chapters/13-edges-liberal-punctuation-marked.md",
-          "renders": [
-            {
-              "render": "monroe-book-narrator-1.2.5-holden-c",
-              "engine": "ElevenLabs eleven_multilingual_v2 with authored rests",
-              "voice": "Holden — native 0.85, no time-stretch",
-              "file": "demo/audio/13-edges-liberal-punctuation-marked.mp3",
-              "bytes": 874029,
-              "durationSec": 54.57,
-              "sha256": "39773f7c1f63ac26683b8955b702857c5281c159b30ec6f21556002e7f26f865",
-              "url": "https://media.githubusercontent.com/media/adobetoby-maker/penname/main/demo/audio/13-edges-liberal-punctuation-marked.mp3"
-            }
-          ]
-        },
-        {
-          "number": 14,
-          "title": "Edges test — first-run Sample B clone, native 0.85",
-          "manuscript": "demo/chapters/14-edges-sample-b-clone-marked-085.md",
-          "renders": [
-            {
-              "render": "monroe-book-narrator-1.2.5-sample-b-clone-085",
-              "engine": "ElevenLabs clone from first Qwen bake-off Sample B",
-              "voice": "Monroe Sample B Clone — native 0.85, no time-stretch",
-              "voiceId": "5Jdx7LOZfHWCUohPJdOb",
-              "file": "demo/audio/14-edges-sample-b-clone-marked-085.mp3",
-              "bytes": 1101357,
-              "durationSec": 68.78,
-              "sha256": "ac616fb0670e5eab2ce7b845151b9c7cca7d9ee129deb467ad817ef6f8cacbee",
-              "url": "https://media.githubusercontent.com/media/adobetoby-maker/penname/main/demo/audio/14-edges-sample-b-clone-marked-085.mp3"
-            }
-          ]
-        },
-        {
-          "number": 15,
-          "title": "Edges test — first-run Sample B clone, master-cadence lane",
-          "manuscript": "demo/chapters/15-edges-sample-b-clone-marked-070.md",
-          "renders": [
-            {
-              "render": "monroe-book-narrator-1.2.5-sample-b-clone-070",
-              "engine": "ElevenLabs clone from first Qwen bake-off Sample B with aligned rests",
-              "voice": "Monroe Sample B Clone — native 0.70, no time-stretch",
-              "voiceId": "5Jdx7LOZfHWCUohPJdOb",
-              "file": "demo/audio/15-edges-sample-b-clone-marked-070.mp3",
-              "bytes": 1225773,
-              "durationSec": 76.56,
-              "sha256": "187822aa460fc4f0f4f64f7415a37f5f44a9d967f15aeeeb1f46c170427c4e1c",
-              "url": "https://media.githubusercontent.com/media/adobetoby-maker/penname/main/demo/audio/15-edges-sample-b-clone-marked-070.mp3"
-            }
-          ]
-        },
-        {
-          "number": 16,
-          "title": "Edges test — Calder Orchard clone, punctuation-prepared",
-          "manuscript": "demo/chapters/16-edges-calder-orchard-clone-punctuation-085.md",
-          "renders": [
-            {
-              "render": "monroe-book-narrator-1.2.5-calder-orchard-clone-085",
-              "engine": "ElevenLabs clone from Craft chapter 10 Calder Orchard narration",
-              "voice": "Monroe Calder Orchard Clone — native 0.85, no time-stretch",
-              "voiceId": "9NeMLTg6aNt9WBS3jHKO",
-              "file": "demo/audio/16-edges-calder-orchard-clone-punctuation-085.mp3",
-              "bytes": 931245,
-              "durationSec": 58.143,
-              "sha256": "d7e0b60e77fe2d33fd800a411655f4292beb85085d1b159bd989d54eaa7aa479",
-              "url": "https://media.githubusercontent.com/media/adobetoby-maker/penname/main/demo/audio/16-edges-calder-orchard-clone-punctuation-085.mp3"
-            }
-          ]
-        },
-        {
-          "number": 17,
-          "title": "Boundary opening A — existing approved master",
-          "manuscript": "demo/chapters/17-19-boundary-opening-paragraph-test.md",
-          "renders": [
-            {
-              "render": "boundary-existing-approved-master-reference",
-              "engine": "Existing ElevenLabs finished master",
-              "voice": "Approved Boundary master reference",
-              "file": "demo/audio/17-boundary-opening-reference-master.mp3",
-              "bytes": 2980928,
-              "durationSec": 186.24,
-              "sha256": "88800ef0d717811792ddee7465ea20a0360c7c7f5525de1e25ad78abc9bf608c",
-              "url": "https://media.githubusercontent.com/media/adobetoby-maker/penname/main/demo/audio/17-boundary-opening-reference-master.mp3"
-            }
-          ]
-        },
-        {
-          "number": 18,
-          "title": "Boundary opening B — Boundary B/Holden clone, paragraph-separated",
-          "manuscript": "demo/chapters/17-19-boundary-opening-paragraph-test.md",
-          "renders": [
-            {
-              "render": "monroe-book-narrator-1.2.5-boundary-b-paragraph-085",
-              "engine": "ElevenLabs clone from first Qwen bake-off Sample B",
-              "voice": "Boundary B/Holden Clone — native 0.85, no time-stretch",
-              "voiceId": "5Jdx7LOZfHWCUohPJdOb",
-              "file": "demo/audio/18-boundary-opening-holden-b-paragraph-085.mp3",
-              "bytes": 2562861,
-              "durationSec": 160.125,
-              "sha256": "b7625080f18987cce710ee18d01dafad7f142431dd7d2765ab46cdf6e2ddd364",
-              "url": "https://media.githubusercontent.com/media/adobetoby-maker/penname/main/demo/audio/18-boundary-opening-holden-b-paragraph-085.mp3"
-            }
-          ]
-        },
-        {
-          "number": 19,
-          "title": "Boundary opening C — Calder Orchard clone, paragraph-separated",
-          "manuscript": "demo/chapters/17-19-boundary-opening-paragraph-test.md",
-          "renders": [
-            {
-              "render": "monroe-book-narrator-1.2.5-calder-orchard-paragraph-085",
-              "engine": "ElevenLabs clone from Craft chapter 10 Calder Orchard narration",
-              "voice": "Calder Orchard Clone — native 0.85, no time-stretch",
-              "voiceId": "9NeMLTg6aNt9WBS3jHKO",
-              "file": "demo/audio/19-boundary-opening-calder-paragraph-085.mp3",
-              "bytes": 2905389,
-              "durationSec": 181.534,
-              "sha256": "acdb83e90235e2cae151d0cb37e99da1da9d1a8d44a919dcbd0e565be47a1e2d",
-              "url": "https://media.githubusercontent.com/media/adobetoby-maker/penname/main/demo/audio/19-boundary-opening-calder-paragraph-085.mp3"
-            }
-          ]
-        },
-        {
-          "number": 20,
-          "title": "Boundary opening D — Boundary B/Holden, maximum-comma breath paragraphs",
-          "manuscript": "demo/chapters/20-21-boundary-opening-breath-comma-test.md",
-          "renders": [
-            {
-              "render": "monroe-book-narrator-1.2.5-boundary-b-breath-comma-085",
-              "engine": "ElevenLabs clone from first Qwen bake-off Sample B",
-              "voice": "Boundary B/Holden Clone — native 0.85, no time-stretch",
-              "voiceId": "5Jdx7LOZfHWCUohPJdOb",
-              "file": "demo/audio/20-boundary-opening-holden-b-breath-comma-085.mp3",
-              "bytes": 2607021,
-              "durationSec": 162.865,
-              "sha256": "73dd1e0edd26fc5288aa96958d304da5344b602c764bc4542615994acfe041fd",
-              "url": "https://media.githubusercontent.com/media/adobetoby-maker/penname/main/demo/audio/20-boundary-opening-holden-b-breath-comma-085.mp3"
-            }
-          ]
-        },
-        {
-          "number": 21,
-          "title": "Boundary opening E — Calder Orchard, maximum-comma breath paragraphs",
-          "manuscript": "demo/chapters/20-21-boundary-opening-breath-comma-test.md",
-          "renders": [
-            {
-              "render": "monroe-book-narrator-1.2.5-calder-orchard-breath-comma-085",
-              "engine": "ElevenLabs clone from Craft chapter 10 Calder Orchard narration",
-              "voice": "Calder Orchard Clone — native 0.85, no time-stretch",
-              "voiceId": "9NeMLTg6aNt9WBS3jHKO",
-              "file": "demo/audio/21-boundary-opening-calder-breath-comma-085.mp3",
-              "bytes": 3010221,
-              "durationSec": 188.081,
-              "sha256": "2f08f203d60259dd53c2fceeda44a058a8fc74e993b1ecbf20c2282a7bd07c9b",
-              "url": "https://media.githubusercontent.com/media/adobetoby-maker/penname/main/demo/audio/21-boundary-opening-calder-breath-comma-085.mp3"
-            }
-          ]
-        },
-        {
-          "number": 22,
-          "title": "Light-forming timing triplet — Boundary B/Holden",
-          "manuscript": "demo/chapters/22-23-light-forming-innate-timing-triplet.md",
-          "renders": [
-            {
-              "render": "monroe-book-narrator-1.2.5-light-forming-triplet-boundary-b-085",
-              "engine": "ElevenLabs clone from first Qwen bake-off Sample B",
-              "voice": "Boundary B/Holden Clone — native 0.85, no time-stretch",
-              "voiceId": "5Jdx7LOZfHWCUohPJdOb",
-              "file": "demo/audio/22-light-forming-triplet-holden-b-085.mp3",
-              "bytes": 905133,
-              "durationSec": 56.517,
-              "sha256": "8dbf3a9829d12c2915de1fbf1eee168c0afa50c7f09b9e538b60b36403c0d8d3",
-              "url": "https://media.githubusercontent.com/media/adobetoby-maker/penname/main/demo/audio/22-light-forming-triplet-holden-b-085.mp3"
-            }
-          ]
-        },
-        {
-          "number": 23,
-          "title": "Light-forming timing triplet — Calder Orchard",
-          "manuscript": "demo/chapters/22-23-light-forming-innate-timing-triplet.md",
-          "renders": [
-            {
-              "render": "monroe-book-narrator-1.2.5-light-forming-triplet-calder-085",
-              "engine": "ElevenLabs clone from Craft chapter 10 Calder Orchard narration",
-              "voice": "Calder Orchard Clone — native 0.85, no time-stretch",
-              "voiceId": "9NeMLTg6aNt9WBS3jHKO",
-              "file": "demo/audio/23-light-forming-triplet-calder-085.mp3",
-              "bytes": 1023405,
-              "durationSec": 63.901,
-              "sha256": "391db38e0621d88c546d186405d8e5e3f0196b3198eb8349309b3f89d9b19ee3",
-              "url": "https://media.githubusercontent.com/media/adobetoby-maker/penname/main/demo/audio/23-light-forming-triplet-calder-085.mp3"
+              "render": "monroe-audio-1.1-calder-hq",
+              "engine": "qwen-clone-hq",
+              "voice": "Calder HQ Base Return (Monroe Australian stable narrator palette)",
+              "file": "demo/audio/11-hobbs-wall-ch10-monroe13.mp3",
+              "bytes": 28719405,
+              "durationSec": 1794.9,
+              "sha256": "e47699707ba82df339e64c73786d80c4d3f74763d679aa9daed1066cc821c378",
+              "note": "Pacing gate flag: measured 199.7 wpm against a 160-177 target band; verification and mastering gates pass clean. Published as-is per owner direction.",
+              "url": "https://media.githubusercontent.com/media/adobetoby-maker/penname/main/demo/audio/11-hobbs-wall-ch10-monroe13.mp3"
             }
           ]
         }
