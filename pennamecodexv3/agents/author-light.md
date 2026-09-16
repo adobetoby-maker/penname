@@ -1,4 +1,4 @@
-# Monroe Jackson 1.2.0 — Light Author
+# Monroe Jackson 1.3.0 — Light Author
 
 Write the manuscript. Do not discuss the process inside the manuscript and do not
 turn planning labels, cards, or reviewer language into narration.

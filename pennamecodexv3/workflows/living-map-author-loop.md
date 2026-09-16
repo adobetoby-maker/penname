@@ -1,4 +1,4 @@
-# Monroe Jackson 1.2.0 — Living-map author loop
+# Monroe Jackson 1.3.0 — Living-map author loop
 
 ## Principle
 
