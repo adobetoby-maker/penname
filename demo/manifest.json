@@ -219,6 +219,65 @@
           ]
         }
       ]
+    },
+    {
+      "id": "kindling-voices-craft",
+      "title": "Voices Craft",
+      "totalChapters": 1,
+      "renderedChapters": 1,
+      "chapters": [
+        {
+          "number": 1,
+          "title": "Pacing audition — same 540-word excerpt (Ch. 10 campfire lesson), four takes",
+          "manuscript": "demo/chapters/12-voices-craft-pacing-excerpt.md",
+          "renders": [
+            {
+              "render": "monroe-audio-1.1-calder-hq",
+              "engine": "qwen-clone-hq",
+              "voice": "Calder HQ — native speed (playbackRate 1.0)",
+              "file": "demo/audio/12a-pacing-baseline.mp3",
+              "bytes": 2291373,
+              "durationSec": 143.14,
+              "sha256": "0d43ddba93bc5e6bf3bcd0cc118ade6481e88bcf99330a08c1c0090e6846608d",
+              "note": "225.9 wpm. Baseline -- this engine's generationSpeed parameter has no measurable effect; this is the native cadence for this voice on this text.",
+              "url": "https://media.githubusercontent.com/media/adobetoby-maker/penname/main/demo/audio/12a-pacing-baseline.mp3"
+            },
+            {
+              "render": "monroe-audio-1.1-calder-hq",
+              "engine": "qwen-clone-hq",
+              "voice": "Calder HQ — playbackRate 0.89 (~12% slower)",
+              "file": "demo/audio/12b-pacing-stretch089.mp3",
+              "bytes": 2865069,
+              "durationSec": 179.01,
+              "sha256": "ff48ae4a5fd03f2bb14396c3467508f3c947b7c6dcfc8fff6db8eb79a0f20014",
+              "note": "180.6 wpm. DNSMOS SIG=3.720 BAK=4.203 OVRL=3.514 P808=4.282 -- higher than baseline on every metric.",
+              "url": "https://media.githubusercontent.com/media/adobetoby-maker/penname/main/demo/audio/12b-pacing-stretch089.mp3"
+            },
+            {
+              "render": "monroe-audio-1.1-calder-hq",
+              "engine": "qwen-clone-hq",
+              "voice": "Calder HQ — playbackRate 0.85 (adopted standard, ~18% slower)",
+              "file": "demo/audio/12c-pacing-stretch085.mp3",
+              "bytes": 2944173,
+              "durationSec": 183.95,
+              "sha256": "e99bb24ba2623398ec13f78db9563ddf1cbd806db5524268c252d9ec45d596ef",
+              "note": "176.0 wpm on this excerpt (169.5 wpm on the full Ch. 10 chapter). DNSMOS SIG=3.739 BAK=4.210 OVRL=3.534 P808=4.296 -- highest of all tested settings. Adopted as the production standard.",
+              "url": "https://media.githubusercontent.com/media/adobetoby-maker/penname/main/demo/audio/12c-pacing-stretch085.mp3"
+            },
+            {
+              "render": "monroe-audio-1.1-calder-hq",
+              "engine": "qwen-clone-hq",
+              "voice": "Calder HQ — playbackRate 0.60 (~40% slower, owner's stated preferred range)",
+              "file": "demo/audio/12d-pacing-stretch060.mp3",
+              "bytes": 4193709,
+              "durationSec": 262.05,
+              "sha256": "eeb2fe3412722f18dce9be440b464fdb289ee6a5066e1ec70ce49adc8faa5012",
+              "note": "123.4 wpm. DNSMOS SIG=3.674 BAK=4.148 OVRL=3.430 P808=4.261 -- essentially flat vs. baseline (unlike 0.85/0.89, this stretch did not measurably improve quality). Uniform time-stretch alone does not read as 'quality' at this magnitude -- see the pauses+emphasis track for the owner-directed alternative approach.",
+              "url": "https://media.githubusercontent.com/media/adobetoby-maker/penname/main/demo/audio/12d-pacing-stretch060.mp3"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
