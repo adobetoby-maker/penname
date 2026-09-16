@@ -210,10 +210,10 @@
               "engine": "qwen-clone-hq",
               "voice": "Calder HQ Base Return (Monroe Australian stable narrator palette)",
               "file": "demo/audio/11-hobbs-wall-ch10-monroe13.mp3",
-              "bytes": 28719405,
-              "durationSec": 1794.9,
-              "sha256": "e47699707ba82df339e64c73786d80c4d3f74763d679aa9daed1066cc821c378",
-              "note": "Pacing gate flag: measured 199.7 wpm against a 160-177 target band; verification and mastering gates pass clean. Published as-is per owner direction.",
+              "bytes": 34760877,
+              "durationSec": 2172.49,
+              "sha256": "fb47d22e9d227915c7993b83c15bd582339091c83d2942e6eb8f869661dfe778",
+              "note": "169.5 overall wpm (target band 160-177, preferred 169) via an owner-adopted 0.85 playbackRate stretch -- the engine's generationSpeed parameter has no real effect on this voice, confirmed by direct testing. Verification, mastering, and a genuine utmosv2 naturalness pass (mean MOS 4.0255, floor 3.4566) all pass clean -- no override needed.",
               "url": "https://media.githubusercontent.com/media/adobetoby-maker/penname/main/demo/audio/11-hobbs-wall-ch10-monroe13.mp3"
             }
           ]
