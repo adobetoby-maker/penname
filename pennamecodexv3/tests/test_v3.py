@@ -69,8 +69,8 @@ class PromptTests(unittest.TestCase):
     def test_author_gets_voice_but_not_editor_module_gates(self) -> None:
         prompt = build_prompt("author", self.packet, self.book_root)
         self.assertIn("SHARED POSITIVE VOICE", prompt)
-        self.assertIn("PEN NAME VOICE — Monroe Jackson — Fantasy v1.1.1", prompt)
-        self.assertIn("Growth is earned", prompt)
+        self.assertIn("PEN NAME VOICE — Monroe Jackson — Fantasy v1.3.0", prompt)
+        self.assertIn("Growth reads as earned", prompt)
         self.assertNotIn("PEN NAME VOICE — Science Fiction Author B", prompt)
         self.assertNotIn("## Editor gates", prompt)
         self.assertNotIn("Positions and movement remain sufficiently legible", prompt)
