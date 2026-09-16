@@ -1,0 +1,69 @@
+{
+  "schemaVersion": 1,
+  "pipeline": "Monroe Book Narrator",
+  "pipelineVersion": "1.2.5",
+  "voices": {
+    "holden": {
+      "displayName": "Holden",
+      "provider": "ElevenLabs",
+      "voiceId": "UudLhsL2DlHkDK0vGwl3",
+      "nativeSpeed": 0.85,
+      "coach": "/Users/drive/kindling-narrator-stage/docs/audio-coaching/boundary-holden-approved-master-coach.v1.json",
+      "palette": "/Users/drive/kindling-narrator-stage/public/audio/local/voices/monroe-audio-1.2-hybrid/boundary-holden.palette.json",
+      "approvedMaster": "/Users/drive/kindling-narrator-stage/public/audio/local/voices/monroe-audio-1.2-hybrid/source/boundary-ch01-holden-master.mp3",
+      "use": "Deliberate adult speculative-fiction narration; measured thought preparation and long, intelligible landings."
+    },
+    "jason": {
+      "displayName": "Jason Andre",
+      "aliases": ["jason-andre", "andre"],
+      "provider": "ElevenLabs",
+      "voiceId": "powBJzjz7VpBtyzNZUJy",
+      "nativeSpeed": 0.89,
+      "coach": "/Users/drive/kindling-narrator-stage/docs/audio-coaching/shattered-jason-andre-approved-master-coach.v1.json",
+      "palette": "/Users/drive/kindling-narrator-stage/public/audio/local/voices/monroe-audio-1.2-hybrid/shattered-jason-andre.palette.json",
+      "approvedMaster": "/Users/drive/kindling-narrator-stage/public/audio/local/voices/monroe-audio-1.2-hybrid/source/shattered-ch01-jason-andre-master.mp3",
+      "use": "Faster adult speculative-fiction narration with deliberate resets, controlled force, and strong action clarity."
+    },
+    "crest": {
+      "displayName": "Crest",
+      "aliases": ["crest-hq"],
+      "provider": "Local Qwen",
+      "voiceId": "crest-fifteen-anchor-v1",
+      "nativeSpeed": 0.89,
+      "coach": "/Users/drive/kindling-narrator-stage/docs/audio-coaching/calder-delivery-coach.v1.json",
+      "palette": "/Users/drive/.local/share/monroe-tts/anchor-builds/crest-v1/crest-15.candidate-palette.json",
+      "approvedMaster": "/Users/drive/git-backups/boundary-universe-cc/public/private-benchmarks/iron-prince-chapter-8/calder-first-half-join-safe-v2.mp3",
+      "use": "Expressive British/Australian-adjacent literary narration with broad character range, stable resets, and fifteen performance anchors. Formerly labeled Calder HQ during the Chapter 8 study."
+    },
+    "calder": {
+      "displayName": "Calder",
+      "aliases": ["calder-original", "calder-hq-original"],
+      "provider": "Local Qwen",
+      "voiceId": "calder-original-fifteen-anchor-v1",
+      "localNarration": {
+        "entrypoint": "/Users/drive/kindling-narrator-stage/scripts/render-calder-narrator.sh",
+        "profile": "/Users/drive/git-backups/boundary-universe-cc/scripts/calder-narrator.profile.json",
+        "defaultEngine": "fish-s2",
+        "identity": "original-calder-source",
+        "acceptedWordsPerMinute": {"minimum": 120, "maximum": 150},
+        "paceAuthority": "Owner preference, 2026-09-15: let it land; 120–150 WPM is fine.",
+        "publicationStatus": "human-listening-required",
+        "note": "This local profile supersedes the legacy coach pace for this lane; existing approved masters are retained. Fish commercial distribution requires appropriate license terms."
+      },
+      "anchorProvider": "ElevenLabs",
+      "anchorVoiceId": "RlfxsxhjN7XADVcW1TiO",
+      "anchorModel": "eleven_v3",
+      "nativeSpeed": 1.0,
+      "coach": "/Users/drive/kindling-narrator-stage/docs/audio-coaching/calder-delivery-coach.v1.json",
+      "palette": "/Users/drive/.local/share/monroe-tts/anchor-builds/calder-eleven-original-v1/calder-eleven-15.candidate-palette.json",
+      "approvedMaster": "/Users/drive/kindling-narrator-stage/public/audio/local/voices/monroe-australian-qwen.wav",
+      "use": "Original warm Australian-English Hobb's Wall narrator, anchored directly to the approved source recording so expressive changes do not replace his identity."
+    }
+  },
+  "rules": [
+    "The voice name selects an approved identity and delivery coach together.",
+    "Provider speed is a starting instruction, never proof of final pace.",
+    "Measured words per minute and pause behavior from the approved master decide whether a take is acceptable.",
+    "Never time-stretch the finished waveform to repair delivery."
+  ]
+}

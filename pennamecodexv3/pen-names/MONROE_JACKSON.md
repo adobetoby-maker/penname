@@ -1,4 +1,4 @@
-# Monroe Jackson — Author Standard 1.1.1
+# Monroe Jackson — Author Standard 1.2.0
 
 `Monroe Jackson` is the public pen name. It is one author identity with two
 genre-specific writing seats. The seats share the name, reader promise, and
@@ -18,12 +18,13 @@ tool. Fable is the preferred drafting instrument; it is not the public author.
 
 | Public byline | Internal compatibility ID | Craft engine |
 |---|---|---|
-| `Monroe Jackson — Fantasy` | `fantasy-author-a` | `craft/THE_AUTHOR.md` plus the fantasy movement pipeline |
-| `Monroe Jackson — Science Fiction` | `science-fiction-author-b` | `craft/THE_SCIFI_AUTHOR.md` plus the science-fiction movement pipeline |
+| `Monroe Jackson — Fantasy` | `fantasy-author-a` | Fantasy Light plus selected action layers |
+| `Monroe Jackson — Science Fiction` | `science-fiction-author-b` | Science Fiction Light plus selected action layers |
 
-Both seats use standard version `1.1.1`. Internal IDs remain stable so existing
-books, scripts, and archived run records continue to resolve. They are not
-reader-facing names.
+Both Light seats use standard version `1.2.0`. The full 1.1.1 seats remain
+addressable through `/fanauthr` and `/scifiauthor` for existing books and controlled
+comparisons. Internal IDs remain stable so archived run records continue to resolve.
+They are not reader-facing names.
 
 ## Shared reader promise
 
@@ -41,5 +42,6 @@ Every reviewed or newly drafted book records its authorship with
 independent readers and editors locate reader consequences; one bounded repair
 loop improves the book without sanding away its working voice.
 
-The byline does not change when tools change. A tool substitution is recorded
-in internal provenance only.
+The byline does not change when tools change. Sonnet may plan, Fable or Opus may
+draft, and another model may edit; those substitutions belong in internal provenance,
+not the reader-facing byline.

@@ -1,4 +1,118 @@
-# Penname Harness — Monroe Jackson 1.1.1
+# Penname Harness — Monroe Jackson 1.2.0
+
+The default system is now the living-map author loop:
+
+- Sonnet (`/monroeplan`) develops and maintains the series, book, character,
+  universe, and movement maps.
+- Fable or announced Opus fallback (`/monroelight`) writes three to five connected
+  chapters from one compact packet.
+- Action scenes load only the tested layers selected for that scene.
+- A continuity editor and cold reader diagnose the complete movement.
+- The original drafting model performs one bounded repair before the maps advance.
+
+Start an interactive Sonnet showrunner session with the existing `books` shell
+command, optionally followed by the idea in quotes. The older `/fanauthr` and
+`/scifiauthor` 1.1.1 seats remain available for controlled comparisons and existing
+book continuity.
+
+The 1.2.0 path uses Markdown living maps and loops. It does not require the legacy
+JSON scene-contract state machine described below.
+
+## 1.2.0 prompt compilers
+
+Compile a Sonnet showrunner prompt:
+
+```bash
+python3 -B pennamecodexv3/scripts/build_showrunner_prompt.py \
+  --genre fantasy --idea "your book idea"
+```
+
+Compile an approved Light-author movement:
+
+```bash
+python3 -B pennamecodexv3/scripts/build_movement_prompt.py \
+  --genre fantasy --root /path/to/book --packet packets/MOVEMENT-001.md \
+  --action "chapter 2=learning-deception"
+```
+
+Available action stacks are documented in
+[`craft/action-layers/STACKS.md`](craft/action-layers/STACKS.md).
+
+## Monroe Book Narrator 1.2.5
+
+The narrator seat reads the complete book arc, then prepares and produces rolling
+three-chapter units. It locks Holden or Jason to an approved master, performs a
+word-locked punctuation and one-pass comprehension review, directs sparse delivery,
+renders, listens, and loops exact pickups. Meaning-level prose problems go back to
+Writing Monroe instead of being hidden in an audio-only script.
+
+In Codex, invoke `$book-narrator`. In Claude, invoke `/book-narrator`. From a shell:
+
+```bash
+booknarrator holden /path/to/book 1-3
+booknarrator jason /path/to/book 4-6 --audience adult
+```
+
+The run keeps the retake-ready narration copy, clarity findings, Writing Monroe
+feedback, performance direction, audio, and listening notes together under the book's
+`narration/monroe-1.2.5/` folder. See
+[`workflows/book-narrator-1.2.5.md`](workflows/book-narrator-1.2.5.md).
+
+## Owner-edit trainer
+
+Monroe 1.2.0 can learn from exact owner revisions exported by the Boundary
+Universe PWA. The PWA supplies immutable evidence; the harness decides which
+events are active, separates voice choices from canon and mechanical fixes, and
+compiles only the approved owner profile plus a small relevant example set.
+
+On the author's Mac, automatic intake uses the PWA's immutable GitHub event
+mirror and does not need the publisher-desk password:
+
+```bash
+harness/monroe-trainer.sh sync
+harness/install-monroe-watch.sh
+```
+
+The installed watcher checks once an hour. New direct edits become eligible
+examples for the next matching movement prompt; revision requests enter the
+pending queue. It never publishes books or promotes a distilled voice profile.
+
+Validate and ingest a PWA JSON or JSONL export:
+
+```bash
+python3 -B pennamecodexv3/scripts/owner_style.py ingest /path/to/owner-edits.jsonl
+python3 -B pennamecodexv3/scripts/owner_style.py status
+```
+
+The command is idempotent by event ID. A repeated ID with changed content is
+rejected rather than silently rewriting history. Reverted, rejected, conflicted,
+mechanical-only, canon-only, and local-only edits do not enter author prompts.
+
+Compile a periodic profile-distillation prompt:
+
+```bash
+python3 -B pennamecodexv3/scripts/owner_style.py distill-prompt \
+  --output pennamecodexv3/owner-style/candidates/distill.prompt.md
+```
+
+The librarian returns a candidate. Review it before replacing
+[`owner-style/OWNER_VOICE.md`](owner-style/OWNER_VOICE.md); no script promotes a
+candidate automatically.
+
+Movement packets should carry `PWA book ID` and `Series ID`. The movement compiler
+then selects shared, genre, series, book, and character examples safely. Explicit
+CLI values are also supported:
+
+```bash
+python3 -B pennamecodexv3/scripts/build_movement_prompt.py \
+  --genre fantasy --root /path/to/book --packet packets/MOVEMENT-002.md \
+  --book-id kindling-book-01 --series-id kindling \
+  --action "chapter 8=learning"
+```
+
+Use `--without-owner-style` only for a deliberate control run.
+
+## Legacy 1.1.1 compatibility
 
 Provider-neutral, multi-pen-name author harness for audio-first speculative fiction.
 
