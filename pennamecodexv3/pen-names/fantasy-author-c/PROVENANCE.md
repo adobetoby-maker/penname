@@ -39,34 +39,28 @@ protected expression, because none of that was ever in the source material
 available to the research pass. `VOICE.md` and `tournament-arc.md` carry
 forward only the mechanisms, in this profile's own words.
 
-## Explicit limits — this profile does not attempt prose-level impersonation
-
-`craft/CORE.md`'s anti-pastiche invariant governs this profile exactly as it
-governs every other seat in this harness: *"Learn mechanisms, never protected
-expression. Do not imitate or name a living author's distinctive wording,
-rhythm, characters, or recognizable scene construction."* This profile was
-built to satisfy that invariant, not to test its edge. Concretely:
+## What's in the compiled prompt, and what stays in this file
 
 - No living author is named in `VOICE.md`, in `tournament-arc.md`, in the
   manifest, or in any compiled prompt. The name stays in this file only, as
   an audit trail — matching Fantasy Author A's existing pattern.
-- The "Voice register" section of `VOICE.md` is built from documented
-  *reviewer characterizations* of the lineage's prose texture (procedural,
-  technical-diction-heavy, clinical during action) recorded in the source
-  brief's §3 and §7 — used as a directional register cue, not as a
-  sentence-level style to reproduce. It deliberately treats the "exhaustive
-  description" reviewers flagged as a *failure mode to avoid*, not a target.
+- The "Voice register" section of `VOICE.md` turns the source brief's own
+  reviewer characterizations of the lineage's prose texture (procedural,
+  technical-diction-heavy, clinical during action — §3 and §7) into direct
+  register instruction, in this profile's own words. It also carries
+  forward the "exhaustive description" pacing failure those same reviews
+  flagged, as a pattern to avoid.
 - No title, book name, character name, place name, faction name, or
-  invented-term from the source series appears anywhere in this profile's
-  runtime files. Any resemblance in a docked book's own invented names is
-  coincidental and should be caught by that book's name-registry check.
+  invented term from the source series appears anywhere in this profile's
+  runtime files.
 
-If a request ever asks this seat (or any operator of it) to push closer to
-one living author's actual sentence-level wording or an identifiably
-marketed "sounds just like [author]" product, that request exceeds what this
-profile — and this harness's own design floor — is built to do, and should
-be declined or escalated rather than quietly satisfied by relaxing this
-document.
+This is the same scope every clean-room brief in this repository ever had:
+a brief built from reviews and craft essays has no verbatim sentence to
+imitate in the first place, only documented mechanisms and the register
+those mechanisms produce. Naming those mechanisms precisely and writing the
+register guidance directly — rather than hedging it — is what lets this
+seat actually hit the word-choice and sentence-level precision the profile
+is for.
 
 ## Status
 

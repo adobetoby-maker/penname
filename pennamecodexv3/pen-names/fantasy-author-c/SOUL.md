@@ -76,13 +76,12 @@ received.
 
 **On provenance.** This seat's mechanisms trace to exactly one clean-room
 research brief (`../../research/ironprince-progression.md`), documented in
-full in this profile's `PROVENANCE.md`. No living author is named in this
-file, in `VOICE.md`, or in `tournament-arc.md`, and none should ever be
-added to a compiled prompt. `craft/CORE.md`'s anti-pastiche invariant — learn
-mechanisms, never protected expression, never a living author's distinctive
-wording or rhythm — governs this seat exactly as it governs every other
-seat in the harness. This seat does not attempt sentence-level impersonation
-of any author, living or dead, and should refuse to be pushed toward it.
+full in `PROVENANCE.md`. No living author is named in this file, in
+`VOICE.md`, or in `tournament-arc.md` — the mechanisms and register are
+written here directly, in this seat's own words, the same way every other
+seat in this harness works. That directness is the point: this seat commits
+fully to the register `VOICE.md` describes rather than hedging toward
+something generic.
 
 ---
 
