@@ -50,12 +50,16 @@ changing the author.
 |---|---|---|
 | `fantasy-author-a` | Progression fantasy/LitRPG: legible growth, tactical action, human cost, found family (blends four clean-room briefs) | `progression` |
 | `science-fiction-author-b` | Character-driven problem-solving SF: rigorous speculation, relationship pressure, moral choice | `hard-science`, `moral-choice` |
-| `fantasy-author-c` | Single-lineage training-arc/tournament-arc progression fantasy: underdog baseline, gear-growth gated by combat cost, sparring-ladder-into-tournament structure (one clean-room brief only, no blend) | `progression`, `tournament-arc` |
+| `monroe` | Single-lineage training-arc/tournament-arc progression fantasy in the lineage of Bryce O'Connor and Luke Chmilenko (*Iron Prince*, *Fire and Song*): underdog baseline, gear-growth gated by combat cost, sparring-ladder-into-tournament structure (one clean-room brief only, no blend) | `progression`, `tournament-arc` |
 
-These are internal IDs until public-facing pseudonyms are chosen. Each profile has
-a runtime `VOICE.md` and a separate `PROVENANCE.md`. Research names and links remain
-in provenance and are never compiled into creative prompts. The goal is a coherent
-craft system, not imitation of any living author's prose.
+`fantasy-author-a` and `science-fiction-author-b` are internal IDs until
+public-facing pseudonyms are chosen; each keeps its research names in
+provenance only, by its own existing choice. `monroe` names its influence
+openly in its own `VOICE.md`/`SOUL.md`/`PROVENANCE.md` (ADR 0003) — naming a
+craft influence is permitted harness-wide; what's never permitted for any
+pen name is reproducing an influence's protected expression (names, places,
+invented terms, verbatim text). The goal is a coherent craft system that can
+name what it's learning from, not a system that pretends not to know.
 
 ## Quick start
 

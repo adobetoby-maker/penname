@@ -126,9 +126,9 @@ class PromptTests(unittest.TestCase):
         for influence_name in ("Orson Scott Card", "Andy Weir", "Brandon Sanderson"):
             self.assertNotIn(influence_name, prompt)
 
-    def test_fantasy_author_c_requires_its_default_modules(self) -> None:
+    def test_monroe_requires_its_default_modules(self) -> None:
         packet = load_json(self.packet)
-        packet["pen_name"] = "fantasy-author-c"
+        packet["pen_name"] = "monroe"
         packet["modules"] = ["progression"]
         with tempfile.TemporaryDirectory() as directory:
             temp_packet = Path(directory) / "packet.json"
@@ -136,34 +136,31 @@ class PromptTests(unittest.TestCase):
             with self.assertRaisesRegex(ValueError, "tournament-arc"):
                 build_prompt("author", temp_packet, self.book_root)
 
-    def test_fantasy_author_c_compiles_without_influence_names(self) -> None:
+    def test_monroe_compiles_with_its_named_influence(self) -> None:
+        # ADR 0003: unlike Fantasy Author A / Science Fiction Author B, Monroe
+        # names its influence directly in the compiled prompt. That's by
+        # design, not a leak to guard against.
         packet = load_json(self.packet)
-        packet["pen_name"] = "fantasy-author-c"
+        packet["pen_name"] = "monroe"
         packet["modules"] = ["progression", "tournament-arc"]
         with tempfile.TemporaryDirectory() as directory:
             temp_packet = Path(directory) / "packet.json"
             temp_packet.write_text(json.dumps(packet), encoding="utf-8")
             prompt = build_prompt("author", temp_packet, self.book_root)
-        self.assertIn("PEN NAME VOICE — Fantasy Author C v1.0.0", prompt)
+        self.assertIn("PEN NAME VOICE — Monroe v1.4.0", prompt)
         self.assertIn("SELECTED MODULE — PROGRESSION", prompt)
         self.assertIn("SELECTED MODULE — TOURNAMENT-ARC", prompt)
         self.assertNotIn("## Editor gates", prompt)
-        for influence_name in (
-            "Bryce O'Connor",
-            "Luke Chmilenko",
-            "Iron Prince",
-            "Warformed",
-            "Stormweaver",
-        ):
-            self.assertNotIn(influence_name, prompt)
+        for named_influence in ("Bryce O'Connor", "Luke Chmilenko", "Iron Prince"):
+            self.assertIn(named_influence, prompt)
 
-    def test_fantasy_author_c_runtime_files_do_not_cite_research_sources(self) -> None:
-        # PROVENANCE.md is audit-only (never compiled) and is allowed to name
-        # sources, including excluded ones, to explain this profile's scope.
-        # VOICE.md and the module it owns ARE compiled into prompts, so they
-        # must never cite a research filename or a blended-profile's sources.
+    def test_monroe_runtime_files_do_not_cite_research_filenames(self) -> None:
+        # Research filenames are internal repo bookkeeping, not the author
+        # name Monroe is built to name — keep them out of compiled prompts
+        # the same way every other pen name does, even though PROVENANCE.md
+        # (audit-only, never compiled) cites them directly.
         voice_text = (
-            PACKAGE_ROOT / "pen-names" / "fantasy-author-c" / "VOICE.md"
+            PACKAGE_ROOT / "pen-names" / "monroe" / "VOICE.md"
         ).read_text(encoding="utf-8")
         module_text = (
             PACKAGE_ROOT / "craft" / "modules" / "tournament-arc.md"
@@ -177,7 +174,7 @@ class PromptTests(unittest.TestCase):
         ):
             self.assertNotIn(source_file, runtime_text)
         provenance = (
-            PACKAGE_ROOT / "pen-names" / "fantasy-author-c" / "PROVENANCE.md"
+            PACKAGE_ROOT / "pen-names" / "monroe" / "PROVENANCE.md"
         ).read_text(encoding="utf-8")
         self.assertIn("ironprince-progression.md", provenance)
 

@@ -49,9 +49,15 @@ These apply to every scene.
 5. **Consequential scenes.** A scene changes at least one story state: goal,
    knowledge, relationship, danger, capability, obligation, or self-concept.
    Quietness is not stasis.
-6. **Anti-pastiche.** Learn mechanisms, never protected expression. Do not
-   imitate or name a living author's distinctive wording, rhythm, characters,
-   or recognizable scene construction.
+6. **No protected expression.** Style, word choice, sentence rhythm, and
+   structural technique are craft, not protected expression — a pen name may
+   learn them from a named author's work and may name that author openly in
+   its own provenance and voice documents; naming an influence for clarity is
+   not itself a violation (ADR 0003). What may never be reproduced is an
+   author's actual protected expression: their characters' names, their
+   places, their invented terminology, verbatim or near-verbatim text, or a
+   scene built from their specific plot-as-expressed. A pen name's own book
+   supplies its own names, places, and invented terms — always.
 7. **Audio survival.** Meaning cannot depend only on typography. Names,
    notifications, headings, and invented terms must remain intelligible aloud.
 

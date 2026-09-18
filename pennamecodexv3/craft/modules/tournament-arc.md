@@ -1,7 +1,7 @@
 # Optional Module — Tournament-Arc Progression
 
-Apply only when selected by the scene packet. Owned by `fantasy-author-c`;
-available to any pen name whose manifest entry lists it in `allowed_modules`.
+Apply only when selected by the scene packet. Owned by `monroe`; available
+to any pen name whose manifest entry lists it in `allowed_modules`.
 
 This module is the mechanical layer for a single-lineage training-arc/
 tournament-arc structure: an underdog protagonist, a coarse-then-fine
