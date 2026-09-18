@@ -24,7 +24,7 @@
     "schema_version": {"const": "3.1"},
     "scene_id": {"type": "string", "minLength": 1},
     "project": {"type": "string", "minLength": 1},
-    "pen_name": {"enum": ["fantasy-author-a", "science-fiction-author-b"]},
+    "pen_name": {"enum": ["fantasy-author-a", "science-fiction-author-b", "fantasy-author-c"]},
     "job": {"enum": ["draft", "structural_repair", "continuity_repair", "voice_revision", "compression", "line_edit"]},
     "revisions": {
       "type": "object",
@@ -41,7 +41,7 @@
     "modules": {
       "type": "array",
       "uniqueItems": true,
-      "items": {"enum": ["combat", "progression", "litrpg", "hard-science", "moral-choice"]}
+      "items": {"enum": ["combat", "progression", "litrpg", "hard-science", "moral-choice", "tournament-arc"]}
     },
     "pov": {
       "type": "object",

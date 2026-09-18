@@ -20,6 +20,16 @@
       "provenance_path": "pen-names/science-fiction-author-b/PROVENANCE.md",
       "allowed_modules": ["combat", "hard-science", "moral-choice"],
       "default_modules": ["hard-science", "moral-choice"]
+    },
+    {
+      "id": "fantasy-author-c",
+      "display_name": "Fantasy Author C",
+      "genre": "single-lineage training-arc/tournament-arc progression fantasy",
+      "version": "1.0.0",
+      "voice_path": "pen-names/fantasy-author-c/VOICE.md",
+      "provenance_path": "pen-names/fantasy-author-c/PROVENANCE.md",
+      "allowed_modules": ["combat", "progression", "litrpg", "tournament-arc"],
+      "default_modules": ["progression", "tournament-arc"]
     }
   ]
 }

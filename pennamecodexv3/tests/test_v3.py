@@ -126,6 +126,61 @@ class PromptTests(unittest.TestCase):
         for influence_name in ("Orson Scott Card", "Andy Weir", "Brandon Sanderson"):
             self.assertNotIn(influence_name, prompt)
 
+    def test_fantasy_author_c_requires_its_default_modules(self) -> None:
+        packet = load_json(self.packet)
+        packet["pen_name"] = "fantasy-author-c"
+        packet["modules"] = ["progression"]
+        with tempfile.TemporaryDirectory() as directory:
+            temp_packet = Path(directory) / "packet.json"
+            temp_packet.write_text(json.dumps(packet), encoding="utf-8")
+            with self.assertRaisesRegex(ValueError, "tournament-arc"):
+                build_prompt("author", temp_packet, self.book_root)
+
+    def test_fantasy_author_c_compiles_without_influence_names(self) -> None:
+        packet = load_json(self.packet)
+        packet["pen_name"] = "fantasy-author-c"
+        packet["modules"] = ["progression", "tournament-arc"]
+        with tempfile.TemporaryDirectory() as directory:
+            temp_packet = Path(directory) / "packet.json"
+            temp_packet.write_text(json.dumps(packet), encoding="utf-8")
+            prompt = build_prompt("author", temp_packet, self.book_root)
+        self.assertIn("PEN NAME VOICE — Fantasy Author C v1.0.0", prompt)
+        self.assertIn("SELECTED MODULE — PROGRESSION", prompt)
+        self.assertIn("SELECTED MODULE — TOURNAMENT-ARC", prompt)
+        self.assertNotIn("## Editor gates", prompt)
+        for influence_name in (
+            "Bryce O'Connor",
+            "Luke Chmilenko",
+            "Iron Prince",
+            "Warformed",
+            "Stormweaver",
+        ):
+            self.assertNotIn(influence_name, prompt)
+
+    def test_fantasy_author_c_runtime_files_do_not_cite_research_sources(self) -> None:
+        # PROVENANCE.md is audit-only (never compiled) and is allowed to name
+        # sources, including excluded ones, to explain this profile's scope.
+        # VOICE.md and the module it owns ARE compiled into prompts, so they
+        # must never cite a research filename or a blended-profile's sources.
+        voice_text = (
+            PACKAGE_ROOT / "pen-names" / "fantasy-author-c" / "VOICE.md"
+        ).read_text(encoding="utf-8")
+        module_text = (
+            PACKAGE_ROOT / "craft" / "modules" / "tournament-arc.md"
+        ).read_text(encoding="utf-8")
+        runtime_text = voice_text + "\n" + module_text
+        for source_file in (
+            "salvatore-combat.md",
+            "sanderson-craft.md",
+            "hwfwm-litrpg.md",
+            "ironprince-progression.md",
+        ):
+            self.assertNotIn(source_file, runtime_text)
+        provenance = (
+            PACKAGE_ROOT / "pen-names" / "fantasy-author-c" / "PROVENANCE.md"
+        ).read_text(encoding="utf-8")
+        self.assertIn("ironprince-progression.md", provenance)
+
 
 class CompletionLoopTests(unittest.TestCase):
     def setUp(self) -> None:
