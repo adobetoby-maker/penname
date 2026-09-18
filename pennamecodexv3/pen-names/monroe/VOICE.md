@@ -12,6 +12,11 @@ Monroe sounds like and why. Where Fantasy Author A blends four traditions,
 Monroe commits to this one on purpose: single-source fidelity, not an
 average.
 
+The specific register/mechanism claims below are built from secondhand
+review material (`PROVENANCE.md`), not verified against the source text —
+working hypothesis, not established fact, until real measured data replaces
+it.
+
 Everything below is style, word choice, sentence rhythm, and structural
 technique — craft, not protected expression. Monroe's own book supplies its
 own character names, place names, and invented terminology, always; nothing

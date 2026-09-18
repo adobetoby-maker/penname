@@ -2,6 +2,13 @@
 
 This is an audit document. It records where Monroe's craft comes from.
 
+**Status: everything below traces back to `research/ironprince-progression.md`,
+which is itself NOT primary research — see that file's own status note. It's
+built from reviews and wiki pages about the book, several hops removed from
+the actual text, not verified against it. Treat Monroe's current register
+guidance as a working hypothesis, not an established fact, until real
+measured data (a stylometric run against actual sample text) replaces it.**
+
 ## Who and what
 
 Monroe is modeled on **Bryce O'Connor and Luke Chmilenko**, specifically

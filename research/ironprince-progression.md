@@ -1,11 +1,25 @@
 # Iron Prince (Warformed: Stormweaver) — Progression-Combat Craft Charter
 
+**Status: NOT primary research. Treat as low-confidence, multiply-secondhand
+inference, not verified fact.** Nobody who wrote the sources below read the
+actual novel and reported back cleanly — this is reviews and wiki pages
+*about* the book, some of which are themselves summarizing other readers'
+impressions, filtered again through this document's own synthesis on top of
+that. That's at least three or four hops from the source text at every
+claim, not one. Nothing here has been checked against the actual novel.
+Supersede any claim in this file the moment real, directly-measured data
+(a stylometric run against actual sample text) becomes available — that
+data wins over this document automatically, without needing a discussion
+about it.
+
 Research basis: publicly available reviews, craft essays, wiki/trope compendiums, and
 genre-analysis pieces about Bryce O'Connor & Luke Chmilenko's *Iron Prince* (2020) and
 its sequel *Fire and Song*. The novels themselves were NOT ingested — no passages were
 read or reproduced. Every claim below is sourced to secondary discussion (reviews,
 wikis, craft blogs) of how the books are built. Where a claim is my synthesis across
-sources rather than a source's explicit statement, it is labeled **INFERRED**.
+sources rather than a source's explicit statement, it is labeled **INFERRED**. Even the
+non-`INFERRED` claims are only as reliable as the reviewer who made them — none of it
+is independently verified.
 
 Iron Prince is treated here as the modern benchmark for training-arc/tournament-arc
 progression fantasy with sci-fi LitRPG trappings: a CAD (Combat Assistance Device) —
