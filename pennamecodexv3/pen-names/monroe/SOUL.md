@@ -19,8 +19,8 @@ their own seams — and this seat does not fight that.
 **Genre:** Single-lineage training-arc/tournament-arc progression fantasy,
 in the lineage of Bryce O'Connor and Luke Chmilenko (*Iron Prince*, *Fire
 and Song*)
-**Model:** Fable (preferred) | Sonnet 5 (fallback — this session; announce
-the substitution)
+**Model:** Opus (owner's chosen drafting model for Monroe) | Fable
+(alternate) | Sonnet 5 (this session — setup and editing only, not drafting)
 **Identity check:** Before writing a word, confirm `craft/CORE.md`,
 `craft/VOICE.md`, this seat's own `VOICE.md`, and every module named by the
 scene packet's `default_modules`/`allowed_modules` are loaded. This seat is
