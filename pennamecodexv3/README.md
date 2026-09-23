@@ -1,10 +1,10 @@
-# Penname Harness — Monroe Jackson 1.2.0
+# Penname Harness — Monroe Jackson 1.3.0
 
 The default system is now the living-map author loop:
 
 - Sonnet (`/monroeplan`) develops and maintains the series, book, character,
   universe, and movement maps.
-- Fable or announced Opus fallback (`/monroelight`) writes three to five connected
+- Fable or announced Opus fallback (`/monroelight`) writes six to eight connected
   chapters from one compact packet.
 - Action scenes load only the tested layers selected for that scene.
 - A continuity editor and cold reader diagnose the complete movement.
@@ -15,8 +15,46 @@ command, optionally followed by the idea in quotes. The older `/fanauthr` and
 `/scifiauthor` 1.1.1 seats remain available for controlled comparisons and existing
 book continuity.
 
+Owner update, 2026-09-21: Monroe 1.3 Light writing now uses six-to-eight-chapter
+movements (six default), one compact brief, and whole-movement review. Chapter
+cards are optional. Context limits require continuation, not shortened chapters.
+Explicitly approved shorter packets and legacy comparison seats remain valid.
+Narration retains its separate three-chapter preparation window.
+
+The Light prompt compiler now validates an explicit `- Chapter range: START-END`
+as 6–8 contiguous chapters. A shorter run requires separate owner approval and
+`--allow-short-movement` (launcher: `MONROE_ALLOW_SHORT_MOVEMENT=1`). This is a
+single movement assignment, with a rolling continuity handoff and consequences
+carried across chapter joins. Finish the movement, review it, and stop before
+starting another. Existing compiled/running sessions do not update retroactively.
+
 The 1.2.0 path uses Markdown living maps and loops. It does not require the legacy
 JSON scene-contract state machine described below.
+
+## Monroe 1.3 substantive book editing
+
+When the owner explicitly unlocks a finished manuscript, Monroe 1.3 may make
+real prose edits in a recoverable working edition. This is separate from the
+read-only continuity editor and from the later word-locked narration pass. The
+substantive seat may add, cut, replace, reorder, rebuild, expand, compress, and
+repair chapter joins when a located reader consequence justifies the change.
+It preserves canon and the prior edition, reports exact additions/removals, and
+does not pad toward another book's word count. See
+[`agents/substantive-editor.md`](agents/substantive-editor.md).
+
+## O'Connor 1.3.0 — six-to-eight-chapter seat
+
+The new [O'Connor seat](pen-names/oconnor/PIPELINE.md) uses Monroe 1.3.0's
+living-map/Light architecture with the [Iron Prince structural formula](pen-names/oconnor/FORMULA.md).
+Opus or Fable writes six to eight connected chapters (six default), then receives
+movement-level continuity/reader feedback and a bounded repair. One movement brief
+replaces compulsory chapter cards. The owner names the characters.
+
+Invoke `$oconnor` in Codex with the author and project. The local compiler is
+`harness/oconnor.sh` from the repository root; it creates prompts without launching
+a model. Monroe 1.3 Light now shares its movement length; legacy 1.1.1 comparison
+seats retain their existing defaults. The complete fresh source-book
+read is still pending; see [research audit status](pen-names/oconnor/PROVENANCE.md).
 
 ## 1.2.0 prompt compilers
 

@@ -31,14 +31,22 @@ it is not presumed to be the strongest prose author.
 ## Movement loop — Fable or Opus Light author
 
 1. Import any new PWA owner-edit events and rebuild the active owner examples.
-2. The showrunner compiles one packet for three to five contiguous chapters.
+2. The showrunner compiles one packet for six to eight contiguous chapters (six
+   default). Keep an explicitly approved shorter legacy packet unchanged unless
+   the owner expands it. This writing default does not change narration batches.
 3. The packet names the stable PWA book and series IDs plus entry pressure,
-   escalation, turn, current state, chapter cards, plants/payoffs, reserved
+   escalation, turn, current state, optional chapter cards, plants/payoffs, reserved
    truths, freedom to invent, and action-stack assignments.
 4. Compile Monroe Light with the approved owner voice, a small set of relevant
    owner comparison pairs, and only the assigned action layers.
 5. The Light author drafts forward. Between chapters it performs only a state and
-   canon close; it does not stop for full line editing.
+   canon close; it does not stop for scoring, chapter approval or full line editing.
+   The compiled range is six to eight chapters, not a set of independent jobs.
+   Keep a lean rolling handoff of scene state, costs, emotional residue, open
+   promises and why the next action follows. Give successes and failures their
+   consequences on the page; do not jump to an unrelated task after completion.
+   If output/context limits intervene, checkpoint and resume the same author and
+   movement. Do not compress chapters or review a partial run as if it were complete.
 6. A deterministic scan checks file integrity and the thirteen-year-old reader
    standard. It identifies locations and never writes prose.
 7. Run the punctuation-integrity review (`scripts/punctuation_review.py`,
@@ -50,6 +58,8 @@ it is not presumed to be the strongest prose author.
    applying; skip anything that fails the word-lock check or lands on a
    file with uncommitted changes.
 8. Freeze the movement. The continuity editor and a cold reader read it as one unit.
+   Check the joins as well as facts: does each new goal follow from what happened,
+   and do reactions, relationships and costs survive successful task completion?
 9. Run specialist review only where the movement contains that specialist subject.
 10. Consolidate at most three high-leverage findings into a compact repair brief.
 11. The original drafting model repairs once in reading order. Protected owner
@@ -99,6 +109,22 @@ it is not presumed to be the strongest prose author.
    seat; keep punctuation-only narration preparation word-locked.
 10. Recheck accepted writing repairs in silent reading and aloud, then lock the
     edition and update series truth.
+
+### Owner-authorized substantive revision mode
+
+The owner may explicitly unlock a finished manuscript for real Monroe prose
+editing. In that mode, the movement repair is not word-locked. The original
+edition remains frozen, while the working edition may add, remove, replace, or
+reorder words; rebuild sentences and paragraphs; compress repetition; expand
+underwritten action, reaction, transition, or consequence; and repair weak
+movement joins. The editor must preserve voice, canon, scene purpose, and
+ending pressure, document before/after word counts, and expose any proposed
+story-level change instead of silently making it. Word locking returns only in
+the later narration-preparation copy.
+
+The active execution contract for that mode is
+`agents/substantive-editor.md`. The ordinary continuity editor remains
+diagnostic and read-only; do not confuse its report with the applied revision.
 
 ## Series and universe loops
 
