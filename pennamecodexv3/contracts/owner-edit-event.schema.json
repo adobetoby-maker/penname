@@ -1,0 +1,153 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://penname.local/schemas/owner-edit-event.v1.schema.json",
+  "title": "Monroe Jackson Owner Edit Event v1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schemaVersion",
+    "eventId",
+    "eventType",
+    "createdAt",
+    "actorRole",
+    "repository",
+    "manuscript",
+    "selection",
+    "result",
+    "preference",
+    "protection",
+    "status"
+  ],
+  "properties": {
+    "schemaVersion": {"const": "1.0"},
+    "eventId": {"type": "string", "minLength": 4, "pattern": "[A-Za-z0-9._:-]+"},
+    "eventType": {
+      "enum": [
+        "direct_edit",
+        "voice_example",
+        "revision_request",
+        "revision_proposed",
+        "revision_accepted",
+        "revision_rejected",
+        "protect",
+        "unprotect",
+        "revert"
+      ]
+    },
+    "createdAt": {"type": "string", "format": "date-time"},
+    "actorRole": {"enum": ["owner", "assistant"]},
+    "sessionId": {"type": "string", "minLength": 1},
+    "supersedesEventId": {"type": "string", "minLength": 4},
+    "requestEventId": {"type": "string", "minLength": 4},
+    "repository": {"$ref": "#/$defs/repository"},
+    "manuscript": {"$ref": "#/$defs/manuscript"},
+    "selection": {"$ref": "#/$defs/selection"},
+    "result": {"$ref": "#/$defs/result"},
+    "preference": {"$ref": "#/$defs/preference"},
+    "protection": {"enum": ["none", "owner_authored", "locked"]},
+    "status": {"enum": ["pending", "applied", "rejected", "reverted", "conflict"]}
+  },
+  "$defs": {
+    "repository": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["owner", "name", "branch"],
+      "properties": {
+        "owner": {"type": "string", "minLength": 1},
+        "name": {"type": "string", "minLength": 1},
+        "branch": {"type": "string", "minLength": 1}
+      }
+    },
+    "manuscript": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "bookId",
+        "bookTitle",
+        "chapterId",
+        "chapterNumber",
+        "chapterTitle",
+        "sourcePath",
+        "resolvedSourcePath",
+        "baseCommit",
+        "baseDocumentHash"
+      ],
+      "properties": {
+        "bookId": {"type": "string", "minLength": 1},
+        "bookTitle": {"type": "string", "minLength": 1},
+        "seriesId": {"type": "string", "minLength": 1},
+        "chapterId": {"type": "string", "minLength": 1},
+        "chapterNumber": {"type": "integer", "minimum": 0, "maximum": 1000},
+        "chapterTitle": {"type": "string", "minLength": 1},
+        "sourcePath": {"type": "string", "minLength": 1},
+        "resolvedSourcePath": {"type": "string", "minLength": 1},
+        "baseCommit": {"type": "string", "minLength": 7},
+        "baseDocumentHash": {"type": "string", "minLength": 16}
+      }
+    },
+    "selection": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["blockId", "originalText"],
+      "properties": {
+        "blockId": {"type": "string", "minLength": 1},
+        "startOffset": {"type": "integer", "minimum": 0},
+        "endOffset": {"type": "integer", "minimum": 0},
+        "originalText": {"type": "string", "minLength": 1},
+        "contextBefore": {"type": "string"},
+        "contextAfter": {"type": "string"},
+        "pageHint": {"type": "integer", "minimum": 0}
+      }
+    },
+    "result": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "revisedText": {"type": "string"},
+        "instruction": {"type": "string"},
+        "unifiedDiff": {"type": "string"}
+      }
+    },
+    "preference": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "reasonCodes": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "enum": [
+              "sentence_load",
+              "word_choice",
+              "cadence",
+              "clarity",
+              "repetition",
+              "dialogue_voice",
+              "character_voice",
+              "pacing",
+              "emotional_precision",
+              "action_clarity",
+              "continuity",
+              "canon_or_fact",
+              "typo_or_punctuation",
+              "other"
+            ]
+          }
+        },
+        "ownerComment": {"type": "string"},
+        "scopeHint": {
+          "enum": [
+            "unclassified",
+            "monroe_shared",
+            "fantasy",
+            "science_fiction",
+            "series",
+            "book",
+            "character",
+            "local_only"
+          ]
+        }
+      }
+    }
+  }
+}

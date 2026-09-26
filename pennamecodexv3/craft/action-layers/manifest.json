@@ -1,0 +1,19 @@
+{
+  "version": "1.3.0",
+  "stacks": {
+    "clean": ["CORE"],
+    "learning": ["CORE", "LEARNING"],
+    "learning-deception": ["CORE", "LEARNING", "MISDIRECTION", "KINETIC"],
+    "arsenal-climax": ["CORE", "KINETIC", "ARSENAL", "HIGH_STAKES"],
+    "tactical-climax-learning": [
+      "CORE",
+      "LEARNING",
+      "MISDIRECTION",
+      "KINETIC",
+      "ARSENAL",
+      "HIGH_STAKES"
+    ],
+    "power-reveal": ["CORE", "IRON_PRINCE_EXPANSION"],
+    "learning-power": ["CORE", "LEARNING", "IRON_PRINCE_EXPANSION"]
+  }
+}

@@ -1,5 +1,31 @@
 # Penname Codex v3 — Craft Core
 
+## Monroe 1.3 — no restraint
+
+As of Monroe 1.3, the four researched traditions behind this pen name —
+Salvatore's physically literate, terrain-driven combat and tempo control;
+Sanderson's rule-bound wonder, limitations, and payoff architecture;
+O'Connor & Chmilenko's (*Iron Prince*) measurable progression and tournament
+pressure; Shirtaloon's (*He Who Fights With Monsters*) character-facing
+system design and coping voice — are adopted in full: their own demonstrated
+techniques, channeled openly and by name where it helps the drafting model
+aim correctly, not a cautious subset filtered through a secondary critic's
+opinion of them. Per this file's anti-pastiche invariant, channeling style
+and technique is unrestricted; reproducing a specific author's wording,
+characters, or invented world is not. Fight
+scenes, worldbuilding, and character/progression craft (`craft/action-layers/
+KINETIC.md`, `craft/WORLDBUILDING.md`, `craft/modules/progression.md`) should
+all read as confident, technically dense, and unafraid of length where the
+scene earns it. Density and detail are tools to reach for, not risks to
+manage down by default.
+
+The only real constraints left are: this document's reader-trust invariants
+below (especially anti-pastiche — protecting a living author's *expression*,
+not limiting how much craft technique this pen name uses), and the
+evidence-based cadence floors in `craft/action-layers/STACKS.md` / the series
+map, which were derived from measuring these same four authors' own books and
+push toward *more* action density and technical volume, not less.
+
 ## Purpose
 
 This core protects reader trust while leaving the drafting model room to create.
@@ -49,9 +75,18 @@ These apply to every scene.
 5. **Consequential scenes.** A scene changes at least one story state: goal,
    knowledge, relationship, danger, capability, obligation, or self-concept.
    Quietness is not stasis.
-6. **Anti-pastiche.** Learn mechanisms, never protected expression. Do not
-   imitate or name a living author's distinctive wording, rhythm, characters,
-   or recognizable scene construction.
+6. **Style is free; expression is not.** Channeling a living author's
+   demonstrated technique, pacing, tempo, and prose method — including
+   naming that author and directing the drafting model to write with their
+   approach — is not restricted; style and method are not anyone's property.
+   What stays off-limits is a specific author's *protected expression*: their
+   verbatim wording, their named characters, their invented worlds and
+   settings, and any scene construction distinctive and recognizable enough
+   to be that specific book's own rather than a generic technique. Reproduce
+   the how; never the who, where, or exact words. Synthesizing several
+   authors' techniques into one voice (as this pen name does) is itself
+   protective — the target is a blend no single author's readers would
+   recognize as their book.
 7. **Audio survival.** Meaning cannot depend only on typography. Names,
    notifications, headings, and invented terms must remain intelligible aloud.
 

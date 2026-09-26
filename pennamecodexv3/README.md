@@ -1,8 +1,160 @@
-# Penname Codex v3
+# Penname Harness — Monroe Jackson 1.3.0
+
+The default system is now the living-map author loop:
+
+- Sonnet (`/monroeplan`) develops and maintains the series, book, character,
+  universe, and movement maps.
+- Fable or announced Opus fallback (`/monroelight`) writes six to eight connected
+  chapters from one compact packet.
+- Action scenes load only the tested layers selected for that scene.
+- A continuity editor and cold reader diagnose the complete movement.
+- The original drafting model performs one bounded repair before the maps advance.
+
+Start an interactive Sonnet showrunner session with the existing `books` shell
+command, optionally followed by the idea in quotes. The older `/fanauthr` and
+`/scifiauthor` 1.1.1 seats remain available for controlled comparisons and existing
+book continuity.
+
+Owner update, 2026-09-21: Monroe 1.3 Light writing now uses six-to-eight-chapter
+movements (six default), one compact brief, and whole-movement review. Chapter
+cards are optional. Context limits require continuation, not shortened chapters.
+Explicitly approved shorter packets and legacy comparison seats remain valid.
+Narration retains its separate three-chapter preparation window.
+
+The Light prompt compiler now validates an explicit `- Chapter range: START-END`
+as 6–8 contiguous chapters. A shorter run requires separate owner approval and
+`--allow-short-movement` (launcher: `MONROE_ALLOW_SHORT_MOVEMENT=1`). This is a
+single movement assignment, with a rolling continuity handoff and consequences
+carried across chapter joins. Finish the movement, review it, and stop before
+starting another. Existing compiled/running sessions do not update retroactively.
+
+The 1.2.0 path uses Markdown living maps and loops. It does not require the legacy
+JSON scene-contract state machine described below.
+
+## Monroe 1.3 substantive book editing
+
+When the owner explicitly unlocks a finished manuscript, Monroe 1.3 may make
+real prose edits in a recoverable working edition. This is separate from the
+read-only continuity editor and from the later word-locked narration pass. The
+substantive seat may add, cut, replace, reorder, rebuild, expand, compress, and
+repair chapter joins when a located reader consequence justifies the change.
+It preserves canon and the prior edition, reports exact additions/removals, and
+does not pad toward another book's word count. See
+[`agents/substantive-editor.md`](agents/substantive-editor.md).
+
+## O'Connor 1.3.0 — six-to-eight-chapter seat
+
+The new [O'Connor seat](pen-names/oconnor/PIPELINE.md) uses Monroe 1.3.0's
+living-map/Light architecture with the [Iron Prince structural formula](pen-names/oconnor/FORMULA.md).
+Opus or Fable writes six to eight connected chapters (six default), then receives
+movement-level continuity/reader feedback and a bounded repair. One movement brief
+replaces compulsory chapter cards. The owner names the characters.
+
+Invoke `$oconnor` in Codex with the author and project. The local compiler is
+`harness/oconnor.sh` from the repository root; it creates prompts without launching
+a model. Monroe 1.3 Light now shares its movement length; legacy 1.1.1 comparison
+seats retain their existing defaults. The complete fresh source-book
+read is still pending; see [research audit status](pen-names/oconnor/PROVENANCE.md).
+
+## 1.2.0 prompt compilers
+
+Compile a Sonnet showrunner prompt:
+
+```bash
+python3 -B pennamecodexv3/scripts/build_showrunner_prompt.py \
+  --genre fantasy --idea "your book idea"
+```
+
+Compile an approved Light-author movement:
+
+```bash
+python3 -B pennamecodexv3/scripts/build_movement_prompt.py \
+  --genre fantasy --root /path/to/book --packet packets/MOVEMENT-001.md \
+  --action "chapter 2=learning-deception"
+```
+
+Available action stacks are documented in
+[`craft/action-layers/STACKS.md`](craft/action-layers/STACKS.md).
+
+## Monroe Book Narrator 1.2.5
+
+The narrator seat reads the complete book arc, then prepares and produces rolling
+three-chapter units. It locks Holden or Jason to an approved master, performs a
+word-locked punctuation and one-pass comprehension review, directs sparse delivery,
+renders, listens, and loops exact pickups. Meaning-level prose problems go back to
+Writing Monroe instead of being hidden in an audio-only script.
+
+In Codex, invoke `$book-narrator`. In Claude, invoke `/book-narrator`. From a shell:
+
+```bash
+booknarrator holden /path/to/book 1-3
+booknarrator jason /path/to/book 4-6 --audience adult
+```
+
+The run keeps the retake-ready narration copy, clarity findings, Writing Monroe
+feedback, performance direction, audio, and listening notes together under the book's
+`narration/monroe-1.2.5/` folder. See
+[`workflows/book-narrator-1.2.5.md`](workflows/book-narrator-1.2.5.md).
+
+## Owner-edit trainer
+
+Monroe 1.2.0 can learn from exact owner revisions exported by the Boundary
+Universe PWA. The PWA supplies immutable evidence; the harness decides which
+events are active, separates voice choices from canon and mechanical fixes, and
+compiles only the approved owner profile plus a small relevant example set.
+
+On the author's Mac, automatic intake uses the PWA's immutable GitHub event
+mirror and does not need the publisher-desk password:
+
+```bash
+harness/monroe-trainer.sh sync
+harness/install-monroe-watch.sh
+```
+
+The installed watcher checks once an hour. New direct edits become eligible
+examples for the next matching movement prompt; revision requests enter the
+pending queue. It never publishes books or promotes a distilled voice profile.
+
+Validate and ingest a PWA JSON or JSONL export:
+
+```bash
+python3 -B pennamecodexv3/scripts/owner_style.py ingest /path/to/owner-edits.jsonl
+python3 -B pennamecodexv3/scripts/owner_style.py status
+```
+
+The command is idempotent by event ID. A repeated ID with changed content is
+rejected rather than silently rewriting history. Reverted, rejected, conflicted,
+mechanical-only, canon-only, and local-only edits do not enter author prompts.
+
+Compile a periodic profile-distillation prompt:
+
+```bash
+python3 -B pennamecodexv3/scripts/owner_style.py distill-prompt \
+  --output pennamecodexv3/owner-style/candidates/distill.prompt.md
+```
+
+The librarian returns a candidate. Review it before replacing
+[`owner-style/OWNER_VOICE.md`](owner-style/OWNER_VOICE.md); no script promotes a
+candidate automatically.
+
+Movement packets should carry `PWA book ID` and `Series ID`. The movement compiler
+then selects shared, genre, series, book, and character examples safely. Explicit
+CLI values are also supported:
+
+```bash
+python3 -B pennamecodexv3/scripts/build_movement_prompt.py \
+  --genre fantasy --root /path/to/book --packet packets/MOVEMENT-002.md \
+  --book-id kindling-book-01 --series-id kindling \
+  --action "chapter 8=learning"
+```
+
+Use `--without-owner-style` only for a deliberate control run.
+
+## Legacy 1.1.1 compatibility
 
 Provider-neutral, multi-pen-name author harness for audio-first speculative fiction.
 
-V3 separates the creative author from the production machine:
+The harness separates the creative author from the production machine:
 
 - `craft/CORE.md` protects universal reader trust.
 - `craft/VOICE.md` defines shared prose and audio-readability behavior.
@@ -48,13 +200,19 @@ changing the author.
 
 | Runtime ID | Genre promise | Default modules |
 |---|---|---|
-| `fantasy-author-a` | Progression fantasy/LitRPG: legible growth, tactical action, human cost, found family | `progression` |
-| `science-fiction-author-b` | Character-driven problem-solving SF: rigorous speculation, relationship pressure, moral choice | `hard-science`, `moral-choice` |
+| `fantasy-author-a` | **Monroe Jackson — Fantasy.** Progression fantasy/LitRPG: legible growth, tactical action, human cost, found family | `progression` |
+| `science-fiction-author-b` | **Monroe Jackson — Science Fiction.** Character-driven problem-solving SF: rigorous speculation, relationship pressure, moral choice | `hard-science`, `moral-choice` |
 
-These are internal IDs until public-facing pseudonyms are chosen. Each profile has
-a runtime `VOICE.md` and a separate `PROVENANCE.md`. Research names and links remain
+These are stable internal compatibility IDs. The public pen name and canonical
+authorship answers are defined in [`pen-names/MONROE_JACKSON.md`](pen-names/MONROE_JACKSON.md).
+Each profile has a runtime `VOICE.md` and a separate `PROVENANCE.md`. Research names and links remain
 in provenance and are never compiled into creative prompts. The goal is a coherent
 craft system, not imitation of any living author's prose.
+
+Existing books enter the catalogue through the named
+[`Book Review and New Edition`](workflows/book-review-and-new-edition.md) loop.
+It reads before editing, revises in connected movements, and ends with a locked,
+recoverable edition rather than an open-ended rewrite.
 
 ## Quick start
 
