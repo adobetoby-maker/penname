@@ -79,7 +79,8 @@ def load_voices() -> tuple[dict[str, Any], dict[str, str]]:
 
 def resolve_voice(name: str) -> tuple[str, dict[str, Any]]:
     registry, aliases = load_voices()
-    key = aliases.get(name.casefold())
+    normalized = name.casefold()
+    key = registry.get("defaultVoice") if normalized in {"default", "auto"} else aliases.get(normalized)
     if not key:
         choices = ", ".join(voice["displayName"] for voice in registry["voices"].values())
         raise ValueError(f"Unknown voice {name!r}; choose {choices}")
@@ -239,6 +240,20 @@ The detailed loop is in `{WORKFLOW}`. Run state is in `{run_path}`.
 
 def build_prompt(run: dict[str, Any]) -> str:
     chapters = ", ".join(f"{item['number']:02d}" for item in run["chapters"])
+    voice = run["voice"]
+    local = voice.get("localNarration")
+    if local:
+        render_instruction = (
+            f"Render with `{local['entrypoint']}` using engine `{local['defaultEngine']}`, "
+            f"profile `{local['profile']}`, and palette `{voice['palette']}`. Keep native "
+            f"speed {voice['nativeSpeed']} and never time-stretch the finished audio."
+        )
+    else:
+        render_instruction = (
+            f"Render through {voice['provider']} voice ID `{voice['voiceId']}` with native "
+            f"speed {voice['nativeSpeed']}. Treat that speed as a hint: measured delivery "
+            "against the approved master is the authority. Never time-stretch the finished audio."
+        )
     return f"""Activate Monroe Book Narrator 1.2.5 for **{run['title']}**, chapters
 {chapters}, using **{run['voice']['displayName']}**.
 
@@ -260,10 +275,7 @@ the source score in `preparedText`, put the alternative in `alternatePreparedTex
 both with identical settings and context, and wait for owner selection.
 
 Only when blocking clarity feedback is resolved, create sparse performance direction
-using the chapter's rolling context and `{run['voice']['coach']}`. Render through
-{run['voice']['provider']} voice ID `{run['voice']['voiceId']}` with native speed
-{run['voice']['nativeSpeed']}. Treat that speed as a hint: measured delivery against the
-approved master is the authority. Never time-stretch the finished audio.
+using the chapter's rolling context and `{run['voice']['coach']}`. {render_instruction}
 
 Run objective audio checks, then listen in full. Log exact pickups in
 `listening-review.md`, redo only failed passages, recheck joins, and loop until clean.

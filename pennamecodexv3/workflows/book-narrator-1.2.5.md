@@ -11,8 +11,9 @@ rewrites inside an audio script.
    character pressure, terminology, action cadence, emotional escalation, and ending.
 3. Work in a rolling three-chapter window: previous pressure, current chapter, next
    consequence. At an edge, use the nearest available chapters.
-4. Lock one core voice and its approved-master coach. Holden and Jason are separate
-   delivery profiles, not speed presets.
+4. Lock one core voice and its approved-master coach. Original Calder with the
+   Kokoro-guided profile is the owner-approved adult-fiction default. Holden and Jason
+   remain separate selectable delivery profiles, not speed presets.
 
 ## Loop 2 — Make the words readable aloud
 
@@ -68,8 +69,10 @@ an unresolved item prevents one-pass comprehension.
    emotion as prepared restart points. Explicitly return to the core narrator.
 4. Let punctuation carry ordinary micro-timing. Add authored rests only for a thought
    landing, revelation, threat, speaker reset, or written scene break.
-5. Render with the selected core voice. Use ElevenLabs for the production lane. Local
-   Qwen cloning is an audition lane until it independently passes measured pacing.
+5. Render with the selected core voice and its registered production profile. The
+   Kokoro-guided Original Calder profile on local Fish S2 is owner-approved for the
+   production lane. Other local clones remain audition lanes until the owner approves
+   a complete take. ElevenLabs remains available for registered Holden and Jason runs.
 6. Check text coverage, technical master, measured pace, pause behavior, voice
    stability, and obvious synthetic artifacts. Requested speed is never accepted as
    evidence of actual pace, and post-render time stretching is forbidden.

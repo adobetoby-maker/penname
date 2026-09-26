@@ -15,6 +15,31 @@ SPEC.loader.exec_module(BOOK_NARRATOR)
 
 
 class BookNarratorTests(unittest.TestCase):
+    def test_default_voice_resolves_to_owner_approved_calder(self) -> None:
+        key, voice = BOOK_NARRATOR.resolve_voice("default")
+        self.assertEqual(key, "calder")
+        self.assertEqual(
+            voice["localNarration"]["publicationStatus"],
+            "owner-approved-production-default",
+        )
+        self.assertIn("kokoro-guided-calder", voice["localNarration"]["profile"])
+
+    def test_calder_prompt_uses_registered_local_renderer(self) -> None:
+        _, voice = BOOK_NARRATOR.resolve_voice("calder")
+        prompt = BOOK_NARRATOR.build_prompt(
+            {
+                "title": "Test Book",
+                "chapters": [{"number": 1}],
+                "voice": voice,
+                "workflow": "/tmp/workflow.md",
+                "runRoot": "/tmp/run",
+                "claritySchema": "/tmp/schema.json",
+            }
+        )
+        self.assertIn("render-calder-narrator.sh", prompt)
+        self.assertIn("profile.production-default.json", prompt)
+        self.assertIn("fish-s2", prompt)
+
     def test_chapter_range(self) -> None:
         self.assertEqual(BOOK_NARRATOR.parse_chapters("1-3,5"), [1, 2, 3, 5])
 

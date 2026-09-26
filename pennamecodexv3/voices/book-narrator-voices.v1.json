@@ -2,6 +2,7 @@
   "schemaVersion": 1,
   "pipeline": "Monroe Book Narrator",
   "pipelineVersion": "1.2.5",
+  "defaultVoice": "calder",
   "voices": {
     "holden": {
       "displayName": "Holden",
@@ -37,27 +38,27 @@
     },
     "calder": {
       "displayName": "Calder",
-      "aliases": ["calder-original", "calder-hq-original"],
-      "provider": "Local Qwen",
+      "aliases": ["calder-original", "calder-hq-original", "default", "kindled-default"],
+      "provider": "Local Fish S2 Pro",
       "voiceId": "calder-original-fifteen-anchor-v1",
       "localNarration": {
         "entrypoint": "/Users/drive/kindling-narrator-stage/scripts/render-calder-narrator.sh",
-        "profile": "/Users/drive/git-backups/boundary-universe-cc/scripts/calder-narrator.profile.json",
+        "profile": "/Users/drive/kindling-repo-stage/books/book-01-kindled/narration/kokoro-guided-calder/profile.production-default.json",
         "defaultEngine": "fish-s2",
         "identity": "original-calder-source",
-        "acceptedWordsPerMinute": {"minimum": 120, "maximum": 150},
-        "paceAuthority": "Owner preference, 2026-09-15: let it land; 120–150 WPM is fine.",
-        "publicationStatus": "human-listening-required",
-        "note": "This local profile supersedes the legacy coach pace for this lane; existing approved masters are retained. Fish commercial distribution requires appropriate license terms."
+        "acceptedWordsPerMinute": {"minimum": 195, "preferred": 208.8, "maximum": 215},
+        "paceAuthority": "Owner-approved Kindled Chapter 1 master, 2026-09-26.",
+        "publicationStatus": "owner-approved-production-default",
+        "note": "Kokoro supplies thought-separation and landing evidence only. Original Calder remains the voice identity. Fish commercial distribution requires appropriate license terms."
       },
       "anchorProvider": "ElevenLabs",
       "anchorVoiceId": "RlfxsxhjN7XADVcW1TiO",
       "anchorModel": "eleven_v3",
       "nativeSpeed": 1.0,
-      "coach": "/Users/drive/kindling-narrator-stage/docs/audio-coaching/calder-delivery-coach.v1.json",
+      "coach": "/Users/drive/kindling-repo-stage/books/book-01-kindled/narration/kokoro-guided-calder/profile.production-default.json",
       "palette": "/Users/drive/.local/share/monroe-tts/anchor-builds/calder-eleven-original-v1/calder-eleven-15.candidate-palette.json",
-      "approvedMaster": "/Users/drive/kindling-narrator-stage/public/audio/local/voices/monroe-australian-qwen.wav",
-      "use": "Original warm Australian-English Hobb's Wall narrator, anchored directly to the approved source recording so expressive changes do not replace his identity."
+      "approvedMaster": "/Users/drive/kindling-repo-stage/audio/book-01-kindled/kokoro-guided-calder/chapter-01.mp3",
+      "use": "Default adult-fiction narrator. Original warm Australian-English Calder identity with sparse book-aware direction, Kokoro-informed landings, complete-thought chunks, and explicit returns to base."
     }
   },
   "rules": [
