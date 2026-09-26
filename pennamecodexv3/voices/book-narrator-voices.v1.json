@@ -59,6 +59,27 @@
       "palette": "/Users/drive/.local/share/monroe-tts/anchor-builds/calder-eleven-original-v1/calder-eleven-15.candidate-palette.json",
       "approvedMaster": "/Users/drive/kindling-repo-stage/audio/book-01-kindled/kokoro-guided-calder/chapter-01.mp3",
       "use": "Default adult-fiction narrator. Original warm Australian-English Calder identity with sparse book-aware direction, Kokoro-informed landings, complete-thought chunks, and explicit returns to base."
+    },
+    "emma": {
+      "displayName": "Emma",
+      "aliases": ["emma-british", "memoir-emma", "driftwing-default"],
+      "provider": "Local Kokoro 82M",
+      "voiceId": "bf_emma",
+      "localNarration": {
+        "entrypoint": "/Users/drive/boundary-universe/scripts/render-emma-narrator.sh",
+        "profile": "/Users/drive/boundary-universe/docs/audio-coaching/driftwing-emma-kokoro.profile.json",
+        "defaultEngine": "kokoro",
+        "identity": "kokoro-bf-emma-a71e4d38",
+        "acceptedWordsPerMinute": {"minimum": 165, "preferred": 195, "maximum": 220},
+        "paceAuthority": "Owner-selected The Woman the Little Girl Became Emma master, 2026-09-26.",
+        "publicationStatus": "owner-selected-production-voice",
+        "note": "The built-in Kokoro bf_emma style pack is the voice identity. Direction uses the same voice for every color; only sparse boundaries, modest gain, and post-synthesis word-aligned silence change delivery."
+      },
+      "nativeSpeed": 1.0,
+      "coach": "/Users/drive/boundary-universe/docs/audio-coaching/driftwing-emma-kokoro.profile.json",
+      "palette": "/Users/drive/boundary-universe/docs/audio-coaching/driftwing-emma-kokoro.palette.json",
+      "approvedMaster": "/Users/drive/boundary-universe/public/audio/local/the-woman-the-little-girl-became/chapter-01-emma.mp3",
+      "use": "Warm British family narration for Driftwing. Exact Kokoro Emma identity, native cadence, complete-thought synthesis, sparse color, and deliberate word-aligned landings."
     }
   },
   "rules": [
