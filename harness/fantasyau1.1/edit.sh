@@ -183,7 +183,7 @@ if grep -q '"auth_mode"[[:space:]]*:[[:space:]]*"apikey"' "$HOME/.codex/auth.jso
   [[ "${GB_ALLOW_API_BILLING:-}" == "1" ]] || exit 3
 fi
 
-env -u OPENAI_API_KEY codex exec -m gpt-5.6-sol "$PROMPT" < /dev/null > /tmp/gb-edit-${NN}.log 2>&1 || {
+env -u OPENAI_API_KEY codex exec -m gpt-6.1-sol "$PROMPT" < /dev/null > /tmp/gb-edit-${NN}.log 2>&1 || {
   echo "EDITOR_FAILED — see /tmp/gb-edit-${NN}.log" >&2
   exit 1
 }

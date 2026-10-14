@@ -12,7 +12,7 @@ for shard in 01 02 03 04; do
     --manifest "$pass_root/manifests-high-final/shard-$shard.json" \
     --output-root "$pass_root/results-high-final/shard-$shard" \
     --backend codex \
-    --model gpt-5.6-sol \
+    --model gpt-6.1-sol \
     --reasoning-effort high &
   pids+=($!)
 done

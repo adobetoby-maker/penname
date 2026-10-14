@@ -131,7 +131,7 @@ if ! codex login status &>/dev/null; then
 fi
 
 LOG="/tmp/fantasyau11-batch-${START}-${END}-$$.log"
-env -u OPENAI_API_KEY codex exec -m gpt-5.6-sol "$PROMPT" < /dev/null > "$LOG" 2>&1 || {
+env -u OPENAI_API_KEY codex exec -m gpt-6.1-sol "$PROMPT" < /dev/null > "$LOG" 2>&1 || {
   echo "EDITOR_FAILED — see $LOG" >&2; exit 1;
 }
 [[ -f "$VERDICT" ]] || { echo "FATAL: editor did not write $VERDICT" >&2; exit 1; }
