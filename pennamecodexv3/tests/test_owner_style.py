@@ -314,7 +314,7 @@ class OwnerStylePromptTests(unittest.TestCase):
             book = base / "book"
             book.mkdir()
             packet = book / "MOVEMENT.md"
-            packet.write_text("# Movement\n\nA fight tests Toren's judgment.", encoding="utf-8")
+            packet.write_text("# Movement\n\n- Chapter range: 1-6\n\nA fight tests Toren's judgment.", encoding="utf-8")
             owner_root = base / "owner-style"
             owner_root.mkdir()
             (owner_root / "OWNER_VOICE.md").write_text(
@@ -341,7 +341,7 @@ class OwnerStylePromptTests(unittest.TestCase):
         with tempfile.TemporaryDirectory() as directory:
             book = Path(directory)
             packet = book / "MOVEMENT.md"
-            packet.write_text("# Movement", encoding="utf-8")
+            packet.write_text("# Movement\n- Chapter range: 1-6", encoding="utf-8")
             prompt = build_movement_prompt(
                 "scifi", packet, book, [], owner_style_root=None
             )
@@ -355,7 +355,7 @@ class OwnerStylePromptTests(unittest.TestCase):
             book.mkdir()
             packet = book / "MOVEMENT.md"
             packet.write_text(
-                "# Movement\n\n- PWA book ID: kindling-book-01\n- Series ID: kindling\n",
+                "# Movement\n\n- Chapter range: 1-6\n- PWA book ID: kindling-book-01\n- Series ID: kindling\n",
                 encoding="utf-8",
             )
             owner_root = base / "owner-style"

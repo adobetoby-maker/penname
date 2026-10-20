@@ -6,13 +6,14 @@ from __future__ import annotations
 import argparse
 import hashlib
 import json
+import os
 import re
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
 
 
-SYSTEM_ROOT = Path("/Users/drive/penname/pennamecodexv3")
+SYSTEM_ROOT = Path(__file__).resolve().parents[1]
 VOICE_REGISTRY = SYSTEM_ROOT / "voices/book-narrator-voices.v1.json"
 WORKFLOW = SYSTEM_ROOT / "workflows/book-narrator-1.2.5.md"
 SCHEMA = SYSTEM_ROOT / "schemas/narration-clarity-item.v1.schema.json"
@@ -128,11 +129,13 @@ def discover_performance_dir(book_root: Path) -> Path | None:
     direct = book_root / "performance"
     if direct.is_dir():
         return direct.resolve()
-    staged = (
-        Path("/Users/drive/kindling-narrator-stage/public/manuscripts/books")
-        / book_root.name
-        / "performance"
+    staged_root = Path(
+        os.environ.get(
+            "MONROE_NARRATOR_STAGE",
+            "/Users/drive/kindling-narrator-stage/public/manuscripts/books",
+        )
     )
+    staged = staged_root / book_root.name / "performance"
     return staged.resolve() if staged.is_dir() else None
 
 
