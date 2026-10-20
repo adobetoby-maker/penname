@@ -1,0 +1,4 @@
+interface:
+  display_name: "O'Connor 1.3.0 — Monroe Author Seat"
+  short_description: "Opus/Fable movements with progression craft"
+  default_prompt: "Use $oconnor to build my new series and its first movement plan."

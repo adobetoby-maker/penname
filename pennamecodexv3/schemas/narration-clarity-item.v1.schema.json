@@ -1,0 +1,42 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://boundary.press/schemas/narration-clarity-item.v1.schema.json",
+  "title": "Monroe narration clarity item",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "paragraph",
+    "status",
+    "onePassComprehension",
+    "issue",
+    "reason",
+    "preparedText",
+    "alternatePreparedText",
+    "cadenceImpact",
+    "ownerDecision",
+    "suggestedWritingRevision",
+    "returnToWritingMonroe"
+  ],
+  "properties": {
+    "paragraph": {"type": "integer", "minimum": 1},
+    "status": {
+      "type": "string",
+      "enum": ["clean", "punctuation-correction", "performance-choice", "writing-change-needed"]
+    },
+    "onePassComprehension": {"type": "boolean"},
+    "issue": {"type": "string"},
+    "reason": {"type": "string"},
+    "preparedText": {"type": "string"},
+    "alternatePreparedText": {"type": ["string", "null"]},
+    "cadenceImpact": {
+      "type": "string",
+      "enum": ["none", "minor", "material"]
+    },
+    "ownerDecision": {
+      "type": "string",
+      "enum": ["not-required", "pending", "keep-original", "use-alternate"]
+    },
+    "suggestedWritingRevision": {"type": ["string", "null"]},
+    "returnToWritingMonroe": {"type": "boolean"}
+  }
+}

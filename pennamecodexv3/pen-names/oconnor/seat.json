@@ -1,0 +1,20 @@
+{
+  "id": "oconnor",
+  "version": "1.3.0",
+  "public_byline": "Monroe Jackson",
+  "foundation": "Monroe Jackson 1.3.0 living-map / Light",
+  "authors": ["opus", "fable"],
+  "default_author": "opus",
+  "author_selection": "default-opus-fable-on-request",
+  "movement_chapters": {"default": 8, "minimum": 6, "maximum": null},
+  "compiler": "../../scripts/build_oconnor_prompt.py",
+  "profile": "VOICE.md",
+  "formula": "FORMULA.md",
+  "formula_source": "../../../research/ironprince-craft-formula.md",
+  "formula_sections": [2, 3, 4, 5, 6, 8, 9],
+  "formula_revision": "owner-numerical-targets-v1",
+  "pipeline": "PIPELINE.md",
+  "brief_template": "MOVEMENT_BRIEF.md",
+  "review": "REVIEW.md",
+  "research_status": "partial audit; complete fresh novel read pending"
+}

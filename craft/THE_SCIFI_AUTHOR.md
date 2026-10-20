@@ -1,4 +1,4 @@
-# THE SCIENCE-FICTION AUTHOR — Charter v1 (Clean Room)
+# THE SCIENCE-FICTION AUTHOR — Charter v1.1.1 (Clean Room)
 
 ## 0. Preamble — What This Document Is
 
@@ -11,10 +11,9 @@ It was synthesized exclusively from ONE research brief (named in Appendix A)
 covering three influences, plus documented pipeline experience (§7). That is
 the structural difference from the fantasy charter, `THE_AUTHOR.md`, which was
 built from four independent briefs — one per pillar. Because the source is a
-single brief, this charter carries three pillars, not four, and sixteen gates,
-not twenty-six. That is the honest shape of the evidence. Padding a thin
-pillar to match a thicker charter's silhouette would violate the same
-provenance discipline this document is built on.
+single brief, this charter carries three pillars, not four, and sixteen
+research-derived gates. Version 1.1.1 adds five pipeline-derived reader gates;
+they are explicitly identified rather than misrepresented as new research.
 
 No drafted manuscript was read to produce it. No published fiction by any
 influence was ingested or quoted.
@@ -567,6 +566,27 @@ science-fiction extensions, each flagged where it appears.
    the fact is not a speculative consequence, it is a bulletin. Consequence
    chains (§2.1c) are dramatized, not summarized.
 
+### 7.4 Movement and reader law (1.1.1 pipeline extension)
+
+1. The normal drafting unit is a contiguous movement of three to five chapters,
+   default four. Full editing follows the movement so causal and emotional joins
+   can be judged in context. Between chapters only blockers and ledger state are
+   closed.
+2. Across twenty chapters, schedule seven or eight embodied pressure set pieces,
+   with five as the hard floor and no gap longer than four chapters. An EVA,
+   chase, rescue, dangerous test, failure cascade, repair under a clock,
+   survival sequence, confrontation, or combat qualifies when it forces action
+   and irreversible choice.
+3. Minor pressure sequences normally receive 600–1,000 words; major sequences
+   1,500–2,500; climaxes may span scenes or chapters. These bands protect scene
+   function from summary and do not reward padding.
+4. Across two ordinary chapters, aim for four organic humor or warmth
+   opportunities, with three to five as the working band. A declared cold
+   movement may carry less. This is a rolling rhythm, not a chapter quota.
+5. Reader A reads every movement. Reader B reads the opening, act turns, ending,
+   and flagged movements. Scores are trends; located confusion, disbelief,
+   skimming, or delight controls repair.
+
 ---
 
 ## 8. The Editor's Unified Gate
@@ -575,10 +595,9 @@ One deduplicated list, derived from the three pillars. Every gate is binary,
 checkable against the draft without reference to author intent, and traceable
 to its source principle. Run per chapter unless marked per-arc or per-book.
 
-Sixteen gates, not twenty-six. The count reflects the source: one brief, three
-influences, ten principles. A gate invented to reach parity with the fantasy
-charter would be a gate with no evidence behind it, and the editor would have
-no basis on which to adjudicate it.
+Twenty-one gates: sixteen research-derived craft gates plus five
+pipeline-derived reader gates. The latter enforce observed production needs and
+are labelled as such; they do not claim research provenance.
 
 **Character and moral gates (Pillar I — Ch)**
 
@@ -653,6 +672,33 @@ no basis on which to adjudicate it.
     structural failure it addresses, AND does not reopen a section whose
     declared exit criteria already passed without a newly logged failure.
     Either clause failing = FAIL. [St §3.4a, §3.4c; scoped by §4.6]
+
+**Reader and movement gates (pipeline-derived — §7.4)**
+
+17. **Opening pressure.** Within the first 150 words, a concrete discrepancy,
+    danger, want, or consequential question matters to a character now. General
+    orientation without present pressure = FAIL. [Pipeline §7.4]
+18. **Problem/action cadence** (per book and movement). The problem engine
+    advances in every chapter; each movement carries an inconvenient result,
+    meaningful revision, and changed choice. The book schedules seven or eight
+    embodied pressure set pieces per twenty chapters, never fewer than five and
+    never more than four chapters apart. An unexplained gap = FAIL. [Pipeline
+    §7.4]
+19. **Set-piece sustain.** A scheduled MINOR pressure sequence normally sustains
+    600–1,000 words; MAJOR 1,500–2,500; CLIMAX carries escalation, choice, cost,
+    and aftermath even when it crosses chapters. Compression that turns the
+    event into summary, or padding without function = FAIL. [Pipeline §7.4;
+    Process Law §7.3]
+20. **Rolling humor and warmth.** Across two ordinary chapters, aim for four
+    organic opportunities, with three to five acceptable. A declared cold
+    movement is exempt. Treating this as a per-chapter joke quota, or sustained
+    emotional airlessness without a declared purpose = FAIL. [Pipeline §7.4]
+21. **Cold-reader continuity and dialogue ownership.** Located reader confusion,
+    disbelief, skimming, or lost desire to continue must be resolved or
+    explicitly held; score changes are interpreted as trends. Masked dialogue
+    samples only substantive lines of at least eight words or lines carrying a
+    position, decision, evasion, or conflict. Ignoring located experience or
+    manufacturing quirks from trivial samples = FAIL. [Pipeline §7.4]
 
 *(Process Law §7 adds its own checks, all grep-able against the manuscript and
 ledger rather than adjudicated per chapter: name-registry aural collisions,
