@@ -30,7 +30,7 @@ clarity, character, tension, humor, wonder, action, or consequence.
 
 1. Read the whole book once before deciding its revision architecture.
 2. Freeze the source edition and name the working edition.
-3. Group the work into six-to-eight-chapter movements unless the owner approves
+3. Group the work into movements of six or more chapters unless the owner approves
    another natural boundary.
 4. Read a complete movement before editing its first chapter.
 5. Give each chapter `KEEP`, `TIGHTEN`, `REPAIR`, `EXPAND`, `RESTRUCTURE`, or

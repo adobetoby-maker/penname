@@ -28,20 +28,22 @@ This is a set of loops, not a contract ladder.
 Sonnet is the operational showrunner. It organizes and maintains the architecture;
 it is not presumed to be the strongest prose author.
 
-## Movement loop — Fable or Opus Light author
+## Movement loop — Opus 5.5 Light author
 
 1. Import any new PWA owner-edit events and rebuild the active owner examples.
-2. The showrunner compiles one packet for six to eight contiguous chapters (six
-   default). Keep an explicitly approved shorter legacy packet unchanged unless
+2. The showrunner compiles one packet for six or more contiguous chapters (no
+   upper cap). Keep an explicitly approved shorter legacy packet unchanged unless
    the owner expands it. This writing default does not change narration batches.
 3. The packet names the stable PWA book and series IDs plus entry pressure,
    escalation, turn, current state, optional chapter cards, plants/payoffs, reserved
    truths, freedom to invent, and action-stack assignments.
 4. Compile Monroe Light with the approved owner voice, a small set of relevant
    owner comparison pairs, and only the assigned action layers.
-5. The Light author drafts forward. Between chapters it performs only a state and
+5. Claude Opus 5.5 is the production Light author. Another model is a labeled
+   comparison run, not an automatic fallback. The Light author drafts forward.
+   Between chapters it performs only a state and
    canon close; it does not stop for scoring, chapter approval or full line editing.
-   The compiled range is six to eight chapters, not a set of independent jobs.
+   The compiled range is six or more chapters, not a set of independent jobs.
    Keep a lean rolling handoff of scene state, costs, emotional residue, open
    promises and why the next action follows. Give successes and failures their
    consequences on the page; do not jump to an unrelated task after completion.

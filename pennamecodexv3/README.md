@@ -4,29 +4,39 @@ The default system is now the living-map author loop:
 
 - Sonnet (`/monroeplan`) develops and maintains the series, book, character,
   universe, and movement maps.
-- Fable or announced Opus fallback (`/monroelight`) writes six to eight connected
-  chapters from one compact packet.
+- Claude Opus 5.5 (`/monroelight`) writes six or more connected chapters (no upper cap) from one
+  compact packet. Other prose models are labeled comparison runs.
 - Action scenes load only the tested layers selected for that scene.
 - A continuity editor and cold reader diagnose the complete movement.
 - The original drafting model performs one bounded repair before the maps advance.
 
-Start an interactive Sonnet showrunner session with the existing `books` shell
-command, optionally followed by the idea in quotes. The older `/fanauthr` and
-`/scifiauthor` 1.1.1 seats remain available for controlled comparisons and existing
-book continuity.
+Start an interactive Sonnet showrunner session with the `books` shell command
+(opens a new iTerm window), optionally followed by the idea in quotes. Monroe 1.3.0
+and the O'Connor 1.3.0 seat are the defaults for every call, with Opus 5.5 as the
+author, unless the owner gives other instructions. The older `/fanauthr` and
+`/scifiauthor` 1.1.1 seats and their 1.1/1.2 gate ladders remain available only
+for controlled comparisons and existing book continuity.
 
-Owner update, 2026-09-21: Monroe 1.3 Light writing now uses six-to-eight-chapter
-movements (six default), one compact brief, and whole-movement review. Chapter
+Owner update, 2026-09-29: Monroe 1.3 Light writing now uses open-range movements
+(six or more chapters, no upper cap), one compact brief, and whole-movement review.
+Opus 5.5 gets the freedom and length to shape the run; the chapter break and scene
+route are the author's. Chapter
 cards are optional. Context limits require continuation, not shortened chapters.
 Explicitly approved shorter packets and legacy comparison seats remain valid.
 Narration retains its separate three-chapter preparation window.
 
 The Light prompt compiler now validates an explicit `- Chapter range: START-END`
-as 6–8 contiguous chapters. A shorter run requires separate owner approval and
+as six or more contiguous chapters. A shorter run requires separate owner approval and
 `--allow-short-movement` (launcher: `MONROE_ALLOW_SHORT_MOVEMENT=1`). This is a
 single movement assignment, with a rolling continuity handoff and consequences
 carried across chapter joins. Finish the movement, review it, and stop before
 starting another. Existing compiled/running sessions do not update retroactively.
+
+Owner update, 2026-09-24: Claude Opus 5.5 is the production default for new
+Monroe Light author sessions. The `bookwrite` launcher pins
+`claude-opus-5-5`; `MONROE_AUTHOR_MODEL=fable` remains available for a labeled
+comparison. This changes future author launches, not the Sonnet showrunner,
+continuity editor, cold readers, or already-running sessions.
 
 The 1.2.0 path uses Markdown living maps and loops. It does not require the legacy
 JSON scene-contract state machine described below.
@@ -42,17 +52,18 @@ It preserves canon and the prior edition, reports exact additions/removals, and
 does not pad toward another book's word count. See
 [`agents/substantive-editor.md`](agents/substantive-editor.md).
 
-## O'Connor 1.3.0 — six-to-eight-chapter seat
+## O'Connor 1.3.0 — open-range seat
 
 The new [O'Connor seat](pen-names/oconnor/PIPELINE.md) uses Monroe 1.3.0's
 living-map/Light architecture with the [Iron Prince structural formula](pen-names/oconnor/FORMULA.md).
-Opus or Fable writes six to eight connected chapters (six default), then receives
+Opus 5.5 (the default author; Fable only when named) writes six or more connected
+chapters (default 8, no upper cap), then receives
 movement-level continuity/reader feedback and a bounded repair. One movement brief
 replaces compulsory chapter cards. The owner names the characters.
 
 Invoke `$oconnor` in Codex with the author and project. The local compiler is
 `harness/oconnor.sh` from the repository root; it creates prompts without launching
-a model. Monroe 1.3 Light now shares its movement length; legacy 1.1.1 comparison
+a model. Monroe 1.3 Light shares its open movement length; legacy 1.1.1 comparison
 seats retain their existing defaults. The complete fresh source-book
 read is still pending; see [research audit status](pen-names/oconnor/PROVENANCE.md).
 
@@ -178,7 +189,7 @@ orchestrator (Claude or Codex)
         +-- compiles one role prompt
         +-- records provider/model/hash metadata
         |
-        +--> author seat (recommended: Fable)
+        +--> author seat (default: Claude Opus 5.5)
         |       +-- manuscript
         |       +-- author report
         |

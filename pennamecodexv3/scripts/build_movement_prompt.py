@@ -17,6 +17,34 @@ MANIFEST = PACKAGE_ROOT / "craft" / "action-layers" / "manifest.json"
 DEFAULT_OWNER_STYLE_ROOT = PACKAGE_ROOT / "owner-style"
 ASSIGNMENT_RE = re.compile(r"^[A-Za-z0-9._ -]+=[a-z0-9-]+$")
 PACKET_FIELD_RE = re.compile(r"^-\s*([^:]+):\s*(.*?)\s*$", re.MULTILINE)
+RANGE_VALUE_RE = re.compile(r"(?:chapters?\s+)?(\d+)\s*[-–—]\s*(\d+)", re.IGNORECASE)
+
+
+def movement_chapters(packet_text: str, *, allow_short_movement: bool = False) -> list[int]:
+    """Validate the author's actual run, not merely its advertised default."""
+    fields = [value.strip() for name, value in PACKET_FIELD_RE.findall(packet_text)
+              if re.fullmatch(r"(?:chapter range|chapters)(?:\s*\([^)]*\))?",
+                              name.strip(), re.IGNORECASE)]
+    if len(fields) > 1:
+        raise ValueError("declare exactly one Chapter range field")
+    if fields:
+        match = RANGE_VALUE_RE.fullmatch(fields[0])
+    else:
+        # Compatibility for existing compact packets: range must be in the
+        # opening brief, never inferred from later references to prior chapters.
+        opening = packet_text.split("\n## ", 1)[0]
+        matches = re.findall(r"\bchapters\s+(\d+)\s*[-–—]\s*(\d+)\b",
+                             opening, re.IGNORECASE)
+        match = RANGE_VALUE_RE.fullmatch("-".join(matches[0])) if len(matches) == 1 else None
+    if not match:
+        raise ValueError("movement needs an explicit '- Chapter range: START-END' (six or more contiguous chapters; no upper cap)")
+    start, end = map(int, match.groups())
+    count = end - start + 1
+    if start < 1 or count < 1:
+        raise ValueError("chapter range must be positive and ascending")
+    if count < 6 and not allow_short_movement:
+        raise ValueError("Monroe 1.3 runs are six chapters or more with no upper cap; a shorter owner-approved run requires --allow-short-movement")
+    return list(range(start, end + 1))
 
 
 def read(path: Path) -> str:
@@ -63,6 +91,7 @@ def build_movement_prompt(
     owner_example_limit: int = 8,
     book_id: str | None = None,
     series_id: str | None = None,
+    allow_short_movement: bool = False,
 ) -> str:
     if genre not in {"fantasy", "scifi"}:
         raise ValueError("genre must be fantasy or scifi")
@@ -91,9 +120,14 @@ def build_movement_prompt(
     )
     assignment_text = "\n".join(f"- {scene}: `{stack}`" for scene, stack in assignments)
     packet_text = read(packet)
+    chapters = movement_chapters(packet_text, allow_short_movement=allow_short_movement)
     metadata = packet_metadata(packet_text)
 
     sections = [
+        ("RUN SCOPE — VALIDATED", f"Draft chapters {chapters[0]}–{chapters[-1]}: {len(chapters)} contiguous chapters as one movement. "
+         "The whole movement is the assignment, not a queue of unrelated chapter tasks. "
+         "Completing a local objective does not complete the movement. "
+         "Stop after this range for whole-movement review; do not launch the next movement automatically."),
         ("ROLE", read(PACKAGE_ROOT / "agents" / "author-light.md")),
         ("AUTHOR PROFILE", read(profile_path)),
     ]
@@ -161,6 +195,8 @@ def main() -> int:
     parser.add_argument("--book-id", help="stable PWA/harness book id for scoped examples")
     parser.add_argument("--series-id", help="stable series id for scoped examples")
     parser.add_argument("--hash-only", action="store_true")
+    parser.add_argument("--allow-short-movement", action="store_true",
+                        help="only for an explicitly owner-approved run shorter than six chapters")
     args = parser.parse_args()
 
     try:
@@ -173,6 +209,7 @@ def main() -> int:
             owner_example_limit=args.owner_example_limit,
             book_id=args.book_id,
             series_id=args.series_id,
+            allow_short_movement=args.allow_short_movement,
         )
     except (OSError, ValueError, json.JSONDecodeError) as exc:
         parser.error(str(exc))
