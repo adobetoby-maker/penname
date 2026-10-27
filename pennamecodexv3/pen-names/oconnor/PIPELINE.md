@@ -36,7 +36,8 @@ secondary signals. Do not replace the formula with generic advice. Reuse existin
 project files rather than proliferating paperwork:
 
 - `SERIES_MAP.md`: NOW, NEXT, HORIZON; recurring pleasure, trajectories, connections.
-- `BOOK_MAP.md`: movement pressures, important promises/payoffs, intended ending.
+- `BOOK_MAP.md`: movement pressures, important promises/payoffs, intended ending,
+  and the motif budget (each planned motif's function and on-page beats per movement).
 - `CHARACTERS.md`: owner names, private wants, relationships, distinct voices.
 - `UNIVERSE_BIBLE.md`: rules, limits, chronology, reserved truths.
 - `STATE_LEDGER.md`: current bodies, knowledge, resources and unresolved threads.

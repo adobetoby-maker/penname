@@ -19,6 +19,8 @@
 - Relevant system or science rules:
 - Movement turns / promises (individual chapter cards optional):
 - Required plants and payoffs:
+- Motif budget this movement (required; motif, beats allowed, beats used so far;
+  default one beat per movement, never a scene's closing beat twice in a row):
 - Reserved facts not to reveal:
 - Freely inventable space:
 - Next card after this movement:

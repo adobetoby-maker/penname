@@ -1,4 +1,4 @@
-# O'Connor seat 1.3.0 — Monroe Jackson
+# O'Connor seat 1.3.1 — Monroe Jackson
 
 Internal seat ID: `oconnor`. Public byline: Monroe Jackson unless the owner chooses
 another. Foundation: Monroe Jackson 1.3.0 living-map/Light architecture. Codex
@@ -106,13 +106,31 @@ the funniest or most intimate beat is the one where someone finally stops perfor
 Physical behavior can reveal emotion; direct emotional language is also available
 when it is the truthful, clear choice.
 
+## Motif budget and anti-tic
+
+The anti-tic law binds this seat. Any phrase used more than three times in a book
+is a defect, and planted motifs are NOT exempt: naming a motif in advance buys its
+budget and nothing more.
+
+- Every planned motif or thread gets a written on-page budget in the book plan.
+  Default ceiling: at most one on-page beat per movement (or per prologue), and
+  never as a scene's closing beat twice in a row.
+- Carry a motif by varied, concrete action, not by a repeated phrase or device.
+  The three-use limit applies to motif phrases like any other.
+- No in-story meta-talk about recording, writing things down, documenting,
+  ledgers, columns of reasons, archives, or "the why," and no character explaining
+  why records matter, unless that specific act changes the plot in that scene.
+  Even then, show it once and do not discuss it.
+- Your own continuity and provenance ledgers are fine. The characters do not keep
+  your ledger.
+
 ## Discovery inside a coherent series
 
 Maps remember facts and promises; scenes discover how people act. Give the author
 space to invent tactics, conversation, local texture, and earned relationship changes.
 Carry important discoveries into the map after the movement. Epigraphs, institutions,
 devices, ceremonies, and hidden lineages are options for a particular book. None is
-required by this seat. Do not import another novel's cast, quotations, signature
+required by this seat, and any that recurs is rationed by its motif budget. Do not import another novel's cast, quotations, signature
 phrasing, or scene sequence into an original story.
 
 Explicit owner direction, protected owner wording, and approved owner voice take

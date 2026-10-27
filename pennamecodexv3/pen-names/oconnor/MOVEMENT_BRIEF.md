@@ -21,6 +21,14 @@ needs room and which progression/relationship thread changes.]
 
 [Established rules, protected wording, reserved reveals and their release limits.]
 
+## Motif budget
+
+[Required. Each planned motif or thread active in this movement, with the beats it
+may take here and the beats already spent in the book. Default: one on-page beat
+per movement, never a scene's closing beat twice in a row. No characters
+narrating or explaining records, ledgers, or "the why" unless the act changes the
+plot in that scene.]
+
 ## What the author owns
 
 [Scene/chapter boundaries, route through the pressure, tactics, conversations,

@@ -26,6 +26,17 @@
 | Plant | First fair appearance | Apparent meaning | Intended payoff | Status |
 |---|---|---|---|---|
 
+## Motif budget
+
+Required. Every planned motif or thread (a recurring object, phrase, gesture,
+device, or "someone keeps a record" style subplot) gets a row. Default ceiling
+if left blank: one on-page beat per movement (or per prologue), never as a
+scene's closing beat twice in a row. A motif is protected only inside its budget;
+past it, it is a tic.
+
+| Motif / thread | Function (one sentence) | Budget (beats, where) | Carried by (varied concrete action) | Never as | Status |
+|---|---|---|---|---|---|
+
 ## Ending proof
 
 Explain how this book resolves its own central pressure while creating the next

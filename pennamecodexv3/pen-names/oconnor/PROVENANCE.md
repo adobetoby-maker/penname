@@ -1,4 +1,4 @@
-# Research audit status — O'Connor seat 1.3.0
+# Research audit status — O'Connor seat 1.3.1
 
 Partial audit recorded on 2026-09-19. Raw research is preserved unchanged.
 The requested fresh, complete novel read remains unfinished. The seat is usable
@@ -54,3 +54,16 @@ The author profile has no mandatory Kindling setting, device, academy, ceremony,
 epigraph, or series length. Those belong to the chosen project's map. A successful
 compiler test establishes usable plumbing; prose quality still requires a real
 movement and an honest reader review.
+
+## Changelog
+
+- 1.3.1 (2026-10-27): Added the motif budget and closed the anti-tic loophole.
+  VOICE.md now carries the anti-tic law and a "Motif budget and anti-tic" section;
+  planned motifs are protected only inside a written budget (default one on-page
+  beat per movement); BOOK_MAP, movement packet and movement brief templates
+  require a motif budget; the editor counts motifs against budget. Reason:
+  Kindling 2680 (305k words) shipped ~133 "write it down" lines, 60 "ledger",
+  39 "notebook" and 292 motif sentences from a planned "someone keeps a written
+  record" thread that the old clause exempted, and the owner found it
+  unreadable.
+- 1.3.0 (2026-09-19): Initial seat release (see audit above).

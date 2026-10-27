@@ -53,7 +53,8 @@ owner canon ruling promotes them to `CANON`.
 2. `SERIES_MAP.md` — NOW, NEXT, HORIZON; themes, characters, books, antagonists,
    side stories, plants/payoffs, and crossover windows.
 3. `BOOK_MAP.md` — this novel's engine, ending proof, connected movements, choices,
-   reversals, and set pieces.
+   reversals, and set pieces, plus a required motif budget (every planned motif or
+   thread: function, beats allowed and where, default one beat per movement).
 4. `CHARACTERS.md` — independent wants, fears, capabilities, false models,
    relationships, and costly changes.
 5. `UNIVERSE_BIBLE.md` — only rules needed for this series, with limits and costs.

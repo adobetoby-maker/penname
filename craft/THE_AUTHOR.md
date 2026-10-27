@@ -530,9 +530,24 @@ from the briefs. They bind all drafting regardless of pillar.
    The count transfers to the replacement.
 3. **A tic is not a motif.** Repetition that does nameable work — a planted
    echo, a character's signature the plot will pay off, a deliberate refrain
-   with a stated function in the arc document — is protected. The test is
-   whether the repetition's job can be named in one sentence and is recorded
-   in the arc document BEFORE the third use. Unnamed repetition is a tic.
+   with a stated function in the arc document — is protected, within its
+   budget (rule 4). The test is whether the repetition's job can be named in
+   one sentence and is recorded in the arc document BEFORE the third use.
+   Unnamed repetition is a tic.
+4. **A motif is protected only inside its declared budget.** The arc document
+   states each motif's on-page budget: how many beats, in which movements.
+   Default ceiling when none is stated: one on-page beat per movement (or per
+   prologue), and never as a scene's closing beat twice in a row. Naming a
+   motif in advance buys the budget and nothing more; every use past it is a
+   defect like any other tic. The 3-use limit in rule 1 binds motif phrases
+   too. A motif is carried by varied, concrete action, not by a repeated
+   phrase or device. Characters who narrate, explain, or defend the keeping of
+   records, ledgers, notebooks, archives, or "the why" are the commonest
+   overrun: that meta-talk is allowed only where the act changes the plot in
+   that scene, shown once and not discussed. *(Kindling 2680: a planned
+   "someone keeps a written record" thread ran to about 133 "write it down"
+   lines, 60 "ledger", 39 "notebook" — all exempt under the old clause, and
+   it wore the owner out.)*
 
 ### 8.3 Scene-vs-summary law
 1. "Heard about it later" is banned on arc-major beats. Any beat that changes
