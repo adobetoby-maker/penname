@@ -110,6 +110,17 @@ Power leaves moral residue. Give stated values a concrete test with something th
 character can actually lose. The protagonist has a stated want on the page by the
 third chapter of every book, and it is the thing the book puts under load.
 
+## Motif budget and anti-tic
+
+The anti-tic law binds this seat: any phrase used more than three times in a book is
+a defect, and a planned motif is NOT exempt. Naming a motif in advance buys its
+declared on-page budget and nothing more (default one beat per movement, never a
+scene's closing beat twice in a row). Carry it by varied, concrete action, not a
+repeated phrase or device. No in-story meta-talk about recording, writing things
+down, ledgers, notebooks, archives, or "the why," and no character explaining why
+records matter, unless that act changes the plot in that scene; then show it once.
+Your own continuity ledger is fine. The characters do not keep it.
+
 ## Ending behavior
 
 End scenes and chapters on changed pressure. End books by paying the central

@@ -34,6 +34,13 @@ three to five is acceptable, and one chapter may carry the gravity.
 - Reader-standard risk: `{{if any}}`
 - Voice risk: `{{characters most likely to merge}}`
 
+## Motif budget
+
+Required. Each planned motif or thread active in this movement: beats allowed here,
+beats already spent in the book. Default: one on-page beat per movement, never a
+scene's closing beat twice in a row. No characters narrating or explaining records,
+ledgers, notebooks, or "the why" unless the act changes the plot in that scene.
+
 ## Open threads
 
 - Must advance: `{{threads}}`

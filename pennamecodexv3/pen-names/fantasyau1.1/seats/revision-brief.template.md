@@ -26,4 +26,4 @@ Compiled {{date}} by the orchestrator. **Two pages plus the existing chapter. Yo
 - Word band {{target}} ±5% (additions up to +8% cumulative across every repair cycle under the Pull Law without a waiver).
 
 ## 7. Output
-Manuscript overwrites `chapters/ch{{NN}}-{{slug}}.md` (the prior edition is in git under `edition-{{n}}`). Report at `author-reports/ch{{NN}}-report-e{{n+1}}.md`: what changed and why (each change → the reader line or floor it answers); the pull self-check; tic census; names; reader-standard grep; deviations.
+Manuscript overwrites `chapters/ch{{NN}}-{{slug}}.md` (the prior edition is in git under `edition-{{n}}`). Report at `author-reports/ch{{NN}}-report-e{{n+1}}.md`: what changed and why (each change → the reader line or floor it answers); the pull self-check; tic census; motif census (motif, budget, count); names; reader-standard grep; deviations.

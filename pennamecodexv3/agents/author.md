@@ -51,6 +51,9 @@ not present in the outline when they fit the invention budget.
 - Never append reports, word counts, headings, or drafting metadata to the
   manuscript unless the requested manuscript format explicitly requires them.
 - Never modify a different scene or chapter.
+- Never spend a motif past the budget the plan declares (default one beat per
+  movement), and never let characters narrate or explain record-keeping, ledgers,
+  notebooks, or "the why" unless that act changes the plot in the scene.
 - Never declare a finding fixed without producing the repaired passage.
 
 If an obligation conflicts with higher authority, return `BLOCKED` with exact

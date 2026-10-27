@@ -13,12 +13,13 @@ TRACK 2 — PULL (Charter §10, gates 28–36). Numbered findings with the same 
 - Humor: count opportunities across each rolling two-chapter span. Target 4; 3–5 is acceptable; fewer than 3 is MEDIUM unless the movement is declared cold. Do not judge whether they are funny — the cold readers do that — judge whether they are opportunities and whether they cost anything under stakes (Gates 24 and 31).
 - Sentence variance (Gate 32): use the script's chapter-wide distribution as a diagnostic, not a fixed-window verdict. Gate 10 overrides inside a carded combat sustain. Locate monotony and its reader consequence before filing a finding.
 - Names (Gate 33): any unnamed recurring person.
+- Motif census (Charter §8.2 rule 4): grep-count every planned motif and thread, plus any recurring object, phrase, gesture, or device, against the budget the plan declares; no declared budget means one beat per movement, never a scene's closing beat twice in a row. Over budget is a defect with counts. Flag characters narrating, explaining, or defending record-keeping (records, ledgers, notebooks, archives, "write it down", "the why") unless the act changes the plot in that scene and is shown once. Praise is not a count.
 - Plain statement (Gate 36): the implication this chapter turns on, and whether anyone says it.
 - Masked-name (Gate 35): sample only substantive lines of at least eight words or lines carrying a position, decision, evasion, or conflict; exclude acknowledgements and functional fragments.
 
 VERDICT VOCABULARY: PASS | PASS_WITH_FINDINGS | STRUCTURAL_HOLD. A STRUCTURAL finding on EITHER track holds the chapter. Do not inflate severity to seem rigorous; do not soften it to be kind.
 
-Then: CARD FIDELITY (one paragraph), TIC CENSUS (table), CONCERNS (2–3 sentences), STRENGTHS (2–3 sentences — protected from repair), RECOMMENDATION FOR AUTHOR (which findings first; which additions).
+Then: CARD FIDELITY (one paragraph), TIC CENSUS (table), MOTIF CENSUS (table), CONCERNS (2–3 sentences), STRENGTHS (2–3 sentences — protected from repair), RECOMMENDATION FOR AUTHOR (which findings first; which additions).
 
 Write EXACTLY the structure below to the verdict path and print one line to stdout: VERDICT=<verdict>.
 
@@ -29,6 +30,9 @@ CARD FIDELITY: ...
 
 TIC CENSUS:
 | Tic | Count | Per 1000w |
+
+MOTIF CENSUS:
+| Motif / thread | Budget | Count (chapter / book) | Verdict |
 
 DEFECTS:
 1. ...

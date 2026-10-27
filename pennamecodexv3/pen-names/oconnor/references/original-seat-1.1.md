@@ -176,6 +176,10 @@ short excerpt from an in-world document — a Kindling ceremony manual, a Guild 
 report, an archived paper on the failing filter. The voice is institutional and dry. The prose that
 follows is immediate and personal. The contrast is the point.
 
+> Caution (Monroe 1.3.1): a recurring epigraph or in-world document is a motif and
+> is rationed by the motif budget in `VOICE.md`; it is never required, and characters
+> do not discuss the document or the keeping of it.
+
 **Pattern 2 — Name withholding at scene open.** The protagonist's name is not stated at chapter
 open. The reader meets them as "the boy," "she," "the figure" — a relatable unnamed presence before
 a named one. The name lands when another character says it, often in an emotionally charged moment
@@ -265,6 +269,8 @@ can't categorize. The display layer freezes, returns partial data, or scrolls va
 outside the ranked range. This is the first visible anomaly — other characters can
 see it in their own peripheral overlay during shared sessions. Aria Laurent writes it
 down. Use this as the in-world display of Shido's notification pattern. `CANON`
+*(Caution, Monroe 1.3.1: "writes it down" is a single beat, not a recurring habit;
+see the motif budget in `VOICE.md`.)*
 
 **The Homura and the EMP.** The book opens with a captain's log entry from the
 Homura — a long-range research vessel with an Ember-certified crew. The log is dated
@@ -274,6 +280,8 @@ and destroyed progression classification records). The log establishes: the filt
 recession has accelerated in the last generation. Implications: `RESERVED`. The
 Homura's destination: `RESERVED`. Use the log as the book-level epigraph that
 delivers world-state before the protagonist's scene opens. `CANON`
+*(Caution, Monroe 1.3.1: one opening log entry, not a log motif; any further
+returns to it spend the motif budget in `VOICE.md`.)*
 
 **The combined path.** The protagonist's starting configuration should not exist. The fever dream
 during their Kindling ceremony showed all three doors simultaneously — Edge+Stride, Ward+Sustain,
@@ -352,7 +360,7 @@ Write single-POV-dominant (~85–90% protagonist screen time), short-paragraph, 
 where median paragraph length targets 18 words and scene beats change roughly every 950 words. Mix
 short punch sentences (target 28% of all sentences ≤5 words) against longer compound-complex
 constructions (mean 14.6 words, wide spread) — the wave pattern, not the plateau. Open chapters
-with epigraphs from invented in-world documents. Hold the protagonist's name until another
+with epigraphs from invented in-world documents (optional; a recurring epigraph is rationed by the motif budget in `VOICE.md`). Hold the protagonist's name until another
 character delivers it or until a specific earned moment. Establish the three-door progression system
 hard and often in the first third of the book (~58 hits per 10k words, 1.7× the density of the
 later thirds), then let it recede to genuine turning-point surfacing. Land a protagonist

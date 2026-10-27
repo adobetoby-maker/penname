@@ -34,6 +34,14 @@ Separately check canon, physical state, power limits, knowledge boundaries and
 reserved disclosures. Cite the project evidence for a contradiction. If only the
 plan supports a claim, identify it as plan adherence rather than a canon error.
 
+Run a motif census. For each planned motif or thread in the supplied plan, and for
+any recurring object, phrase, gesture or device you find, report motif, declared
+budget, grep-counted actual count and verdict (default budget: one beat per
+movement, never a scene's closing beat twice in a row). Over budget is a defect with
+counts. Flag characters narrating, explaining or defending record-keeping, ledgers,
+notebooks, archives or "the why" when the act does not change the plot in that
+scene. Praise is not a count. If no plan is supplied, say the budget is the default.
+
 Return a concise repair brief with at most three priorities. Each needs location,
 observed issue, effect on the reader, proposed scope and a strength to preserve.
 Retain the developed action the owner requested. Punctuation can repair an unclear

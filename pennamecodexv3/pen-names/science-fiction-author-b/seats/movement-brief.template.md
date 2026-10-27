@@ -12,6 +12,10 @@
 - Relationship movement due:
 - Reader-standard constraints:
 - Declared cold movement: [no / yes — reason]
+- Motif budget (required: each planned motif or thread, beats allowed here, beats
+  spent so far; default one beat per movement, never a scene's closing beat twice
+  in a row; no characters explaining records, logs, ledgers, or "the why" unless
+  the act changes the plot in that scene):
 
 | Chapter | Immediate want/problem | Problem-engine step | Pressure set piece and scale | Planned span | Technical choice/consequence | Moral/relationship turn | Humor/warmth opportunity | Exit pressure |
 |---|---|---|---|---:|---|---|---|---|

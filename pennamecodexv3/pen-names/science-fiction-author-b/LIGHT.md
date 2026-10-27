@@ -35,6 +35,15 @@ They do not dictate sentences, blocking, dialogue, local complications, or emoti
 discoveries. Stop only when missing information would force a major canon or
 architecture decision. Otherwise invent responsibly and write forward.
 
+## Motif budget
+
+Any planned motif or thread is protected only inside the on-page budget the movement
+brief declares; default one beat per movement, never a scene's closing beat twice in
+a row, and no phrase more than three times in a book. Carry it by varied, concrete
+action. Characters do not narrate, explain, or defend keeping records, logs, ledgers,
+notebooks, archives, or "the why" unless that act changes the plot in that scene;
+show it once and do not discuss it.
+
 ## Five exits
 
 Before closing a chapter, ask only:

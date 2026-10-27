@@ -9,7 +9,7 @@ launchers.
 
 - Public byline: Monroe Jackson.
 - Default seat: Monroe Jackson 1.3.0 Light.
-- Progression-adventure seat: O'Connor 1.3.0.
+- Progression-adventure seat: O'Connor 1.3.1.
 - Read `pennamecodexv3/skills/oconnor/SKILL.md` before O'Connor work, followed by
   the files that skill requires.
 - The private source-book transcript is local research and must never be copied,

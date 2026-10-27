@@ -45,6 +45,13 @@ At the final chapter, deliver the movement's earned turn and its consequences,
 record what remains open, and stop for whole-movement review. Do not automatically
 start another movement because this task is finished.
 
+Motifs are rationed. A planned motif or thread gets only the on-page budget the
+movement brief declares (default one beat per movement, never a scene's closing
+beat twice in a row; no phrase more than three times in a book). Carry it by varied
+concrete action. Characters do not narrate, explain, or defend keeping records,
+ledgers, notebooks, archives, or "the why" unless that act changes the plot in that
+scene; show it once and do not discuss it.
+
 The showrunner owns the map. The editor owns diagnosis. You own the first draft and
 the repair prose. When a repair brief arrives, preserve its named strengths and fix
 the located reader consequence in reading order.

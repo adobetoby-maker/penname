@@ -113,6 +113,11 @@ Proposed resolution: [your suggestion, not a unilateral fix]
   plant-and-pay in the same chapter.
 - Before reporting DONE, grep your draft for every tic on the charter's list
   and count. Hard caps are hard.
+- Motifs are rationed (Charter 8.2 rule 4): a planned motif or thread gets only
+  the budget the arc document declares, default one beat per movement, never a
+  scene's closing beat twice in a row. Grep-count each. Characters do not
+  narrate, explain, or defend record-keeping, ledgers, notebooks, or "the why"
+  unless that act changes the plot in the scene; show it once.
 - End the manuscript file on the last line of prose. No word counts, no "End
   of Chapter", no author notes in the file.
 
@@ -128,6 +133,7 @@ Word count: [actual] / [card target] ([delta])
 Clue obligations: [list each from card — met / not met / partial]
 Names minted: [list, registry-checked — confirm no aural collision]
 Tic census: [count per tic family from charter list]
+Motif census: [motif — declared budget — actual count; flag any record-keeping meta-talk]
 Deviations: [any — name the deviation and the reason]
 ```
 

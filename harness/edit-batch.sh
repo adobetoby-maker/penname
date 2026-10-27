@@ -109,7 +109,15 @@ outgoing handoffs; do not demand that this batch deliver later material early.
    scale and delivered word span; rolling two-chapter humor cadence (aim four,
    acceptable three to five); substantive-dialogue ownership; opening pressure;
    reader-score trends; and whether the movement escalates and turns.
-4. REPAIR SHAPE: prefer one repair that fixes both sides of a seam. Distinguish
+4. MOTIF CENSUS: grep-count every planned motif and thread, plus any recurring
+   object, phrase, gesture, or device, per chapter and for the movement, against
+   the budget the plan declares (charter 8.2 rule 4); no declared budget means
+   one beat per movement, never a scene's closing beat twice in a row. Over
+   budget is a defect with counts. Flag characters narrating, explaining, or
+   defending record-keeping (records, ledgers, notebooks, archives, "write it
+   down", "the why") unless the act changes the plot in that scene and is shown
+   once. Praise is not a count.
+5. REPAIR SHAPE: prefer one repair that fixes both sides of a seam. Distinguish
    ADD, RECAST, MOVE, and CUT. Do not prescribe replacement prose.
 
 Every finding must quote a location and state the reader consequence. Do not
@@ -135,6 +143,10 @@ CHAPTER DELIVERY:
 
 SEAMS:
 | Join | Causal handoff | State/knowledge continuity | Repetition | Finding |
+|---|---|---|---|---|
+
+MOTIF CENSUS:
+| Motif / thread | Budget | Count per chapter | Movement / book total | Verdict |
 |---|---|---|---|---|
 
 ACTION AND PULL: [book target/floor, spacing and scale; rolling humor spans;

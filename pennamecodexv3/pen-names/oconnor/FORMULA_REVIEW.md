@@ -17,6 +17,9 @@ and uncertainty. Keep numerical alignment separate from reader scores.
   or realizations and distinguish manually identified beats from regex proxies.
 - POV word share: identify viewpoint segments, not the most frequently mentioned
   name. Track the lead and secondary viewpoints against the book-level allocation.
+- Motif census: motif, declared budget (default one beat per movement), grep-counted
+  actual, verdict; over budget is a defect, and record-keeping meta-talk by characters
+  is flagged. Do not treat the formula's progression vocabulary as a motif quota.
 - Secondary signals: -ly words, reporting verbs, combat terms, fillers and repeated
   phrases. Publish lexicons and counting definitions. A suffix count is not proof
   that every matched word is an adverb. Preserve optional/non-target distinctions.

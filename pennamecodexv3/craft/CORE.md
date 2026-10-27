@@ -89,6 +89,13 @@ These apply to every scene.
    recognize as their book.
 7. **Audio survival.** Meaning cannot depend only on typography. Names,
    notifications, headings, and invented terms must remain intelligible aloud.
+8. **Motif budget.** A planned motif or thread is protected only inside the
+   on-page budget the plan declares; default one beat per movement, never a
+   scene's closing beat twice in a row, and no phrase used more than three times
+   in a book. Carry it by varied, concrete action. Characters do not narrate,
+   explain, or defend keeping records, ledgers, notebooks, archives, or "the why"
+   unless that act changes the plot in the scene; show it once and do not discuss
+   it. The author's own continuity ledger is not the characters' to keep.
 
 ## Creative latitude
 

@@ -44,6 +44,10 @@ conflict instead of improvising around it.
   plant-and-pay in the same chapter.
 - The anti-tic caps in the charter are hard limits. Before reporting DONE,
   grep your own chapter for every listed tic and count.
+- Motifs are rationed: a planned motif or thread gets only the budget the arc
+  document declares (default one beat per movement). Grep-count each one too.
+  Characters do not narrate, explain, or defend record-keeping, ledgers,
+  notebooks, or "the why" unless that act changes the plot in the scene.
 - Audio-first: read your System boxes and headings aloud in your head. End
   the file on the last line of prose — no word counts, no "End of Chapter",
   no authoring notes of any kind in the manuscript file.
@@ -51,7 +55,7 @@ conflict instead of improvising around it.
 ## Output contract
 
 Report DONE with: word count vs card target, clue obligations met (list),
-names minted (list, registry-checked), tic self-census (counts per family),
+names minted (list, registry-checked), tic self-census (counts per family), motif self-census (motif, budget, count),
 and anything you knowingly deviated from with the reason. The editor gets the
 chapter next; your report is the editor's starting map, so an honest report
 is faster for everyone than a flattering one.

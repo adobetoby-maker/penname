@@ -99,7 +99,15 @@ approved card after it. Use them only to judge incoming and outgoing handoffs.
 4. TECHNICAL FAIRNESS: every solution follows reader-legible rules; an invented
    premise pays its limitation, weakness, or cost; no joke or jargon hides a
    causal step; consequences persist.
-5. REPAIR SHAPE: prefer one repair that fixes both sides of a seam. Label ADD,
+5. MOTIF CENSUS: grep-count every planned motif and thread, plus any recurring
+   object, phrase, gesture, technical catchphrase, or device, per chapter and for
+   the movement, against the budget the plan declares (charter 7.2 rule 5); no
+   declared budget means one beat per movement, never a scene's closing beat
+   twice in a row. Over budget is a defect with counts. Flag characters
+   narrating, explaining, or defending record-keeping (records, logs, ledgers,
+   notebooks, archives, "write it down", "the why") unless the act changes the
+   plot in that scene and is shown once. Praise is not a count.
+6. REPAIR SHAPE: prefer one repair that fixes both sides of a seam. Label ADD,
    RECAST, MOVE, or CUT. Do not write replacement prose.
 
 Pressure set pieces include EVA, chase, rescue, dangerous testing, failure
@@ -126,6 +134,10 @@ CHAPTER DELIVERY:
 SEAMS:
 | Join | Causal handoff | State/knowledge | Relationship carryover | Repetition | Finding |
 |---|---|---|---|---|---|
+
+MOTIF CENSUS:
+| Motif / thread | Budget | Count per chapter | Movement / book total | Verdict |
+|---|---|---|---|---|
 
 ACTION, DISCOVERY, AND PULL: [cadence, scale, rolling humor, reader trend]
 

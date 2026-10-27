@@ -21,6 +21,7 @@ Compiled {{date}} by the orchestrator. **Two pages. This is what the author draf
 - **Action floor:** {{action_item — MINOR (normally 600–1,000 words), MAJOR (normally 1,500–2,500), CLIMAX (may span scenes/chapters), or "none scheduled; the power/cost is visible through body/work/record/fee/access/standing/relationship: {{how}}"}}. The book targets 7–8 set pieces with 5 as the hard floor. Any exception names its functional reason; a major sequence is not compressed to keep the chapter short.
 - **Humor:** rolling two-chapter target 4, acceptable 3–5. Prior chapter landed/claimed {{n}}; opportunities available here: {{kinds}}. One quiet chapter is allowed; mark a deliberately cold movement.
 - **Plain statement:** the implication this chapter turns on is {{implication}}; {{who}} says it plainly once, or the sheet does.
+- **Motifs:** {{motif_budget — each planned motif or thread active here, beats allowed in this chapter, beats spent so far in the book; default one beat per movement, never a scene's closing beat twice in a row; no characters narrating or explaining records, ledgers, notebooks, or "the why" unless the act changes the plot in this scene}}.
 - **Names:** budget remaining {{k}} of {{budget}}; these unnamed people recur and must be named here: {{list or "none"}}.
 
 ## 6. Five walls that matter for THIS chapter

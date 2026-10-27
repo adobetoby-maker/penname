@@ -78,13 +78,22 @@ THE_AUTHOR.md §9; 21 gates if sci-fi per THE_SCIFI_AUTHOR.md §8). At minimum:
 4. STATE LEDGER — is every character's state consistent with the ledger at this
    point in the book? Any knowledge the POV could not yet have?
 5. TIC CENSUS — count per 1,000 words against the charter's hard caps.
-6. NAME COLLISIONS — any new name against the registry, checked by ear.
-7. VOICE-DILUTION — do secondary characters speak in the protagonist's
+6. MOTIF CENSUS — grep-count every planned motif and thread (and any recurring
+   object, phrase, gesture, or device you find) against the budget the arc
+   document declares for it, in this chapter and the running book total. A motif
+   is protected only inside its budget (charter 8.2 rule 4 / 7.2 rule 5); no
+   declared budget means one beat per movement, never a scene's closing beat
+   twice in a row. Over budget is a defect with counts. Also flag characters
+   narrating, explaining, or defending record-keeping (records, ledgers,
+   notebooks, archives, "write it down", "the why") unless that act changes the
+   plot in the scene and is shown once. Praise is not a count.
+7. NAME COLLISIONS — any new name against the registry, checked by ear.
+8. VOICE-DILUTION — do secondary characters speak in the protagonist's
    register? This is a documented failure mode — flag it if present.
-8. FANTASY PULL — for fantasy, run §10 gates 28–32: opening pressure,
+9. FANTASY PULL — for fantasy, run §10 gates 28–32: opening pressure,
    action/progression cadence against adjacent cards, humor distribution,
    cold-reader continuity if reports exist, and dialogue ownership.
-9. SCIENCE-FICTION PULL — for science fiction, run gates 17–21: opening
+10. SCIENCE-FICTION PULL — for science fiction, run gates 17–21: opening
    pressure; problem/action cadence; scheduled scale and sustain; rolling humor
    and warmth; cold-reader continuity; and substantive dialogue ownership.
 
@@ -101,6 +110,10 @@ CARD FIDELITY: [PASS | FAIL — one paragraph]
 TIC CENSUS:
 | Tic | Count | Per 1000w |
 |---|---|---|
+
+MOTIF CENSUS:
+| Motif / thread | Budget | Count (chapter / book) | Verdict |
+|---|---|---|---|
 
 DEFECTS — numbered. Each MUST carry: severity (LOW|MEDIUM|HIGH|BLOCKER),
 location (line number or exact quoted phrase), the evidence, and the reader

@@ -280,6 +280,9 @@ different documents. The system a reader sees is not something they are meant
 to be able to game off of; withholding is itself a design choice. [SOURCED —
 Brief S §1; author podcast interview] The box can be incomplete, wrong, or
 withholding enough to be worth arguing with. [INFERRED — Brief S §1]
+The author's ledger stays the author's: characters do not keep, recite, or explain
+a record of their own as a recurring device; any such motif is rationed by §8.2
+rule 4.
 
 ### 4.3 Minimal Surface
 Game elements surface only where they change a scene's stakes or a character's

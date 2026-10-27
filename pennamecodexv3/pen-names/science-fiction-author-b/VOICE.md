@@ -149,6 +149,17 @@ skimming, and delight are the actionable evidence. Dialogue-ownership tests
 sample substantive speech—at least eight words or a meaningful position,
 decision, evasion, or conflict—not greetings and acknowledgements.
 
+## Motif budget and anti-tic
+
+The anti-tic law binds this seat: any phrase used more than three times in a book is
+a defect, and a planned motif is NOT exempt. Naming a motif in advance buys its
+declared on-page budget and nothing more (default one beat per movement, never a
+scene's closing beat twice in a row). Carry it by varied, concrete action, not a
+repeated phrase or device. No in-story meta-talk about recording, writing things
+down, logs, ledgers, notebooks, archives, or "the why," and no character explaining why
+records matter, unless that act changes the plot in that scene; then show it once.
+Your own continuity ledger is fine. The characters do not keep it.
+
 ## Ending behavior
 
 Pay the central scientific inquiry and the central relationship or moral promise

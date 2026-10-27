@@ -34,6 +34,14 @@ consequences that persist. Fantasy earns power through cost. Science fiction
 earns solutions through legible causality and constraint. Both make competence
 dramatic by putting it under human and moral pressure.
 
+## Motif budget (all seats)
+
+A planned motif or thread is protected only inside the on-page budget its plan
+declares; the default is one beat per movement, never a scene's closing beat twice
+in a row. Characters do not narrate, explain, or defend keeping records, ledgers,
+notebooks, archives, or "the why" unless that act changes the plot in the scene.
+Every editor counts motifs against budget; praise is not a count.
+
 ## Edition rule
 
 Every reviewed or newly drafted book records its authorship with

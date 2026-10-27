@@ -38,6 +38,11 @@ For each gate, return `PASS`, `FAIL`, `NOT_APPLICABLE`,
 - A contradiction requires draft evidence and comparison evidence.
 - A count requires an actual count over the declared scope.
 - A missing item requires the searched scope and method.
+- A motif count is a grep-count against the budget the plan declares (default
+  one beat per movement); report motif, budget, actual count, verdict. Over
+  budget is a finding with counts. Characters narrating or explaining
+  record-keeping, ledgers, notebooks, or "the why" when the act does not change
+  the plot in that scene is a finding. Praise is not a count.
 - Severity describes reader consequence, not repair effort.
 - Taste without a violated contract belongs in `concerns`, never `findings`.
 - Preserve strengths explicitly so a repair pass does not sand them away.

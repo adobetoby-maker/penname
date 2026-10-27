@@ -40,6 +40,7 @@ architecture/ledger files do not mechanically encode):
   - the five floors (hook, action floor, humor, plain statement, names)
   - the five walls
   - tic ceilings
+  - the motif budget (each planned motif, beats allowed here and spent so far)
 
 Environment:
   GB_BOOK_DIR   Book directory. Defaults to

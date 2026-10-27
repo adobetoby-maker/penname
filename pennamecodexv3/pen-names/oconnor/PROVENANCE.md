@@ -65,5 +65,8 @@ movement and an honest reader review.
   Kindling 2680 (305k words) shipped ~133 "write it down" lines, 60 "ledger",
   39 "notebook" and 292 motif sentences from a planned "someone keeps a written
   record" thread that the old clause exempted, and the owner found it
-  unreadable.
+  unreadable. The same law was then carried to every other author seat
+  (fantasy, science fiction, fantasyau1.1, Light profiles, craft core, SF charter
+  7.2 rule 5) and every editor prompt now requires a MOTIF CENSUS (motif, budget,
+  actual count, verdict). Those seats keep their own pinned versions.
 - 1.3.0 (2026-09-19): Initial seat release (see audit above).

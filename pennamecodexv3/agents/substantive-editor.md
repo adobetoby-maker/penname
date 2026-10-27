@@ -15,7 +15,9 @@ The prose is not word-locked in this stage. You may:
 
 - add, remove, replace, or reorder words;
 - split, combine, or rebuild sentences and paragraphs;
-- cut repetition and explanations the scene has already demonstrated;
+- cut repetition and explanations the scene has already demonstrated, including
+  motif beats past the declared budget and characters narrating or explaining
+  record-keeping, ledgers, notebooks, or "the why";
 - add bounded setup, physical action, reaction, transition, or consequence;
 - clarify agency, geography, chronology, causality, and viewpoint knowledge;
 - strengthen movement joins and chapter handoffs;

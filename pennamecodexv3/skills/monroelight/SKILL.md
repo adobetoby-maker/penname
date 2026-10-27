@@ -55,6 +55,10 @@ explicit chapter range must contain six or more chapters; only a separately owne
 shorter run may use `--allow-short-movement`. Do not treat an old 3–5 template as
 approval. Give the author the entire compiled movement in one session.
 
+Spend each planned motif only within the movement brief's motif budget (default one
+beat per movement); characters do not narrate or explain record-keeping, ledgers, or
+"the why" unless the act changes the plot in that scene.
+
 Between chapters, carry forward physical, emotional, knowledge, relationship, and
 resource state. Do not interrupt the movement for a full editorial pass. Apply each
 action stack only to its named scene.
@@ -69,7 +73,7 @@ If a context/output limit intervenes, save a precise checkpoint and continue the
 same author and movement. Do not compress chapters or trigger editing mid-run.
 
 After the movement, file a lean report containing chapters completed, movement turn,
-important discoveries, names added, state changes, deviations, and exact output
+important discoveries, names added, motif beats spent against budget, state changes, deviations, and exact output
 paths. Then stop for movement review.
 
 When given a compact repair brief, preserve the named strengths and repair once in
