@@ -77,8 +77,9 @@ progression distribution, density, and repeated-scaffold diagnostics across the
 continuous act.
 
 At book scope: ending promises, canon and arithmetic, name collisions, family/content
-policy, full tic census with contextual adjudication, manuscript metadata, and a
-listening proof. Diagnostics nominate passages; they do not automatically rewrite.
+policy, full tic census with contextual adjudication, a book-level motif census (motif,
+declared budget, book total, verdict; over budget is a defect), manuscript metadata,
+and a listening proof. Diagnostics nominate passages; they do not automatically rewrite.
 
 Only located, verified defects create repair packets. A new preference does not
 reopen a closed scene.

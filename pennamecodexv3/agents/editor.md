@@ -38,8 +38,8 @@ For each gate, return `PASS`, `FAIL`, `NOT_APPLICABLE`,
 - A contradiction requires draft evidence and comparison evidence.
 - A count requires an actual count over the declared scope.
 - A missing item requires the searched scope and method.
-- A motif count is a grep-count against the budget the plan declares (default
-  one beat per movement); report motif, budget, actual count, verdict. Over
+- A motif count is a grep-count against the budget the plan declares (fantasy
+  charter §8.2 rule 4; sci-fi charter §7.2 rule 5; default one beat per movement); report motif, budget, actual count, verdict. Over
   budget is a finding with counts. Characters narrating or explaining
   record-keeping, ledgers, notebooks, or "the why" when the act does not change
   the plot in that scene is a finding. Praise is not a count.

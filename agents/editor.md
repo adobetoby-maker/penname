@@ -53,7 +53,7 @@ report is a map, not evidence.
 5. **Tic census** — grep-count every charter-listed tic family across the
    chapter and the running book total. Over-cap = defect with counts.
    **Motif census** — grep-count every planned motif and thread against the
-   budget the book plan declares for it (charter §8.2 rule 4). Per movement
+   budget the book plan declares for it (fantasy charter §8.2 rule 4; sci-fi charter §7.2 rule 5). Per movement
    report: motif, budget, actual count, verdict. Over budget = defect with
    counts; no declared budget = the default of one beat per movement.
 6. **Names** — new names against the registry, including aural closeness.

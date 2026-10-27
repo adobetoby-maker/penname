@@ -31,7 +31,7 @@ authority artifact is a blocker, not creative latitude.
 | Cold Reader B | Sonnet, clean context, manuscript only | opening, act endings, final movement, or an A/editor flag | adult genre reader — same fields, plus expectation |
 | Fight Auditor | Sonnet, clean context | the combat chapter + Charter gates 9–16 + injury ledger | combat gates only; runs on set-piece chapters |
 | Repair | Fable (prose/choreography/additions) or Sonnet (single clause) | manuscript + consolidated findings | repairs located findings; may ADD |
-| Sweep | Sonnet | all chapters | book-level tic census and recasts |
+| Sweep | Sonnet | all chapters | book-level tic census, motif census and recasts |
 
 Humor is not a seat. The editor counts opportunities across rolling two-chapter
 spans and applies the delete test; cold readers report what actually landed.
@@ -84,7 +84,8 @@ cadence, and the pull profile** (any run of three chapters under 3 from either
 reader = STRUCTURAL).
 
 At book scope: ending promises, canon and arithmetic, name collisions, family and
-content policy, full tic census with contextual adjudication, manuscript metadata,
+content policy, full tic census with contextual adjudication, a book-level motif census (motif,
+declared budget, book total, verdict; over budget is a defect), manuscript metadata,
 listening proof, **the front-matter institutional map, the masked-name metric
 across the book, the sentence-variance histogram, and the reader-pull profile.**
 Diagnostics nominate passages; they do not automatically rewrite.
