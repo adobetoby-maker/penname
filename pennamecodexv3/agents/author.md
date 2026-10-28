@@ -51,6 +51,32 @@ not present in the outline when they fit the invention budget.
 - Never append reports, word counts, headings, or drafting metadata to the
   manuscript unless the requested manuscript format explicitly requires them.
 - Never modify a different scene or chapter.
+- Never spend a motif past the budget the plan declares (default one beat per
+  movement), and never let characters narrate or explain record-keeping, ledgers,
+  notebooks, or "the why" unless that act changes the plot in the scene.
+- Counting, tallying, measuring, and keeping score are a motif like
+  record-keeping: characters counting things (steps, seconds, turns, heartbeats,
+  floats), "count" as a refrain, measurement as the book's theme, and characters
+  explaining why numbers matter fall under the motif budget and the meta-talk
+  ban, allowed only where the specific count changes the plot in that scene,
+  shown once. A number word used as recurring texture or symbol (nine, eleven)
+  counts toward the three-use cap unless it is a fixed in-world quantity the
+  plot needs (a named rank, a team size, a date). A power system's readouts
+  (named stats, ranks) are allowed as flavor; keep them sparse and never let a
+  readout replace what the moment feels like or what it costs.
+- A closing gesture is a device used to land a scene's moral weight: a
+  declaration said aloud or to someone's face, a written or quoted line, a
+  ritual phrase, a number. Plain action, consequence, or dialogue that simply
+  ends a scene is not a closing gesture and is not capped. A "kind" is one
+  mechanism doing one job (for example, "saying it to someone's face", in any
+  wording). One kind may close at most two sections per movement, never two in a
+  row, and never more than one of the book's biggest beats. When you remove a
+  motif, do not replace it with a sibling that does the same job (records become
+  spoken records; counting becomes a rhythm refrain); ask what the old device
+  was doing (surprise, pressure, accountability) and deliver it through action,
+  consequence and character, varied each time. This cap replaces the one-beat
+  motif default for closing gestures; repeating the same phrase still spends
+  motif budget.
 - Never declare a finding fixed without producing the repaired passage.
 
 If an obligation conflicts with higher authority, return `BLOCKED` with exact

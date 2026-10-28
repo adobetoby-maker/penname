@@ -1,0 +1,44 @@
+{
+  "schemaVersion": "1.0",
+  "eventId": "edit-example-001",
+  "eventType": "direct_edit",
+  "createdAt": "2026-09-11T19:42:00Z",
+  "actorRole": "owner",
+  "sessionId": "reading-kindling-ch02-01",
+  "repository": {
+    "owner": "adobetoby-maker",
+    "name": "kindling",
+    "branch": "owner-edits/kindling-book-01"
+  },
+  "manuscript": {
+    "bookId": "kindling-book-01",
+    "bookTitle": "Kindling",
+    "seriesId": "kindling",
+    "chapterId": "chapter-02",
+    "chapterNumber": 2,
+    "chapterTitle": "What the Road Brought",
+    "sourcePath": "books/book-01-hobbs-wall/manuscript/chapter-02.md",
+    "resolvedSourcePath": "books/book-01-hobbs-wall/chapters/chapter-02.md",
+    "baseCommit": "0123456789abcdef",
+    "baseDocumentHash": "sha256:0123456789abcdef0123456789abcdef"
+  },
+  "selection": {
+    "blockId": "chapter-02:p-37",
+    "startOffset": 14,
+    "endOffset": 35,
+    "originalText": "He had chosen badly.",
+    "contextBefore": "Toren replayed the decision.",
+    "contextAfter": "There was no undoing it now.",
+    "pageHint": 6
+  },
+  "result": {
+    "revisedText": "He had chosen poorly."
+  },
+  "preference": {
+    "reasonCodes": ["word_choice"],
+    "ownerComment": "Poorly sounds more natural to me here.",
+    "scopeHint": "monroe_shared"
+  },
+  "protection": "owner_authored",
+  "status": "applied"
+}

@@ -1,4 +1,4 @@
-# THE SCIENCE-FICTION AUTHOR — Charter v1 (Clean Room)
+# THE SCIENCE-FICTION AUTHOR — Charter v1.1.1 (Clean Room)
 
 ## 0. Preamble — What This Document Is
 
@@ -11,10 +11,9 @@ It was synthesized exclusively from ONE research brief (named in Appendix A)
 covering three influences, plus documented pipeline experience (§7). That is
 the structural difference from the fantasy charter, `THE_AUTHOR.md`, which was
 built from four independent briefs — one per pillar. Because the source is a
-single brief, this charter carries three pillars, not four, and sixteen gates,
-not twenty-six. That is the honest shape of the evidence. Padding a thin
-pillar to match a thicker charter's silhouette would violate the same
-provenance discipline this document is built on.
+single brief, this charter carries three pillars, not four, and sixteen
+research-derived gates. Version 1.1.1 adds five pipeline-derived reader gates;
+they are explicitly identified rather than misrepresented as new research.
 
 No drafted manuscript was read to produce it. No published fiction by any
 influence was ingested or quoted.
@@ -553,9 +552,53 @@ science-fiction extensions, each flagged where it appears.
    The count transfers to the replacement.
 4. **A tic is not a motif.** Repetition that does nameable work — a planted
    echo, a character's signature the plot will pay off, a deliberate refrain
-   with a stated function in the arc document — is protected. The test is
-   whether the repetition's job can be named in one sentence and is recorded in
-   the arc document BEFORE the third use. Unnamed repetition is a tic.
+   with a stated function in the arc document — is protected, within its
+   budget (rule 5). The test is whether the repetition's job can be named in
+   one sentence and is recorded in the arc document BEFORE the third use.
+   Unnamed repetition is a tic.
+5. **A motif is protected only inside its declared budget.** The arc document
+   states each motif's on-page budget: how many beats, in which movements.
+   Default ceiling when none is stated: one on-page beat per movement (or per
+   prologue), and never as a scene's closing beat twice in a row. Naming a
+   motif in advance buys the budget and nothing more; every use past it is a
+   defect like any other tic, and the 3-use limit in rule 1 binds motif phrases
+   too. Carry a motif by varied, concrete action, not a repeated phrase or
+   device. Characters who narrate, explain, or defend the keeping of records,
+   logs, ledgers, notebooks, archives, or "the why" are the commonest overrun:
+   that meta-talk is allowed only where the act changes the plot in that scene,
+   shown once and not discussed. *(Fantasy precedent, Kindling 2680: a planned
+   "someone keeps a written record" thread ran to about 133 "write it down"
+   lines, 60 "ledger", 39 "notebook".)*
+   Counting is a motif like record-keeping: counting, tallying, measuring, and
+   keeping score (characters counting steps, seconds, turns, heartbeats, or
+   floats; "count" as a refrain; measurement as the book's theme; characters
+   explaining why numbers matter) fall under the budget and the meta-talk ban,
+   allowed only where the specific count changes the plot in that scene, shown
+   once. A number word used as recurring texture or symbol (nine, eleven) is a
+   tic and counts toward the 3-use cap unless it is a fixed in-world quantity
+   the plot needs (a named rank, a team size, a date). A power system's
+   readouts (named stats, ranks) are allowed as flavor; keep them sparse and
+   never let a readout replace what the moment feels like or what it costs.
+   *(Kindling 2680 Book One, 305k words: "count" 421 times, "nine" 237,
+   "eleven" 162; an editor flagged it as a mannerism and a cold reader skimmed
+   the numbers.)*
+   A closing gesture is a device used to land a scene's moral weight: a
+   declaration said aloud or to someone's face, a written or quoted line, a
+   ritual phrase, a number. Plain action, consequence, or dialogue that simply
+   ends a scene is not a closing gesture and is not capped. A "kind" is one
+   mechanism doing one job (for example, "saying it to someone's face", in any
+   wording). One kind may close at most two sections per movement, never two in
+   a row, and never more than one of the book's biggest beats. When you remove a
+   motif, do not replace it with a sibling that does the same job (records
+   become spoken records; counting becomes a rhythm refrain); ask what the old
+   device was doing (surprise, pressure, accountability) and deliver it through
+   action, consequence and character, varied each time. This cap replaces the
+   one-beat motif default for closing gestures; repeating the same phrase still
+   spends motif budget.
+   *(Kindling 2680 rewrite: once records and counting were removed, "said aloud
+   / to your face / I'd like that said" replaced them as the device that carries
+   each scene's moral weight, 1 use to 8 in a 17k-word prologue. A blind editor:
+   every big moment closes the same way, so the endings are predictable.)*
 
 ### 7.3 Scene-vs-summary law
 1. "Heard about it later" is banned on arc-major beats. Any beat that changes an
@@ -567,6 +610,27 @@ science-fiction extensions, each flagged where it appears.
    the fact is not a speculative consequence, it is a bulletin. Consequence
    chains (§2.1c) are dramatized, not summarized.
 
+### 7.4 Movement and reader law (1.1.1 pipeline extension)
+
+1. The normal drafting unit is a contiguous movement of three to five chapters,
+   default four. Full editing follows the movement so causal and emotional joins
+   can be judged in context. Between chapters only blockers and ledger state are
+   closed.
+2. Across twenty chapters, schedule seven or eight embodied pressure set pieces,
+   with five as the hard floor and no gap longer than four chapters. An EVA,
+   chase, rescue, dangerous test, failure cascade, repair under a clock,
+   survival sequence, confrontation, or combat qualifies when it forces action
+   and irreversible choice.
+3. Minor pressure sequences normally receive 600–1,000 words; major sequences
+   1,500–2,500; climaxes may span scenes or chapters. These bands protect scene
+   function from summary and do not reward padding.
+4. Across two ordinary chapters, aim for four organic humor or warmth
+   opportunities, with three to five as the working band. A declared cold
+   movement may carry less. This is a rolling rhythm, not a chapter quota.
+5. Reader A reads every movement. Reader B reads the opening, act turns, ending,
+   and flagged movements. Scores are trends; located confusion, disbelief,
+   skimming, or delight controls repair.
+
 ---
 
 ## 8. The Editor's Unified Gate
@@ -575,10 +639,9 @@ One deduplicated list, derived from the three pillars. Every gate is binary,
 checkable against the draft without reference to author intent, and traceable
 to its source principle. Run per chapter unless marked per-arc or per-book.
 
-Sixteen gates, not twenty-six. The count reflects the source: one brief, three
-influences, ten principles. A gate invented to reach parity with the fantasy
-charter would be a gate with no evidence behind it, and the editor would have
-no basis on which to adjudicate it.
+Twenty-one gates: sixteen research-derived craft gates plus five
+pipeline-derived reader gates. The latter enforce observed production needs and
+are labelled as such; they do not claim research provenance.
 
 **Character and moral gates (Pillar I — Ch)**
 
@@ -653,6 +716,33 @@ no basis on which to adjudicate it.
     structural failure it addresses, AND does not reopen a section whose
     declared exit criteria already passed without a newly logged failure.
     Either clause failing = FAIL. [St §3.4a, §3.4c; scoped by §4.6]
+
+**Reader and movement gates (pipeline-derived — §7.4)**
+
+17. **Opening pressure.** Within the first 150 words, a concrete discrepancy,
+    danger, want, or consequential question matters to a character now. General
+    orientation without present pressure = FAIL. [Pipeline §7.4]
+18. **Problem/action cadence** (per book and movement). The problem engine
+    advances in every chapter; each movement carries an inconvenient result,
+    meaningful revision, and changed choice. The book schedules seven or eight
+    embodied pressure set pieces per twenty chapters, never fewer than five and
+    never more than four chapters apart. An unexplained gap = FAIL. [Pipeline
+    §7.4]
+19. **Set-piece sustain.** A scheduled MINOR pressure sequence normally sustains
+    600–1,000 words; MAJOR 1,500–2,500; CLIMAX carries escalation, choice, cost,
+    and aftermath even when it crosses chapters. Compression that turns the
+    event into summary, or padding without function = FAIL. [Pipeline §7.4;
+    Process Law §7.3]
+20. **Rolling humor and warmth.** Across two ordinary chapters, aim for four
+    organic opportunities, with three to five acceptable. A declared cold
+    movement is exempt. Treating this as a per-chapter joke quota, or sustained
+    emotional airlessness without a declared purpose = FAIL. [Pipeline §7.4]
+21. **Cold-reader continuity and dialogue ownership.** Located reader confusion,
+    disbelief, skimming, or lost desire to continue must be resolved or
+    explicitly held; score changes are interpreted as trends. Masked dialogue
+    samples only substantive lines of at least eight words or lines carrying a
+    position, decision, evasion, or conflict. Ignoring located experience or
+    manufacturing quirks from trivial samples = FAIL. [Pipeline §7.4]
 
 *(Process Law §7 adds its own checks, all grep-able against the manuscript and
 ledger rather than adjudicated per chapter: name-registry aural collisions,

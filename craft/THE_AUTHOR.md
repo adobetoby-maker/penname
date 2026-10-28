@@ -280,6 +280,9 @@ different documents. The system a reader sees is not something they are meant
 to be able to game off of; withholding is itself a design choice. [SOURCED —
 Brief S §1; author podcast interview] The box can be incomplete, wrong, or
 withholding enough to be worth arguing with. [INFERRED — Brief S §1]
+The author's ledger stays the author's: characters do not keep, recite, or explain
+a record of their own as a recurring device; any such motif is rationed by §8.2
+rule 4.
 
 ### 4.3 Minimal Surface
 Game elements surface only where they change a scene's stakes or a character's
@@ -530,9 +533,54 @@ from the briefs. They bind all drafting regardless of pillar.
    The count transfers to the replacement.
 3. **A tic is not a motif.** Repetition that does nameable work — a planted
    echo, a character's signature the plot will pay off, a deliberate refrain
-   with a stated function in the arc document — is protected. The test is
-   whether the repetition's job can be named in one sentence and is recorded
-   in the arc document BEFORE the third use. Unnamed repetition is a tic.
+   with a stated function in the arc document — is protected, within its
+   budget (rule 4). The test is whether the repetition's job can be named in
+   one sentence and is recorded in the arc document BEFORE the third use.
+   Unnamed repetition is a tic.
+4. **A motif is protected only inside its declared budget.** The arc document
+   states each motif's on-page budget: how many beats, in which movements.
+   Default ceiling when none is stated: one on-page beat per movement (or per
+   prologue), and never as a scene's closing beat twice in a row. Naming a
+   motif in advance buys the budget and nothing more; every use past it is a
+   defect like any other tic. The 3-use limit in rule 1 binds motif phrases
+   too. A motif is carried by varied, concrete action, not by a repeated
+   phrase or device. Characters who narrate, explain, or defend the keeping of
+   records, ledgers, notebooks, archives, or "the why" are the commonest
+   overrun: that meta-talk is allowed only where the act changes the plot in
+   that scene, shown once and not discussed. *(Kindling 2680: a planned
+   "someone keeps a written record" thread ran to about 133 "write it down"
+   lines, 60 "ledger", 39 "notebook" — all exempt under the old clause, and
+   it wore the owner out.)*
+   Counting is a motif like record-keeping: counting, tallying, measuring, and
+   keeping score (characters counting steps, seconds, turns, heartbeats, or
+   floats; "count" as a refrain; measurement as the book's theme; characters
+   explaining why numbers matter) fall under the budget and the meta-talk ban,
+   allowed only where the specific count changes the plot in that scene, shown
+   once. A number word used as recurring texture or symbol (nine, eleven) is a
+   tic and counts toward the 3-use cap unless it is a fixed in-world quantity
+   the plot needs (a named rank, a team size, a date). A power system's
+   readouts (named stats, ranks) are allowed as flavor; keep them sparse and
+   never let a readout replace what the moment feels like or what it costs.
+   *(Kindling 2680 Book One, 305k words: "count" 421 times, "nine" 237,
+   "eleven" 162; an editor flagged it as a mannerism and a cold reader skimmed
+   the numbers.)*
+   A closing gesture is a device used to land a scene's moral weight: a
+   declaration said aloud or to someone's face, a written or quoted line, a
+   ritual phrase, a number. Plain action, consequence, or dialogue that simply
+   ends a scene is not a closing gesture and is not capped. A "kind" is one
+   mechanism doing one job (for example, "saying it to someone's face", in any
+   wording). One kind may close at most two sections per movement, never two in
+   a row, and never more than one of the book's biggest beats. When you remove a
+   motif, do not replace it with a sibling that does the same job (records
+   become spoken records; counting becomes a rhythm refrain); ask what the old
+   device was doing (surprise, pressure, accountability) and deliver it through
+   action, consequence and character, varied each time. This cap replaces the
+   one-beat motif default for closing gestures; repeating the same phrase still
+   spends motif budget.
+   *(Kindling 2680 rewrite: once records and counting were removed, "said aloud
+   / to your face / I'd like that said" replaced them as the device that carries
+   each scene's moral weight, 1 use to 8 in a 17k-word prologue. A blind editor:
+   every big moment closes the same way, so the endings are predictable.)*
 
 ### 8.3 Scene-vs-summary law
 1. "Heard about it later" is banned on arc-major beats. Any beat that changes
@@ -601,11 +649,14 @@ traceable to its source brief. Run per chapter unless marked per-arc/per-book.
 17. **Growth legibility and cost.** Every advancement names its delta (what
     moved, to what) AND its shown cost (loss, injury, fight above level);
     off-page costless growth = FAIL. [P Gates 1+3, merged]
-18. **Information per round.** Every tournament round and major ladder duel
-    changes the protagonist's information state — opponent, system, or self —
-    not just bracket position. [P Gate 2]
-19. **Skill beats number** (per arc). ≥1 major win attributable to something
-    the sheet doesn't measure, against a better number. [P Gate 4]
+18. **Information per test.** Every tournament round, ladder duel, trial,
+    assignment, inspection, or comparable advancement test changes the
+    protagonist's information state — opponent, institution, system, or self —
+    not merely the recorded outcome. The gate does not require a tournament
+    where the book has none. [P Gate 2, generalized]
+19. **Skill beats number or record** (per arc). ≥1 major win is attributable to
+    something the sheet, rank, or official record does not measure, against a
+    formally superior position. [P Gate 4, generalized]
 20. **Rival motion** (per arc). Every named rival has their own on-page
     advancement beat in any arc where the protagonist advances. [P Gate 5]
 21. **Social echo** (per arc). ≥1 progress marker visible outside the stat
@@ -614,8 +665,9 @@ traceable to its source brief. Run per chapter unless marked per-arc/per-book.
     3, merged]
 
 **System and voice gates (Brief S)**
-22. **Box ownership.** Every system/status box has a named perceiving
-    character, in a scene, with an in-world reason to be looking. [S Gate 1]
+22. **Box and record ownership.** Every system/status box or official record
+    excerpt has a named perceiving character, in a scene, with an in-world reason
+    to be looking. Neither is a narrator shortcut. [S Gate 1, generalized]
 23. **Dramatized critique.** Scenes about institutional unfairness show the
     institution acting on someone; protagonist speech alone = FAIL. [S Gate 4]
 24. **Comedy cost.** Humor deployed under stakes produces a traceable
@@ -658,3 +710,52 @@ is preserved in the body text above.
 
 ### Gate 27 — Reader Standard (owner requirement, 2026-09-05)
 Binary. The chapter contains no profanity, obscenity, crude slang or blasphemy (the loop's banned-word grep returns zero); the protagonist's and companions' conduct is honest, courageous, loyal and restrained, with wrong named as wrong and cruelty never rewarded; violence carries cost without gore; there is no sexual content. Written for a thirteen-year-old reader. FAIL on any single violation. This gate outranks §9 taste and every voice preference.
+
+---
+
+## 10. Reader Pull and Movement Gates
+
+The original gates protect fairness, continuity, and craft. These additional
+gates protect the reader's experience of frequency and connection. They are
+evaluated across a three-to-five-chapter movement whenever possible; they do not
+require interrupting the author after every chapter.
+
+28. **Opening pressure.** Within the first 150 words of each chapter, the
+    viewpoint character has a concrete want, threat, task, or destabilizing
+    change. An explanatory or document-led opening without immediate pressure
+    = FAIL.
+29. **Action and progression cadence.** In a twenty-chapter book, the approved
+    architecture targets seven or eight bodily set pieces; five is the hard
+    floor. Schedule one every two to three chapters by default, with no gap longer
+    than four unless an intentional exception is named before drafting. A set
+    piece may be a fight, chase, rescue, trial, collapse, escape, or other problem
+    handled physically under a clock. It changes standing, knowledge, obligation,
+    or relationship as well as health. A major set piece normally receives
+    1,500–2,500 words; a minor kinetic sequence receives 600–1,000; a climax may
+    span scenes or chapters. The card must name the reason for falling outside
+    those bands. MAJOR set-piece chapters receive a higher target before drafting,
+    normally 6,000–6,500 words when ordinary chapters are near 5,000. Between set pieces, the active progression thread shows the
+    power, practice, limitation, or cost. An unscheduled gap, a consequence-free
+    set piece, or a scheduled major sequence compressed into summary merely to
+    control chapter length = FAIL at movement scope.
+30. **Humor cadence.** Across every rolling two-chapter span that is not declared
+    cold, aim for four organic opportunities for a smile; three to five is the
+    acceptable band. Fewer than three across the span = MEDIUM. A single quiet
+    chapter is not automatically a finding when its neighbor supplies the
+    release. The editor counts opportunities; only a cold reader says what
+    landed. Gate 24 still governs humor under stakes.
+31. **Cold-reader continuity.** At the end of a movement, a manuscript-only
+    reader reports pull, confusion, skim points, humor that landed, character
+    voices that merged, and desire to continue. The same confusion reported by
+    both reader personas = MEDIUM. A single chapter below 3/5 from both readers =
+    MEDIUM; three consecutive chapters below 3 from either persona = STRUCTURAL.
+    Located experience outranks an uncalibrated scalar.
+32. **Dialogue ownership.** With speaker names removed, at least 90% of a
+    twenty-line substantive sample remains assignable by vocabulary, rhythm,
+    priorities, and evasions. Sample lines of at least eight words or lines that
+    carry a position, decision, evasion, or conflict; exclude acknowledgements
+    and functional fragments. Below 90% = movement-level FAIL.
+
+These are defaults, not genre cosplay. An approved book architecture may set a
+different cadence before drafting. It may not quietly waive reader pull after
+the prose is written.

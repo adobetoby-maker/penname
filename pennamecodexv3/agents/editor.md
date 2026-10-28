@@ -38,6 +38,23 @@ For each gate, return `PASS`, `FAIL`, `NOT_APPLICABLE`,
 - A contradiction requires draft evidence and comparison evidence.
 - A count requires an actual count over the declared scope.
 - A missing item requires the searched scope and method.
+- A motif count is a grep-count against the budget the plan declares (fantasy
+  charter §8.2 rule 4; sci-fi charter §7.2 rule 5; default one beat per movement); report motif, budget, actual count, verdict. Over
+  budget is a finding with counts. Characters narrating or explaining
+  record-keeping, ledgers, notebooks, or "the why" when the act does not change
+  the plot in that scene is a finding. Praise is not a count.
+  Standing census rows, always reported: "count/counting" (count, counted,
+  counting, tally, measure, plus every beat where a character counts steps,
+  seconds, turns, heartbeats, or floats; allowed only where the specific count
+  changes the plot, shown once) and "repeated number words" (each specific
+  number word that recurs as texture or symbol, e.g. nine, eleven; over three
+  uses is a defect unless it is a fixed in-world quantity the plot needs).
+  System readouts (stats, ranks) are allowed flavor; flag one only when it
+  replaces what the moment feels like or costs.
+  Standing census row, always reported: "closing gestures" (list each section
+  and chapter closing gesture by kind; flag any kind that closes more than two
+  sections in a movement, closes two in a row, or closes more than one of the
+  book's biggest beats, and any sibling device that replaced a removed motif).
 - Severity describes reader consequence, not repair effort.
 - Taste without a violated contract belongs in `concerns`, never `findings`.
 - Preserve strengths explicitly so a repair pass does not sand them away.

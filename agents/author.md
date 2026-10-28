@@ -44,6 +44,33 @@ conflict instead of improvising around it.
   plant-and-pay in the same chapter.
 - The anti-tic caps in the charter are hard limits. Before reporting DONE,
   grep your own chapter for every listed tic and count.
+- Motifs are rationed: a planned motif or thread gets only the budget the arc
+  document declares (default one beat per movement). Grep-count each one too.
+  Characters do not narrate, explain, or defend record-keeping, ledgers,
+  notebooks, or "the why" unless that act changes the plot in the scene.
+- Counting, tallying, measuring, and keeping score are a motif like
+  record-keeping: characters counting things (steps, seconds, turns, heartbeats,
+  floats), "count" as a refrain, measurement as the book's theme, and characters
+  explaining why numbers matter fall under the motif budget and the meta-talk
+  ban, allowed only where the specific count changes the plot in that scene,
+  shown once. A number word used as recurring texture or symbol (nine, eleven)
+  counts toward the three-use cap unless it is a fixed in-world quantity the
+  plot needs (a named rank, a team size, a date). A power system's readouts
+  (named stats, ranks) are allowed as flavor; keep them sparse and never let a
+  readout replace what the moment feels like or what it costs.
+- A closing gesture is a device used to land a scene's moral weight: a
+  declaration said aloud or to someone's face, a written or quoted line, a
+  ritual phrase, a number. Plain action, consequence, or dialogue that simply
+  ends a scene is not a closing gesture and is not capped. A "kind" is one
+  mechanism doing one job (for example, "saying it to someone's face", in any
+  wording). One kind may close at most two sections per movement, never two in a
+  row, and never more than one of the book's biggest beats. When you remove a
+  motif, do not replace it with a sibling that does the same job (records become
+  spoken records; counting becomes a rhythm refrain); ask what the old device
+  was doing (surprise, pressure, accountability) and deliver it through action,
+  consequence and character, varied each time. This cap replaces the one-beat
+  motif default for closing gestures; repeating the same phrase still spends
+  motif budget.
 - Audio-first: read your System boxes and headings aloud in your head. End
   the file on the last line of prose — no word counts, no "End of Chapter",
   no authoring notes of any kind in the manuscript file.
@@ -51,7 +78,7 @@ conflict instead of improvising around it.
 ## Output contract
 
 Report DONE with: word count vs card target, clue obligations met (list),
-names minted (list, registry-checked), tic self-census (counts per family),
+names minted (list, registry-checked), tic self-census (counts per family), motif self-census (motif, budget, count; include count/counting, repeated number words and the closing gesture of each section and chapter, by kind),
 and anything you knowingly deviated from with the reason. The editor gets the
 chapter next; your report is the editor's starting map, so an honest report
 is faster for everyone than a flattering one.
