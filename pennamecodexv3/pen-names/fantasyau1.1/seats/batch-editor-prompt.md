@@ -29,10 +29,10 @@ once) and "repeated number words" (each specific number word that recurs as text
 or symbol, e.g. nine, eleven; over three uses is a defect unless it is a fixed
 in-world quantity the plot needs). System readouts (stats, ranks) are allowed
 flavor; flag one only when it replaces what the moment feels like or costs.
-Standing census row, always reported: "closing gestures" (list how each section and
-chapter ends; flag any kind of closing gesture used more than once per movement or
-twice in a row, any single device that carries the moral weight of scenes across the
-book, and any new device that replaced a removed motif).
+Standing census row, always reported: "closing gestures" (list each section and
+chapter closing gesture by kind; flag any kind that closes more than two sections in a
+movement, closes two in a row, or closes more than one of the book's biggest beats,
+and any sibling device that replaced a removed motif).
 
 Gate 10 governs carded combat sustain and overrides Gate 32's ordinary cadence
 guidance. Masked-name sampling uses lines of at least eight words or lines carrying
@@ -64,7 +64,7 @@ MOTIF CENSUS:
 |---|---|---|---|---|
 | count / counting (standing) | plot-changing only, once | | | |
 | repeated number words (standing) | 3-use cap | | | |
-| closing gestures (standing) | once per kind per movement, never twice in a row | | | |
+| closing gestures (standing) | per kind: max 2 per movement, never 2 in a row, max 1 biggest beat | | | |
 
 PULL: [numbered, located; include rolling humor spans and action schedule]
 

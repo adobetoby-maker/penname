@@ -62,6 +62,15 @@ class LightMovementTests(unittest.TestCase):
         self.assertNotIn("ACTION LAYER — HIGH_STAKES", prompt)
         self.assertNotIn("41 craft principles", prompt)
 
+    def test_closing_gesture_cap_appears_once_in_each_light_build(self) -> None:
+        for genre in ("fantasy", "scifi"):
+            with tempfile.TemporaryDirectory() as directory:
+                root = Path(directory)
+                (root / "MOVEMENT-001.md").write_text(
+                    "# Movement 1\n\n- Chapter range: 1-8", encoding="utf-8")
+                prompt = build_movement_prompt(genre, Path("MOVEMENT-001.md"), root, [])
+            self.assertEqual(1, prompt.count("A closing gesture is a device"), genre)
+
     def test_compiler_rejects_unknown_stack(self) -> None:
         with tempfile.TemporaryDirectory() as directory:
             root = Path(directory)

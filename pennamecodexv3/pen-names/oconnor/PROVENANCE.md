@@ -57,24 +57,26 @@ movement and an honest reader review.
 
 ## Changelog
 
-- 1.3.3 (2026-10-28): Closing gestures are capped. VOICE.md now says no single
-  device may carry a scene's moral weight or closing beat across the book; how a
-  section or chapter lands (a written line, a spoken declaration, a witnessed act, a
-  quoted saying, a look, a number, a ritual phrase) is a closing gesture, allowed at
-  most once per kind per movement and never two sections in a row. A removed motif
-  may not be replaced by a sibling that does the same job (records become spoken
-  records, counting becomes a rhythm refrain); the author asks what the old device
-  was doing (surprise, pressure, accountability) and delivers it through action,
-  consequence and character, varied each time. Every editor prompt carries a
-  standing "closing gestures" census row (how each section and chapter ends). Reason:
-  Kindling 2680 pilot. After records and counting were removed, "said aloud / to your
-  face / I'd like that said" replaced them as the device carrying each scene's moral
-  weight, rising from 1 to 8 uses in a 17k-word prologue; a blind editor reported
-  that one recurring device carried the moral weight in both lines of versions and
-  that "every big moment closes the same way, so the endings are predictable." A
-  banned-word list cannot keep up with sibling devices, so the rule is general. The
-  clause was carried to the other author seats, Light profiles, craft core and
-  charters.
+- 1.3.3 (2026-10-28): Closing gestures are capped. VOICE.md now defines a closing
+  gesture as a device used to land a scene's moral weight (a declaration said aloud or
+  to someone's face, a written or quoted line, a ritual phrase, a number); plain
+  action, consequence or dialogue that simply ends a scene is not one. One kind (a
+  mechanism doing one job, in any wording) may close at most two sections per
+  movement, never two in a row, and never more than one of the book's biggest beats. A
+  removed motif may not be replaced by a sibling that does the same job (records
+  become spoken records; counting becomes a rhythm refrain); the author asks what the
+  old device was doing (surprise, pressure, accountability) and delivers it through
+  action, consequence and character, varied each time. Every editor prompt carries a
+  standing "closing gestures" census row. Reason: Kindling 2680 pilot. After records
+  and counting were removed, "said aloud / to your face / I'd like that said" replaced
+  them as the device carrying each scene's moral weight, rising from 1 to 8 uses in a
+  17k-word prologue; a blind editor reported that one recurring device carried the
+  moral weight in both lines of versions and that "every big moment closes the same
+  way, so the endings are predictable." A banned-word list cannot keep up with sibling
+  devices, so the rule is general. The first wording (any ending counted, one use per
+  kind per movement) was unsatisfiable and self-contradictory; it was replaced before
+  release. The clause was carried to the other author seats, Light profiles, craft
+  core and charters.
 - 1.3.2 (2026-10-27): Counting is a motif. VOICE.md now puts counting, tallying,
   measuring and keeping score under the motif budget and the meta-talk ban (allowed
   only where the specific count changes the plot in that scene, shown once); a number

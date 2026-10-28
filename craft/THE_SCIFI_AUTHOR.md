@@ -582,15 +582,17 @@ science-fiction extensions, each flagged where it appears.
    *(Kindling 2680 Book One, 305k words: "count" 421 times, "nine" 237,
    "eleven" 162; an editor flagged it as a mannerism and a cold reader skimmed
    the numbers.)*
-   Closing gestures are capped. No single device may carry a scene's moral
-   weight or closing beat across the book. How a section or chapter lands (a
-   written line, a spoken declaration, a witnessed act, a quoted saying, a look,
-   a number, a ritual phrase) is a closing gesture: the same kind of closing
-   gesture lands at most once per movement, and never two sections in a row.
-   When you remove a motif, do not replace it with a sibling that does the same
-   job (records become spoken records, counting becomes a rhythm refrain). Ask
-   what the old device was doing (surprise, pressure, accountability) and
-   deliver that through action, consequence and character, varied each time.
+   A closing gesture is a device used to land a scene's moral weight: a
+   declaration said aloud or to someone's face, a written or quoted line, a
+   ritual phrase, a number. Plain action, consequence, or dialogue that simply
+   ends a scene is not a closing gesture and is not capped. A "kind" is one
+   mechanism doing one job (for example, "saying it to someone's face", in any
+   wording). One kind may close at most two sections per movement, never two in
+   a row, and never more than one of the book's biggest beats. When you remove a
+   motif, do not replace it with a sibling that does the same job (records
+   become spoken records; counting becomes a rhythm refrain); ask what the old
+   device was doing (surprise, pressure, accountability) and deliver it through
+   action, consequence and character, varied each time.
    *(Kindling 2680 rewrite: once records and counting were removed, "said aloud
    / to your face / I'd like that said" replaced them as the device that carries
    each scene's moral weight, 1 use to 8 in a 17k-word prologue. A blind editor:

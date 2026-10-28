@@ -167,14 +167,16 @@ texture or symbol (nine, eleven) counts toward the three-use cap unless it is a 
 in-world quantity the plot needs (a named rank, a team size, a date). A power system's
 readouts (named stats, ranks) are allowed as flavor; keep them sparse and never let a
 readout replace what the moment feels like or what it costs.
-Closing gestures are capped. No single device may carry a scene's moral weight or
-closing beat across the book. How a section or chapter lands (a written line, a spoken
-declaration, a witnessed act, a quoted saying, a look, a number, a ritual phrase) is a
-closing gesture: the same kind of closing gesture lands at most once per movement, and
-never two sections in a row. When you remove a motif, do not replace it with a sibling
-that does the same job (records become spoken records, counting becomes a rhythm
-refrain). Ask what the old device was doing (surprise, pressure, accountability) and
-deliver that through action, consequence and character, varied each time.
+A closing gesture is a device used to land a scene's moral weight: a declaration said
+aloud or to someone's face, a written or quoted line, a ritual phrase, a number. Plain
+action, consequence, or dialogue that simply ends a scene is not a closing gesture and
+is not capped. A "kind" is one mechanism doing one job (for example, "saying it to
+someone's face", in any wording). One kind may close at most two sections per movement,
+never two in a row, and never more than one of the book's biggest beats. When you remove
+a motif, do not replace it with a sibling that does the same job (records become spoken
+records; counting becomes a rhythm refrain); ask what the old device was doing
+(surprise, pressure, accountability) and deliver it through action, consequence and
+character, varied each time.
 Your own continuity ledger is fine. The characters do not keep it.
 
 ## Ending behavior

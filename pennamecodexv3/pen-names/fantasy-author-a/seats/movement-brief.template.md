@@ -41,8 +41,8 @@ beats already spent in the book. Default: one on-page beat per movement, never a
 scene's closing beat twice in a row. No characters narrating or explaining records,
 ledgers, notebooks, or "the why" unless the act changes the plot in that scene. Counting, tallying, measuring, and
 recurring number words (nine, eleven) are motifs too and spend from this budget.
-Closing gestures (how each chapter ends) are budgeted too: one kind at most once per
-movement, never two in a row.
+Closing gestures (how each section and chapter ends) are budgeted too: one kind closes at most two
+sections per movement, never two in a row.
 
 ## Open threads
 

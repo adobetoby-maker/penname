@@ -115,11 +115,10 @@ approved card after it. Use them only to judge incoming and outgoing handoffs.
    uses is a defect unless it is a fixed in-world quantity the plot needs).
    System readouts (stats, ranks) are allowed flavor; flag one only when it
    replaces what the moment feels like or costs.
-   Standing census row, always reported: "closing gestures" (list how each
-   section and chapter ends; flag any kind of closing gesture used more than
-   once per movement or twice in a row, any single device that carries the moral
-   weight of scenes across the book, and any new device that replaced a removed
-   motif).
+   Standing census row, always reported: "closing gestures" (list each section
+   and chapter closing gesture by kind; flag any kind that closes more than two
+   sections in a movement, closes two in a row, or closes more than one of the
+   book's biggest beats, and any sibling device that replaced a removed motif).
 6. REPAIR SHAPE: prefer one repair that fixes both sides of a seam. Label ADD,
    RECAST, MOVE, or CUT. Do not write replacement prose.
 
@@ -153,7 +152,7 @@ MOTIF CENSUS:
 |---|---|---|---|---|
 | count / counting (standing) | plot-changing only, once | | | |
 | repeated number words (standing) | 3-use cap | | | |
-| closing gestures (standing) | once per kind per movement, never twice in a row | | | |
+| closing gestures (standing) | per kind: max 2 per movement, never 2 in a row, max 1 biggest beat | | | |
 
 ACTION, DISCOVERY, AND PULL: [cadence, scale, rolling humor, reader trend]
 

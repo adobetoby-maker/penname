@@ -20,7 +20,7 @@
 - Movement turns / promises (individual chapter cards optional):
 - Required plants and payoffs:
 - Motif budget this movement (required; motif, beats allowed, beats used so far;
-  default one beat per movement, never a scene's closing beat twice in a row; counting and recurring number words are motifs too; closing gestures: one kind at most once per movement):
+  default one beat per movement, never a scene's closing beat twice in a row; counting and recurring number words are motifs too; closing gestures (each section and chapter): one kind closes at most two sections per movement):
 - Reserved facts not to reveal:
 - Freely inventable space:
 - Next card after this movement:

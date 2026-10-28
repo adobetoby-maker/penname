@@ -134,6 +134,21 @@ class OConnorTests(unittest.TestCase):
         self.assertIn(export.strip(), reviewed)
         self.assertIn("UNMEASURED", reviewed)
 
+    def test_closing_gesture_cap_is_in_plan_movement_and_review_census(self):
+        clause = "A closing gesture is a device"
+        plan = compiler.compile_prompt(self.args("plan", "--idea", "A city floats.",
+                                                 "--owner-style-root", str(self.root / "owner")))
+        movement = compiler.compile_prompt(self.args("movement"))
+        for text in (plan, movement):
+            self.assertEqual(1, text.count(clause))
+            self.assertIn("is not a closing gesture and is not capped", " ".join(text.split()))
+        (self.root / "1.md").write_text("Manuscript to review.")
+        review = compiler.compile_prompt(self.args("review", "--chapter", "1.md"))
+        self.assertIn('"closing gestures"', review)
+        self.assertIn("more than one of the book's biggest beats", " ".join(review.split()))
+        formula = compiler.compile_prompt(self.args("review", "--chapter", "1.md", "--formula-check"))
+        self.assertIn('"closing gestures"', formula)
+
     def test_source_structure_change_is_not_silently_ignored(self):
         broken = self.root / "formula.md"
         broken.write_text("## 2. Only one section\n")
