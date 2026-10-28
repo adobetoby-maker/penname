@@ -20,7 +20,10 @@ and uncertainty. Keep numerical alignment separate from reader scores.
 - Motif census: motif, declared budget (default one beat per movement), grep-counted
   actual, verdict; over budget is a defect, and record-keeping meta-talk by characters
   is flagged. Standing rows: count/counting and repeated number words (three-use
-  cap unless a fixed in-world quantity the plot needs). Do not treat the formula's
+  cap unless a fixed in-world quantity the plot needs).
+  Third standing row: "closing gestures" (list how each section and chapter ends;
+  flag any kind used more than once per movement or twice in a row, and any new
+  device that replaced a removed motif). Do not treat the formula's
   progression vocabulary as a motif quota; readouts stay sparse flavor.
 - Secondary signals: -ly words, reporting verbs, combat terms, fillers and repeated
   phrases. Publish lexicons and counting definitions. A suffix count is not proof

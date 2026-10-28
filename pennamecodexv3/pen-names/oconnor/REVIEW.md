@@ -48,6 +48,10 @@ once) and "repeated number words" (each specific number word that recurs as text
 or symbol, e.g. nine, eleven; over three uses is a defect unless it is a fixed
 in-world quantity the plot needs). System readouts (stats, ranks) are allowed
 flavor; flag one only when it replaces what the moment feels like or costs.
+Standing census row, always reported: "closing gestures" (list how each section and
+chapter ends; flag any kind of closing gesture used more than once per movement or
+twice in a row, any single device that carries the moral weight of scenes across the
+book, and any new device that replaced a removed motif).
 If no plan is supplied, say the budget is the default.
 
 Return a concise repair brief with at most three priorities. Each needs location,

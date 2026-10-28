@@ -86,7 +86,7 @@ reader = STRUCTURAL).
 At book scope: ending promises, canon and arithmetic, name collisions, family and
 content policy, full tic census with contextual adjudication, a book-level motif census (motif,
 declared budget, book total, verdict; over budget is a defect; standing rows for
-count/counting and repeated number words), manuscript metadata,
+count/counting, repeated number words and closing gestures), manuscript metadata,
 listening proof, **the front-matter institutional map, the masked-name metric
 across the book, the sentence-variance histogram, and the reader-pull profile.**
 Diagnostics nominate passages; they do not automatically rewrite.

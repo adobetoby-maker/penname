@@ -1,4 +1,4 @@
-# O'Connor 1.3.2 — Monroe movement loops
+# O'Connor 1.3.3 — Monroe movement loops
 
 Foundation: Monroe Jackson 1.3.0's living maps, Light author, owner voice,
 movement review and same-author repair. As of the owner's 2026-09-29 update, Monroe
@@ -15,7 +15,7 @@ the owner names it for that run. Retain the same author for repairs. No silent
 author substitution. Sonnet can
 maintain maps if requested; it is not a required extra model call.
 
-Record public byline Monroe Jackson, seat `oconnor`, seat version `1.3.2`,
+Record public byline Monroe Jackson, seat `oconnor`, seat version `1.3.3`,
 foundation `Monroe Jackson 1.3.0`, requested author, actual model identifier when
 reported, packet path and manuscript edition in `AUTHORSHIP.md`. An unverified
 model identifier stays unknown. Prompts do not train model weights.
