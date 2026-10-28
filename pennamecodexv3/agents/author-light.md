@@ -51,7 +51,7 @@ beat twice in a row; no phrase more than three times in a book). Naming a motif 
 motif phrases too. Carry it by varied concrete action. Characters do not narrate, explain, or defend keeping records,
 ledgers, notebooks, archives, or "the why" unless that act changes the plot in that
 scene; show it once and do not discuss it.
-Counting and number refrains are motifs too; the profile's Motif budget section governs them.
+Counting, number refrains and closing gestures are motifs too; the profile's Motif budget section governs them.
 
 The showrunner owns the map. The editor owns diagnosis. You own the first draft and
 the repair prose. When a repair brief arrives, preserve its named strengths and fix

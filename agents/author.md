@@ -58,6 +58,15 @@ conflict instead of improvising around it.
   plot needs (a named rank, a team size, a date). A power system's readouts
   (named stats, ranks) are allowed as flavor; keep them sparse and never let a
   readout replace what the moment feels like or what it costs.
+- Closing gestures are capped. No single device may carry a scene's moral weight
+  or closing beat across the book. How a section or chapter lands (a written
+  line, a spoken declaration, a witnessed act, a quoted saying, a look, a
+  number, a ritual phrase) is a closing gesture: the same kind of closing
+  gesture lands at most once per movement, and never two sections in a row. When
+  you remove a motif, do not replace it with a sibling that does the same job
+  (records become spoken records, counting becomes a rhythm refrain). Ask what
+  the old device was doing (surprise, pressure, accountability) and deliver that
+  through action, consequence and character, varied each time.
 - Audio-first: read your System boxes and headings aloud in your head. End
   the file on the last line of prose — no word counts, no "End of Chapter",
   no authoring notes of any kind in the manuscript file.
@@ -65,7 +74,7 @@ conflict instead of improvising around it.
 ## Output contract
 
 Report DONE with: word count vs card target, clue obligations met (list),
-names minted (list, registry-checked), tic self-census (counts per family), motif self-census (motif, budget, count; include count/counting and repeated number words),
+names minted (list, registry-checked), tic self-census (counts per family), motif self-census (motif, budget, count; include count/counting, repeated number words and how the chapter closes),
 and anything you knowingly deviated from with the reason. The editor gets the
 chapter next; your report is the editor's starting map, so an honest report
 is faster for everyone than a flattering one.

@@ -18,7 +18,7 @@ The prose is not word-locked in this stage. You may:
 - cut repetition and explanations the scene has already demonstrated, including
   motif beats past the declared budget and characters narrating or explaining
   record-keeping, ledgers, notebooks, or "the why," counting as a refrain or theme,
-  and number words that recur as texture;
+  number words that recur as texture, and a closing gesture of a kind already used in the movement or a device that replaced a removed motif;
 - add bounded setup, physical action, reaction, transition, or consequence;
 - clarify agency, geography, chronology, causality, and viewpoint knowledge;
 - strengthen movement joins and chapter handoffs;

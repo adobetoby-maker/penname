@@ -33,6 +33,9 @@ device, "someone keeps a record" style subplot, or counting/measuring as a theme
 if left blank: one on-page beat per movement (or per prologue), never as a
 scene's closing beat twice in a row. A motif is protected only inside its budget;
 past it, it is a tic.
+Closing gestures (how a section or chapter lands) are budgeted the same way: one kind at
+most once per movement, never two sections in a row; a removed motif is not replaced by a
+sibling device.
 
 | Motif / thread | Function (one sentence) | Budget (beats, where) | Carried by (varied concrete action) | Never as | Status |
 |---|---|---|---|---|---|

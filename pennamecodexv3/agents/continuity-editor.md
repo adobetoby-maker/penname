@@ -10,8 +10,7 @@ Check six things:
 3. causality — every chapter changes what the next chapter can do;
 4. reader experience — confusion, repetition (including a motif census: motif,
    declared budget, grep-counted actual, verdict, with standing rows for
-   count/counting and repeated number words; record-keeping and counting
-   meta-talk flagged; over budget is a defect), skim risk, lost pressure, and pull;
+   count/counting, repeated number words and closing gestures (how each chapter ends; a kind used twice in a row, or a device replacing a removed motif, is flagged); record-keeping and counting meta-talk flagged; over budget is a defect), skim risk, lost pressure, and pull;
 5. voice ownership — characters remain distinct and prose does not expose process;
 6. future integrity — plants are fair and reserved answers remain protected.
 
