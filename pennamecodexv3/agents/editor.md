@@ -43,6 +43,14 @@ For each gate, return `PASS`, `FAIL`, `NOT_APPLICABLE`,
   budget is a finding with counts. Characters narrating or explaining
   record-keeping, ledgers, notebooks, or "the why" when the act does not change
   the plot in that scene is a finding. Praise is not a count.
+  Standing census rows, always reported: "count/counting" (count, counted,
+  counting, tally, measure, plus every beat where a character counts steps,
+  seconds, turns, heartbeats, or floats; allowed only where the specific count
+  changes the plot, shown once) and "repeated number words" (each specific
+  number word that recurs as texture or symbol, e.g. nine, eleven; over three
+  uses is a defect unless it is a fixed in-world quantity the plot needs).
+  System readouts (stats, ranks) are allowed flavor; flag one only when it
+  replaces what the moment feels like or costs.
 - Severity describes reader consequence, not repair effort.
 - Taste without a violated contract belongs in `concerns`, never `findings`.
 - Preserve strengths explicitly so a repair pass does not sand them away.

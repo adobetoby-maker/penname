@@ -40,7 +40,15 @@ budget, grep-counted actual count and verdict (default budget: one beat per
 movement, never a scene's closing beat twice in a row). Over budget is a defect with
 counts. Flag characters narrating, explaining or defending record-keeping, ledgers,
 notebooks, archives or "the why" when the act does not change the plot in that
-scene. Praise is not a count. If no plan is supplied, say the budget is the default.
+scene. Praise is not a count.
+Standing census rows, always reported: "count/counting" (count, counted, counting,
+tally, measure, plus every beat where a character counts steps, seconds, turns,
+heartbeats, or floats; allowed only where the specific count changes the plot, shown
+once) and "repeated number words" (each specific number word that recurs as texture
+or symbol, e.g. nine, eleven; over three uses is a defect unless it is a fixed
+in-world quantity the plot needs). System readouts (stats, ranks) are allowed
+flavor; flag one only when it replaces what the moment feels like or costs.
+If no plan is supplied, say the budget is the default.
 
 Return a concise repair brief with at most three priorities. Each needs location,
 observed issue, effect on the reader, proposed scope and a strength to preserve.

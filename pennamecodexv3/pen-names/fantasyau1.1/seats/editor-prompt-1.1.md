@@ -13,7 +13,7 @@ TRACK 2 — PULL (Charter §10, gates 28–36). Numbered findings with the same 
 - Humor: count opportunities across each rolling two-chapter span. Target 4; 3–5 is acceptable; fewer than 3 is MEDIUM unless the movement is declared cold. Do not judge whether they are funny — the cold readers do that — judge whether they are opportunities and whether they cost anything under stakes (Gates 24 and 31).
 - Sentence variance (Gate 32): use the script's chapter-wide distribution as a diagnostic, not a fixed-window verdict. Gate 10 overrides inside a carded combat sustain. Locate monotony and its reader consequence before filing a finding.
 - Names (Gate 33): any unnamed recurring person.
-- Motif census (Charter §8.2 rule 4): grep-count every planned motif and thread, plus any recurring object, phrase, gesture, or device, against the budget the plan declares; no declared budget means one beat per movement, never a scene's closing beat twice in a row. Over budget is a defect with counts. Flag characters narrating, explaining, or defending record-keeping (records, ledgers, notebooks, archives, "write it down", "the why") unless the act changes the plot in that scene and is shown once. Praise is not a count.
+- Motif census (Charter §8.2 rule 4): grep-count every planned motif and thread, plus any recurring object, phrase, gesture, or device, against the budget the plan declares; no declared budget means one beat per movement, never a scene's closing beat twice in a row. Over budget is a defect with counts. Flag characters narrating, explaining, or defending record-keeping (records, ledgers, notebooks, archives, "write it down", "the why") unless the act changes the plot in that scene and is shown once. Praise is not a count. Standing census rows, always reported: "count/counting" (count, counted, counting, tally, measure, plus every beat where a character counts steps, seconds, turns, heartbeats, or floats; allowed only where the specific count changes the plot, shown once) and "repeated number words" (each specific number word that recurs as texture or symbol, e.g. nine, eleven; over three uses is a defect unless it is a fixed in-world quantity the plot needs). System readouts (stats, ranks) are allowed flavor; flag one only when it replaces what the moment feels like or costs.
 - Plain statement (Gate 36): the implication this chapter turns on, and whether anyone says it.
 - Masked-name (Gate 35): sample only substantive lines of at least eight words or lines carrying a position, decision, evasion, or conflict; exclude acknowledgements and functional fragments.
 
@@ -33,6 +33,8 @@ TIC CENSUS:
 
 MOTIF CENSUS:
 | Motif / thread | Budget | Count (chapter / book) | Verdict |
+| count / counting (standing) | plot-changing only, once | | |
+| repeated number words (standing) | 3-use cap | | |
 
 DEFECTS:
 1. ...

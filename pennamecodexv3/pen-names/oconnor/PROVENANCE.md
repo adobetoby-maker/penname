@@ -1,4 +1,4 @@
-# Research audit status — O'Connor seat 1.3.1
+# Research audit status — O'Connor seat 1.3.2
 
 Partial audit recorded on 2026-09-19. Raw research is preserved unchanged.
 The requested fresh, complete novel read remains unfinished. The seat is usable
@@ -57,6 +57,16 @@ movement and an honest reader review.
 
 ## Changelog
 
+- 1.3.2 (2026-10-27): Counting is a motif. VOICE.md now puts counting, tallying,
+  measuring and keeping score under the motif budget and the meta-talk ban (allowed
+  only where the specific count changes the plot in that scene, shown once); a number
+  word used as recurring texture counts toward the three-use cap unless it is a fixed
+  in-world quantity the plot needs; power-system readouts stay allowed as sparse
+  flavor. Every editor prompt carries standing census rows for count/counting and
+  repeated number words. Reason: Kindling 2680 Book One (305k words) ran "count" 435
+  times, "nine" 237 and "eleven" 162; an editor flagged it as a mannerism and a cold
+  reader skimmed the numbers. The same clause was carried to the other author seats,
+  Light profiles, craft core and charters.
 - 1.3.1 (2026-10-27): Added the motif budget and closed the anti-tic loophole.
   VOICE.md now carries the anti-tic law and a "Motif budget and anti-tic" section;
   planned motifs are protected only inside a written budget (default one on-page

@@ -29,7 +29,7 @@
 ## Motif budget
 
 Required. Every planned motif or thread (a recurring object, phrase, gesture,
-device, or "someone keeps a record" style subplot) gets a row. Default ceiling
+device, "someone keeps a record" style subplot, or counting/measuring as a theme or refrain) gets a row. Default ceiling
 if left blank: one on-page beat per movement (or per prologue), never as a
 scene's closing beat twice in a row. A motif is protected only inside its budget;
 past it, it is a tic.

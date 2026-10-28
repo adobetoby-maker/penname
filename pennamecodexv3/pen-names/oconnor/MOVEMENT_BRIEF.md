@@ -27,7 +27,8 @@ needs room and which progression/relationship thread changes.]
 may take here and the beats already spent in the book. Default: one on-page beat
 per movement, never a scene's closing beat twice in a row. No characters
 narrating or explaining records, ledgers, or "the why" unless the act changes the
-plot in that scene.]
+plot in that scene. Counting, tallying, measuring, and recurring number words
+(nine, eleven) are motifs too: spend them from this budget or not at all.]
 
 ## What the author owns
 

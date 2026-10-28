@@ -54,6 +54,16 @@ not present in the outline when they fit the invention budget.
 - Never spend a motif past the budget the plan declares (default one beat per
   movement), and never let characters narrate or explain record-keeping, ledgers,
   notebooks, or "the why" unless that act changes the plot in the scene.
+- Counting, tallying, measuring, and keeping score are a motif like
+  record-keeping: characters counting things (steps, seconds, turns, heartbeats,
+  floats), "count" as a refrain, measurement as the book's theme, and characters
+  explaining why numbers matter fall under the motif budget and the meta-talk
+  ban, allowed only where the specific count changes the plot in that scene,
+  shown once. A number word used as recurring texture or symbol (nine, eleven)
+  counts toward the three-use cap unless it is a fixed in-world quantity the
+  plot needs (a named rank, a team size, a date). A power system's readouts
+  (named stats, ranks) are allowed as flavor; keep them sparse and never let a
+  readout replace what the moment feels like or what it costs.
 - Never declare a finding fixed without producing the repaired passage.
 
 If an obligation conflicts with higher authority, return `BLOCKED` with exact

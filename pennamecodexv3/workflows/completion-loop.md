@@ -78,7 +78,8 @@ continuous act.
 
 At book scope: ending promises, canon and arithmetic, name collisions, family/content
 policy, full tic census with contextual adjudication, a book-level motif census (motif,
-declared budget, book total, verdict; over budget is a defect), manuscript metadata,
+declared budget, book total, verdict; over budget is a defect; standing rows for
+count/counting and repeated number words), manuscript metadata,
 and a listening proof. Diagnostics nominate passages; they do not automatically rewrite.
 
 Only located, verified defects create repair packets. A new preference does not

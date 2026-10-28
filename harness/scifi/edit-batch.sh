@@ -107,6 +107,14 @@ approved card after it. Use them only to judge incoming and outgoing handoffs.
    narrating, explaining, or defending record-keeping (records, logs, ledgers,
    notebooks, archives, "write it down", "the why") unless the act changes the
    plot in that scene and is shown once. Praise is not a count.
+   Standing census rows, always reported: "count/counting" (count, counted,
+   counting, tally, measure, plus every beat where a character counts steps,
+   seconds, turns, heartbeats, or floats; allowed only where the specific count
+   changes the plot, shown once) and "repeated number words" (each specific
+   number word that recurs as texture or symbol, e.g. nine, eleven; over three
+   uses is a defect unless it is a fixed in-world quantity the plot needs).
+   System readouts (stats, ranks) are allowed flavor; flag one only when it
+   replaces what the moment feels like or costs.
 6. REPAIR SHAPE: prefer one repair that fixes both sides of a seam. Label ADD,
    RECAST, MOVE, or CUT. Do not write replacement prose.
 
@@ -138,6 +146,8 @@ SEAMS:
 MOTIF CENSUS:
 | Motif / thread | Budget | Count per chapter | Movement / book total | Verdict |
 |---|---|---|---|---|
+| count / counting (standing) | plot-changing only, once | | | |
+| repeated number words (standing) | 3-use cap | | | |
 
 ACTION, DISCOVERY, AND PULL: [cadence, scale, rolling humor, reader trend]
 

@@ -117,6 +117,14 @@ outgoing handoffs; do not demand that this batch deliver later material early.
    defending record-keeping (records, ledgers, notebooks, archives, "write it
    down", "the why") unless the act changes the plot in that scene and is shown
    once. Praise is not a count.
+   Standing census rows, always reported: "count/counting" (count, counted,
+   counting, tally, measure, plus every beat where a character counts steps,
+   seconds, turns, heartbeats, or floats; allowed only where the specific count
+   changes the plot, shown once) and "repeated number words" (each specific
+   number word that recurs as texture or symbol, e.g. nine, eleven; over three
+   uses is a defect unless it is a fixed in-world quantity the plot needs).
+   System readouts (stats, ranks) are allowed flavor; flag one only when it
+   replaces what the moment feels like or costs.
 5. REPAIR SHAPE: prefer one repair that fixes both sides of a seam. Distinguish
    ADD, RECAST, MOVE, and CUT. Do not prescribe replacement prose.
 
@@ -148,6 +156,8 @@ SEAMS:
 MOTIF CENSUS:
 | Motif / thread | Budget | Count per chapter | Movement / book total | Verdict |
 |---|---|---|---|---|
+| count / counting (standing) | plot-changing only, once | | | |
+| repeated number words (standing) | 3-use cap | | | |
 
 ACTION AND PULL: [book target/floor, spacing and scale; rolling humor spans;
 reader trend and located cold-reader risks]

@@ -551,6 +551,19 @@ from the briefs. They bind all drafting regardless of pillar.
    "someone keeps a written record" thread ran to about 133 "write it down"
    lines, 60 "ledger", 39 "notebook" — all exempt under the old clause, and
    it wore the owner out.)*
+   Counting is a motif like record-keeping: counting, tallying, measuring, and
+   keeping score (characters counting steps, seconds, turns, heartbeats, or
+   floats; "count" as a refrain; measurement as the book's theme; characters
+   explaining why numbers matter) fall under the budget and the meta-talk ban,
+   allowed only where the specific count changes the plot in that scene, shown
+   once. A number word used as recurring texture or symbol (nine, eleven) is a
+   tic and counts toward the 3-use cap unless it is a fixed in-world quantity
+   the plot needs (a named rank, a team size, a date). A power system's
+   readouts (named stats, ranks) are allowed as flavor; keep them sparse and
+   never let a readout replace what the moment feels like or what it costs.
+   *(Kindling 2680 Book One, 305k words: "count" 435 times, "nine" 237,
+   "eleven" 162; an editor flagged it as a mannerism and a cold reader skimmed
+   the numbers.)*
 
 ### 8.3 Scene-vs-summary law
 1. "Heard about it later" is banned on arc-major beats. Any beat that changes

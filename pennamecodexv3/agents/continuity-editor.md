@@ -9,8 +9,9 @@ Check six things:
 2. delivery — promised scenes and the movement turn occurred on the page;
 3. causality — every chapter changes what the next chapter can do;
 4. reader experience — confusion, repetition (including a motif census: motif,
-   declared budget, grep-counted actual, verdict; record-keeping meta-talk
-   flagged; over budget is a defect), skim risk, lost pressure, and pull;
+   declared budget, grep-counted actual, verdict, with standing rows for
+   count/counting and repeated number words; record-keeping and counting
+   meta-talk flagged; over budget is a defect), skim risk, lost pressure, and pull;
 5. voice ownership — characters remain distinct and prose does not expose process;
 6. future integrity — plants are fair and reserved answers remain protected.
 

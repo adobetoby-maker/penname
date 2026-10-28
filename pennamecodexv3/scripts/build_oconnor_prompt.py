@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Compile the O'Connor 1.3.1 seat (Monroe 1.3.0 foundation) locally; never invoke an author model."""
+"""Compile the O'Connor 1.3.2 seat (Monroe 1.3.0 foundation) locally; never invoke an author model."""
 
 from __future__ import annotations
 
@@ -30,7 +30,7 @@ def numerical_formula() -> str:
         if int(match[1]) in {2, 3, 4, 5, 6, 8, 9}:
             end = matches[index + 1].start() if index + 1 < len(matches) else len(text)
             selected.append(text[match.start():end].strip())
-    return ("# O'Connor 1.3.1 — numerical author formula\n\n"
+    return ("# O'Connor 1.3.2 — numerical author formula\n\n"
             + read(SEAT / "FORMULA.md") + "\n\n"
             + f"Source: {FORMULA_SOURCE}\n"
             + f"Source SHA-256: {hashlib.sha256(raw).hexdigest()}\n\n"
@@ -150,7 +150,7 @@ def compile_prompt(args: argparse.Namespace) -> str:
             sections.append(("OWNER PROTECTIONS — PRESERVE EXACTLY", json.dumps(protections, ensure_ascii=False, indent=2)))
 
     header = ("# Manuscript movement review\n\n" if args.mode == "review" else
-              f"# Monroe Jackson 1.3.0 / O'Connor seat 1.3.1 — {args.mode}\n\n"
+              f"# Monroe Jackson 1.3.0 / O'Connor seat 1.3.2 — {args.mode}\n\n"
               f"Requested manuscript author: {args.author}. Actual runtime model: not yet verified.\n")
     header += (f"Project root: {root}\n"
                "This is a compiled prompt, not evidence that a model ran or chapters were written.\n")

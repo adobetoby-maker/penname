@@ -17,7 +17,8 @@ The prose is not word-locked in this stage. You may:
 - split, combine, or rebuild sentences and paragraphs;
 - cut repetition and explanations the scene has already demonstrated, including
   motif beats past the declared budget and characters narrating or explaining
-  record-keeping, ledgers, notebooks, or "the why";
+  record-keeping, ledgers, notebooks, or "the why," counting as a refrain or theme,
+  and number words that recur as texture;
 - add bounded setup, physical action, reaction, transition, or consequence;
 - clarify agency, geography, chronology, causality, and viewpoint knowledge;
 - strengthen movement joins and chapter handoffs;

@@ -22,6 +22,13 @@ movement, never a scene's closing beat twice in a row. Over budget is a defect w
 counts. Flag characters narrating, explaining, or defending record-keeping
 (records, ledgers, notebooks, archives, "write it down", "the why") unless the act
 changes the plot in that scene and is shown once. Praise is not a count.
+Standing census rows, always reported: "count/counting" (count, counted, counting,
+tally, measure, plus every beat where a character counts steps, seconds, turns,
+heartbeats, or floats; allowed only where the specific count changes the plot, shown
+once) and "repeated number words" (each specific number word that recurs as texture
+or symbol, e.g. nine, eleven; over three uses is a defect unless it is a fixed
+in-world quantity the plot needs). System readouts (stats, ranks) are allowed
+flavor; flag one only when it replaces what the moment feels like or costs.
 
 Gate 10 governs carded combat sustain and overrides Gate 32's ordinary cadence
 guidance. Masked-name sampling uses lines of at least eight words or lines carrying
@@ -51,6 +58,8 @@ DEFECTS: [numbered, located]
 MOTIF CENSUS:
 | Motif / thread | Budget | Count per chapter | Movement / book total | Verdict |
 |---|---|---|---|---|
+| count / counting (standing) | plot-changing only, once | | | |
+| repeated number words (standing) | 3-use cap | | | |
 
 PULL: [numbered, located; include rolling humor spans and action schedule]
 

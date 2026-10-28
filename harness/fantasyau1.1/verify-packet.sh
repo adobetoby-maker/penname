@@ -61,7 +61,7 @@ Structure:
 VERIFICATION: [n findings reviewed; c CONFIRMED, d DOWNGRADED, u UPGRADED, r REJECTED; m MISSED-BLOCKERS added]
 Per finding: number, editor severity → verified severity, location, evidence paragraph, repair instruction if CONFIRMED (bounded: what to change and what must not change).
 Orchestrator checks: firewall counts; central; Mark; close-POV; rule-10 spot-check; chronology table.
-REPAIR PACKET: the CONFIRMED findings only, ordered by severity, each with a bounded instruction, plus the protected strengths that must survive (from the verdict's STRENGTHS section). Keep the architecture's protected motifs only within their declared on-page budget (charter §8.2 rule 4 / SF §7.2 rule 5); uses past budget are removable defects, not strengths.
+REPAIR PACKET: the CONFIRMED findings only, ordered by severity, each with a bounded instruction, plus the protected strengths that must survive (from the verdict's STRENGTHS section). Keep the architecture's protected motifs only within their declared on-page budget (charter §8.2 rule 4 / SF §7.2 rule 5); uses past budget are removable defects, not strengths. Counting beats, "count" refrains, and recurring number words (nine, eleven) are never protected strengths unless the specific count changes the plot.
 RECOMMENDATION: CLOSE (no verified BLOCKER/HIGH and no MEDIUM worth a cycle) | REPAIR (list) | BLOCKED (why)
 ---
 Write nothing else anywhere; do not edit the draft.

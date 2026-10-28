@@ -19,7 +19,9 @@ and uncertainty. Keep numerical alignment separate from reader scores.
   name. Track the lead and secondary viewpoints against the book-level allocation.
 - Motif census: motif, declared budget (default one beat per movement), grep-counted
   actual, verdict; over budget is a defect, and record-keeping meta-talk by characters
-  is flagged. Do not treat the formula's progression vocabulary as a motif quota.
+  is flagged. Standing rows: count/counting and repeated number words (three-use
+  cap unless a fixed in-world quantity the plot needs). Do not treat the formula's
+  progression vocabulary as a motif quota; readouts stay sparse flavor.
 - Secondary signals: -ly words, reporting verbs, combat terms, fillers and repeated
   phrases. Publish lexicons and counting definitions. A suffix count is not proof
   that every matched word is an adverb. Preserve optional/non-target distinctions.

@@ -56,6 +56,15 @@ report is a map, not evidence.
    budget the book plan declares for it (fantasy charter §8.2 rule 4; sci-fi charter §7.2 rule 5). Per movement
    report: motif, budget, actual count, verdict. Over budget = defect with
    counts; no declared budget = the default of one beat per movement.
+   Standing census rows, always reported: "count/counting" (count,
+   counted, counting, tally, measure, plus every beat where a character
+   counts steps, seconds, turns, heartbeats, or floats; allowed only where
+   the specific count changes the plot, shown once) and "repeated number
+   words" (each specific number word that recurs as texture or symbol,
+   e.g. nine, eleven; over three uses is a defect unless it is a fixed
+   in-world quantity the plot needs). System readouts (stats, ranks) are
+   allowed flavor; flag one only when it replaces what the moment feels
+   like or costs.
 6. **Names** — new names against the registry, including aural closeness.
    This series ships as audiobooks; Karis/Charis is a collision by ear.
 7. **Audio-first** — trailing authoring metadata, typography-dependent
@@ -79,7 +88,8 @@ report is a map, not evidence.
   not a substitute for a count: a motif you admire that runs over budget is a
   defect, not a strength. Also flag characters narrating or explaining the
   keeping of records, ledgers, notebooks, or "the why" when the act does not
-  change the plot in that scene.
+  change the plot in that scene. The same goes for characters counting, tallying,
+  or measuring, "count" as a refrain, and a number word that recurs as texture.
 - **Severity is about consequence, not effort.** HIGH = a reader or listener
   hits it (contradiction, broken math, spoiled reveal). MED = a re-reader
   hits it. LOW = an editor hits it.

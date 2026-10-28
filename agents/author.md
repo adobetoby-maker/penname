@@ -48,6 +48,16 @@ conflict instead of improvising around it.
   document declares (default one beat per movement). Grep-count each one too.
   Characters do not narrate, explain, or defend record-keeping, ledgers,
   notebooks, or "the why" unless that act changes the plot in the scene.
+- Counting, tallying, measuring, and keeping score are a motif like
+  record-keeping: characters counting things (steps, seconds, turns, heartbeats,
+  floats), "count" as a refrain, measurement as the book's theme, and characters
+  explaining why numbers matter fall under the motif budget and the meta-talk
+  ban, allowed only where the specific count changes the plot in that scene,
+  shown once. A number word used as recurring texture or symbol (nine, eleven)
+  counts toward the three-use cap unless it is a fixed in-world quantity the
+  plot needs (a named rank, a team size, a date). A power system's readouts
+  (named stats, ranks) are allowed as flavor; keep them sparse and never let a
+  readout replace what the moment feels like or what it costs.
 - Audio-first: read your System boxes and headings aloud in your head. End
   the file on the last line of prose — no word counts, no "End of Chapter",
   no authoring notes of any kind in the manuscript file.
@@ -55,7 +65,7 @@ conflict instead of improvising around it.
 ## Output contract
 
 Report DONE with: word count vs card target, clue obligations met (list),
-names minted (list, registry-checked), tic self-census (counts per family), motif self-census (motif, budget, count),
+names minted (list, registry-checked), tic self-census (counts per family), motif self-census (motif, budget, count; include count/counting and repeated number words),
 and anything you knowingly deviated from with the reason. The editor gets the
 chapter next; your report is the editor's starting map, so an honest report
 is faster for everyone than a flattering one.

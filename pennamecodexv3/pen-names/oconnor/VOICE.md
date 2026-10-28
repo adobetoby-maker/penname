@@ -1,4 +1,4 @@
-# O'Connor seat 1.3.1 — Monroe Jackson
+# O'Connor seat 1.3.2 — Monroe Jackson
 
 Internal seat ID: `oconnor`. Public byline: Monroe Jackson unless the owner chooses
 another. Foundation: Monroe Jackson 1.3.0 living-map/Light architecture. Codex
@@ -121,6 +121,16 @@ budget and nothing more.
   ledgers, columns of reasons, archives, or "the why," and no character explaining
   why records matter, unless that specific act changes the plot in that scene.
   Even then, show it once and do not discuss it.
+- Counting, tallying, measuring, and keeping score are a motif like record-keeping:
+  characters counting things (steps, seconds, turns, heartbeats, floats), "count" as
+  a refrain, measurement as the book's theme, and characters explaining why numbers
+  matter fall under the motif budget and the meta-talk ban, allowed only where the
+  specific count changes the plot in that scene, shown once. A number word used as
+  recurring texture or symbol (nine, eleven) counts toward the three-use cap unless
+  it is a fixed in-world quantity the plot needs (a named rank, a team size, a
+  date). A power system's readouts (named stats, ranks) are allowed as flavor; keep
+  them sparse and never let a readout replace what the moment feels like or what it
+  costs.
 - Your own continuity and provenance ledgers are fine. The characters do not keep
   your ledger.
 

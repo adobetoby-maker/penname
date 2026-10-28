@@ -1,9 +1,9 @@
 ---
 name: oconnor
-description: Plan and orchestrate the O'Connor 1.3.1 progression-adventure seat (Monroe 1.3.0 foundation), using Iron Prince structural research, Opus or Fable authorship, open-range movements and focused editorial loops.
+description: Plan and orchestrate the O'Connor 1.3.2 progression-adventure seat (Monroe 1.3.0 foundation), using Iron Prince structural research, Opus or Fable authorship, open-range movements and focused editorial loops.
 ---
 
-# O'Connor 1.3.1 — Monroe Jackson author seat
+# O'Connor 1.3.2 — Monroe Jackson author seat
 
 Canonical package: `/Users/drive/penname/pennamecodexv3`.
 Read `pen-names/oconnor/PIPELINE.md`, `VOICE.md` and `FORMULA.md` in that package.

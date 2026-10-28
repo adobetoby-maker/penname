@@ -12,7 +12,7 @@ The default system is now the living-map author loop:
 
 Start an interactive Sonnet showrunner session with the `books` shell command
 (opens a new iTerm window), optionally followed by the idea in quotes. Monroe 1.3.0
-and the O'Connor 1.3.1 seat are the defaults for every call, with Opus 5.5 as the
+and the O'Connor 1.3.2 seat are the defaults for every call, with Opus 5.5 as the
 author, unless the owner gives other instructions. The older `/fanauthr` and
 `/scifiauthor` 1.1.1 seats and their 1.1/1.2 gate ladders remain available only
 for controlled comparisons and existing book continuity.
@@ -52,7 +52,7 @@ It preserves canon and the prior edition, reports exact additions/removals, and
 does not pad toward another book's word count. See
 [`agents/substantive-editor.md`](agents/substantive-editor.md).
 
-## O'Connor 1.3.1 — open-range seat
+## O'Connor 1.3.2 — open-range seat
 
 The new [O'Connor seat](pen-names/oconnor/PIPELINE.md) uses Monroe 1.3.0's
 living-map/Light architecture with the [Iron Prince structural formula](pen-names/oconnor/FORMULA.md).
