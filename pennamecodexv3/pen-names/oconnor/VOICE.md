@@ -140,7 +140,8 @@ budget and nothing more.
   When you remove a motif, do not replace it with a sibling that does the same job
   (records become spoken records; counting becomes a rhythm refrain); ask what the old
   device was doing (surprise, pressure, accountability) and deliver it through action,
-  consequence and character, varied each time.
+  consequence and character, varied each time. This cap replaces the one-beat motif
+  default for closing gestures; repeating the same phrase still spends motif budget.
 - Your own continuity and provenance ledgers are fine. The characters do not keep
   your ledger.
 

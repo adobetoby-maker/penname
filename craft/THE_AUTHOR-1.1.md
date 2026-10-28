@@ -574,7 +574,9 @@ from the briefs. They bind all drafting regardless of pillar.
    motif, do not replace it with a sibling that does the same job (records
    become spoken records; counting becomes a rhythm refrain); ask what the old
    device was doing (surprise, pressure, accountability) and deliver it through
-   action, consequence and character, varied each time.
+   action, consequence and character, varied each time. This cap replaces the
+   one-beat motif default for closing gestures; repeating the same phrase still
+   spends motif budget.
    *(Kindling 2680 rewrite: once records and counting were removed, "said aloud
    / to your face / I'd like that said" replaced them as the device that carries
    each scene's moral weight, 1 use to 8 in a 17k-word prologue. A blind editor:

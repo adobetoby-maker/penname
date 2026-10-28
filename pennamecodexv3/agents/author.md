@@ -74,7 +74,9 @@ not present in the outline when they fit the invention budget.
   motif, do not replace it with a sibling that does the same job (records become
   spoken records; counting becomes a rhythm refrain); ask what the old device
   was doing (surprise, pressure, accountability) and deliver it through action,
-  consequence and character, varied each time.
+  consequence and character, varied each time. This cap replaces the one-beat
+  motif default for closing gestures; repeating the same phrase still spends
+  motif budget.
 - Never declare a finding fixed without producing the repaired passage.
 
 If an obligation conflicts with higher authority, return `BLOCKED` with exact

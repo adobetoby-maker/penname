@@ -16,8 +16,8 @@
   spent so far; default one beat per movement, never a scene's closing beat twice
   in a row; no characters explaining records, logs, ledgers, or "the why" unless
   the act changes the plot in that scene; counting, tallying, and recurring number
-  words are motifs too and spend from this budget; closing gestures, how each section and chapter ends, are budgeted too: one kind closes at most two
-  sections per movement, never two in a row):
+  words are motifs too and spend from this budget; closing gestures, devices that land a section's or chapter's moral weight, are budgeted too: one
+  kind closes at most two sections per movement, never two in a row, never more than one of the book's biggest beats):
 
 | Chapter | Immediate want/problem | Problem-engine step | Pressure set piece and scale | Planned span | Technical choice/consequence | Moral/relationship turn | Humor/warmth opportunity | Exit pressure |
 |---|---|---|---|---:|---|---|---|---|

@@ -68,7 +68,9 @@ conflict instead of improvising around it.
   motif, do not replace it with a sibling that does the same job (records become
   spoken records; counting becomes a rhythm refrain); ask what the old device
   was doing (surprise, pressure, accountability) and deliver it through action,
-  consequence and character, varied each time.
+  consequence and character, varied each time. This cap replaces the one-beat
+  motif default for closing gestures; repeating the same phrase still spends
+  motif budget.
 - Audio-first: read your System boxes and headings aloud in your head. End
   the file on the last line of prose — no word counts, no "End of Chapter",
   no authoring notes of any kind in the manuscript file.
