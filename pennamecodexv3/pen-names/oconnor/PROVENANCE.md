@@ -63,7 +63,7 @@ movement and an honest reader review.
   word used as recurring texture counts toward the three-use cap unless it is a fixed
   in-world quantity the plot needs; power-system readouts stay allowed as sparse
   flavor. Every editor prompt carries standing census rows for count/counting and
-  repeated number words. Reason: Kindling 2680 Book One (305k words) ran "count" 435
+  repeated number words. Reason: Kindling 2680 Book One (305k words) ran "count" 421
   times, "nine" 237 and "eleven" 162; an editor flagged it as a mannerism and a cold
   reader skimmed the numbers. The same clause was carried to the other author seats,
   Light profiles, craft core and charters.

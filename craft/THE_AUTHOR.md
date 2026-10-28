@@ -561,7 +561,7 @@ from the briefs. They bind all drafting regardless of pillar.
    the plot needs (a named rank, a team size, a date). A power system's
    readouts (named stats, ranks) are allowed as flavor; keep them sparse and
    never let a readout replace what the moment feels like or what it costs.
-   *(Kindling 2680 Book One, 305k words: "count" 435 times, "nine" 237,
+   *(Kindling 2680 Book One, 305k words: "count" 421 times, "nine" 237,
    "eleven" 162; an editor flagged it as a mannerism and a cold reader skimmed
    the numbers.)*
 
